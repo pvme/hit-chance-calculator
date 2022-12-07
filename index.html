@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+body {
+  background-color: #232931;
+  color: #ffffff;
+  font-family: calibri;
+  //font-size: .675em;
+}
+.main-grid {
+  display: grid;
+  //width: 50%;
+  grid-template-areas: "buffs target";
+  grid-template-columns: fit-content(60%) fit-content(60%);
+  grid-gap: 8px;
+}
+
+.target-grid {
+  display: grid;
+  grid-template-rows: fit-content(50%);
+  grid-gap: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+tr {
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #2a3038;
+}
+
+.icon-col {
+  width: 20px;
+  padding: 2px;
+
+}
+.icon-col > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.input-col {
+  //width: 190px;
+}
+.input-col > input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.input-col > select {
+  width: 100%;
+}
+
+</style>
+<body>
+  <h2 id="final-hit-chance"></h2>
+  <div class="main-grid">
+  <table style="grid-area: buffs;">
+    <tbody id="setup-table">
+    <tr>
+      <th colspan="3">Your Buffs</th>
+    </tr>
+    <tr>
+      <td class="icon-col"><img src="https://i.imgur.com/OMENkUw.png"></td>
+      <td>Attack/Range/Magic level</td>
+      <td class="input-col"><input type="text" id="level" value="99"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"><img src="https://i.imgur.com/omyAKio.png"></td>
+      <td>Weapon (tier or value)</td>
+      <td class="input-col"><input type="text" id="weapon-tier" value="95"></td>
+    </tr>
+    </tbody>
+  </table>
+
+
+  <div class="target-grid">
+  <table>
+    <tr>
+      <th colspan="3">Base Target Info</th>
+    </tr>
+    <tr>
+      <td/>
+      <td>Target</td>
+      <td>
+        <select id="target">
+          <option value="Araxxi" selected>Araxxi</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon-col"><img src="https://i.imgur.com/Gxuj6g2.png"></td>
+      <td>Defence level</td>
+      <td id="target-defence"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"><img src="https://i.imgur.com/Gs5R8a3.png"></td>
+      <td>Armour (tier or value)</td>
+      <td id="target-armour"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"><img id="target-weakness-icon"></td>
+      <td>Weakness</td>
+      <td id="target-weakness"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"><img id="target-style-icon"></td>
+      <td>Combat Style</td>
+      <td id="target-style"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"></td>
+      <td>Weakness affinity</td>
+      <td id="target-affinity-weakness"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"></td>
+      <td>Melee affinity</td>
+      <td id="target-affinity-melee"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"></td>
+      <td>Range affinity</td>
+      <td id="target-affinity-range"></td>
+    </tr>
+    <tr>
+      <td class="icon-col"></td>
+      <td>Magic affinity</td>
+      <td id="target-affinity-magic"></td>
+    </tr>
+    <tr>
+      <td/>
+      <td>Final Defence</td>
+      <td id="target-final-defence"></td>
+    </tr>
+  </table>
+  <table>
+    <tbody id="debuff-table">
+      <tr>
+        <th colspan="3">Target Debuffs</th>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</body>
+<script src="setup.js"></script>
+<script src="targets.json"></script>
+<script src="main.js"></script>
+
+</html>
