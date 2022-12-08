@@ -1,4 +1,4 @@
-target_data = {
+targetData = {
   "Araxxi": {
     "name": "Araxxi",
     "defence": 80,

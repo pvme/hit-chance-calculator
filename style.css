@@ -1,28 +1,34 @@
 body {
+  display: block;
   background-color: #232931;
   color: #ffffff;
   font-family: calibri;
-  //font-size: .675em;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
 }
 .main-grid {
   display: grid;
-  //width: 50%;
   grid-template-areas: "buffs target";
-  grid-template-columns: fit-content(60%) fit-content(60%);
+  grid-template-columns: fit-content;
+  grid-template-rows: fit-content;
   grid-gap: 8px;
 }
 
 .target-grid {
-  display: grid;
-  grid-template-rows: fit-content(50%);
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: fit-content(100%);
   grid-gap: 8px;
 }
 
 table {
   border-collapse: collapse;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  max-height: 100%;
 }
 
 tr {

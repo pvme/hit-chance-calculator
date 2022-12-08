@@ -1,4 +1,4 @@
-player_buffs = {
+playerBuffs = {
   "level": {
     "kind": "number",
     "text": "Attack/Range/Magic level",
@@ -136,7 +136,8 @@ player_buffs = {
   "reaperStacks": {
     "icon": "https://i.imgur.com/WS5NjE1.png",
     "text": "Reaper neck stacks",
-    "kind": "bool",
+    "kind": "number",
+    "default": 0
   },
   "defender": {
     "icon": "https://i.imgur.com/fEa81RM.png",
@@ -244,7 +245,8 @@ player_buffs = {
   "wenArrows": {
     "icon": "https://i.imgur.com/1PjsMTL.png",
     "text": "Wen arrow stacks",
-    "kind": "bool",
+    "kind": "number",
+    "default": 0
   },
   "keris": {
     "icon": "https://i.imgur.com/vYjDigU.png",
@@ -283,11 +285,18 @@ player_buffs = {
   }
 };
 
-target_debuffs = {
+targetDebuffs = {
   "curse": {
     "icon": "https://i.imgur.com/5yCfPbD.png",
     "text": "Curse drain",
-    "kind": "bool"
+    "kind": "select",
+    "labels": {
+      "none": "Immune or none",
+      "sap": "Sap",
+      "leech": "Leech",
+      "turmoil": "Turmoil variant",
+      "praesul": "Praesul variant"
+    }
   },
   "taggable": {
     "icon": "",

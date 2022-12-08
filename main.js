@@ -1,5 +1,5 @@
 const state = { target: {} };
-const prayer_map = {
+const prayerMap = {
   "none": 0,
   "t1": 2,
   "t2": 4,
@@ -10,7 +10,7 @@ const prayer_map = {
   "turmoil": 10,
   "praesul": 12
 };
-const style_map = {
+const styleMap = {
   "slash": "melee",
   "stab": "melee",
   "crush": "melee",
@@ -23,7 +23,7 @@ const style_map = {
   "fire": "magic"
 };
 
-function acc_f(x) {
+function accF(x) {
   return x*x*x / 1250 + x * 4 + 40;
 }
 
@@ -36,11 +36,13 @@ function rounddown(p, x) {
 
 function calc() {
   // Roughly following Calcs sheet column C
-  let weapon_acc
+  // do some parsing
+  state.level = parseInt(state.level)
+  state.weaponTier = parseInt(state.weaponTier)
 
   // calculate potion bonus
   let potion = 0; // default if no potion
-  let is_overload = false;
+  let isOverload = false;
   switch (state.potion) {
     case "ordinary":
       potion = 0.08 * state.level + 1;
@@ -59,29 +61,29 @@ function calc() {
       break;
     case "overload":
       potion = 0.15 * state.level + 3;
-      is_overload = true;
+      isOverload = true;
       break;
     case "supremeOverload":
       potion = 0.16 * state.level + 4;
-      is_overload = true;
+      isOverload = true;
       break;
     case "elderOverload":
       potion = 0.17 * state.level + 5;
-      is_overload = true;
+      isOverload = true;
       break;
   }
   //console.log("potion level bonus is " + potion);
 
   // berserker blood essence
-  const blood_essence = state.bloodEssence ? rounddown(2, 0.14 * state.level + 2) : 0;
-  //console.log("blood essence level bonus is " + blood_essence);
+  const bloodEssence = state.bloodEssence ? rounddown(2, 0.14 * state.level + 2) : 0;
+  //console.log("blood essence level bonus is " + bloodEssence);
 
   // berserk aura initial boost
   const berserker = (state.aura == "berserker") ? state.level * 0.1 : 0;
   //console.log("berserker aura level bonus is " + berserker);
 
   // accuracy aura boost
-  const aura_map = {
+  const auraMap = {
     "none": 0,
     "t1": 0.03,
     "t2": 0.05,
@@ -89,30 +91,31 @@ function calc() {
     "t4": 0.10,
     "berserker": 0.10,
   };
-  const accuracy_aura = aura_map[state.aura];
-  //console.log("accuracy aura level bonus is " + accuracy_aura);
+  const accuracyAura = auraMap[state.aura];
+  //console.log("accuracy aura level bonus is " + accuracyAura);
 
   // true stat level calculations
-  let true_stat_level = state.level;
-  if (is_overload) {
-    true_stat_level += rounddown(0, blood_essence + potion);
+  let trueStatLevel = state.level;
+  if (isOverload) {
+    trueStatLevel += rounddown(0, bloodEssence + potion);
   } else {
-    true_stat_level += Math.max(rounddown(0, blood_essence), rounddown(0, potion));
+    trueStatLevel += Math.max(rounddown(0, bloodEssence), rounddown(0, potion));
   }
-  //console.log("true stat level is " + true_stat_level);
+  //console.log("true stat level is " + trueStatLevel);
 
   // calculate prayer bonuses
-  const prayer_tier = prayer_map[state.prayer];
-  const prayer_bonus = Math.floor(
+  const prayerTier = prayerMap[state.prayer];
+  const prayerBonus = Math.floor(
     (
-      3*true_stat_level*true_stat_level*prayer_tier +
-      3*true_stat_level*prayer_tier*prayer_tier +
-      prayer_tier*prayer_tier*prayer_tier
-    ) / 1250 + prayer_tier * 4
+      3*trueStatLevel*trueStatLevel*prayerTier +
+      3*trueStatLevel*prayerTier*prayerTier +
+      prayerTier*prayerTier*prayerTier
+    ) / 1250 + prayerTier * 4
   );
-  //console.log("prayer acc bonus is " + prayer_bonus);
+  //console.log("prayer acc bonus is " + prayerBonus);
 
-  // premier artifact
+  // premier artefact
+  const artefact = state.artefact && !state.target.curseImmune ? 0.2 : 0;
 
   // nihil
   const nihil = state.nihil ? 0.05 : 0;
@@ -128,10 +131,11 @@ function calc() {
   //console.log("accuracy scrimshaw bonus is " + scrimshaw);
 
   // void
-  const void_armor = state.voidArmor ? 0.03 : 0;
-  //console.log("void bonus is " + void_armor);
+  const voidArmor = state.voidArmor ? 0.03 : 0;
+  //console.log("void bonus is " + voidArmor);
 
   // reaper necklace
+  const reaper = state.reaperStacks / 1000;
 
   // defender
   const defender = state.defender ? 0.03 : 0;
@@ -145,13 +149,21 @@ function calc() {
   const ultimate = state.ultimate ? 0.25 : 0;
   //console.log("ultimate bonus is " + ultimate);
   // special attack
-  let special_attack = 1;
+  let specialAttack = 1;
   if (state.specialAttack) {
     // this only works if you pass the tier directly and not the accuracy
-    special_attack = 1 + 0.01 * Math.max(0, true_stat_level - state.tier);
+    specialAttack = 1 + 0.01 * Math.max(0, trueStatLevel - state.weaponTier);
   }
-  //console.log("special attack bonus is " + special_attack);
+  console.log("special attack bonus is " + specialAttack);
   // bonus accuracy (special attack)
+  let addlSpecEffect = 1;
+  const addlSpecEffectMap = {
+    "none": 0,
+    "ddagger": 0.15,
+    "mshortbow": -0.3
+  };
+  addlSpecEffect = addlSpecEffect + addlSpecEffectMap[state.addlSpecEffect];
+
   // dragon battleaxe
   const dbattleaxe = state.dbattleaxe ? 0.9 : 1;
   //console.log("dbattleaxe bonus is " + dbattleaxe);
@@ -167,7 +179,7 @@ function calc() {
   // break
 
   // slayer helm
-  const slayer_map = {
+  const slayerMap = {
     "none": 1,
     "basic": 1.125,
     "reinforced": 1.13,
@@ -175,64 +187,66 @@ function calc() {
     "mighty": 1.14,
     "corrupted": 1.145
   };
-  const slayer_helm = slayer_map[state.slayerHelm];
-  //console.log("slayer bonus is " + slayer_helm);
+  const slayerHelm = slayerMap[state.slayerHelm];
+  //console.log("slayer bonus is " + slayerHelm);
 
   // necklace of salamancy
   const salamancy = state.salamancy ? 1.15 : 1;
   //console.log("salamancy bonus is " + salamancy);
   // dragon slayer gloves
-  const dragon_slayer_gloves = state.dslayerGloves ? 0.1 : 0;
-  //console.log("dragon slayer gloves bonus is " + dragon_slayer_gloves);
+  const dragonSlayerGloves = state.dslayerGloves ? 0.1 : 0;
+  //console.log("dragon slayer gloves bonus is " + dragonSlayerGloves);
   // salve ammy
-  const salve_map = {
+  const salveMap = {
     "none": 0,
     "basic": 0.15,
     "enchanted": 0.2
   };
-  const salve = salve_map[state.salve];
+  const salve = salveMap[state.salve];
   //console.log("salve bonus is " + salve);
 
   // balmung
-  const balmung_map = {
+  const balmungMap = {
     "none": 0,
     "basic": 0.3,
     "upgraded": 0.45
   };
-  const balmung = balmung_map[state.balmung];
+  const balmung = balmungMap[state.balmung];
   //console.log("balmung bonus is " + balmung);
 
   // bane ammo
-  const bane_map = {
+  const baneMap = {
     "none": 0,
     "normal": 0.3,
     "jas": 0.2
   };
-  const bane_ammo = bane_map[state.baneAmmo];
-  //console.log("bane ammo bonus is " + bane_ammo);
+  const baneAmmo = baneMap[state.baneAmmo];
+  //console.log("bane ammo bonus is " + baneAmmo);
 
   // ful arrows
-  const ful_arrows = state.fulArrows ? -0.1 : 0;
-  //console.log("ful arrows bonus is " + ful_arrows);
+  const fulArrows = state.fulArrows ? -0.1 : 0;
+  //console.log("ful arrows bonus is " + fulArrows);
 
   // wen arrow stacks
+  let wenArrowStacks = state.wenArrows;
+  const wenArrows = state.ultimate ? (wenArrowStacks * 0.03) : (wenArrowStacks * 0.02);
 
   // keris
-  const keris_map = {
+  const kerisMap = {
     "none": 0,
     "basic": 0.15,
     "upgraded": 0.25
   };
-  const keris = keris_map[state.keris];
+  const keris = kerisMap[state.keris];
   //console.log("keris boost is " + keris);
 
   // anti-demon weapons
-  const darklight_map = {
+  const darklightMap = {
     "none": 0,
     "basic": 0.249,
     "upgraded": 0.349
   };
-  const darklight = darklight_map[state.darklight];
+  const darklight = darklightMap[state.darklight];
   //console.log("darklight boost is " + darklight);
 
   // hexhunter
@@ -254,25 +268,62 @@ function calc() {
   //console.log("fleeting boots boost is " + fleeting);
 
   // final accuracy
-  const level_bonus = Math.floor(acc_f(true_stat_level));
-  //console.log("bonus from true stat level " + level_bonus);
+  const levelBonus = Math.floor(accF(trueStatLevel));
+  //console.log("bonus from true stat level " + levelBonus);
 
-  let tier_bonus = 0;
+  let tierBonus = 0;
   if (state.weaponTier < 150) {
-    tier_bonus = 2.5 * acc_f(state.weaponTier);
+    tierBonus = 2.5 * accF(state.weaponTier);
   } else {
-    tier_bonus = state.weaponTier;
+    tierBonus = state.weaponTier;
   }
-  tier_bonus = Math.round(tier_bonus);
-  //console.log("weapon bonus " + tier_bonus);
+  tierBonus = Math.round(tierBonus);
+  //console.log("weapon bonus " + tierBonus);
 
 
-  const final_accuracy = level_bonus + prayer_bonus + tier_bonus;
-  //console.log(" ==== Final Accuracy " + final_accuracy + " ==== ");
+  const finalAccuracy = levelBonus + prayerBonus + tierBonus;
+  console.log("==== Final Accuracy " + finalAccuracy + " ====");
 
   // target stuff
-  // curse drain
-  //
+  //console.log("base defence level bonus " + defenceLevelBonus);
+  let armourBonus = 0;
+  if (state.target.armour > 100) {
+    armourBonus = state.target.armour;
+  } else if (state.target.armour > 0) {
+    armourBonus = Math.round(2.5 * accF(state.target.armour));
+  }
+  armourBonus = Math.floor(armourBonus);
+  console.log("armour bonus " + armourBonus);
+
+  // defence modifier
+  let leechModifier = 0;
+  // missing none override to curse drain
+  const leechMap = {
+    "none": 0,
+    "sap": 6,
+    "leech": 8,
+    "turmoil": 10,
+    "praesul": 12
+  };
+  if (!state.target.curseImmune) {
+    leechModifier = leechMap[state.curse];
+  }
+
+  let bsaDrain = Math.floor(
+    Math.min(
+      state.blackStoneArrowStacks,
+      Math.ceil(0.15 * armourBonus / Math.floor(Math.max(0.0075 * armourBonus, 1)))
+    ) *
+    Math.floor(0.0075 * armourBonus) / 5
+  );
+
+  let maxArmourDrain = Math.floor(
+    Math.ceil(0.15 * armourBonus / Math.floor(Math.max(0.0075 * armourBonus, 1))) *
+    Math.floor(0.0075 * armourBonus) / 5
+  );
+
+  const defenceModifier = Math.min(leechModifier + bsaDrain, maxArmourDrain);
+
   // quake
   const quake = state.quake ? 0.02 : 0;
   //console.log("quake bonus is " + quake);
@@ -293,87 +344,92 @@ function calc() {
   const barrelchest = state.barrelchest ? 0.04 : 0;
   //console.log("barrelchest bonus is " + barrelchest);
   // bone dagger
-  const bone_dagger = state.boneDagger ? 0.02 : 0;
-  //console.log("bone dagger bonus is " + bone_dagger);
+  const boneDagger = state.boneDagger ? 0.02 : 0;
+  //console.log("bone dagger bonus is " + boneDagger);
   // hexhunter affinity
-  const hexhunter_affinity = (hexhunter > 0) ? 0.05 : 0;
-  //console.log("hexhunter affinity bonus is " + hexhunter_affinity);
-
-  let defence_level_bonus = acc_f(state.target.defence);
-  if (state.target.taggable) {
-    defence_level_bonus *= 0.51;
-  }
-  //console.log("base defence level bonus " + defence_level_bonus);
-  let armour_bonus = 0;
-  if (state.target.armour > 100) {
-    armour_bonus = state.target.armour;
-  } else if (state.target.armour > 0) {
-    armour_bonus = Math.round(2.5 * acc_f(state.target.armour));
-  }
-  //console.log("armour bonus " + armour_bonus);
-  const base_armour = defence_level_bonus + armour_bonus;
-  //console.log("base armour " + base_armour);
-  let final_armour = Math.floor(base_armour);
-
-  // defence modifier
-
+  const hexhunterAffinity = (hexhunter > 0) ? 0.05 : 0;
+  //console.log("hexhunter affinity bonus is " + hexhunterAffinity);
   // dominion gloves
-  const dominion_gloves = state.target.domGloves ? 7 : 0;
-  //console.log("dom gloves bonus " + dominion_gloves);
+  const dominionGloves = state.domGloves ? 7 : 0;
+  //console.log("dom gloves bonus " + dominionGloves);
+
+  let defenceLevel = state.target.defence;
+  // missing custom defence level modifier
+  let customDefenceModifer = 0;
+  if (state.addlDefDrain < 1) {
+    // it's a percentage
+    defenceLevel = defenceLevel * ( 1 - Math.abs(state.addlDefDrain) );
+  } else {
+    // it's a number of levels to drain
+    defenceLevel = defenceLevel - state.addlDefDrain;
+  }
+  defenceLevel = defenceLevel - dominionGloves;
+  let defenceLevelBonus = accF(Math.floor(defenceLevel));
+  if (state.target.taggable) {
+    defenceLevelBonus *= 0.51;
+  }
+  defenceLevelBonus = Math.floor(defenceLevelBonus);
+
+  let defenceLevelBonusAfterDrain = defenceLevelBonus - 5 * defenceModifier - dominionGloves;
+
+  let finalArmour = Math.floor(armourBonus + defenceLevelBonusAfterDrain);
+  console.log("==== Final Armour " + finalArmour + " ====");
+
 
   // base affinity
-  let base_affinity = 0;
+  let baseAffinity = 0;
   if (state.style == state.target.weakness) {
-    base_affinity = parseInt(state.target.affinity.weakness, 10) / 100;
+    baseAffinity = parseInt(state.target.affinity.weakness, 10) / 100;
   } else {
-    base_affinity = parseInt(state.target.affinity[style_map[state.style]], 10) / 100;
+    baseAffinity = parseInt(state.target.affinity[styleMap[state.style]], 10) / 100;
   }
-  //console.log("base affinity is " + base_affinity);
-  let final_affinity = base_affinity + Math.min(0.10,
-    quake + statius + bandos + gstaff + barrelchest + dhatchet + bone_dagger + hexhunter_affinity
+  //console.log("base affinity is " + baseAffinity);
+  let finalAffinity = baseAffinity + Math.min(0.10,
+    quake + statius + bandos + gstaff + barrelchest + dhatchet + boneDagger + hexhunterAffinity
   );
-  //console.log("final affinity is " + final_affinity);
+  console.log("final affinity is " + finalAffinity);
 
-  let final_hit_chance = rounddown(3,
+  let finalHitChance = rounddown(3,
     rounddown(3,
       rounddown(3,
         rounddown(3,
           rounddown(2,
-            final_accuracy/final_armour
-          ) * final_affinity
+            finalAccuracy/finalArmour
+          ) * finalAffinity
         ) *
-        special_attack + keris + nightmare + fleeting
+        specialAttack + keris + nightmare + fleeting // - equipmentPenalty
       ) * ( 1 +
-        accuracy_aura +
-        //artefact +
+        accuracyAura +
+        artefact +
         nihil +
         scrimshaw +
-        void_armor +
+        voidArmor +
         defender +
         medallion +
         dscimitar +
-        dragon_slayer_gloves +
+        dragonSlayerGloves +
         salve
       )
     ) * (
-      //bonus_special_attack *
+      addlSpecEffect *
       dbattleaxe *
       salamancy *
       reaver *
-      slayer_helm
+      slayerHelm
     ) + (
-      ful_arrows +
-      //wen_arrows +
+      fulArrows +
+      wenArrows +
       ultimate +
-      //Reaper_stacks +
+      reaper +
       balmung +
-      bane_ammo +
+      baneAmmo +
       darklight +
       hexhunter
     )
   );
-  //console.log("final hit chance is " + final_hit_chance);
-  const final_hit_chance_elem = document.getElementById("final-hit-chance");
-  final_hit_chance_elem.innerText = "Final Hit Chance: " + (final_hit_chance*100).toFixed(2) + "%";
+
+  //console.log("final hit chance is " + finalHitChance);
+  const finalHitChanceElem = document.getElementById("final-hit-chance");
+  finalHitChanceElem.innerText = "Final Hit Chance: " + (finalHitChance*100).toFixed(2) + "%";
 }
 

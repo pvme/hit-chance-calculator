@@ -5,10 +5,17 @@ https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTk
 
 ## Important Note
 This repo is not up to feature parity with the original spreadsheet, it's just
-trying to show what's possible.
+trying to show what's possible. That said, what features _are_ included should
+match exactly with the original spreadsheet.
 
-Also the code can use a lot cleanup. As of right now this is just a proof of
-concept.
+Missing Features:
+- Equipment Penalty
+- Familiar stuff (i.e. your familiar's hit chance)
+- Links to more documentation/discords/credit
+- Probably should add hover text to the templating engine
+- More input validation (like for empty text fields)
+- A way to convey that something is invalid (like typing "foo" into your weapon
+  tier)
 
 ## Goals
 - Produce identical results to the original spreadsheet under all circumstances

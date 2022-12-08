@@ -1,66 +1,71 @@
-function load_change_hooks() {
-  const target_elem = document.getElementById("target");
-  target_elem.addEventListener('change', function () { target(); calc(); });
+function loadChangeHooks() {
+  const targetElem = document.getElementById("target");
+  targetElem.addEventListener('change', function () { target(); calc(); });
 }
 
 function target() {
   const target = document.getElementById("target").value;
   // set state
-  state.target = target_data[target];
+  state.target = targetData[target];
+  state.taggable = targetData[target].taggable;
+  // taggable is weird because it's also an input
+  const taggable = document.getElementById("taggable");
+  taggable.checked = state.taggable;
+
   // Set ui fields
-  const target_defence = document.getElementById("target-defence");
-  target_defence.innerText = state.target.defence;
+  const targetDefence = document.getElementById("target-defence");
+  targetDefence.innerText = state.target.defence;
 
-  const target_armour = document.getElementById("target-armour");
-  target_armour.innerText = state.target.armour;
+  const targetArmour = document.getElementById("target-armour");
+  targetArmour.innerText = state.target.armour;
 
-  const target_weakness = document.getElementById("target-weakness");
-  target_weakness.innerText = state.target.weakness;
-  const target_weakness_icon = document.getElementById("target-weakness-icon");
-  target_weakness_icon.src = player_buffs.style.icons[state.target.weakness];
+  const targetWeakness = document.getElementById("target-weakness");
+  targetWeakness.innerText = state.target.weakness;
+  const targetWeaknessIcon = document.getElementById("target-weakness-icon");
+  targetWeaknessIcon.src = playerBuffs.style.icons[state.target.weakness];
 
-  const target_style = document.getElementById("target-style");
-  target_style.innerText = state.target.style;
-  const target_style_icon = document.getElementById("target-style-icon");
-  target_style_icon.src = player_buffs.style.icons[state.target.style];
+  const targetStyle = document.getElementById("target-style");
+  targetStyle.innerText = state.target.style;
+  const targetStyleIcon = document.getElementById("target-style-icon");
+  targetStyleIcon.src = playerBuffs.style.icons[state.target.style];
 
-  const target_affinity_weakness = document.getElementById("target-affinity-weakness");
-  target_affinity_weakness.innerText = state.target.affinity.weakness;
-  const target_affinity_melee = document.getElementById("target-affinity-melee");
-  target_affinity_melee.innerText = state.target.affinity.melee;
-  const target_affinity_range = document.getElementById("target-affinity-range");
-  target_affinity_range.innerText = state.target.affinity.range;
-  const target_affinity_magic = document.getElementById("target-affinity-magic");
-  target_affinity_magic.innerText = state.target.affinity.magic;
+  const targetAffinityWeakness = document.getElementById("target-affinity-weakness");
+  targetAffinityWeakness.innerText = state.target.affinity.weakness;
+  const targetAffinityMelee = document.getElementById("target-affinity-melee");
+  targetAffinityMelee.innerText = state.target.affinity.melee;
+  const targetAffinityRange = document.getElementById("target-affinity-range");
+  targetAffinityRange.innerText = state.target.affinity.range;
+  const targetAffinityMagic = document.getElementById("target-affinity-magic");
+  targetAffinityMagic.innerText = state.target.affinity.magic;
 
 }
 
-function load_targets() {
-  const target_elem = document.getElementById("target");
-  for (let target of Object.keys(target_data)) {
+function loadTargets() {
+  const targetElem = document.getElementById("target");
+  for (let target of Object.keys(targetData)) {
     if (target == "Araxxi") {
       continue;
     }
     let opt = document.createElement("option");
     opt.value = target;
     opt.innerText = target;
-    target_elem.appendChild(opt);
+    targetElem.appendChild(opt);
   }
 }
 
 // returns a row object that matches the spec
-function generate_input(id, spec) {
+function generateInput(id, spec) {
   // generate html
   let row = document.createElement("tr");
-  let icon_cell = document.createElement("td");
-  icon_cell.className = "icon-col";
+  let iconCell = document.createElement("td");
+  iconCell.className = "icon-col";
   let icon = document.createElement("img");
-  icon_cell.appendChild(icon);
-  row.appendChild(icon_cell);
-  let text_cell = document.createElement("td");
-  row.appendChild(text_cell);
-  let input_cell = document.createElement("td");
-  input_cell.className = "input-col";
+  iconCell.appendChild(icon);
+  row.appendChild(iconCell);
+  let textCell = document.createElement("td");
+  row.appendChild(textCell);
+  let inputCell = document.createElement("td");
+  inputCell.className = "input-col";
 
   // TODO add null checks to fields
 
@@ -79,14 +84,14 @@ function generate_input(id, spec) {
       }
     );
     icon.src = spec.icon;
-    text_cell.innerText = spec.text;
+    textCell.innerText = spec.text;
     // for initialization
     state[id] = false;
   } else if (spec.kind == "select") {
     // Create a simple dropdown
     input = document.createElement("select");
     input.id = id;
-    text_cell.innerText = spec.text;
+    textCell.innerText = spec.text;
     let selected;
     for (let opt of Object.keys(spec.labels)) {
       // first element is default
@@ -125,41 +130,41 @@ function generate_input(id, spec) {
       }
     );
     icon.src = spec.icon;
-    text_cell.innerText = spec.text;
+    textCell.innerText = spec.text;
     // for initialization
     state[id] = spec.default;
   } else {
     console.log("unknown kind " + spec.kind);
   }
 
-  input_cell.appendChild(input);
-  row.appendChild(input_cell);
+  inputCell.appendChild(input);
+  row.appendChild(inputCell);
 
   return row
 }
 
 
 
-function load_setup_fields() {
-  const buff_table_elem = document.getElementById("setup-table");
-  // player_buffs loaded from setup.js
-  for (let field of Object.keys(player_buffs)) {
-    let row = generate_input(field, player_buffs[field]);
-    buff_table_elem.appendChild(row);
+function loadSetupFields() {
+  const buffTableElem = document.getElementById("setup-table");
+  // playerBuffs loaded from setup.js
+  for (let field of Object.keys(playerBuffs)) {
+    let row = generateInput(field, playerBuffs[field]);
+    buffTableElem.appendChild(row);
   }
 
-  const debuff_table_elem = document.getElementById("debuff-table");
-  for (let field of Object.keys(target_debuffs)) {
-    let row = generate_input(field, target_debuffs[field]);
-    debuff_table_elem.appendChild(row);
+  const debuffTableElem = document.getElementById("debuff-table");
+  for (let field of Object.keys(targetDebuffs)) {
+    let row = generateInput(field, targetDebuffs[field]);
+    debuffTableElem.appendChild(row);
   }
 
 }
 
 function init() {
-  load_change_hooks();
-  load_targets();
-  load_setup_fields();
+  loadChangeHooks();
+  loadTargets();
+  loadSetupFields();
   target();
   calc();
 }
