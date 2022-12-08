@@ -40,6 +40,7 @@ function calc() {
   state.level = parseInt(state.level)
   state.weaponTier = parseInt(state.weaponTier)
 
+
   // calculate potion bonus
   let potion = 0; // default if no potion
   let isOverload = false;
@@ -75,7 +76,7 @@ function calc() {
   //console.log("potion level bonus is " + potion);
 
   // berserker blood essence
-  const bloodEssence = state.bloodEssence ? rounddown(2, 0.14 * state.level + 2) : 0;
+  const bloodEssence = state.bloodEssence ? Math.floor(0.14 * state.level + 2) : 0;
   //console.log("blood essence level bonus is " + bloodEssence);
 
   // berserk aura initial boost
@@ -97,21 +98,31 @@ function calc() {
   // true stat level calculations
   let trueStatLevel = state.level;
   if (isOverload) {
-    trueStatLevel += rounddown(0, bloodEssence + potion);
+    trueStatLevel += Math.floor(berserker + potion);
   } else {
-    trueStatLevel += Math.max(rounddown(0, bloodEssence), rounddown(0, potion));
+    trueStatLevel += bloodEssence + Math.max(Math.floor(berserker), Math.floor(potion));
   }
   //console.log("true stat level is " + trueStatLevel);
 
   // calculate prayer bonuses
   const prayerTier = prayerMap[state.prayer];
-  const prayerBonus = Math.floor(
+  let prayerBonus = Math.floor(
     (
       3*trueStatLevel*trueStatLevel*prayerTier +
       3*trueStatLevel*prayerTier*prayerTier +
       prayerTier*prayerTier*prayerTier
     ) / 1250 + prayerTier * 4
   );
+  if (
+    state.zealots && (
+      state.prayer == "leech" ||
+      state.prayer == "t1" ||
+      state.prayer == "t2" ||
+      state.prayer == "t3"
+    )
+  ) {
+    prayerBonus = prayerBonus * 1.1;
+  }
   //console.log("prayer acc bonus is " + prayerBonus);
 
   // premier artefact
@@ -154,7 +165,7 @@ function calc() {
     // this only works if you pass the tier directly and not the accuracy
     specialAttack = 1 + 0.01 * Math.max(0, trueStatLevel - state.weaponTier);
   }
-  console.log("special attack bonus is " + specialAttack);
+  //console.log("special attack bonus is " + specialAttack);
   // bonus accuracy (special attack)
   let addlSpecEffect = 1;
   const addlSpecEffectMap = {
@@ -251,9 +262,13 @@ function calc() {
 
   // hexhunter
   let hexhunter = 0;
-  if (state.target.style == "magic" && state.style == "range" ||
-      state.target.style == "range" && state.style == "melee" ||
-      state.target.style == "melee" && state.style == "magic") {
+  if (
+    state.hexClassWeapon && (
+      state.target.style == "magic" && styleMap[state.style] == "range" ||
+      state.target.style == "range" && styleMap[state.style] == "melee" ||
+      state.target.style == "melee" && styleMap[state.style] == "magic"
+    )
+  ) {
     // TODO missing enchantment?
     hexhunter = 0.1;
   }
@@ -293,7 +308,7 @@ function calc() {
     armourBonus = Math.round(2.5 * accF(state.target.armour));
   }
   armourBonus = Math.floor(armourBonus);
-  console.log("armour bonus " + armourBonus);
+  //console.log("armour bonus " + armourBonus);
 
   // defence modifier
   let leechModifier = 0;
@@ -387,7 +402,7 @@ function calc() {
   let finalAffinity = baseAffinity + Math.min(0.10,
     quake + statius + bandos + gstaff + barrelchest + dhatchet + boneDagger + hexhunterAffinity
   );
-  console.log("final affinity is " + finalAffinity);
+  console.log("==== Final Affinity " + finalAffinity.toFixed(2) + " ====");
 
   let finalHitChance = rounddown(3,
     rounddown(3,
