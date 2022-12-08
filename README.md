@@ -27,3 +27,107 @@ concept.
   scraped from the original spreadsheet.
 - That said, this approach is fundamentally less "hackable" than spreadsheets,
   and it remains to be seen which approach the community prefers.
+
+## Architecture Overview
+### Engine
+This is a standalone chunk of javascript that takes a single large object
+containing all relevant information and spits out a single hitchance percentage.
+It is important that this piece of code be completely isolated from the UI.
+
+### Datasets
+There are two major datasets.
+
+#### `targets.js`
+Contains a huge object that maps boss names to informations about those bosses.
+This object is exposed as `target_data`. Here is an example for the best boss,
+Kalphite King. Note that each variant of a boss has its own entry, if
+applicable.
+
+##### Example
+```js
+target_data = {
+  ...
+  "Kalphite King (Ranged)": {
+    "name": "Kalphite King (Ranged)",
+    "defence": 85,
+    "armour": 85,
+    "weakness": "stab",
+    "style": "range",
+    "affinity": {
+      "weakness": 60,
+      "melee": 30,
+      "range": 50,
+      "magic": 40
+    },
+    "taggable": false,
+    "curseImmune": false
+  },
+  ...
+};
+```
+
+#### `setup.js`
+This file contains two variables: `player_buffs` and `target_debuffs`. These
+datasets are meant to facilitate creating a UI, and also define the object that
+the engine takes as an argument. Both variables map an "internal" name to a
+definition.
+
+Each object in both sets represents a distinct paramater that affects hit chance.
+There are 3 distinct kinds of objects. The key for the object is also the key
+that should be set in the input to the engine.
+
+Notice all the variants have:
+- `text` field, which is the user-readable description
+- `kind` field, which determines what kind of input it is
+- optional `icon` field, if the input always uses the same icon
+
+##### Examples
+- `bool`: A simple yes or no
+  ```js
+  "zealots": {
+    "icon": "https://i.imgur.com/L6LZo4t.png",
+    "text": "Zealots",
+    "kind": "bool",
+  }
+  ```
+- `select`: One of a predefined list of options
+
+  Notice that `select`s can have a separate `icons` map, if each option has a
+  different icon associated with it.
+  ```js
+  "potion": {
+    "kind": "select",
+    "text": "Potion",
+    "labels": {
+      "none": "None",
+      "ordinary": "Ordinary",
+      <snip>,
+      "elderOverload": "Elder overload",
+    },
+    "icons": {
+      "none": "https://i.imgur.com/lqBKfcq.png",
+      "ordinary": "https://i.imgur.com/yrqWZbd.png",
+      <snip>
+      "elderOverload": "https://i.imgur.com/ihRe9T0.png",
+    }
+  }
+  ```
+- `number`: A whole number
+  ```js
+  "level": {
+    "kind": "number",
+    "text": "Attack/Range/Magic level",
+    "icon": "https://imgur.com/OMENkUw"
+    "default": 99
+  }
+  ```
+
+### Default UI
+This repository includes a default UI, which is dynamically generated from the
+loaded datasets. This means that in the vast majority of cases, adding a new
+user input should not require modifying the base UI files.
+
+The files for this component are:
+- `index.html`
+- `setup_ui.js`
+- `style.css`

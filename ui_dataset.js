@@ -1,4 +1,16 @@
-setup_table_raw = {
+player_buffs = {
+  "level": {
+    "kind": "number",
+    "text": "Attack/Range/Magic level",
+    "icon": "https://i.imgur.com/OMENkUw.png",
+    "default": 99
+  },
+  "weaponTier": {
+    "kind": "number",
+    "text": "Weapon (tier or value)",
+    "icon": "https://i.imgur.com/omyAKio.png",
+    "default": 95
+  },
   "style": {
     "kind": "select",
     "text": "Attack style",
@@ -271,7 +283,7 @@ setup_table_raw = {
   }
 };
 
-debuff_table_raw = {
+target_debuffs = {
   "curse": {
     "icon": "https://i.imgur.com/5yCfPbD.png",
     "text": "Curse drain",
@@ -325,11 +337,13 @@ debuff_table_raw = {
   "blackStoneArrowStacks": {
     "icon": "https://i.imgur.com/kYQyldo.png",
     "text": "Black stone arrow stacks",
-    "kind": "text"
+    "kind": "number",
+    "default": 0
   },
   "addlDefDrain": {
     "icon": "https://i.imgur.com/PiLPIOl.png",
     "text": "Additional def drain",
-    "kind": "text",
+    "kind": "number",
+    "default": 0
   }
 };

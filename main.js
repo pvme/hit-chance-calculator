@@ -27,19 +27,6 @@ function acc_f(x) {
   return x*x*x / 1250 + x * 4 + 40;
 }
 
-function level_acc() {
-  const level_raw = document.getElementById("level").value;
-  const level = parseInt(level_raw, 10);
-  // todo validate integer
-  state.level = level;
-  state.level_acc = Math.floor(acc_f(level));
-}
-
-function weapon_acc() {
-  const tier_raw = document.getElementById("weapon-tier").value;
-  state.tier = parseInt(tier_raw, 10);
-}
-
 function rounddown(p, x) {
   if (p === null) {
     p = 2;
@@ -49,6 +36,7 @@ function rounddown(p, x) {
 
 function calc() {
   // Roughly following Calcs sheet column C
+  let weapon_acc
 
   // calculate potion bonus
   let potion = 0; // default if no potion
@@ -82,15 +70,15 @@ function calc() {
       is_overload = true;
       break;
   }
-  console.log("potion level bonus is " + potion);
+  //console.log("potion level bonus is " + potion);
 
   // berserker blood essence
   const blood_essence = state.bloodEssence ? rounddown(2, 0.14 * state.level + 2) : 0;
-  console.log("blood essence level bonus is " + blood_essence);
+  //console.log("blood essence level bonus is " + blood_essence);
 
   // berserk aura initial boost
   const berserker = (state.aura == "berserker") ? state.level * 0.1 : 0;
-  console.log("berserker aura level bonus is " + berserker);
+  //console.log("berserker aura level bonus is " + berserker);
 
   // accuracy aura boost
   const aura_map = {
@@ -102,7 +90,7 @@ function calc() {
     "berserker": 0.10,
   };
   const accuracy_aura = aura_map[state.aura];
-  console.log("accuracy aura level bonus is " + accuracy_aura);
+  //console.log("accuracy aura level bonus is " + accuracy_aura);
 
   // true stat level calculations
   let true_stat_level = state.level;
@@ -111,7 +99,7 @@ function calc() {
   } else {
     true_stat_level += Math.max(rounddown(0, blood_essence), rounddown(0, potion));
   }
-  console.log("true stat level is " + true_stat_level);
+  //console.log("true stat level is " + true_stat_level);
 
   // calculate prayer bonuses
   const prayer_tier = prayer_map[state.prayer];
@@ -122,14 +110,13 @@ function calc() {
       prayer_tier*prayer_tier*prayer_tier
     ) / 1250 + prayer_tier * 4
   );
-  console.log("prayer acc bonus is " + prayer_bonus);
+  //console.log("prayer acc bonus is " + prayer_bonus);
 
   // premier artifact
-  
 
   // nihil
   const nihil = state.nihil ? 0.05 : 0;
-  console.log("nihil bonus is " + nihil);
+  //console.log("nihil bonus is " + nihil);
 
   // accuracy scrimshaw
   let scrimshaw = 0;
@@ -138,45 +125,44 @@ function calc() {
   } else if (state.scrimshaw == "superior") {
     scrimshaw = 0.04;
   }
-  console.log("accuracy scrimshaw bonus is " + scrimshaw);
+  //console.log("accuracy scrimshaw bonus is " + scrimshaw);
 
   // void
   const void_armor = state.voidArmor ? 0.03 : 0;
-  console.log("void bonus is " + void_armor);
+  //console.log("void bonus is " + void_armor);
 
   // reaper necklace
 
   // defender
   const defender = state.defender ? 0.03 : 0;
-  console.log("defender bonus is " + defender);
+  //console.log("defender bonus is " + defender);
 
   // extreme dom medallion
   const medallion = state.domMedallion ? 0.01 : 0;
-  console.log("extreme dom medallion bonus is " + medallion);
+  //console.log("extreme dom medallion bonus is " + medallion);
 
   // ultimate
   const ultimate = state.ultimate ? 0.25 : 0;
-  console.log("ultimate bonus is " + ultimate);
+  //console.log("ultimate bonus is " + ultimate);
   // special attack
   let special_attack = 1;
   if (state.specialAttack) {
     // this only works if you pass the tier directly and not the accuracy
     special_attack = 1 + 0.01 * Math.max(0, true_stat_level - state.tier);
   }
-  console.log("special attack bonus is " + special_attack);
+  //console.log("special attack bonus is " + special_attack);
   // bonus accuracy (special attack)
-  
   // dragon battleaxe
   const dbattleaxe = state.dbattleaxe ? 0.9 : 1;
-  console.log("dbattleaxe bonus is " + dbattleaxe);
+  //console.log("dbattleaxe bonus is " + dbattleaxe);
 
   // reaver ring
   const reaver = state.reaver ? 0.95 : 1;
-  console.log("reaver bonus is " + reaver);
+  //console.log("reaver bonus is " + reaver);
 
   // dragon scimitar
   const dscimitar = state.dscimitar ? 0.25 : 0;
-  console.log("dscimitar bonus is " + dbattleaxe);
+  //console.log("dscimitar bonus is " + dbattleaxe);
 
   // break
 
@@ -190,14 +176,14 @@ function calc() {
     "corrupted": 1.145
   };
   const slayer_helm = slayer_map[state.slayerHelm];
-  console.log("slayer bonus is " + slayer_helm);
+  //console.log("slayer bonus is " + slayer_helm);
 
   // necklace of salamancy
   const salamancy = state.salamancy ? 1.15 : 1;
-  console.log("salamancy bonus is " + salamancy);
+  //console.log("salamancy bonus is " + salamancy);
   // dragon slayer gloves
   const dragon_slayer_gloves = state.dslayerGloves ? 0.1 : 0;
-  console.log("dragon slayer gloves bonus is " + dragon_slayer_gloves);
+  //console.log("dragon slayer gloves bonus is " + dragon_slayer_gloves);
   // salve ammy
   const salve_map = {
     "none": 0,
@@ -205,7 +191,7 @@ function calc() {
     "enchanted": 0.2
   };
   const salve = salve_map[state.salve];
-  console.log("salve bonus is " + salve);
+  //console.log("salve bonus is " + salve);
 
   // balmung
   const balmung_map = {
@@ -214,7 +200,7 @@ function calc() {
     "upgraded": 0.45
   };
   const balmung = balmung_map[state.balmung];
-  console.log("balmung bonus is " + balmung);
+  //console.log("balmung bonus is " + balmung);
 
   // bane ammo
   const bane_map = {
@@ -223,11 +209,11 @@ function calc() {
     "jas": 0.2
   };
   const bane_ammo = bane_map[state.baneAmmo];
-  console.log("bane ammo bonus is " + bane_ammo);
+  //console.log("bane ammo bonus is " + bane_ammo);
 
   // ful arrows
   const ful_arrows = state.fulArrows ? -0.1 : 0;
-  console.log("ful arrows bonus is " + ful_arrows);
+  //console.log("ful arrows bonus is " + ful_arrows);
 
   // wen arrow stacks
 
@@ -238,7 +224,7 @@ function calc() {
     "upgraded": 0.25
   };
   const keris = keris_map[state.keris];
-  console.log("keris boost is " + keris);
+  //console.log("keris boost is " + keris);
 
   // anti-demon weapons
   const darklight_map = {
@@ -247,7 +233,7 @@ function calc() {
     "upgraded": 0.349
   };
   const darklight = darklight_map[state.darklight];
-  console.log("darklight boost is " + darklight);
+  //console.log("darklight boost is " + darklight);
 
   // hexhunter
   let hexhunter = 0;
@@ -257,102 +243,96 @@ function calc() {
     // TODO missing enchantment?
     hexhunter = 0.1;
   }
-  console.log("hexhunter boost is " + hexhunter);
+  //console.log("hexhunter boost is " + hexhunter);
 
   // nightmare gauntlets
   const nightmare = state.nightmare ? 0.25 : 0;
-  console.log("nightmare gauntlets boost is " + nightmare);
+  //console.log("nightmare gauntlets boost is " + nightmare);
 
   // fleeting boots
   const fleeting = state.fleeting ? 0.1 : 0;
-  console.log("fleeting boots boost is " + fleeting);
+  //console.log("fleeting boots boost is " + fleeting);
 
   // final accuracy
   const level_bonus = Math.floor(acc_f(true_stat_level));
-  console.log("bonus from true stat level " + level_bonus);
+  //console.log("bonus from true stat level " + level_bonus);
 
   let tier_bonus = 0;
-  if (state.tier < 150) {
-    tier_bonus = 2.5 * acc_f(state.tier);
+  if (state.weaponTier < 150) {
+    tier_bonus = 2.5 * acc_f(state.weaponTier);
   } else {
-    tier_bonus = state.tier;
+    tier_bonus = state.weaponTier;
   }
   tier_bonus = Math.round(tier_bonus);
-  console.log("weapon bonus " + tier_bonus);
+  //console.log("weapon bonus " + tier_bonus);
 
 
   const final_accuracy = level_bonus + prayer_bonus + tier_bonus;
-  console.log(" ==== Final Accuracy " + final_accuracy + " ==== ");
+  //console.log(" ==== Final Accuracy " + final_accuracy + " ==== ");
 
   // target stuff
-  
   // curse drain
   //
   // quake
   const quake = state.quake ? 0.02 : 0;
-  console.log("quake bonus is " + quake);
+  //console.log("quake bonus is " + quake);
 
   // statius
   const statius = state.statius ? 0.05 : 0;
-  console.log("statius bonus is " + statius);
+  //console.log("statius bonus is " + statius);
   // bandos
   const bandos = state.bandos ? 0.03 : 0;
-  console.log("bandos bonus is " + bandos);
+  //console.log("bandos bonus is " + bandos);
   // gstaff
   const gstaff = state.gstaff ? 0.02 : 0;
-  console.log("gstaff bonus is " + gstaff);
+  //console.log("gstaff bonus is " + gstaff);
   // dhatchet
   const dhatchet = state.dhatchet ? 0.03 : 0;
-  console.log("dhatchet bonus is " + dhatchet);
+  //console.log("dhatchet bonus is " + dhatchet);
   // barrelchest
   const barrelchest = state.barrelchest ? 0.04 : 0;
-  console.log("barrelchest bonus is " + barrelchest);
+  //console.log("barrelchest bonus is " + barrelchest);
   // bone dagger
   const bone_dagger = state.boneDagger ? 0.02 : 0;
-  console.log("bone dagger bonus is " + bone_dagger);
+  //console.log("bone dagger bonus is " + bone_dagger);
   // hexhunter affinity
   const hexhunter_affinity = (hexhunter > 0) ? 0.05 : 0;
-  console.log("hexhunter affinity bonus is " + hexhunter_affinity);
+  //console.log("hexhunter affinity bonus is " + hexhunter_affinity);
 
   let defence_level_bonus = acc_f(state.target.defence);
   if (state.target.taggable) {
     defence_level_bonus *= 0.51;
   }
-  console.log("base defence level bonus " + defence_level_bonus);
+  //console.log("base defence level bonus " + defence_level_bonus);
   let armour_bonus = 0;
   if (state.target.armour > 100) {
     armour_bonus = state.target.armour;
   } else if (state.target.armour > 0) {
     armour_bonus = Math.round(2.5 * acc_f(state.target.armour));
   }
-  console.log("armour bonus " + armour_bonus);
+  //console.log("armour bonus " + armour_bonus);
   const base_armour = defence_level_bonus + armour_bonus;
-  console.log("base armour " + base_armour);
+  //console.log("base armour " + base_armour);
   let final_armour = Math.floor(base_armour);
 
   // defence modifier
 
   // dominion gloves
   const dominion_gloves = state.target.domGloves ? 7 : 0;
-  console.log("dom gloves bonus " + dominion_gloves);
+  //console.log("dom gloves bonus " + dominion_gloves);
 
   // base affinity
-  const affinity_map = {
-    "magic": "affinityMagic",
-    "melee": "affinityMelee",
-    "range": "affinityRange"
-  };
   let base_affinity = 0;
   if (state.style == state.target.weakness) {
-    base_affinity = parseInt(state.target.affinityWeakness, 10) / 100;
+    base_affinity = parseInt(state.target.affinity.weakness, 10) / 100;
   } else {
-    base_affinity = parseInt(state.target[affinity_map[style_map[state.style]]], 10) / 100;
+    base_affinity = parseInt(state.target.affinity[style_map[state.style]], 10) / 100;
   }
-  console.log("base affinity is " + base_affinity);
+  //console.log("base affinity is " + base_affinity);
   let final_affinity = base_affinity + Math.min(0.10,
     quake + statius + bandos + gstaff + barrelchest + dhatchet + bone_dagger + hexhunter_affinity
   );
-  console.log("final affinity is " + final_affinity);
+  //console.log("final affinity is " + final_affinity);
 
   let final_hit_chance = rounddown(3,
     rounddown(3,
@@ -392,186 +372,8 @@ function calc() {
       hexhunter
     )
   );
-  console.log("final hit chance is " + final_hit_chance);
+  //console.log("final hit chance is " + final_hit_chance);
   const final_hit_chance_elem = document.getElementById("final-hit-chance");
-  final_hit_chance_elem.innerText = "Final Hit Chance: " + (final_hit_chance*100) + "%";
+  final_hit_chance_elem.innerText = "Final Hit Chance: " + (final_hit_chance*100).toFixed(2) + "%";
 }
 
-
-function load_change_hooks() {
-  const level_elem = document.getElementById("level");
-  const tier_elem = document.getElementById("weapon-tier");
-  const target_elem = document.getElementById("target");
-
-  level_elem.addEventListener('change', function () { level_acc(); calc(); });
-  tier_elem.addEventListener('change', function () { weapon_acc(); calc(); });
-  target_elem.addEventListener('change', function () { target(); calc(); });
-}
-
-function target() {
-  const target = document.getElementById("target").value;
-  // set state
-  state.target = target_data[target];
-  // Set ui fields
-  const target_defence = document.getElementById("target-defence");
-  target_defence.innerText = state.target.defence;
-
-  const target_armour = document.getElementById("target-armour");
-  target_armour.innerText = state.target.armour;
-
-  const target_weakness = document.getElementById("target-weakness");
-  target_weakness.innerText = state.target.weakness;
-  const target_weakness_icon = document.getElementById("target-weakness-icon");
-  target_weakness_icon.src = setup_table_raw.style.icons[state.target.weakness];
-
-  const target_style = document.getElementById("target-style");
-  target_style.innerText = state.target.style;
-  const target_style_icon = document.getElementById("target-style-icon");
-  target_style_icon.src = setup_table_raw.style.icons[state.target.style];
-
-  const target_affinity_weakness = document.getElementById("target-affinity-weakness");
-  target_affinity_weakness.innerText = state.target.affinityWeakness;
-  const target_affinity_melee = document.getElementById("target-affinity-melee");
-  target_affinity_melee.innerText = state.target.affinityMelee;
-  const target_affinity_range = document.getElementById("target-affinity-range");
-  target_affinity_range.innerText = state.target.affinityRange;
-  const target_affinity_magic = document.getElementById("target-affinity-magic");
-  target_affinity_magic.innerText = state.target.affinityMagic;
-
-}
-
-function load_targets() {
-  const target_elem = document.getElementById("target");
-  for (let target of Object.keys(target_data)) {
-    if (target == "Araxxi") {
-      continue;
-    }
-    let opt = document.createElement("option");
-    opt.value = target;
-    opt.innerText = target;
-    target_elem.appendChild(opt);
-  }
-}
-
-function select_handler(id, icon, label, input, skip) {
-  let selected;
-  for (let key of Object.keys(setup_table_raw[id].labels)) {
-    if (setup_table_raw[id].labels[key] == input.value) {
-      selected = key;
-    }
-  }
-  state[id] = selected;
-  if (icon) {
-    icon.src = setup_table_raw[id].icons[selected];
-  }
-  if (!skip) {
-    calc();
-  }
-}
-function bool_handler(id, input, skip) {
-  state[id] = input.checked;
-  if (!skip) {
-    calc();
-  }
-}
-
-function load_setup_fields() {
-  const setup_table_elem = document.getElementById("setup-table");
-  // setup_table_raw loaded from setup.js
-  for (let field of Object.keys(setup_table_raw)) {
-    let row = document.createElement("tr");
-    let icon_cell = document.createElement("td");
-    icon_cell.className = "icon-col";
-    let icon = document.createElement("img");
-    icon_cell.appendChild(icon);
-    row.appendChild(icon_cell);
-    let text_cell = document.createElement("td");
-    row.appendChild(text_cell);
-    let input_cell = document.createElement("td");
-    input_cell.className = "input-col";
-
-    let input;
-    if (setup_table_raw[field].kind == "bool") {
-      input = document.createElement("input");
-      input.type = "checkbox";
-      input.id = field;
-      input.addEventListener("change", function() { bool_handler(field, input, false) });
-      // for initialization
-      bool_handler(field, input, true);
-      icon.src = setup_table_raw[field].icon;
-      text_cell.innerText = setup_table_raw[field].text;
-    } else if (setup_table_raw[field].kind == "select") {
-      input = document.createElement("select");
-      input.id = field;
-      text_cell.innerText = setup_table_raw[field].text;
-      for (let opt of Object.keys(setup_table_raw[field].labels)) {
-        let option = document.createElement("option");
-        option.innerText = setup_table_raw[field].labels[opt];
-        input.appendChild(option);
-      }
-      if (setup_table_raw[field].icon) {
-        icon.src = setup_table_raw[field].icon;
-        input.addEventListener("change", function() {
-          select_handler(field, null, text_cell, input, false)
-        });
-        // run here for initialization
-        select_handler(field, null, text_cell, input, true);
-      } else if (setup_table_raw[field].icons) {
-        input.addEventListener("change", function() {
-          select_handler(field, icon, text_cell, input, false)
-        });
-        // run here for initialization
-        select_handler(field, icon, text_cell, input, true);
-      }
-    }
-
-    input_cell.appendChild(input);
-    row.appendChild(input_cell);
-
-    setup_table_elem.appendChild(row);
-  }
-
-  const debuff_table_elem = document.getElementById("debuff-table");
-  for (let field of Object.keys(debuff_table_raw)) {
-    let row = document.createElement("tr");
-    let icon_cell = document.createElement("td");
-    icon_cell.className = "icon-col";
-    let icon = document.createElement("img");
-    icon_cell.appendChild(icon);
-    row.appendChild(icon_cell);
-    let text_cell = document.createElement("td");
-    row.appendChild(text_cell);
-    let input_cell = document.createElement("td");
-    input_cell.className = "input-col";
-
-    let input;
-    if (debuff_table_raw[field].kind == "bool") {
-      input = document.createElement("input");
-      input.type = "checkbox";
-      input.id = field;
-      input.addEventListener("change", function() { bool_handler(field, input, false) });
-      // for initialization
-      bool_handler(field, input, true);
-      icon.src = debuff_table_raw[field].icon;
-      text_cell.innerText = debuff_table_raw[field].text;
-      input_cell.appendChild(input);
-      row.appendChild(input_cell);
-    }
-
-
-    debuff_table_elem.appendChild(row);
-  }
-
-}
-
-function init() {
-  load_change_hooks();
-  load_targets();
-  load_setup_fields();
-  level_acc();
-  weapon_acc();
-  target();
-  calc();
-}
-
-init();

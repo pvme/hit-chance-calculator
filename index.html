@@ -1,75 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>RS Hit Chance Calculator</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-body {
-  background-color: #232931;
-  color: #ffffff;
-  font-family: calibri;
-  //font-size: .675em;
-}
-.main-grid {
-  display: grid;
-  //width: 50%;
-  grid-template-areas: "buffs target";
-  grid-template-columns: fit-content(60%) fit-content(60%);
-  grid-gap: 8px;
-}
-
-.target-grid {
-  display: grid;
-  grid-template-rows: fit-content(50%);
-  grid-gap: 8px;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-tr {
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #000000;
-  text-align: left;
-  padding: 4px;
-}
-
-tr:nth-child(even) {
-  background-color: #2a3038;
-}
-
-.icon-col {
-  width: 20px;
-  padding: 2px;
-
-}
-.icon-col > img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.input-col {
-  //width: 190px;
-}
-.input-col > input {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-.input-col > select {
-  width: 100%;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 <body>
   <h2 id="final-hit-chance"></h2>
   <div class="main-grid">
@@ -78,19 +12,7 @@ tr:nth-child(even) {
     <tr>
       <th colspan="3">Your Buffs</th>
     </tr>
-    <tr>
-      <td class="icon-col"><img src="https://i.imgur.com/OMENkUw.png"></td>
-      <td>Attack/Range/Magic level</td>
-      <td class="input-col"><input type="text" id="level" value="99"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"><img src="https://i.imgur.com/omyAKio.png"></td>
-      <td>Weapon (tier or value)</td>
-      <td class="input-col"><input type="text" id="weapon-tier" value="95"></td>
-    </tr>
-    </tbody>
   </table>
-
 
   <div class="target-grid">
   <table>
@@ -162,8 +84,9 @@ tr:nth-child(even) {
   </div>
   </div>
 </body>
-<script src="setup.js"></script>
-<script src="targets.json"></script>
+<script src="ui_dataset.js"></script>
+<script src="target_dataset.js"></script>
 <script src="main.js"></script>
+<script src="setup_ui.js"></script>
 
 </html>
