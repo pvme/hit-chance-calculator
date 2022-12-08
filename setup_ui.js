@@ -72,21 +72,23 @@ function generateInput(id, spec) {
 
   let input;
   if (spec.kind == "bool") {
-    // Create a simple checkbox
-    input = document.createElement("input");
-    input.type = "checkbox";
+    // Create a simple button that changes color
+    input = document.createElement("button");
     input.id = id;
-    input.addEventListener(
-      "change",
-      function() {
-        state[id] = input.checked;
-        calc();
-      }
-    );
+    input.innerText = "Toggle";
     icon.src = spec.icon;
     textCell.innerText = spec.text;
     // for initialization
     state[id] = false;
+
+    input.addEventListener(
+      "click",
+      function() {
+        state[id] = !state[id];
+        input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
+        calc();
+      }
+    );
   } else if (spec.kind == "select") {
     // Create a simple dropdown
     input = document.createElement("select");

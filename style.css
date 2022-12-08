@@ -47,10 +47,19 @@ tr:nth-child(even) {
   background-color: #2a3038;
 }
 
+button {
+  //background-color: #47705b; /* Green */
+  background-color: #6c4b58; /* Red */
+  border: none;
+  color: white;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
 .icon-col {
   width: 20px;
   padding: 2px;
-
 }
 .icon-col > img {
   width: 100%;
@@ -58,9 +67,6 @@ tr:nth-child(even) {
   display: block;
 }
 
-.input-col {
-  //width: 190px;
-}
 .input-col > input {
   width: 100%;
   height: 100%;
