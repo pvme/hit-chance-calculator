@@ -8,8 +8,10 @@ body {
   margin-right: auto;
 }
 
-h2 {
+.final-hit-chance {
   text-align: center;
+  border: 1px solid #000000;
+  background-color: #47705b;
 }
 .main-grid {
   display: grid;
