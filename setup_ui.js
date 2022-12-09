@@ -1,6 +1,9 @@
 function loadChangeHooks() {
   const targetElem = document.getElementById("target");
-  targetElem.addEventListener('change', function () { target(); calc(); });
+  targetElem.addEventListener('change', function () {
+    target();
+    calc();
+  });
 }
 
 function target() {
@@ -43,7 +46,7 @@ function target() {
 function loadTargets() {
   const targetElem = document.getElementById("target");
   for (let target of Object.keys(targetData)) {
-    if (target == "Araxxi") {
+    if (target === "Araxxi") {
       continue;
     }
     let opt = document.createElement("option");
@@ -69,9 +72,8 @@ function generateInput(id, spec) {
 
   // TODO add null checks to fields
 
-
   let input;
-  if (spec.kind == "bool") {
+  if (spec.kind === "bool") {
     // Create a simple button that changes color
     input = document.createElement("button");
     input.id = id;
@@ -83,14 +85,14 @@ function generateInput(id, spec) {
 
     input.addEventListener(
       "click",
-      function() {
+      function () {
         state[id] = !state[id];
         input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
         input.innerText = state[id] ? "Yes" : "No";
         calc();
       }
     );
-  } else if (spec.kind == "select") {
+  } else if (spec.kind === "select") {
     // Create a simple dropdown
     input = document.createElement("select");
     input.id = id;
@@ -105,10 +107,10 @@ function generateInput(id, spec) {
     }
     icon.src = spec.icons ? spec.icons[selected] : spec.icon;
     input.addEventListener("change",
-      function() {
+      function () {
         let selected;
         for (let key of Object.keys(spec.labels)) {
-          if (spec.labels[key] == input.value) {
+          if (spec.labels[key] === input.value) {
             selected = key;
           }
         }
@@ -119,7 +121,7 @@ function generateInput(id, spec) {
     );
     // for initialization
     state[id] = selected;
-  } else if (spec.kind == "number") {
+  } else if (spec.kind === "number") {
     // Create a simple text field
     input = document.createElement("input");
     input.type = "text";
@@ -128,7 +130,7 @@ function generateInput(id, spec) {
     input.value = spec.default;
     input.addEventListener(
       "change",
-      function() {
+      function () {
         state[id] = input.value;
         calc();
       }
@@ -138,7 +140,7 @@ function generateInput(id, spec) {
     // for initialization
     state[id] = spec.default;
   } else {
-    console.log("unknown kind " + spec.kind);
+    // console.log("unknown kind " + spec.kind);
   }
 
   inputCell.appendChild(input);
@@ -146,8 +148,6 @@ function generateInput(id, spec) {
 
   return row
 }
-
-
 
 function loadSetupFields() {
   const buffTableElem = document.getElementById("player-buff-table");

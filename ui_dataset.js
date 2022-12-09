@@ -128,9 +128,9 @@ playerBuffs = {
     "text": "Void",
     "kind": "bool",
   },
-  "premier": {
+  "premierArtefact": {
     "icon": "https://i.imgur.com/Ord0GRo.png",
-    "text": "Permier artefact",
+    "text": "Premier artefact",
     "kind": "bool",
   },
   "reaperStacks": {
@@ -159,22 +159,22 @@ playerBuffs = {
     "text": "Special attack",
     "kind": "bool",
   },
-  "addlSpecEffect": {
+  "additionalSpecEffect": {
     "icon": "https://i.imgur.com/ZHSbeKk.png",
     "text": "Additional spec effect",
     "kind": "select",
     "labels": {
       "none": "None",
-      "ddagger": "Dragon dagger: +15%",
-      "mshortbow": "Magic shortbow: -30%"
+      "dragonDagger": "Dragon dagger: +15%",
+      "magicShortbow": "Magic shortbow: -30%"
     }
   },
-  "dbattleaxe": {
+  "dragonBattleaxe": {
     "icon": "https://i.imgur.com/Iaalj9F.png",
     "text": "Dragon battleaxe",
     "kind": "bool",
   },
-  "dscimitar": {
+  "dragonScimitar": {
     "icon": "https://i.imgur.com/pq2ySzz.png",
     "text": "Dragon scimitar",
     "kind": "bool",
@@ -202,7 +202,7 @@ playerBuffs = {
     "text": "Necklace of Salamancy",
     "kind": "bool",
   },
-  "dslayerGloves": {
+  "dragonSlayerGloves": {
     "icon": "https://i.imgur.com/5Bz6fMo.png",
     "text": "Dragon slayer gloves",
     "kind": "bool",
@@ -255,7 +255,7 @@ playerBuffs = {
     "labels": {
       "none": "None",
       "basic": "Yes",
-      "upgraded": "with desert ammy 3"
+      "upgraded": "with desert amulet 3"
     }
   },
   "darklight": {
@@ -299,7 +299,7 @@ targetDebuffs = {
     }
   },
   "taggable": {
-    "icon": "",
+    "icon": "https://i.imgur.com/mxN9MLQ.png",
     "text": "Taggable",
     "kind": "bool"
   },
@@ -310,7 +310,7 @@ targetDebuffs = {
   },
   "statius": {
     "icon": "https://i.imgur.com/OvV3fJi.png",
-    "text": "Statius' warhammer",
+    "text": "Statius' warhammer spec",
     "kind": "bool"
   },
   "bandos": {
@@ -318,12 +318,12 @@ targetDebuffs = {
     "text": "Bandos book",
     "kind": "bool"
   },
-  "gstaff": {
+  "guthixStaff": {
     "icon": "https://i.imgur.com/InOn8Pg.png",
-    "text": "Guthix staff",
+    "text": "Guthix staff spec",
     "kind": "bool"
   },
-  "dhatchet": {
+  "dragonHatchet": {
     "icon": "https://i.imgur.com/FVIJG2X.png",
     "text": "Dragon hatchet",
     "kind": "bool"
@@ -349,9 +349,9 @@ targetDebuffs = {
     "kind": "number",
     "default": 0
   },
-  "addlDefDrain": {
+  "additionalDefenceDrain": {
     "icon": "https://i.imgur.com/PiLPIOl.png",
-    "text": "Additional def drain",
+    "text": "Additional defence drain",
     "kind": "number",
     "default": 0
   }
