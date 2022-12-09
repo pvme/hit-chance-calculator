@@ -310,7 +310,7 @@ targetDebuffs = {
   },
   "statius": {
     "icon": "https://i.imgur.com/OvV3fJi.png",
-    "text": "Statius warhammer",
+    "text": "Statius' warhammer",
     "kind": "bool"
   },
   "bandos": {
@@ -325,27 +325,27 @@ targetDebuffs = {
   },
   "dhatchet": {
     "icon": "https://i.imgur.com/FVIJG2X.png",
-    "text": "Dragon hatchet spec",
+    "text": "Dragon hatchet",
     "kind": "bool"
   },
   "barrelchest": {
     "icon": "https://i.imgur.com/ul3D4DI.png",
-    "text": "Barrelchest anchor spec",
+    "text": "Barrelchest anchor",
     "kind": "bool"
   },
   "boneDagger": {
     "icon": "https://i.imgur.com/iTUQ8cz.png",
-    "text": "Bone dagger spec",
+    "text": "Bone dagger",
     "kind": "bool"
   },
   "domGloves": {
     "icon": "https://i.imgur.com/f5PPj2V.png",
-    "text": "Dominion gloves drain",
+    "text": "Dominion gloves",
     "kind": "bool"
   },
   "blackStoneArrowStacks": {
     "icon": "https://i.imgur.com/kYQyldo.png",
-    "text": "Black stone arrow stacks",
+    "text": "BSA stacks",
     "kind": "number",
     "default": 0
   },

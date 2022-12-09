@@ -124,6 +124,7 @@ function generateInput(id, spec) {
     input = document.createElement("input");
     input.type = "text";
     input.id = id;
+    input.size = 1;
     input.value = spec.default;
     input.addEventListener(
       "change",
