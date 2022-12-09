@@ -299,7 +299,7 @@ targetDebuffs = {
     }
   },
   "taggable": {
-    "icon": "",
+    "icon": "https://i.imgur.com/mxN9MLQ.png",
     "text": "Taggable",
     "kind": "bool"
   },
