@@ -325,17 +325,17 @@ targetDebuffs = {
   },
   "dragonHatchet": {
     "icon": "https://i.imgur.com/FVIJG2X.png",
-    "text": "Dragon hatchet",
+    "text": "Dragon hatchet spec",
     "kind": "bool"
   },
   "barrelchest": {
     "icon": "https://i.imgur.com/ul3D4DI.png",
-    "text": "Barrelchest anchor",
+    "text": "Barrelchest anchor spec",
     "kind": "bool"
   },
   "boneDagger": {
     "icon": "https://i.imgur.com/iTUQ8cz.png",
-    "text": "Bone dagger",
+    "text": "Bone dagger spec",
     "kind": "bool"
   },
   "domGloves": {
