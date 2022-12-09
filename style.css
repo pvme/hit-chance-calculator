@@ -1,11 +1,8 @@
 body {
-  display: block;
   background-color: #232931;
   color: #ffffff;
   font-family: calibri;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: small;
 }
 
 .final-hit-chance {
@@ -13,19 +10,50 @@ body {
   border: 1px solid #000000;
   background-color: #47705b;
 }
+
+.grid-wrapper {
+  justify-content: center;
+  display: flex;
+}
 .main-grid {
-  display: grid;
-  grid-template-areas: "buffs target";
-  grid-template-columns: fit-content;
-  grid-template-rows: fit-content;
+  display: inline-grid;
+  grid-template-areas: "buffs target info";
+  grid-template-columns: fit-content(100%) fit-content(100%) fit-content(100%);
   grid-gap: 8px;
+}
+
+.buff-grid {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 8px;
+  max-width: 500px;
+  grid-area: buffs;
+
 }
 
 .target-grid {
   display: flex;
   flex-direction: column;
-  grid-template-columns: fit-content(100%);
   grid-gap: 8px;
+  max-width: 500px;
+  grid-area: target;
+}
+
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 8px;
+  grid-area: info;
+  max-width: 320px;
+}
+
+.info-box {
+  border: 1px solid #000000;
+  padding: 4px;
+}
+
+a:link, a:visited {
+  color: white;
 }
 
 table {

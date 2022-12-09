@@ -8,79 +8,162 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="grid-wrapper">
   <div class="main-grid">
-  <table style="grid-area: buffs;">
-    <tbody id="setup-table">
-    <tr>
-      <th colspan="3">Your Buffs</th>
-    </tr>
-  </table>
+    <div class="buff-grid">
+      <table>
+        <tbody id="player-buff-table">
+        <tr>
+          <th colspan="3">Your Buffs</th>
+        </tr>
+      </table>
+    </div>
 
-  <div class="target-grid">
-  <div class="final-hit-chance">
-      <h2 id="final-hit-chance"></h2>
-  </div>
-  <table>
-    <tr>
-      <th colspan="3">Base Target Info</th>
-    </tr>
-    <tr>
-      <td/>
-      <td>Target</td>
-      <td>
-        <select id="target">
-          <option value="Araxxi" selected>Araxxi</option>
-        </select>
-      </td>
-    </tr>
-    <tr>
-      <td class="icon-col"><img src="https://i.imgur.com/Gxuj6g2.png"></td>
-      <td>Defence level</td>
-      <td id="target-defence"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"><img src="https://i.imgur.com/Gs5R8a3.png"></td>
-      <td>Armour (tier or value)</td>
-      <td id="target-armour"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"><img id="target-weakness-icon"></td>
-      <td>Weakness</td>
-      <td id="target-weakness"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"><img id="target-style-icon"></td>
-      <td>Combat Style</td>
-      <td id="target-style"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"></td>
-      <td>Weakness affinity</td>
-      <td id="target-affinity-weakness"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"></td>
-      <td>Melee affinity</td>
-      <td id="target-affinity-melee"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"></td>
-      <td>Range affinity</td>
-      <td id="target-affinity-range"></td>
-    </tr>
-    <tr>
-      <td class="icon-col"></td>
-      <td>Magic affinity</td>
-      <td id="target-affinity-magic"></td>
-    </tr>
-  </table>
-  <table>
-    <tbody id="debuff-table">
-      <tr>
-        <th colspan="3">Target Debuffs</th>
-      </tr>
-    </tbody>
-  </table>
+    <div class="target-grid">
+      <table>
+        <tr>
+          <th colspan="3">Base Target Info</th>
+        </tr>
+        <tr>
+          <td/>
+          <td>Target</td>
+          <td>
+            <select id="target">
+              <option value="Araxxi" selected>Araxxi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon-col"><img src="https://i.imgur.com/Gxuj6g2.png"></td>
+          <td>Defence level</td>
+          <td id="target-defence"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"><img src="https://i.imgur.com/Gs5R8a3.png"></td>
+          <td>Armour (tier or value)</td>
+          <td id="target-armour"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"><img id="target-weakness-icon"></td>
+          <td>Weakness</td>
+          <td id="target-weakness"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"><img id="target-style-icon"></td>
+          <td>Combat Style</td>
+          <td id="target-style"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Weakness affinity</td>
+          <td id="target-affinity-weakness"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Melee affinity</td>
+          <td id="target-affinity-melee"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Range affinity</td>
+          <td id="target-affinity-range"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Magic affinity</td>
+          <td id="target-affinity-magic"></td>
+        </tr>
+      </table>
+
+      <table>
+        <tbody id="target-debuff-table">
+          <tr>
+            <th colspan="3">Target Debuffs</th>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody id="player-debuff-table">
+          <tr>
+            <th colspan="3">Your Debuffs</th>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody id="familiar-table">
+          <tr>
+            <th colspan="3">Familiar Setup</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="info-grid">
+      <div class="final-hit-chance">
+          <h2 id="final-hit-chance"></h2>
+      </div>
+      <table>
+        <tbody>
+          <tr>
+            <th colspan="3">Acknowledgements</th>
+          </tr>
+          <tr>
+            <td colspan="2">This website was created in partnership with the PvM Encyclopedia Discord.</td>
+            <td><img src="https://i.imgur.com/AxkTQ1Q.png" style="max-height: 50px;"></td>
+          </tr>
+          <tr>
+            <td colspan="2">PvME Discord invite</td>
+            <td><a href="https://discord.gg/6djqFVN">Link↗</a></td>
+          </tr>
+          <tr>
+            <td colspan="2">RS Math Discord invite	</td>
+            <td><a href="https://discord.gg/BGjvs8Y28n">Link↗</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th>RSN</th>
+            <th>Credit</th>
+            <th>Social Media</th>
+          </tr>
+          <tr>
+            <td>Chi pa pa</td>
+            <td>Original</td>
+            <td><a href="https://twitter.com/RSchi_pa_pa">Twitter↗</td>
+          </tr>
+          <tr>
+            <td>Gamedol</td>
+            <td>Development</td>
+            <td><a href="https://discord.gg/BGjvs8Y28n">Discord↗</td>
+          </tr>
+          <tr>
+            <td>Hoobs</td>
+            <td>Design</td>
+            <td><a href="https://discord.gg/6djqFVN">Discord↗</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="info-box">
+        <p>
+          If you need help using this calculator, don't hesitate to ask in the
+          PvME Discord server!
+        </p>
+        <p>
+          You can also join the RS Math server where you can be notified of
+          updates, post suggestions, report errors, or receive additional help.
+        </p>
+        <p>
+          This spreadsheet does not automatically account for defence level
+          drains from things like the <b>Guthix Staff</b> or <b> Statius'
+          Warhammer</b> special attacks. Manually enter these using the <b>
+          Additional def drain</b> field. Bear in mind some monsters are immune
+          to defence level drains e.g Araxxor.
+        </p>
+      </div>
+    </div>
+
   </div>
   </div>
 </body>

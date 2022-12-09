@@ -75,17 +75,18 @@ function generateInput(id, spec) {
     // Create a simple button that changes color
     input = document.createElement("button");
     input.id = id;
-    input.innerText = "Toggle";
     icon.src = spec.icon;
     textCell.innerText = spec.text;
     // for initialization
     state[id] = false;
+    input.innerText = "No";
 
     input.addEventListener(
       "click",
       function() {
         state[id] = !state[id];
         input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
+        input.innerText = state[id] ? "Yes" : "No";
         calc();
       }
     );
@@ -148,14 +149,14 @@ function generateInput(id, spec) {
 
 
 function loadSetupFields() {
-  const buffTableElem = document.getElementById("setup-table");
+  const buffTableElem = document.getElementById("player-buff-table");
   // playerBuffs loaded from setup.js
   for (let field of Object.keys(playerBuffs)) {
     let row = generateInput(field, playerBuffs[field]);
     buffTableElem.appendChild(row);
   }
 
-  const debuffTableElem = document.getElementById("debuff-table");
+  const debuffTableElem = document.getElementById("target-debuff-table");
   for (let field of Object.keys(targetDebuffs)) {
     let row = generateInput(field, targetDebuffs[field]);
     debuffTableElem.appendChild(row);

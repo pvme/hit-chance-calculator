@@ -11,7 +11,6 @@ match exactly with the original spreadsheet.
 Missing Features:
 - Equipment Penalty
 - Familiar stuff (i.e. your familiar's hit chance)
-- Links to more documentation/discords/credit
 - Probably should add hover text to the templating engine
 - More input validation (like for empty text fields)
 - A way to convey that something is invalid (like typing "foo" into your weapon
@@ -44,15 +43,15 @@ It is important that this piece of code be completely isolated from the UI.
 ### Datasets
 There are two major datasets.
 
-#### `targets.js`
+#### `target_data.js`
 Contains a huge object that maps boss names to informations about those bosses.
-This object is exposed as `target_data`. Here is an example for the best boss,
+This object is exposed as `targetData`. Here is an example for the best boss,
 Kalphite King. Note that each variant of a boss has its own entry, if
 applicable.
 
 ##### Example
 ```js
-target_data = {
+targetData = {
   ...
   "Kalphite King (Ranged)": {
     "name": "Kalphite King (Ranged)",
@@ -73,8 +72,8 @@ target_data = {
 };
 ```
 
-#### `setup.js`
-This file contains two variables: `player_buffs` and `target_debuffs`. These
+#### `ui_dataset.js`
+This file contains two variables: `playerBuffs` and `targetDebuffs`. These
 datasets are meant to facilitate creating a UI, and also define the object that
 the engine takes as an argument. Both variables map an "internal" name to a
 definition.
@@ -119,7 +118,7 @@ Notice all the variants have:
     }
   }
   ```
-- `number`: A whole number
+- `number`: A number field
   ```js
   "level": {
     "kind": "number",
