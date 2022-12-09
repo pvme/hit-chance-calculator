@@ -325,6 +325,6 @@ function calc() {
 
   // console.log("final hit chance is " + finalHitChance);
   const finalHitChanceElem = document.getElementById("final-hit-chance");
-  finalHitChanceElem.innerText = "Final Hit Chance: " + (finalHitChance * 100).toFixed(2) + "%";
+  finalHitChanceElem.innerText = (finalHitChance * 100).toFixed(2) + "%";
 }
 

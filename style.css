@@ -6,9 +6,20 @@ body {
 }
 
 .final-hit-chance {
+  display: block;
   text-align: center;
   border: 1px solid #000000;
   background-color: #47705b;
+}
+
+.final-hit-chance > h3 {
+  margin: 10px;
+  font-size: medium;
+}
+
+.final-hit-chance > h2 {
+  margin: 10px;
+  font-size: xx-large;
 }
 
 .grid-wrapper {
