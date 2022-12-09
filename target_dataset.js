@@ -989,8 +989,8 @@ targetData = {
     "taggable": false,
     "curseImmune": false
   },
-  "Rex Matriarch - Phentraken (Magic)": {
-    "name": "Rex Matriarch - Phentraken (Magic)",
+  "Rex Matriarch - Pthentraken (Magic)": {
+    "name": "Rex Matriarch - Pthentraken (Magic)",
     "defence": 96,
     "armour": 96,
     "weakness": "arrow",
