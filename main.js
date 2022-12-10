@@ -13,6 +13,13 @@ function roundDown(p, x) {
 
 function calc() {
   // Roughly following Calcs sheet column C
+  // do some parsing/validation
+  state.level = Number(state.level);
+  state.weaponTier = Number(state.weaponTier);
+  state.wenArrowStacks = Number(state.wenArrowStacks);
+  state.blackStoneArrowStacks = Number(state.blackStoneArrowStacks);
+  state.additionalDefenceDrain = Number(state.additionalDefenceDrain);
+  state.equipmentPenalty = Number(state.equipmentPenalty);
   // calculate potion bonus
   const [potion, isOverload] = potionBoost(state.potion, state.level)
   // console.log("potion level bonus is " + potion);

@@ -47,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   grid-gap: 8px;
-  /*max-width: 500px;*/
+  max-width: 100%;
   grid-area: target;
 }
 
@@ -60,8 +60,16 @@ body {
 }
 
 .info-box {
+  width: 0px;
+  min-width: 100%;
   border: 1px solid #000000;
-  padding: 4px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: auto;
+  text-align: center;
 }
 
 a:link, a:visited {
@@ -122,4 +130,12 @@ button {
 .input-col > select {
   box-sizing: border-box;
   width: 100%;
+}
+
+.reset-button {
+  width: 80%;
+  background-color: #ac5b68;
+  max-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }

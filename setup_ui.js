@@ -1,16 +1,29 @@
-function loadChangeHooks() {
+function loadChangeHooks(cookie) {
   const targetElem = document.getElementById("target");
-  targetElem.addEventListener('change', function () {
+  if (cookie.target.name) {
+    targetElem.value = cookie.target.name;
+  }
+  targetElem.addEventListener("change", function () {
     target();
     calc();
+    writeCookie();
   });
 
   const familiarElem = document.getElementById("familiar");
-  familiarElem.addEventListener('change', function () {
+  if (cookie.familiar.name) {
+    familiarElem.value = cookie.familiar.name;
+  }
+  familiarElem.addEventListener("change", function () {
     familiar();
     calc();
+    writeCookie();
   });
 
+  const resetElem = document.getElementById("reset-button");
+  resetElem.addEventListener("click", function () {
+    clearCookie();
+    location.reload();
+  });
 }
 
 function target() {
@@ -49,32 +62,39 @@ function target() {
   targetAffinityMagic.innerText = state.target.affinity.magic;
 }
 
-function loadTargets() {
+function loadTargets(cookie) {
   const targetElem = document.getElementById("target");
+  let selected = "Araxxi";
+  if (cookie.target.name) {
+    selected = cookie.target.name;
+  }
   for (let target of Object.keys(targetData)) {
-    if (target === "Araxxi") {
-      continue;
-    }
     let opt = document.createElement("option");
     opt.value = target;
+    if (target === selected) {
+      opt.selected = true;
+    }
     opt.innerText = target;
     targetElem.appendChild(opt);
   }
 }
 
-function loadFamiliars() {
+function loadFamiliars(cookie) {
   const familiarElem = document.getElementById("familiar");
+  let selected = "Ripper demon";
+  if (cookie.target.name) {
+    selected = cookie.target.name;
+  }
   for (let familiar of Object.keys(familiarData)) {
-    if (familiar === "Ripper demon") {
-      continue;
-    }
     let opt = document.createElement("option");
     opt.value = familiar;
+    if (target === selected) {
+      opt.selected = true;
+    }
     opt.innerText = familiar;
     familiarElem.appendChild(opt);
   }
 }
-
 
 function familiar() {
   const familiarElem = document.getElementById("familiar");
@@ -83,9 +103,8 @@ function familiar() {
   state.familiar = familiarData[familiar];
 }
 
-
 // returns a row object that matches the spec
-function generateInput(id, spec) {
+function generateInput(id, spec, previous) {
   // generate html
   let row = document.createElement("tr");
   let iconCell = document.createElement("td");
@@ -109,7 +128,11 @@ function generateInput(id, spec) {
     textCell.innerText = spec.text;
     // for initialization
     state[id] = false;
-    input.innerText = "No";
+    if (previous) {
+      state[id] = previous;
+    }
+    input.innerText = state[id] ? "Yes": "No";
+    input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
 
     input.addEventListener(
       "click",
@@ -118,6 +141,7 @@ function generateInput(id, spec) {
         input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
         input.innerText = state[id] ? "Yes" : "No";
         calc();
+        writeCookie();
       }
     );
   } else if (spec.kind === "select") {
@@ -125,12 +149,16 @@ function generateInput(id, spec) {
     input = document.createElement("select");
     input.id = id;
     textCell.innerText = spec.text;
-    let selected;
+    let selected = previous;
+    if (!selected) {
+      selected = Object.keys(spec.labels)[0];
+    }
     for (let opt of Object.keys(spec.labels)) {
-      // first element is default
-      selected = selected ? selected : opt;
       let option = document.createElement("option");
       option.innerText = spec.labels[opt];
+      if (spec.labels[opt] === selected) {
+        option.selected = true;
+      }
       input.appendChild(option);
     }
     icon.src = spec.icons ? spec.icons[selected] : spec.icon;
@@ -145,6 +173,7 @@ function generateInput(id, spec) {
         state[id] = selected;
         icon.src = spec.icons ? spec.icons[selected] : spec.icon;
         calc();
+        writeCookie();
       }
     );
     // for initialization
@@ -156,17 +185,21 @@ function generateInput(id, spec) {
     input.id = id;
     input.size = 1;
     input.value = spec.default;
+    if (previous) {
+      input.value = previous;
+    }
     input.addEventListener(
       "change",
       function () {
         state[id] = input.value;
         calc();
+        writeCookie();
       }
     );
     icon.src = spec.icon;
     textCell.innerText = spec.text;
     // for initialization
-    state[id] = spec.default;
+    state[id] = input.value;
   } else {
     // console.log("unknown kind " + spec.kind);
   }
@@ -177,44 +210,65 @@ function generateInput(id, spec) {
   return row
 }
 
-function loadSetupFields() {
+function loadSetupFields(cookie) {
   const buffTableElem = document.getElementById("player-buff-table");
   // playerBuffs loaded from ui_dataset.js
   for (let field of Object.keys(playerBuffs)) {
-    let row = generateInput(field, playerBuffs[field]);
+    let row = generateInput(field, playerBuffs[field], cookie[field]);
     buffTableElem.appendChild(row);
   }
 
   const targetDebuffTableElem = document.getElementById("target-debuff-table");
   // targetDebuffs loaded from ui_dataset.js
   for (let field of Object.keys(targetDebuffs)) {
-    let row = generateInput(field, targetDebuffs[field]);
+    let row = generateInput(field, targetDebuffs[field], cookie[field]);
     targetDebuffTableElem.appendChild(row);
   }
 
   const playerDebuffTableElem = document.getElementById("player-debuff-table");
   // playerDebuffs loaded from ui_dataset.js
   for (let field of Object.keys(playerDebuffs)) {
-    let row = generateInput(field, playerDebuffs[field]);
+    let row = generateInput(field, playerDebuffs[field], cookie[field]);
     playerDebuffTableElem.appendChild(row);
   }
 
   const familiarTable = document.getElementById("familiar-table");
   // familiarBuffs loaded from ui_dataset.js
   for (let field of Object.keys(familiarBuffs)) {
-    let row = generateInput(field, familiarBuffs[field]);
+    let row = generateInput(field, familiarBuffs[field], cookie[field]);
     familiarTable.appendChild(row);
   }
 }
 
+function writeCookie() {
+  document.cookie = JSON.stringify(state);
+}
+
+function clearCookie() {
+  document.cookie = "";
+}
+
+function readCookie() {
+  let cookie = {target: {}, familiar: {}};
+  try {
+    cookie = JSON.parse(document.cookie);
+  } catch (error) {
+    console.log(error);
+  }
+  return cookie;
+}
+
+
 function init() {
-  loadChangeHooks();
-  loadTargets();
-  loadFamiliars();
-  loadSetupFields();
+  let cookie = readCookie();
+  loadChangeHooks(cookie);
+  loadTargets(cookie);
+  loadFamiliars(cookie);
+  loadSetupFields(cookie);
   familiar();
   target();
   calc();
+  writeCookie();
 }
 
 init();

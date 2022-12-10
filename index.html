@@ -27,7 +27,6 @@
         <tr>
           <td colspan="3" class="input-col">
             <select id="target">
-              <option value="Araxxi" selected>Araxxi</option>
             </select>
           </td>
         </tr>
@@ -87,6 +86,30 @@
         </tr>
         </tbody>
       </table>
+      <div class="info-box">
+        <h4>Note on Equipment penalty</h4>
+        <p>
+          Enter 1.5x the total armour you have equipped of the style your
+          weapon is strong against, and subtract 0.8x the total armour you have
+          equipped of style your weapon is weak against
+        </p>
+        <p>
+          e.g if using a bow, enter 1.5x total magic armour and 0.8x total
+          melee armour you have equipped
+        </p>
+        <p>
+          You can also enter the "hybrid nerf" stat from Equipment interface:
+          hover over accuracy stat in game, once you have equipped the gear you
+          intend to use
+        </p>
+      </div>
+      </div>
+    </div>
+    <div class="info-grid">
+      <div class="final-hit-chance">
+        <h3>Your hit chance</h3>
+        <h2 id="final-hit-chance"></h2>
+      </div>
       <table>
         <tbody id="familiar-table">
         <tr>
@@ -116,12 +139,6 @@
         </tr>
         </tbody>
       </table>
-    </div>
-    <div class="info-grid">
-      <div class="final-hit-chance">
-        <h3>Your hit chance</h3>
-        <h2 id="final-hit-chance"></h2>
-      </div>
       <table>
         <tbody>
         <tr>
@@ -166,6 +183,7 @@
         </tbody>
       </table>
       <div class="info-box">
+        <h4>More Information</h4>
         <p>
           If you need help using this calculator, don't hesitate to ask in the
           PvME Discord server!
@@ -182,25 +200,7 @@
           to defence level drains e.g. Araxxor.
         </p>
       </div>
-      <div class="info-box">
-        <br>
-          Note on <b>Equipment penalty</b>
-        <br>
-        <p>
-          Enter 1.5x the total armour you have equipped of the style your
-          weapon is strong against, and subtract 0.8x the total armour you have
-          equipped of style your weapon is weak against
-        </p>
-        <p>
-          e.g if using a bow, enter 1.5x total magic armour and 0.8x total
-          melee armour you have equipped
-        </p>
-        <p>
-          You can also enter the "hybrid nerf" stat from Equipment interface:
-          hover over accuracy stat in game, once you have equipped the gear you
-          intend to use
-        </p>
-      </div>
+      <button class="reset-button" id="reset-button">Reset to default</button>
     </div>
   </div>
 </div>
