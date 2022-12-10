@@ -96,18 +96,16 @@
       <div class="info-box">
         <h4>Note on Equipment penalty</h4>
         <p>
-          Enter 1.5x the total armour you have equipped of the style your
-          weapon is strong against plus 0.8x the total armour you have
-          equipped of style your weapon is weak against
+          Your accuracy stat will be reduced if your weapon and armour styles do not match.<br/>
+          To calculate this penalty, add 150% of the total armour you have equipped in the style your weapon is strong against
+          to 80% of the total armour you have equipped in the style your weapon is weak against.
         </p>
         <p>
-          e.g if using a bow, enter 1.5x total magic armour plus 0.8x total
-          melee armour you have equipped
+          E.g. if using a bow, magic helm, and melee body, enter 1.5 times the helm's armour plus 0.8 times the body's armour value.
         </p>
         <p>
-          You can also enter the "hybrid nerf" stat from Equipment interface:
-          hover over accuracy stat in game, once you have equipped the gear you
-          intend to use
+          You can also check this value in game - equip the gear you intend to use and open
+          the Equipment interface, hover over your accuracy stat to see "hybrid nerf".
         </p>
       </div>
       </div>
@@ -200,11 +198,13 @@
           updates, post suggestions, report errors, or receive additional help.
         </p>
         <p>
-          This spreadsheet does not automatically account for defence level
-          drains from things like the <b>Guthix Staff</b> or <b> Statius'
-          Warhammer</b> special attacks. Manually enter these using the <b>
-          Additional defence drain</b> field. Bear in mind some monsters are immune
-          to defence level drains e.g. Araxxor.
+          This calculator does not automatically account for defence level
+          drains from things like the <b>Guthix Staff spec</b> or <b>Statius'
+          Warhammer spec</b>. Manually enter these using the <b>
+          Additional defence drain</b> field.</p>
+        <p>
+          Bear in mind some monsters are immune
+          to defence level drains, e.g. Araxxor.
         </p>
       </div>
       <button class="reset-button" id="reset-button">Reset to default</button>
