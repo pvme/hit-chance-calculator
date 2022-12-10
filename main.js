@@ -12,7 +12,6 @@ function roundDown(p, x) {
 }
 
 function calc() {
-  // Roughly following Calcs sheet column C
   // do some parsing/validation
   state.level = Number(state.level);
   state.weaponTier = Number(state.weaponTier);
@@ -181,7 +180,7 @@ function calc() {
   const weaknessMap = {
     "melee": "magic", "magic": "range", "range": "melee"
   };
-  if (state.hexClassWeapon && (weaknessMap[state.target.style] == styleMap[state.style])) {
+  if (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) {
     // TODO missing enchantment?
     hexhunter = 0.1;
   }
@@ -209,7 +208,7 @@ function calc() {
   // console.log("weapon bonus " + tierBonus);
 
   // equipment penalty
-  // we take the absolute value so we don't care if the user types plus or minus
+  // we take the absolute value, so we don't care if the user types plus or minus
   // a value
   const equipmentPenalty = Math.abs(state.equipmentPenalty);
 
@@ -237,7 +236,7 @@ function calc() {
   }
 
   function getMaxArmourDrain(armourBonus) {
-    return Math.ceil(( 0.15 * armourBonus) / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5;
+    return Math.ceil((0.15 * armourBonus) / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5;
   }
 
   let bsaDrain = Math.floor(
@@ -318,11 +317,11 @@ function calc() {
       roundDown(3,
         roundDown(3,
           roundDown(2,
-            finalAccuracy/finalArmour
+            finalAccuracy / finalArmour
           ) * finalAffinity
         ) *
         specialAttack + keris + nightmare + fleeting
-      ) * ( 1 +
+      ) * (1 +
         accuracyAura +
         premierArtefact +
         nihil +
