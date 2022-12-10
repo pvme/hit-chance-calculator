@@ -1,14 +1,20 @@
 function loadChangeHooks(cookie) {
-  const targetElem = document.getElementById("target");
-  if (cookie.target.name) {
-    targetElem.value = cookie.target.name;
-  }
-  targetElem.addEventListener("change", function () {
-    target();
-    calc();
-    writeCookie();
+  // set up so that when a user cliks into or out of the filter field
+  // the list appears and disappears
+  let searchBox = document.getElementById("target-filter");
+  let targetRow = document.getElementById("target-wrapper");
+  searchBox.addEventListener("focus", function () {
+    // this just resets the list, since on focus the search is empty
+    filterTargetList();
+    targetRow.style.display = "table-row";
+  });
+  searchBox.addEventListener("blur", function () {
+    // clear the search
+    searchBox.value = "";
+    targetRow.style.display = "none";
   });
 
+  // hook into the familiar select, and load from cookie if present
   const familiarElem = document.getElementById("familiar");
   if (cookie.familiar.name) {
     familiarElem.value = cookie.familiar.name;
@@ -19,6 +25,8 @@ function loadChangeHooks(cookie) {
     writeCookie();
   });
 
+  // hook into reset button
+  // TODO is there a better way to achieve a reset without a reload?
   const resetElem = document.getElementById("reset-button");
   resetElem.addEventListener("click", function () {
     clearCookie();
@@ -26,14 +34,19 @@ function loadChangeHooks(cookie) {
   });
 }
 
-function target() {
-  const target = document.getElementById("target").value;
+// Fetches the current value of the "target" label, and uses that to set
+// all the appropriate state fields. It also sets UI elements based on
+// the contents of the targetData dataset.
+function loadTarget() {
+  let target = document.getElementById("target").innerText;
+
   // set state
   state.target = targetData[target];
   state.taggable = targetData[target].taggable;
-  // taggable is weird because it's also an input
+  // taggable is weird because it's also an input button
   const taggable = document.getElementById("taggable");
-  taggable.checked = state.taggable;
+  taggable.innerText = state.taggable ? "Yes": "No";
+  taggable.style["background-color"] = state.taggable ? "#47705b" : "#6c4b58";
 
   // Set ui fields
   const targetDefence = document.getElementById("target-defence");
@@ -62,25 +75,99 @@ function target() {
   targetAffinityMagic.innerText = state.target.affinity.magic;
 }
 
+// Change the "display" style on list elements according to the current value
+// of the "target-filter" input element.
+function filterTargetList() {
+  let targetList = document.getElementById("target-list");
+  let searchBox = document.getElementById("target-filter");
+  let targetLabel = document.getElementById("target");
+
+  // Get the search query
+  let query = searchBox.value;
+  let queryWords = query.split(" ");
+  queryWords = queryWords.map(function(word) {
+    return word.toLowerCase();
+  });
+
+  // Filter the options based on the query
+  let results = Array.from(targetList.childNodes).filter(function(target) {
+    // Convert the option to lower case for case-insensitive matching
+    targetLower = target.innerText.toLowerCase();
+
+    // Check if each query word is included in the option
+    let isMatch = queryWords.every(function(queryWord) {
+      return targetLower.indexOf(queryWord) >= 0;
+    });
+
+    target.style.display = isMatch ? "list-item" : "none";
+  });
+}
+
+// Populates the "target-list" element with "<li>"s according to the contents
+// of the targetData dataset. This is only run once per page load, and also
+// handles loading the target from a cookie if present;
 function loadTargets(cookie) {
-  const targetElem = document.getElementById("target");
+  // grab references to the target related elements
+  // <tr> element that holds the whole thing
+  let targetList = document.getElementById("target-list");
+  // <input type="text"> element that stores the filter
+  let searchBox = document.getElementById("target-filter");
+  // <label> element that displays the currently selected target
+  let targetLabel = document.getElementById("target");
+
+  // TODO use the first element of targetData as the default instead
   let selected = "Araxxi";
+  // load previous value from cookie if applicable
   if (cookie.target.name) {
     selected = cookie.target.name;
   }
+  targetLabel.innerText = selected;
+
+  // list of all the "<li>" elements
+  let targets = [];
   for (let target of Object.keys(targetData)) {
-    let opt = document.createElement("option");
-    opt.value = target;
-    if (target === selected) {
-      opt.selected = true;
-    }
+    let opt = document.createElement("li");
     opt.innerText = target;
-    targetElem.appendChild(opt);
+    opt.addEventListener("mousedown", function() {
+      targetLabel.innerText = target;
+      searchBox.value = "";
+      loadTarget();
+      writeCookie();
+      window.scrollBy(0, -20000);
+      calc();
+    });
+    targets.push(opt);
+    targetList.appendChild(opt);
   }
+
+  // detect enter and assume you're picking the top visible item
+  searchBox.addEventListener("keyup", function (e) {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      let topItem = targets.find(function(target) {
+        return target.style.display === "list-item"
+      });
+      if (topItem) {
+        searchBox.value = "";
+        targetLabel.innerText = topItem.innerText;
+        searchBox.blur();
+        loadTarget();
+        writeCookie();
+        calc();
+      }
+    }
+  });
+
+  // Listen for changes to the search box
+  searchBox.addEventListener("input", function() {
+    filterTargetList();
+  });
 }
 
+// Load famliars from the familiarData dataset. Also handles loading the
+// familiar from a cookie if present.
 function loadFamiliars(cookie) {
   const familiarElem = document.getElementById("familiar");
+  // TODO use the first element of familiarData as the default instead
   let selected = "Ripper demon";
   if (cookie.target.name) {
     selected = cookie.target.name;
@@ -88,7 +175,7 @@ function loadFamiliars(cookie) {
   for (let familiar of Object.keys(familiarData)) {
     let opt = document.createElement("option");
     opt.value = familiar;
-    if (target === selected) {
+    if (familiar === selected) {
       opt.selected = true;
     }
     opt.innerText = familiar;
@@ -96,6 +183,7 @@ function loadFamiliars(cookie) {
   }
 }
 
+// Set state fields according the value of the "familiar" element
 function familiar() {
   const familiarElem = document.getElementById("familiar");
   const familiar = familiarElem.value;
@@ -103,7 +191,9 @@ function familiar() {
   state.familiar = familiarData[familiar];
 }
 
-// returns a row object that matches the spec
+// Generate an row object that matches the spec provided
+//
+// returns the generated "<tr>" object
 function generateInput(id, spec, previous) {
   // generate html
   let row = document.createElement("tr");
@@ -117,8 +207,7 @@ function generateInput(id, spec, previous) {
   let inputCell = document.createElement("td");
   inputCell.className = "input-col";
 
-  // TODO add null checks to fields
-
+  // null checks are handled by the calculator
   let input;
   if (spec.kind === "bool") {
     // Create a simple button that changes color
@@ -211,6 +300,10 @@ function generateInput(id, spec, previous) {
   return row
 }
 
+// Load all the setup fields from the objects provided by ui_dataset.js
+// The objects are organized into these groups in the data, but there's
+// no strict requirement for that. It's purely a way to organize the data
+// visually.
 function loadSetupFields(cookie) {
   const buffTableElem = document.getElementById("player-buff-table");
   // playerBuffs loaded from ui_dataset.js
@@ -267,7 +360,7 @@ function init() {
   loadFamiliars(cookie);
   loadSetupFields(cookie);
   familiar();
-  target();
+  loadTarget();
   calc();
   writeCookie();
 }
