@@ -13,8 +13,6 @@ function roundDown(p, x) {
 
 function calc() {
   // Roughly following Calcs sheet column C
-  // do some parsing
-
   // calculate potion bonus
   const [potion, isOverload] = potionBoost(state.potion, state.level)
   // console.log("potion level bonus is " + potion);
@@ -41,7 +39,14 @@ function calc() {
 
   // calculate prayer bonuses
   const prayerTier = prayerMap[state.prayer];
-  let prayerBonus = Math.floor((3 * trueStatLevel * trueStatLevel * prayerTier + 3 * trueStatLevel * prayerTier * prayerTier + prayerTier * prayerTier * prayerTier) / 1250 + prayerTier * 4);
+  let prayerBonus = Math.floor(
+    (
+      3 * Math.pow(trueStatLevel, 2) * prayerTier +
+      3 * trueStatLevel * Math.pow(prayerTier, 2) +
+      Math.pow(prayerTier, 3)
+    ) / 1250 +
+    prayerTier * 4
+  );
   if (state.zealots && ["leech", "t1", "t2", "t3"].includes(state.prayer)) {
     prayerBonus = prayerBonus * 1.1;
   }
@@ -165,7 +170,10 @@ function calc() {
 
   // hexhunter
   let hexhunter = 0;
-  if (state.hexClassWeapon && (state.target.style === "magic" && styleMap[state.style] === "range" || state.target.style === "range" && styleMap[state.style] === "melee" || state.target.style === "melee" && styleMap[state.style] === "magic")) {
+  const weaknessMap = {
+    "melee": "magic", "magic": "range", "range": "melee"
+  };
+  if (state.hexClassWeapon && (weaknessMap[state.target.style] == styleMap[state.style])) {
     // TODO missing enchantment?
     hexhunter = 0.1;
   }
@@ -192,7 +200,12 @@ function calc() {
   tierBonus = Math.round(tierBonus);
   // console.log("weapon bonus " + tierBonus);
 
-  const finalAccuracy = levelBonus + prayerBonus + tierBonus;
+  // equipment penalty
+  // we take the absolute value so we don't care if the user types plus or minus
+  // a value
+  const equipmentPenalty = Math.abs(Number(state.equipmentPenalty));
+
+  const finalAccuracy = levelBonus + prayerBonus + tierBonus - equipmentPenalty;
   // console.log("==== Final Accuracy " + finalAccuracy + " ====");
 
   // target stuff
@@ -215,9 +228,16 @@ function calc() {
     leechModifier = leechMap[state.curse];
   }
 
-  let bsaDrain = Math.floor(Math.min(state.blackStoneArrowStacks, Math.ceil(0.15 * armourBonus / Math.floor(Math.max(0.0075 * armourBonus, 1)))) * Math.floor(0.0075 * armourBonus) / 5);
+  function getMaxArmourDrain(armourBonus) {
+    return Math.ceil(( 0.15 * armourBonus) / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5;
+  }
 
-  let maxArmourDrain = Math.floor(Math.ceil(0.15 * armourBonus / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5);
+  let bsaDrain = Math.floor(
+    Math.min(state.blackStoneArrowStacks, getMaxArmourDrain(armourBonus)) *
+    Math.floor(0.0075 * armourBonus) / 5
+  );
+
+  let maxArmourDrain = Math.floor(getMaxArmourDrain(armourBonus));
 
   const defenceModifier = Math.min(leechModifier + bsaDrain, maxArmourDrain);
 
@@ -276,12 +296,13 @@ function calc() {
   // base affinity
   let baseAffinity;
   if (state.style === state.target.weakness) {
-    baseAffinity = parseInt(state.target.affinity.weakness, 10) / 100;
+    baseAffinity = state.target.affinity.weakness / 100;
   } else {
-    baseAffinity = parseInt(state.target.affinity[styleMap[state.style]], 10) / 100;
+    baseAffinity = state.target.affinity[styleMap[state.style]] / 100;
   }
   // console.log("base affinity is " + baseAffinity);
-  let finalAffinity = baseAffinity + Math.min(0.10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity);
+  const affinityModifier = Math.min(0.10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity);
+  let finalAffinity = baseAffinity + affinityModifier;
   // console.log("==== Final Affinity " + finalAffinity.toFixed(2) + " ====");
 
   let finalHitChance = roundDown(3,
@@ -292,7 +313,7 @@ function calc() {
             finalAccuracy/finalArmour
           ) * finalAffinity
         ) *
-        specialAttack + keris + nightmare + fleeting // - equipmentPenalty
+        specialAttack + keris + nightmare + fleeting
       ) * ( 1 +
         accuracyAura +
         premierArtefact +
@@ -326,5 +347,67 @@ function calc() {
   // console.log("final hit chance is " + finalHitChance);
   const finalHitChanceElem = document.getElementById("final-hit-chance");
   finalHitChanceElem.innerText = (finalHitChance * 100).toFixed(2) + "%";
+
+  // familiar accuracy
+  // melee
+  const familiarMelee = document.getElementById("familiar-melee");
+  if (state.familiar.levels.melee > 1) {
+    let meleeLevel = state.familiar.levels.melee;
+    meleeLevel = Math.floor(meleeLevel * (state.spiritualHealing ? 1.07 : 1));
+    const meleeAccuracy = Math.floor(
+      2.5 * accF(state.familiar.levels.base) +
+      (state.familiar.boss ? accF(meleeLevel) : (0.5 * accF(meleeLevel)))
+    );
+
+    let meleeHitChance = roundDown(3,
+      roundDown(2, meleeAccuracy / finalArmour) *
+      (state.target.affinity.melee / 100 + affinityModifier)
+    );
+    if (state.familiar.name === "Ripper demon" && state.target.name === "Raksha") {
+      familiarMelee.innerText = "100.00%"; // huh?
+    } else {
+      familiarMelee.innerText = (meleeHitChance * 100).toFixed(2) + "%";
+    }
+  } else {
+    familiarMelee.innerText = "0.00%";
+  }
+
+  // range
+  const familiarRange = document.getElementById("familiar-range");
+  if (state.familiar.levels.range > 1) {
+    let rangeLevel = state.familiar.levels.range;
+    rangeLevel = Math.floor(rangeLevel * (state.spiritualHealing ? 1.07 : 1));
+    const rangeAccuracy = Math.floor(
+      2.5 * accF(state.familiar.levels.base) +
+      (state.familiar.boss ? accF(rangeLevel) : (0.5 * accF(rangeLevel)))
+    );
+
+    let rangeHitChance = roundDown(3,
+      roundDown(2, rangeAccuracy / finalArmour) *
+      (state.target.affinity.range / 100 + affinityModifier)
+    );
+    familiarRange.innerText = (rangeHitChance * 100).toFixed(2) + "%";
+  } else {
+    familiarRange.innerText = "0.00%";
+  }
+
+  // magic
+  const familiarMagic = document.getElementById("familiar-magic");
+  if (state.familiar.levels.magic > 1) {
+    let magicLevel = state.familiar.levels.magic;
+    magicLevel = Math.floor(magicLevel * (state.spiritualHealing ? 1.07 : 1));
+    const magicAccuracy = Math.floor(
+      2.5 * accF(state.familiar.levels.base) +
+      (state.familiar.boss ? accF(magicLevel) : (0.5 * accF(magicLevel)))
+    );
+
+    let magicHitChance = roundDown(3,
+      roundDown(2, magicAccuracy / finalArmour) *
+      (state.target.affinity.magic / 100 + affinityModifier)
+    );
+    familiarMagic.innerText = (magicHitChance * 100).toFixed(2) + "%";
+  } else {
+    familiarMagic.innerText = "0.00%";
+  }
 }
 

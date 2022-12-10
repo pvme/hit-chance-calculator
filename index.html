@@ -92,6 +92,28 @@
         <tr>
           <th colspan="3">Familiar Setup</th>
         </tr>
+        <tr>
+          <td colspan="3" class="input-col">
+            <select id="familiar">
+              <option value="Ripper demon" selected>Ripper demon</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Melee hit chance</td>
+          <td id="familiar-melee">0.00%</td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Ranged hit chance</td>
+          <td id="familiar-range">0.00%</td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Magic hit chance</td>
+          <td id="familiar-magic">0.00%</td>
+        </tr>
         </tbody>
       </table>
     </div>
@@ -160,11 +182,31 @@
           to defence level drains e.g. Araxxor.
         </p>
       </div>
+      <div class="info-box">
+        <br>
+          Note on <b>Equipment penalty</b>
+        <br>
+        <p>
+          Enter 1.5x the total armour you have equipped of the style your
+          weapon is strong against, and subtract 0.8x the total armour you have
+          equipped of style your weapon is weak against
+        </p>
+        <p>
+          e.g if using a bow, enter 1.5x total magic armour and 0.8x total
+          melee armour you have equipped
+        </p>
+        <p>
+          You can also enter the "hybrid nerf" stat from Equipment interface:
+          hover over accuracy stat in game, once you have equipped the gear you
+          intend to use
+        </p>
+      </div>
     </div>
   </div>
 </div>
 </body>
 <script src="ui_dataset.js"></script>
+<script src="familiar_dataset.js"></script>
 <script src="target_dataset.js"></script>
 <script src="main.constants.js"></script>
 <script src="main.js"></script>

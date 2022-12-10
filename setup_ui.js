@@ -4,6 +4,13 @@ function loadChangeHooks() {
     target();
     calc();
   });
+
+  const familiarElem = document.getElementById("familiar");
+  familiarElem.addEventListener('change', function () {
+    familiar();
+    calc();
+  });
+
 }
 
 function target() {
@@ -40,7 +47,6 @@ function target() {
   targetAffinityRange.innerText = state.target.affinity.range;
   const targetAffinityMagic = document.getElementById("target-affinity-magic");
   targetAffinityMagic.innerText = state.target.affinity.magic;
-
 }
 
 function loadTargets() {
@@ -55,6 +61,28 @@ function loadTargets() {
     targetElem.appendChild(opt);
   }
 }
+
+function loadFamiliars() {
+  const familiarElem = document.getElementById("familiar");
+  for (let familiar of Object.keys(familiarData)) {
+    if (familiar === "Ripper demon") {
+      continue;
+    }
+    let opt = document.createElement("option");
+    opt.value = familiar;
+    opt.innerText = familiar;
+    familiarElem.appendChild(opt);
+  }
+}
+
+
+function familiar() {
+  const familiarElem = document.getElementById("familiar");
+  const familiar = familiarElem.value;
+  // set state
+  state.familiar = familiarData[familiar];
+}
+
 
 // returns a row object that matches the spec
 function generateInput(id, spec) {
@@ -151,24 +179,40 @@ function generateInput(id, spec) {
 
 function loadSetupFields() {
   const buffTableElem = document.getElementById("player-buff-table");
-  // playerBuffs loaded from setup.js
+  // playerBuffs loaded from ui_dataset.js
   for (let field of Object.keys(playerBuffs)) {
     let row = generateInput(field, playerBuffs[field]);
     buffTableElem.appendChild(row);
   }
 
-  const debuffTableElem = document.getElementById("target-debuff-table");
+  const targetDebuffTableElem = document.getElementById("target-debuff-table");
+  // targetDebuffs loaded from ui_dataset.js
   for (let field of Object.keys(targetDebuffs)) {
     let row = generateInput(field, targetDebuffs[field]);
-    debuffTableElem.appendChild(row);
+    targetDebuffTableElem.appendChild(row);
   }
 
+  const playerDebuffTableElem = document.getElementById("player-debuff-table");
+  // playerDebuffs loaded from ui_dataset.js
+  for (let field of Object.keys(playerDebuffs)) {
+    let row = generateInput(field, playerDebuffs[field]);
+    playerDebuffTableElem.appendChild(row);
+  }
+
+  const familiarTable = document.getElementById("familiar-table");
+  // familiarBuffs loaded from ui_dataset.js
+  for (let field of Object.keys(familiarBuffs)) {
+    let row = generateInput(field, familiarBuffs[field]);
+    familiarTable.appendChild(row);
+  }
 }
 
 function init() {
   loadChangeHooks();
   loadTargets();
+  loadFamiliars();
   loadSetupFields();
+  familiar();
   target();
   calc();
 }

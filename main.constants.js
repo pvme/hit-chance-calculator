@@ -38,12 +38,6 @@ const potionBoostsMap = {
   "elderOverload": [0.17, 5, true]
 };
 
-function potionBoost(potion, level) {
-  const [mult, add, isOvl] = potionBoostsMap[potion];
-  const boost = Math.floor(mult * level) + add;
-  return [boost, isOvl];
-}
-
 const styleMap = {
   "slash": "melee",
   "stab": "melee",
@@ -56,3 +50,9 @@ const styleMap = {
   "earth": "magic",
   "fire": "magic"
 };
+
+function potionBoost(potion, level) {
+  const [mult, add, isOvl] = potionBoostsMap[potion];
+  const boost = Math.floor(mult * level) + add;
+  return [boost, isOvl];
+}

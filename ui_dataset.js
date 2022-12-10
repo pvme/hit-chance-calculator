@@ -356,3 +356,19 @@ targetDebuffs = {
     "default": 0
   }
 };
+playerDebuffs = {
+  "equipmentPenalty": {
+    "icon": "https://i.imgur.com/BDKv4FP.png",
+    "text": "Equipment penalty",
+    "kind": "number",
+    "default": 0
+  },
+
+};
+familiarBuffs = {
+  "spiritualHealing": {
+    "icon": "https://i.imgur.com/dTYAtzm.png",
+    "text": "Spiritual healing",
+    "kind": "bool"
+  }
+};
