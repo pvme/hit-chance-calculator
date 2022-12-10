@@ -6,7 +6,7 @@ function loadChangeHooks(cookie) {
   searchBox.addEventListener("focus", function () {
     // this just resets the list, since on focus the search is empty
     filterTargetList();
-    targetRow.style.display = "table-row";
+    targetRow.style.display = "block";
   });
   searchBox.addEventListener("blur", function () {
     // clear the search
