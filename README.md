@@ -49,9 +49,9 @@ Kalphite King. Note that each variant of a boss has its own entry, if
 applicable.
 
 ##### Example
-```js
+```json
 {
-  "Kalphite King (Ranged)" : {
+  "Kalphite King (Ranged)": {
     "name": "Kalphite King (Ranged)",
     "defence": 85,
     "armour": 85,
@@ -65,7 +65,7 @@ applicable.
     },
     "taggable": false,
     "curseImmune": false
-  },
+  }
 }
 ```
 
@@ -130,13 +130,14 @@ Notice all the variants have:
     }
   }
   ```
+
 #### `familiar_dataset.js`
 This file contains a variable called `familiarData` that maps familiar names to
 information about them. The `base` level corresponds to the tier of weapon that
 the familiar is using for the purposes of determining its accuracy.
 
 ##### Example
-```js
+```json
 {
   "Ripper demon": {
     "name": "Ripper demon",

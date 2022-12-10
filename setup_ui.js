@@ -1,5 +1,5 @@
 function loadChangeHooks(cookie) {
-  // set up so that when a user cliks into or out of the filter field
+  // set up so that when a user clicks into or out of the filter field
   // the list appears and disappears
   let searchBox = document.getElementById("target-filter");
   let targetRow = document.getElementById("target-wrapper");
@@ -19,6 +19,7 @@ function loadChangeHooks(cookie) {
   if (cookie.familiar.name) {
     familiarElem.value = cookie.familiar.name;
   }
+
   familiarElem.addEventListener("change", function () {
     familiar();
     calc();
@@ -45,7 +46,7 @@ function loadTarget() {
   state.taggable = targetData[target].taggable;
   // taggable is weird because it's also an input button
   const taggable = document.getElementById("taggable");
-  taggable.innerText = state.taggable ? "Yes": "No";
+  taggable.innerText = state.taggable ? "Yes" : "No";
   taggable.style["background-color"] = state.taggable ? "#47705b" : "#6c4b58";
 
   // Set ui fields
@@ -85,17 +86,17 @@ function filterTargetList() {
   // Get the search query
   let query = searchBox.value;
   let queryWords = query.split(" ");
-  queryWords = queryWords.map(function(word) {
+  queryWords = queryWords.map(function (word) {
     return word.toLowerCase();
   });
 
   // Filter the options based on the query
-  let results = Array.from(targetList.childNodes).filter(function(target) {
+  let results = Array.from(targetList.childNodes).filter(function (target) {
     // Convert the option to lower case for case-insensitive matching
-    targetLower = target.innerText.toLowerCase();
+    const targetLower = target.innerText.toLowerCase();
 
     // Check if each query word is included in the option
-    let isMatch = queryWords.every(function(queryWord) {
+    let isMatch = queryWords.every(function (queryWord) {
       return targetLower.indexOf(queryWord) >= 0;
     });
 
@@ -108,11 +109,11 @@ function filterTargetList() {
 // handles loading the target from a cookie if present;
 function loadTargets(cookie) {
   // grab references to the target related elements
-  // <tr> element that holds the whole thing
+  // table row element that holds the whole thing
   let targetList = document.getElementById("target-list");
-  // <input type="text"> element that stores the filter
+  // input element that stores the filter
   let searchBox = document.getElementById("target-filter");
-  // <label> element that displays the currently selected target
+  // label element that displays the currently selected target
   let targetLabel = document.getElementById("target");
 
   // TODO use the first element of targetData as the default instead
@@ -128,7 +129,7 @@ function loadTargets(cookie) {
   for (let target of Object.keys(targetData)) {
     let opt = document.createElement("li");
     opt.innerText = target;
-    opt.addEventListener("mousedown", function() {
+    opt.addEventListener("mousedown", function () {
       targetLabel.innerText = target;
       searchBox.value = "";
       loadTarget();
@@ -141,9 +142,9 @@ function loadTargets(cookie) {
   }
 
   // detect enter and assume you're picking the top visible item
-  searchBox.addEventListener("keyup", function (e) {
-    if (e.key === 'Enter' || e.keyCode === 13) {
-      let topItem = targets.find(function(target) {
+  searchBox.addEventListener("keydown", function (e) {
+    if (e.key === 'Enter' || e.code === 'Enter') {
+      let topItem = targets.find(function (target) {
         return target.style.display === "list-item"
       });
       if (topItem) {
@@ -158,12 +159,12 @@ function loadTargets(cookie) {
   });
 
   // Listen for changes to the search box
-  searchBox.addEventListener("input", function() {
+  searchBox.addEventListener("input", function () {
     filterTargetList();
   });
 }
 
-// Load famliars from the familiarData dataset. Also handles loading the
+// Load familiars from the familiarData dataset. Also handles loading the
 // familiar from a cookie if present.
 function loadFamiliars(cookie) {
   const familiarElem = document.getElementById("familiar");
@@ -191,9 +192,9 @@ function familiar() {
   state.familiar = familiarData[familiar];
 }
 
-// Generate an row object that matches the spec provided
+// Generate a row object that matches the spec provided
 //
-// returns the generated "<tr>" object
+// returns the generated table row element
 function generateInput(id, spec, previous) {
   // generate html
   let row = document.createElement("tr");
@@ -220,7 +221,7 @@ function generateInput(id, spec, previous) {
     if (previous) {
       state[id] = previous;
     }
-    input.innerText = state[id] ? "Yes": "No";
+    input.innerText = state[id] ? "Yes" : "No";
     input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
 
     input.addEventListener(
@@ -351,7 +352,6 @@ function readCookie() {
   }
   return cookie;
 }
-
 
 function init() {
   let cookie = readCookie();
