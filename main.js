@@ -20,6 +20,7 @@ function calc() {
   state.blackStoneArrowStacks = Number(state.blackStoneArrowStacks);
   state.additionalDefenceDrain = Number(state.additionalDefenceDrain);
   state.equipmentPenalty = Number(state.equipmentPenalty);
+  state.reaperStacks = Number(state.reaperStacks);
   // calculate potion bonus
   const [potion, isOverload] = potionBoost(state.potion, state.level)
   // console.log("potion level bonus is " + potion);
@@ -210,7 +211,7 @@ function calc() {
   // equipment penalty
   // we take the absolute value so we don't care if the user types plus or minus
   // a value
-  const equipmentPenalty = Math.abs(Number(state.equipmentPenalty));
+  const equipmentPenalty = Math.abs(state.equipmentPenalty);
 
   const finalAccuracy = levelBonus + prayerBonus + tierBonus - equipmentPenalty;
   // console.log("==== Final Accuracy " + finalAccuracy + " ====");

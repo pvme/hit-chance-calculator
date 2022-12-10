@@ -53,6 +53,6 @@ const styleMap = {
 
 function potionBoost(potion, level) {
   const [mult, add, isOvl] = potionBoostsMap[potion];
-  const boost = Math.floor(mult * level) + add;
+  const boost = mult * level + add;
   return [boost, isOvl];
 }

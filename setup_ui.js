@@ -156,7 +156,8 @@ function generateInput(id, spec, previous) {
     for (let opt of Object.keys(spec.labels)) {
       let option = document.createElement("option");
       option.innerText = spec.labels[opt];
-      if (spec.labels[opt] === selected) {
+      if (opt === selected) {
+        input.value = spec.labels[opt];
         option.selected = true;
       }
       input.appendChild(option);
