@@ -1,4 +1,4 @@
-const loadChangeHooks = cookie => {
+const loadChangeHooks = localStorageState => {
   // set up so that when a user clicks into or out of the filter field
   // the list appears and disappears
   const searchBox = document.getElementById("target-filter");
@@ -14,23 +14,23 @@ const loadChangeHooks = cookie => {
     targetRow.style.display = "none";
   });
 
-  // hook into the familiar select, and load from cookie if present
+  // hook into the familiar select, and load from localStorageState if present
   const familiarElem = document.getElementById("familiar");
-  if (cookie.familiar.name) {
-    familiarElem.value = cookie.familiar.name;
+  if (localStorageState.familiar.name) {
+    familiarElem.value = localStorageState.familiar.name;
   }
 
   familiarElem.addEventListener("change", () => {
     familiar();
     calc();
-    writeCookie();
+    writeLocalStorage();
   });
 
   // hook into reset button
   // TODO is there a better way to achieve a reset without a reload?
   const resetElem = document.getElementById("reset-button");
   resetElem.addEventListener("click", () => {
-    clearCookie();
+    localStorage.clear();
     location.reload();
   });
 }
@@ -101,8 +101,8 @@ const filterTargetList = () => {
 
 // Populates the "target-list" element with "<li>"s according to the contents
 // of the targetData dataset. This is only run once per page load, and also
-// handles loading the target from a cookie if present;
-const loadTargets = cookie => {
+// handles loading the target from a localStorageState if present;
+const loadTargets = localStorageState => {
   // grab references to the target related elements
   // table row element that holds the whole thing
   const targetList = document.getElementById("target-list");
@@ -113,9 +113,9 @@ const loadTargets = cookie => {
 
   // TODO use the first element of targetData as the default instead
   let selected = "Araxxi";
-  // load previous value from cookie if applicable
-  if (cookie.target.name) {
-    selected = cookie.target.name;
+  // load previous value from localStorageState if applicable
+  if (localStorageState.target.name) {
+    selected = localStorageState.target.name;
   }
   targetLabel.innerText = selected;
 
@@ -128,7 +128,7 @@ const loadTargets = cookie => {
       targetLabel.innerText = target;
       searchBox.value = "";
       loadTarget();
-      writeCookie();
+      writeLocalStorage();
       window.scrollBy(0, -20000);
       calc();
     });
@@ -145,7 +145,7 @@ const loadTargets = cookie => {
         targetLabel.innerText = topItem.innerText;
         searchBox.blur();
         loadTarget();
-        writeCookie();
+        writeLocalStorage();
         calc();
       }
     }
@@ -158,13 +158,13 @@ const loadTargets = cookie => {
 }
 
 // Load familiars from the familiarData dataset. Also handles loading the
-// familiar from a cookie if present.
-const loadFamiliars = cookie => {
+// familiar from a localStorageState if present.
+const loadFamiliars = localStorageState => {
   const familiarElem = document.getElementById("familiar");
   // TODO use the first element of familiarData as the default instead
   let selected = "Ripper demon";
-  if (cookie.target.name) {
-    selected = cookie.target.name;
+  if (localStorageState.target.name) {
+    selected = localStorageState.target.name;
   }
   for (let familiar of Object.keys(familiarData)) {
     const opt = document.createElement("option");
@@ -224,7 +224,7 @@ const generateInput = (id, spec, previous) => {
         input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
         input.innerText = state[id] ? "Yes" : "No";
         calc();
-        writeCookie();
+        writeLocalStorage();
       }
     );
   } else if (spec.kind === "select") {
@@ -257,7 +257,7 @@ const generateInput = (id, spec, previous) => {
         state[id] = selected;
         icon.src = spec.icons ? spec.icons[selected] : spec.icon;
         calc();
-        writeCookie();
+        writeLocalStorage();
       }
     );
     // for initialization
@@ -277,7 +277,7 @@ const generateInput = (id, spec, previous) => {
       () => {
         state[id] = input.value;
         calc();
-        writeCookie();
+        writeLocalStorage();
       }
     );
     icon.src = spec.icon;
@@ -298,62 +298,66 @@ const generateInput = (id, spec, previous) => {
 // The objects are organized into these groups in the data, but there's
 // no strict requirement for that. It's purely a way to organize the data
 // visually.
-const loadSetupFields = cookie => {
+const loadSetupFields = localStorageState => {
   const buffTableElem = document.getElementById("player-buff-table");
   // playerBuffs loaded from ui_dataset.js
   for (let field of Object.keys(playerBuffs)) {
-    const row = generateInput(field, playerBuffs[field], cookie[field]);
+    const row = generateInput(field, playerBuffs[field], localStorageState[field]);
     buffTableElem.appendChild(row);
   }
 
   const targetDebuffTableElem = document.getElementById("target-debuff-table");
   // targetDebuffs loaded from ui_dataset.js
   for (let field of Object.keys(targetDebuffs)) {
-    const row = generateInput(field, targetDebuffs[field], cookie[field]);
+    const row = generateInput(field, targetDebuffs[field], localStorageState[field]);
     targetDebuffTableElem.appendChild(row);
   }
 
   const playerDebuffTableElem = document.getElementById("player-debuff-table");
   // playerDebuffs loaded from ui_dataset.js
   for (let field of Object.keys(playerDebuffs)) {
-    const row = generateInput(field, playerDebuffs[field], cookie[field]);
+    const row = generateInput(field, playerDebuffs[field], localStorageState[field]);
     playerDebuffTableElem.appendChild(row);
   }
 
   const familiarTable = document.getElementById("familiar-table");
   // familiarBuffs loaded from ui_dataset.js
   for (let field of Object.keys(familiarBuffs)) {
-    const row = generateInput(field, familiarBuffs[field], cookie[field]);
+    const row = generateInput(field, familiarBuffs[field], localStorageState[field]);
     familiarTable.appendChild(row);
   }
 }
 
-const writeCookie = () => {
-  document.cookie = "state="+encodeURIComponent(JSON.stringify(state));
+const writeLocalStorage = () => {
+  localStorage.setItem("state", JSON.stringify(state));
 }
 
-const clearCookie = () => {
-  document.cookie = "state="+encodeURIComponent("");
+// modified from javascript.info/localStorageState
+// returns the localStorageState with the given name, or undefined if not found
+const readLocalStorage = () => {
+  const localStorageState = localStorage.getItem("state");
+  return localStorageState ? JSON.parse(localStorageState) : {target: {}, familiar: {}};
 }
 
-// modified from javascript.info/cookie
-// returns the cookie with the given name, or undefined if not found
-const readCookie = () => {
-  const matches = document.cookie.match(new RegExp("(?:^|; )state=([^;]*)"));
-  const match = matches ? decodeURIComponent(matches[1]) : undefined;
-  return match ? JSON.parse(match) : {target: {}, familiar: {}};
+// older versions of this code used cookies instead of localstorage, so this
+// function cleans that up
+const cleanupOldCookies = () => {
+  // thankfully we only ever used 2 cookies, "state" and the anonymous one
+  document.cookie = "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+  document.cookie = "state=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
 }
 
 const init = () => {
-  const cookie = readCookie();
-  loadChangeHooks(cookie);
-  loadTargets(cookie);
-  loadFamiliars(cookie);
-  loadSetupFields(cookie);
+  cleanupOldCookies();
+  const localStorageState = readLocalStorage();
+  loadChangeHooks(localStorageState);
+  loadTargets(localStorageState);
+  loadFamiliars(localStorageState);
+  loadSetupFields(localStorageState);
   familiar();
   loadTarget();
   calc();
-  writeCookie();
+  writeLocalStorage();
 }
 
 init();
