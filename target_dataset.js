@@ -1604,6 +1604,21 @@ targetData = {
     "taggable": false,
     "curseImmune": false
   },
+  "Chaos witch channeler": {
+    "name": "Chaos witch channeler",
+    "defence": 75,
+    "armour": 75,
+    "weakness": "arrow",
+    "style": "magic",
+    "affinity": {
+      "weakness": 90,
+      "melee": 45,
+      "range": 65,
+      "magic": 55
+    },
+    "taggable": false,
+    "curseImmune": false
+  },
   "Abyssal beast": {
     "name": "Abyssal beast",
     "defence": 85,
