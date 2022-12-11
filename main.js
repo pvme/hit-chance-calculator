@@ -15,7 +15,7 @@ const calc = () => {
   // do some parsing/validation
   state.level = Number(state.level);
   state.weaponTier = Number(state.weaponTier);
-  state.wenArrowStacks = Number(state.wenArrowStacks);
+  state.wenArrows = Number(state.wenArrows);
   state.blackStoneArrowStacks = Number(state.blackStoneArrowStacks);
   state.additionalDefenceDrain = Number(state.additionalDefenceDrain);
   state.equipmentPenalty = Number(state.equipmentPenalty);
@@ -158,8 +158,7 @@ const calc = () => {
   // console.log("ful arrows bonus is " + fulArrows);
 
   // wen arrow stacks
-  const wenArrowStacks = state.wenArrows;
-  const wenArrows = state.ultimate ? (wenArrowStacks * 0.03) : (wenArrowStacks * 0.02);
+  const wenArrows = state.ultimate ? (state.wenArrows * 0.03) : (state.wenArrows * 0.02);
 
   // keris
   const kerisMap = {

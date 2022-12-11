@@ -329,21 +329,19 @@ const loadSetupFields = cookie => {
 }
 
 const writeCookie = () => {
-  document.cookie = JSON.stringify(state);
+  document.cookie = "state="+encodeURIComponent(JSON.stringify(state));
 }
 
 const clearCookie = () => {
-  document.cookie = "";
+  document.cookie = "state="+encodeURIComponent("");
 }
 
+// modified from javascript.info/cookie
+// returns the cookie with the given name, or undefined if not found
 const readCookie = () => {
-  let cookie = {target: {}, familiar: {}};
-  try {
-    cookie = JSON.parse(document.cookie);
-  } catch (error) {
-    console.log(error);
-  }
-  return cookie;
+  const matches = document.cookie.match(new RegExp("(?:^|; )state=([^;]*)"));
+  const match = matches ? decodeURIComponent(matches[1]) : undefined;
+  return match ? JSON.parse(match) : {target: {}, familiar: {}};
 }
 
 const init = () => {
