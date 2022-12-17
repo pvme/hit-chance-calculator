@@ -14,12 +14,8 @@ const loadChangeHooks = localStorageState => {
     targetRow.style.display = "none";
   });
 
-  // hook into the familiar select, and load from localStorageState if present
+  // hook into the familiar select
   const familiarElem = document.getElementById("familiar");
-  if (localStorageState.familiar.name) {
-    familiarElem.value = localStorageState.familiar.name;
-  }
-
   familiarElem.addEventListener("change", () => {
     familiar();
     calc();
@@ -32,6 +28,19 @@ const loadChangeHooks = localStorageState => {
   resetElem.addEventListener("click", () => {
     localStorage.clear();
     location.reload();
+  });
+
+  // hook into export button
+  const exportElem = document.getElementById("export-button");
+  exportElem.addEventListener("click", () => {
+    const outputState = stripDefaults(state);
+    let output = "https://" + window.location.host + window.location.pathname + "?";
+    for (let key of Object.keys(outputState)) {
+      output = output + "&" + key + "=" + encodeURIComponent(outputState[key]);
+    }
+
+    navigator.clipboard.writeText(output);
+    console.log(output);
   });
 }
 
@@ -114,8 +123,9 @@ const loadTargets = localStorageState => {
   // TODO use the first element of targetData as the default instead
   let selected = "Araxxi";
   // load previous value from localStorageState if applicable
-  if (localStorageState.target.name) {
-    selected = localStorageState.target.name;
+  if (localStorageState.target) {
+    selected = localStorageState.target;
+    state.target = targetData[selected];
   }
   targetLabel.innerText = selected;
 
@@ -163,8 +173,9 @@ const loadFamiliars = localStorageState => {
   const familiarElem = document.getElementById("familiar");
   // TODO use the first element of familiarData as the default instead
   let selected = "Ripper demon";
-  if (localStorageState.target.name) {
-    selected = localStorageState.target.name;
+  if (localStorageState.familiar) {
+    selected = localStorageState.familiar;
+    state.familiar = familiarData[selected];
   }
   for (let familiar of Object.keys(familiarData)) {
     const opt = document.createElement("option");
@@ -329,14 +340,19 @@ const loadSetupFields = localStorageState => {
 }
 
 const writeLocalStorage = () => {
-  localStorage.setItem("state", JSON.stringify(state));
+  // don't save the full familiar/target data so it gets reloaded
+  // create a copy
+  let outputState = JSON.parse(JSON.stringify(state));
+  outputState.target = outputState.target.name;
+  outputState.familiar = outputState.familiar.name;
+  localStorage.setItem("state", JSON.stringify(outputState));
 }
 
 // modified from javascript.info/localStorageState
 // returns the localStorageState with the given name, or undefined if not found
 const readLocalStorage = () => {
   const localStorageState = localStorage.getItem("state");
-  return localStorageState ? JSON.parse(localStorageState) : {target: {}, familiar: {}};
+  return localStorageState ? JSON.parse(localStorageState) : {};
 }
 
 // older versions of this code used cookies instead of localstorage, so this
@@ -347,13 +363,86 @@ const cleanupOldCookies = () => {
   document.cookie = "state=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
 }
 
+// try to parse query parameters into a state variable, return null if not found
+const parseQueryParameters = () => {
+  const rawQueryParams = window.location.search;
+  if (rawQueryParams === "") {
+    // no query provided
+    return null;
+  }
+  // strip initial ?& and split params
+  const queryParams = rawQueryParams.substr(2).split("&");
+  if (queryParams.length === 0) {
+    return null;
+  }
+  let state = {};
+  for (let param of queryParams) {
+    let [field, value] = param.split("=");
+    state[field] = decodeURIComponent(value);
+  }
+  // clear parameters
+  console.log("setting url to " + window.location.pathname);
+  window.history.replaceState({}, document.title, window.location.pathname);
+  return state;
+}
+
+// remove all fields that have the default value, and turn target and familiar
+// into just their names
+const stripDefaults = state => {
+  // create a copy
+  let outputState = JSON.parse(JSON.stringify(state));
+
+  // use the playerBuffs, playerDebuffs, and targetDebuffs objects as
+  // the reference for what "default" means
+  const stripDefaultsInner = source => {
+    for (let field of Object.keys(source)) {
+      if (source[field].kind === "bool") {
+        // all bools default to false
+        if (!outputState[field]) {
+          delete outputState[field];
+        }
+      } else if (source[field].kind === "number") {
+        // default is part of the buff definition
+        if (outputState[field] === source[field].default) {
+          delete outputState[field];
+        }
+      } else if (source[field].kind === "select") {
+        // default is the first option
+        const firstKey = Object.keys(source[field].labels)[0];
+        if (outputState[field] === firstKey) {
+          delete outputState[field];
+        }
+      }
+    }
+  };
+
+  stripDefaultsInner(playerBuffs);
+  stripDefaultsInner(playerDebuffs);
+  stripDefaultsInner(targetDebuffs);
+  stripDefaultsInner(familiarBuffs);
+
+  // save target and familiar as just their names
+  outputState.target = outputState.target.name;
+  outputState.familiar = outputState.familiar.name;
+  if (outputState.target === Object.keys(targetData)[0]) {
+    delete outputState.target;
+  }
+  if (outputState.familiar === Object.keys(familiarData)[0]) {
+    delete outputState.familiar;
+  }
+
+  return outputState;
+}
+
 const init = () => {
   cleanupOldCookies();
   const localStorageState = readLocalStorage();
-  loadChangeHooks(localStorageState);
-  loadTargets(localStorageState);
-  loadFamiliars(localStorageState);
-  loadSetupFields(localStorageState);
+  const queryState = parseQueryParameters();
+  const initState = queryState ? queryState : localStorageState;
+  loadChangeHooks(initState);
+  loadTargets(initState);
+  loadFamiliars(initState);
+  loadSetupFields(initState);
   familiar();
   loadTarget();
   calc();
