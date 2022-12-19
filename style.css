@@ -224,3 +224,11 @@ button:hover, input:hover, select:hover, input:focus {
   margin-left: auto;
   margin-right: auto;
 }
+
+.export-button {
+  width: 80%;
+  background-color: #57a06b;
+  max-height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
