@@ -1,3 +1,15 @@
+// setup subfields so that null checks can avoid checking for these
+let state = {target: {}, familiar: {}};
+
+const assignInnerText = (id, val) => {
+  document.getElementById(id).innerText = val;
+};
+
+
+// load change hooks for the non-auto-generated UI elements:
+// - target filter
+// - familiar dropdown
+// - reset button
 const loadChangeHooks = localStorageState => {
   // set up so that when a user clicks into or out of the filter field
   // the list appears and disappears
@@ -16,11 +28,7 @@ const loadChangeHooks = localStorageState => {
 
   // hook into the familiar select
   const familiarElem = document.getElementById("familiar");
-  familiarElem.addEventListener("change", () => {
-    familiar();
-    calc();
-    writeLocalStorage();
-  });
+  familiarElem.addEventListener("change", calcWrapper);
 
   // hook into reset button
   // TODO is there a better way to achieve a reset without a reload?
@@ -47,42 +55,29 @@ const loadChangeHooks = localStorageState => {
 // Fetches the current value of the "target" label, and uses that to set
 // all the appropriate state fields. It also sets UI elements based on
 // the contents of the targetData dataset.
-const loadTarget = () => {
-  const target = document.getElementById("target").innerText;
+const target = () => {
+  const targetLabel = document.getElementById("target").innerText;
 
   // set state
-  state.target = targetData[target];
-  state.taggable = targetData[target].taggable;
+  state.target = targetData[targetLabel];
+  state.taggable = targetData[targetLabel].taggable;
   // taggable is weird because it's also an input button
-  const taggable = document.getElementById("taggable");
-  taggable.innerText = state.taggable ? "Yes" : "No";
+  assignInnerText("taggable", state.taggable ? "Yes" : "No");
   taggable.style["background-color"] = state.taggable ? "#47705b" : "#6c4b58";
 
   // Set ui fields
-  const targetDefence = document.getElementById("target-defence");
-  targetDefence.innerText = state.target.defence;
+  assignInnerText("target-defence", state.target.defence);
+  assignInnerText("target-armour", state.target.armour);
 
-  const targetArmour = document.getElementById("target-armour");
-  targetArmour.innerText = state.target.armour;
+  assignInnerText("target-weakness", state.target.weakness);
+  document.getElementById("target-weakness-icon").src = playerBuffs.style.icons[state.target.weakness];
+  assignInnerText("target-style", state.target.style);
+  document.getElementById("target-style-icon").src = playerBuffs.style.icons[state.target.style];
 
-  const targetWeakness = document.getElementById("target-weakness");
-  targetWeakness.innerText = state.target.weakness;
-  const targetWeaknessIcon = document.getElementById("target-weakness-icon");
-  targetWeaknessIcon.src = playerBuffs.style.icons[state.target.weakness];
-
-  const targetStyle = document.getElementById("target-style");
-  targetStyle.innerText = state.target.style;
-  const targetStyleIcon = document.getElementById("target-style-icon");
-  targetStyleIcon.src = playerBuffs.style.icons[state.target.style];
-
-  const targetAffinityWeakness = document.getElementById("target-affinity-weakness");
-  targetAffinityWeakness.innerText = state.target.affinity.weakness;
-  const targetAffinityMelee = document.getElementById("target-affinity-melee");
-  targetAffinityMelee.innerText = state.target.affinity.melee;
-  const targetAffinityRange = document.getElementById("target-affinity-range");
-  targetAffinityRange.innerText = state.target.affinity.range;
-  const targetAffinityMagic = document.getElementById("target-affinity-magic");
-  targetAffinityMagic.innerText = state.target.affinity.magic;
+  assignInnerText("target-affinity-weakness", state.target.affinity.weakness);
+  assignInnerText("target-affinity-melee", state.target.affinity.melee);
+  assignInnerText("target-affinity-range", state.target.affinity.range);
+  assignInnerText("target-affinity-magic", state.target.affinity.magic);
 }
 
 // Change the "display" style on list elements according to the current value
@@ -90,7 +85,6 @@ const loadTarget = () => {
 const filterTargetList = () => {
   const targetList = document.getElementById("target-list");
   const searchBox = document.getElementById("target-filter");
-  // let targetLabel = document.getElementById("target");
 
   // Get the search query
   const query = searchBox.value;
@@ -108,9 +102,9 @@ const filterTargetList = () => {
   });
 }
 
-// Populates the "target-list" element with "<li>"s according to the contents
-// of the targetData dataset. This is only run once per page load, and also
-// handles loading the target from a localStorageState if present;
+// Populates the `target-list` element with `<li>`s according to the contents
+// of the `targetData` dataset. This is only run once per page load, and also
+// handles loading the target from a `localStorageState` if present;
 const loadTargets = localStorageState => {
   // grab references to the target related elements
   // table row element that holds the whole thing
@@ -137,10 +131,9 @@ const loadTargets = localStorageState => {
     opt.addEventListener("mousedown", () => {
       targetLabel.innerText = target;
       searchBox.value = "";
-      loadTarget();
-      writeLocalStorage();
       window.scrollBy(0, -20000);
-      calc();
+
+      calcWrapper();
     });
     targets.push(opt);
     targetList.appendChild(opt);
@@ -154,9 +147,8 @@ const loadTargets = localStorageState => {
         searchBox.value = "";
         targetLabel.innerText = topItem.innerText;
         searchBox.blur();
-        loadTarget();
-        writeLocalStorage();
-        calc();
+
+        calcWrapper();
       }
     }
   });
@@ -188,15 +180,19 @@ const loadFamiliars = localStorageState => {
   }
 }
 
-// Set state fields according the value of the "familiar" element
+// Fetches the current value of the "familiar" label, and uses that to set
+// all the appropriate state fields. It also sets UI elements based on
+// the contents of the familiarData dataset.
 const familiar = () => {
   const familiarElem = document.getElementById("familiar");
-  const familiar = familiarElem.value;
-  // set state
-  state.familiar = familiarData[familiar];
+  state.familiar = familiarData[familiarElem.value];
 }
 
-// Generate a row object that matches the spec provided
+// Generate a row object HTML that matches the spec provided
+//
+// `id` is the key in the state object that the input will assign values to
+// `spec` is the object specification for this input
+// `previous` is a (possibly null) value that we've determined was set before
 //
 // returns the generated table row element
 const generateInput = (id, spec, previous) => {
@@ -234,8 +230,8 @@ const generateInput = (id, spec, previous) => {
         state[id] = !state[id];
         input.style["background-color"] = state[id] ? "#47705b" : "#6c4b58";
         input.innerText = state[id] ? "Yes" : "No";
-        calc();
-        writeLocalStorage();
+
+        calcWrapper();
       }
     );
   } else if (spec.kind === "select") {
@@ -267,8 +263,8 @@ const generateInput = (id, spec, previous) => {
         }
         state[id] = selected;
         icon.src = spec.icons ? spec.icons[selected] : spec.icon;
-        calc();
-        writeLocalStorage();
+
+        calcWrapper();
       }
     );
     // for initialization
@@ -287,8 +283,8 @@ const generateInput = (id, spec, previous) => {
       "change",
       () => {
         state[id] = input.value;
-        calc();
-        writeLocalStorage();
+
+        calcWrapper();
       }
     );
     icon.src = spec.icon;
@@ -303,6 +299,27 @@ const generateInput = (id, spec, previous) => {
   row.appendChild(inputCell);
 
   return row
+}
+
+// First load target/familiar information for the selected target into the UI
+// and state, then take the result from the calc function and apply it to the
+// right labels
+//
+// NB this also saves the state, since in calcWrapper is always called right
+//    after something in the UI has been changed, and therefore should be saved
+const calcWrapper = () => {
+  familiar();
+  target();
+
+  const result = calc(state);
+  writeLocalStorage();
+
+  assignInnerText("final-hit-chance", (result.hitchance * 100).toFixed(2) + "%");
+
+  // familiar accuracy
+  assignInnerText("familiar-melee", (result.familiar.melee * 100).toFixed(2) + "%");
+  assignInnerText("familiar-range", (result.familiar.range * 100).toFixed(2) + "%");
+  assignInnerText("familiar-magic", (result.familiar.magic * 100).toFixed(2) + "%");
 }
 
 // Load all the setup fields from the objects provided by ui_dataset.js
@@ -443,10 +460,7 @@ const init = () => {
   loadTargets(initState);
   loadFamiliars(initState);
   loadSetupFields(initState);
-  familiar();
-  loadTarget();
-  calc();
-  writeLocalStorage();
+  calcWrapper(state);
 }
 
 init();
