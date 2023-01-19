@@ -1,5 +1,3 @@
-const state = {target: {}};
-
 const accF = x => {
   return x * x * x / 1250 + x * 4 + 40;
 }
@@ -11,7 +9,28 @@ const roundDown = (p, x) => {
   return Number((Math.floor(x * Math.pow(10, p)) / Math.pow(10, p)).toFixed(p))
 }
 
-const calc = () => {
+// This is the main entrypoint into the calculator. It is a single function that
+// takes in a `state` object, and returns an object with that contains the
+// results of the calculation. The type of the return object is given below.
+// The type of the input object is defined by the contents of the variables
+// provided by `ui_dataset.js`. The input object's fields are the sum of all
+// fields of the provided variable. E.G. both `level` (from `playerBuffs`) and
+// `curse` (from `targetDebuffs`) are fields of the input object. Also, there
+// are two special fields `target` and `familiar`, whose structures are defined
+// respectively in `target_dataset.js` and `familiar_dataset.js`.
+//
+// Return type (or null)
+// ```js
+// {
+//   "hitchance": Number,
+//   "familiar": {
+//      "melee": Number,
+//      "range": Number,
+//      "magic": Number
+//   }
+// }
+// ```
+const calc = (state) => {
   // do some parsing/validation
   state.level = Number(state.level);
   state.weaponTier = Number(state.weaponTier);
@@ -311,7 +330,17 @@ const calc = () => {
   const finalAffinity = baseAffinity + affinityModifier;
   // console.log("==== Final Affinity " + finalAffinity.toFixed(2) + " ====");
 
-  const finalHitChance = roundDown(3,
+  // setup default return object
+  let result = {
+    hitchance: 0,
+    familiar: {
+      melee: 0,
+      range: 0,
+      magic: 0
+    }
+  };
+
+  result.hitchance = roundDown(3,
     roundDown(3,
       roundDown(3,
         roundDown(3,
@@ -351,12 +380,9 @@ const calc = () => {
   );
 
   // console.log("final hit chance is " + finalHitChance);
-  const finalHitChanceElem = document.getElementById("final-hit-chance");
-  finalHitChanceElem.innerText = (finalHitChance * 100).toFixed(2) + "%";
 
   // familiar accuracy
   // melee
-  const familiarMelee = document.getElementById("familiar-melee");
   if (state.familiar.levels.melee > 1) {
     let meleeLevel = state.familiar.levels.melee;
     meleeLevel = Math.floor(meleeLevel * (state.spiritualHealing ? 1.07 : 1));
@@ -365,21 +391,17 @@ const calc = () => {
       (state.familiar.boss ? accF(meleeLevel) : (0.5 * accF(meleeLevel)))
     );
 
-    const meleeHitChance = roundDown(3,
+    result.familiar.melee = roundDown(3,
       roundDown(2, meleeAccuracy / finalArmour) *
       (state.target.affinity.melee / 100 + affinityModifier)
     );
+
     if (state.familiar.name === "Ripper demon" && state.target.name === "Raksha") {
-      familiarMelee.innerText = "100.00%"; // huh?
-    } else {
-      familiarMelee.innerText = (meleeHitChance * 100).toFixed(2) + "%";
+      result.familiar.melee = 1; // huh?
     }
-  } else {
-    familiarMelee.innerText = "0.00%";
   }
 
   // range
-  const familiarRange = document.getElementById("familiar-range");
   if (state.familiar.levels.range > 1) {
     let rangeLevel = state.familiar.levels.range;
     rangeLevel = Math.floor(rangeLevel * (state.spiritualHealing ? 1.07 : 1));
@@ -388,17 +410,13 @@ const calc = () => {
       (state.familiar.boss ? accF(rangeLevel) : (0.5 * accF(rangeLevel)))
     );
 
-    const rangeHitChance = roundDown(3,
+    result.familiar.range = roundDown(3,
       roundDown(2, rangeAccuracy / finalArmour) *
       (state.target.affinity.range / 100 + affinityModifier)
     );
-    familiarRange.innerText = (rangeHitChance * 100).toFixed(2) + "%";
-  } else {
-    familiarRange.innerText = "0.00%";
   }
 
   // magic
-  const familiarMagic = document.getElementById("familiar-magic");
   if (state.familiar.levels.magic > 1) {
     let magicLevel = state.familiar.levels.magic;
     magicLevel = Math.floor(magicLevel * (state.spiritualHealing ? 1.07 : 1));
@@ -407,13 +425,11 @@ const calc = () => {
       (state.familiar.boss ? accF(magicLevel) : (0.5 * accF(magicLevel)))
     );
 
-    const magicHitChance = roundDown(3,
+    result.familiar.magic = roundDown(3,
       roundDown(2, magicAccuracy / finalArmour) *
       (state.target.affinity.magic / 100 + affinityModifier)
     );
-    familiarMagic.innerText = (magicHitChance * 100).toFixed(2) + "%";
-  } else {
-    familiarMagic.innerText = "0.00%";
   }
-}
 
+  return result;
+}
