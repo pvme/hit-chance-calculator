@@ -1021,7 +1021,7 @@ targetData = {
   },
   "Rise of the 6 - Ahrim": {
     "name": "Rise of the 6 - Ahrim",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "magic",
@@ -1036,7 +1036,7 @@ targetData = {
   },
   "Rise of the 6 - Dharok": {
     "name": "Rise of the 6 - Dharok",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "melee",
@@ -1051,7 +1051,7 @@ targetData = {
   },
   "Rise of the 6 - Guthan": {
     "name": "Rise of the 6 - Guthan",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "melee",
@@ -1066,7 +1066,7 @@ targetData = {
   },
   "Rise of the 6 - Karil": {
     "name": "Rise of the 6 - Karil",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "range",
@@ -1081,7 +1081,7 @@ targetData = {
   },
   "Rise of the 6 - Torag": {
     "name": "Rise of the 6 - Torag",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "melee",
@@ -1096,7 +1096,7 @@ targetData = {
   },
   "Rise of the 6 - Verac": {
     "name": "Rise of the 6 - Verac",
-    "defence": 80,
+    "defence": 90,
     "armour": 80,
     "weakness": "none",
     "style": "melee",
