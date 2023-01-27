@@ -199,7 +199,6 @@ const calc = (state) => {
     "melee": "magic", "magic": "range", "range": "melee"
   };
   if (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) {
-    // TODO missing enchantment?
     hexhunter = 0.1;
   }
   // console.log("hexhunter boost is " + hexhunter);
@@ -289,7 +288,7 @@ const calc = (state) => {
   const boneDagger = state.boneDagger ? 0.02 : 0;
   // console.log("bone dagger bonus is " + boneDagger);
   // hexhunter affinity
-  const hexhunterAffinity = (hexhunter > 0) ? 0.05 : 0;
+  const hexhunterAffinity = (hexhunter && state.target.weakness === state.style) ? 0.05 : 0;
   // console.log("hexhunter affinity bonus is " + hexhunterAffinity);
   // dominion gloves
   const dominionGloves = state.domGloves ? 7 : 0;
