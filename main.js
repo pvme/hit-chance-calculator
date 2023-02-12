@@ -319,7 +319,10 @@ const calc = (state) => {
 
   // base affinity
   let baseAffinity;
-  if (state.style === state.target.weakness) {
+  if (darklight > 0 && state.target.weakness !== "none") {
+    // handle darklight overriding which affinity is used
+    baseAffinity = state.target.affinity.weakness / 100;
+  } else if (state.style === state.target.weakness) {
     baseAffinity = state.target.affinity.weakness / 100;
   } else {
     baseAffinity = state.target.affinity[styleMap[state.style]] / 100;
