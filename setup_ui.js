@@ -47,8 +47,15 @@ const loadChangeHooks = localStorageState => {
       output = output + "&" + key + "=" + encodeURIComponent(outputState[key]);
     }
 
-    navigator.clipboard.writeText(output);
-    console.log(output);
+    // TODO: Show success/error popup
+    navigator.clipboard.writeText(output).then(
+      () => {
+        // Success
+        console.log(output)
+      },
+      () => {
+        // Failure
+      });
   });
 }
 
@@ -388,7 +395,7 @@ const parseQueryParameters = () => {
     return null;
   }
   // strip initial ?& and split params
-  const queryParams = rawQueryParams.substr(2).split("&");
+  const queryParams = rawQueryParams.substring(2).split("&");
   if (queryParams.length === 0) {
     return null;
   }
