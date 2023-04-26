@@ -1709,6 +1709,21 @@ targetData = {
     "taggable": true,
     "curseImmune": false
   },
+  "Armoured zombie": {
+    "name": "Armoured zombie",
+    "defence": 87,
+    "armour": 2287,
+    "weakness": "crush",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 70,
+      "range": 30,
+      "magic": 30,
+    },
+    "taggable": true,
+    "curseImmune": false,
+  },
   "Blood nihil": {
     "name": "Blood nihil",
     "defence": 80,
@@ -1767,6 +1782,21 @@ targetData = {
       "magic": 55
     },
     "taggable": false,
+    "curseImmune": false
+  },
+  "Bound skeleton": {
+    "name": "Bound skeleton",
+    "defence": 65,
+    "armour": 1299,
+    "weakness": "earth",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65
+    },
+    "taggable": true,
     "curseImmune": false
   },
   "Chaos giant": {
@@ -1888,6 +1918,21 @@ targetData = {
     },
     "taggable": false,
     "curseImmune": false
+  },
+  "Fetid zombie": {
+    "name": "Fetid zombie",
+    "defence": 45,
+    "armour": 732,
+    "weakness": "air",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65,
+    },
+    "taggable": true,
+    "curseImmune": false,
   },
   "Frost dragon": {
     "name": "Frost dragon",
@@ -2230,6 +2275,21 @@ targetData = {
       "melee": 50,
       "range": 50,
       "magic": 50
+    },
+    "taggable": true,
+    "curseImmune": false
+  },
+  "Risen ghost": {
+    "name": "Risen ghost",
+    "defence": 70,
+    "armour": 1486,
+    "weakness": "arrow",
+    "style": "magic",
+    "affinity": {
+      "weakness": 90,
+      "melee": 45,
+      "range": 65,
+      "magic": 55
     },
     "taggable": true,
     "curseImmune": false
