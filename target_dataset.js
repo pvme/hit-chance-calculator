@@ -464,6 +464,22 @@ targetData = {
     "taggable": false,
     "curseImmune": false
   },
+  },
+  "ED4 - Cerberus Juvenile": {
+    "name": "ED4 - Cerberus Juvenile",
+    "defence": 85,
+    "armour": 85,
+    "weakness": "earth",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 55,
+      "magic": 65
+    },
+    "taggable": false,
+    "curseImmune": false
+  },
   "Exiled Kalphite Queen (1st form)": {
     "name": "Exiled Kalphite Queen (1st form)",
     "defence": 70,
