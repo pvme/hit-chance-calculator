@@ -1709,8 +1709,23 @@ targetData = {
     "taggable": true,
     "curseImmune": false
   },
-  "Armoured zombie": {
-    "name": "Armoured zombie",
+  "Ankou": {
+    "name": "Ankou",
+    "defence": 44,
+    "armour": 710,
+    "weakness": "earth",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65,
+    },
+    "taggable": false,
+    "curseImmune": false,
+  },
+  "Armoured phantom": {
+    "name": "Armoured phantom",
     "defence": 87,
     "armour": 2287,
     "weakness": "crush",
@@ -1721,7 +1736,22 @@ targetData = {
       "range": 30,
       "magic": 30,
     },
-    "taggable": true,
+    "taggable": false,
+    "curseImmune": false,
+  },
+  "Banshee": {
+    "name": "Banshee",
+    "defence": 27,
+    "armour": 409,
+    "weakness": "arrow",
+    "style": "magic",
+    "affinity": {
+      "weakness": 90,
+      "melee": 45,
+      "range": 65,
+      "magic": 55,
+    },
+    "taggable": false,
     "curseImmune": false,
   },
   "Blood nihil": {
@@ -1796,7 +1826,22 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
+    "taggable": false,
+    "curseImmune": false
+  },
+  "Crawling hand#11": {
+    "name": "Crawling hand#11",
+    "defence": 8,
+    "armour": 181,
+    "weakness": "fire",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65,
+    },
+    "taggable": false,
     "curseImmune": false
   },
   "Chaos giant": {
@@ -2084,6 +2129,21 @@ targetData = {
     "taggable": false,
     "curseImmune": false
   },
+  "Mighty banshee": {
+    "name": "Mighty banshee",
+    "defence": 65,
+    "armour": 1299,
+    "weakness": "bolt",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65
+    },
+    "taggable": true,
+    "curseImmune": false
+  },
   "Moss Golem": {
     "name": "Moss Golem",
     "defence": 95,
@@ -2292,6 +2352,21 @@ targetData = {
       "magic": 55
     },
     "taggable": true,
+    "curseImmune": false
+  },
+  "Shadow warrior": {
+    "name": "Shadow warrior",
+    "defence": 47,
+    "armour": 778,
+    "weakness": "air",
+    "style": "melee",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 45,
+      "magic": 65,
+    },
+    "taggable": false,
     "curseImmune": false
   },
   "Manifest shadow": {
