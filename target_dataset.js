@@ -1994,6 +1994,21 @@ targetData = {
     "taggable": false,
     "curseImmune": false
   },
+  "Ghost#25": {
+    "name": "Ghost#25",
+    "defence": 18,
+    "armour": 292,
+    "weakness": "thrown",
+    "style": "magic",
+    "affinity": {
+      "weakness": 90,
+      "melee": 45,
+      "range": 65,
+      "magic": 55,
+    },
+    "taggable": false,
+    "curseImmune": false
+  },
   "Hydrix dragon": {
     "name": "Hydrix dragon",
     "defence": 95,
