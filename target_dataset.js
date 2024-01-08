@@ -11,7 +11,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Araxxor (Magic)": {
@@ -26,7 +25,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Araxxor (Melee)": {
@@ -41,7 +39,6 @@ targetData = {
       "range": 40,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Araxxor (Ranged)": {
@@ -56,7 +53,6 @@ targetData = {
       "range": 45,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Arch-Glacor": {
@@ -71,7 +67,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Barrows - Ahrim": {
@@ -86,7 +81,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Barrows - Linza": {
@@ -101,7 +95,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Beastmaster Durzag": {
@@ -116,7 +109,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Beastmaster Durzag - Cormes": {
@@ -131,7 +123,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Beastmaster Durzag - Krar": {
@@ -146,7 +137,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Beastmaster Durzag - Tuz": {
@@ -161,7 +151,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Chaos elemental": {
@@ -176,7 +165,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Commander Zilyana": {
@@ -191,7 +179,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Commander Zilyana (HM)": {
@@ -206,7 +193,6 @@ targetData = {
       "range": 40,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Corporeal Beast": {
@@ -221,7 +207,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Dagannoth Prime": {
@@ -236,7 +221,6 @@ targetData = {
       "range": 60,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Dagannoth Rex": {
@@ -251,7 +235,6 @@ targetData = {
       "range": 10,
       "magic": 60
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Dagannoth Supreme": {
@@ -266,7 +249,6 @@ targetData = {
       "range": 10,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Demon boss": {
@@ -281,7 +263,6 @@ targetData = {
       "range": 10,
       "magic": 35
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED1 - The Sanctum Guardian": {
@@ -296,7 +277,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED1 - Masuta the Ascended": {
@@ -311,7 +291,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED1 - Masuta the Ascended (air)": {
@@ -326,7 +305,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED1 - Seiryu the Azure Serpent": {
@@ -341,7 +319,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED1 - Black crystal": {
@@ -356,7 +333,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Astellarn": {
@@ -371,7 +347,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Verak Lith": {
@@ -386,7 +361,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Black Stone Dragon": {
@@ -401,7 +375,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Black Hand": {
@@ -416,7 +389,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED3 - Crassian Leviathan": {
@@ -431,7 +403,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED3 - Taraket the Necromancer": {
@@ -446,7 +417,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED3 - Ambassador": {
@@ -461,7 +431,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Exiled Kalphite Queen (1st form)": {
@@ -476,7 +445,6 @@ targetData = {
       "range": 10,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Exiled Kalphite Queen (2nd form)": {
@@ -491,7 +459,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "General Graardor": {
@@ -506,7 +473,6 @@ targetData = {
       "range": 10,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "General Graardor (HM)": {
@@ -521,7 +487,6 @@ targetData = {
       "range": 70,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Giant mole": {
@@ -536,7 +501,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Gregorovic": {
@@ -551,7 +515,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Gregorovic (CM)": {
@@ -566,7 +529,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Har-Aken (head)": {
@@ -581,7 +543,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Har-Aken (Magic tentacle)": {
@@ -596,7 +557,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Har-Aken (Ranged tentacle)": {
@@ -611,7 +571,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Helwyr": {
@@ -626,7 +585,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Helwyr (CM)": {
@@ -641,7 +599,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "K'ril Tsutsaroth": {
@@ -656,7 +613,6 @@ targetData = {
       "range": 40,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "K'ril Tsutsaroth (HM)": {
@@ -671,7 +627,6 @@ targetData = {
       "range": 70,
       "magic": 80
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kalphite King (Magic)": {
@@ -686,7 +641,6 @@ targetData = {
       "range": 40,
       "magic": 30
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kalphite King (Melee)": {
@@ -701,7 +655,6 @@ targetData = {
       "range": 30,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kalphite King (Ranged)": {
@@ -716,7 +669,6 @@ targetData = {
       "range": 50,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kalphite Queen (1st form)": {
@@ -731,7 +683,6 @@ targetData = {
       "range": 10,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kalphite Queen (2nd form)": {
@@ -746,7 +697,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kerapac": {
@@ -761,7 +711,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kerapac - Echo": {
@@ -776,7 +725,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "King Black Dragon": {
@@ -791,7 +739,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kree'Arra": {
@@ -806,7 +753,6 @@ targetData = {
       "range": 70,
       "magic": 70
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kree'Arra (HM)": {
@@ -821,7 +767,6 @@ targetData = {
       "range": 60,
       "magic": 70
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Legiones": {
@@ -836,7 +781,6 @@ targetData = {
       "range": 70,
       "magic": 15
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Magister": {
@@ -851,7 +795,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Nex": {
@@ -866,7 +809,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Nex: Angel of Death": {
@@ -881,7 +823,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Nex: AoD - Minion": {
@@ -896,7 +837,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Nex: AoD - Minion (weakened)": {
@@ -911,7 +851,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Nex: AoD - Crystal": {
@@ -926,7 +865,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Nomad": {
@@ -941,7 +879,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Queen Black Dragon": {
@@ -956,7 +893,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Raksha": {
@@ -971,7 +907,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rex Matriarch - Orikalka (Melee)": {
@@ -986,7 +921,6 @@ targetData = {
       "range": 10,
       "magic": 64
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rex Matriarch - Pthentraken (Magic)": {
@@ -1001,7 +935,6 @@ targetData = {
       "range": 64,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rex Matriarch - Rathis (Ranged)": {
@@ -1016,7 +949,6 @@ targetData = {
       "range": 10,
       "magic": 10
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Ahrim": {
@@ -1031,7 +963,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Dharok": {
@@ -1046,7 +977,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Guthan": {
@@ -1061,7 +991,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Karil": {
@@ -1076,7 +1005,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Torag": {
@@ -1091,7 +1019,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Rise of the 6 - Verac": {
@@ -1106,7 +1033,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Solak": {
@@ -1121,7 +1047,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Solak - Arms/Legs": {
@@ -1136,7 +1061,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Solak - Erethdor": {
@@ -1151,7 +1075,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Solak - Roots": {
@@ -1166,7 +1089,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Telos": {
@@ -1181,7 +1103,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Telos - Anima golem (p3)": {
@@ -1196,7 +1117,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Telos - Anima golem (p4/5)": {
@@ -1211,7 +1131,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "TokHaar-Jad": {
@@ -1226,7 +1145,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Twin Furies - Avaryss": {
@@ -1241,7 +1159,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Twin Furies - Nymora": {
@@ -1256,7 +1173,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Twin Furies (CM) - Avaryss": {
@@ -1271,7 +1187,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Twin Furies (CM) - Nymora": {
@@ -1286,7 +1201,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "TzKal-Zuk": {
@@ -1301,7 +1215,6 @@ targetData = {
       "range": 55,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "TzTok-Jad": {
@@ -1316,7 +1229,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Vindicta and Gorvek (phase 1)": {
@@ -1331,7 +1243,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Vindicta and Gorvek (phase 2)": {
@@ -1346,7 +1257,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Vindicta and Gorvek (CM phase 1)": {
@@ -1361,7 +1271,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Vindicta and Gorvek (CM phase 2)": {
@@ -1376,7 +1285,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Vorago": {
@@ -1391,7 +1299,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Vorago (bring him down)": {
@@ -1406,7 +1313,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Vorago - Vitalis": {
@@ -1421,7 +1327,6 @@ targetData = {
       "range": 40,
       "magic": 60
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Vorago - Scopulus": {
@@ -1436,7 +1341,6 @@ targetData = {
       "range": 40,
       "magic": 60
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Vorago - Stone Clone (Magic)": {
@@ -1451,7 +1355,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": true,
     "curseImmune": true
   },
   "Vorago - Stone Clone (Melee)": {
@@ -1466,7 +1369,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Vorago - Stone Clone (Ranged)": {
@@ -1481,7 +1383,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": true
   },
   "Yakamaru": {
@@ -1496,7 +1397,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Jellyfish": {
@@ -1511,7 +1411,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Reflecting Jellyfish": {
@@ -1526,7 +1425,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Durable Jellyfish": {
@@ -1541,7 +1439,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Magical Jellyfish": {
@@ -1556,7 +1453,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Piercing Jellyfish": {
@@ -1571,7 +1467,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Yakamaru - Meleefish": {
@@ -1586,7 +1481,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Zamorak Lord of Chaos": {
@@ -1601,7 +1495,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Chaos witch channeler": {
@@ -1616,7 +1509,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Abyssal beast": {
@@ -1631,7 +1523,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Abyssal lord": {
@@ -1646,7 +1537,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Abyssal savage": {
@@ -1661,7 +1551,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Acheron Mammoth": {
@@ -1676,7 +1565,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Airut (Melee)": {
@@ -1691,7 +1579,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Airut (Ranged)": {
@@ -1706,7 +1593,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Ankou": {
@@ -1721,7 +1607,6 @@ targetData = {
       "range": 45,
       "magic": 65,
     },
-    "taggable": false,
     "curseImmune": false,
   },
   "Armoured phantom": {
@@ -1736,7 +1621,6 @@ targetData = {
       "range": 30,
       "magic": 30,
     },
-    "taggable": false,
     "curseImmune": false,
   },
   "Banshee": {
@@ -1751,7 +1635,6 @@ targetData = {
       "range": 65,
       "magic": 55,
     },
-    "taggable": false,
     "curseImmune": false,
   },
   "Blood nihil": {
@@ -1766,7 +1649,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ice nihil": {
@@ -1781,7 +1663,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Shadow nihil": {
@@ -1796,7 +1677,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Smoke nihil": {
@@ -1811,7 +1691,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Bound skeleton": {
@@ -1826,7 +1705,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Crawling hand#11": {
@@ -1841,7 +1719,6 @@ targetData = {
       "range": 45,
       "magic": 65,
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Chaos giant": {
@@ -1856,7 +1733,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Crystal Shapeshifter (Magic)": {
@@ -1871,7 +1747,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Crystal Shapeshifter (Melee)": {
@@ -1886,7 +1761,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Crystal Shapeshifter (Ranged)": {
@@ -1901,7 +1775,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Edimmu (Overworld)": {
@@ -1916,7 +1789,6 @@ targetData = {
       "range": 65,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Edimmu (Dungeoneering)": {
@@ -1931,7 +1803,6 @@ targetData = {
       "range": 65,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Elite Edimmu": {
@@ -1946,7 +1817,6 @@ targetData = {
       "range": 65,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Elite Rune Dragon": {
@@ -1961,7 +1831,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Fetid zombie": {
@@ -1976,7 +1845,6 @@ targetData = {
       "range": 45,
       "magic": 65,
     },
-    "taggable": true,
     "curseImmune": false,
   },
   "Frost dragon": {
@@ -1991,7 +1859,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ghost#25": {
@@ -2006,7 +1873,6 @@ targetData = {
       "range": 65,
       "magic": 55,
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Hydrix dragon": {
@@ -2021,7 +1887,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Red dragon": {
@@ -2036,7 +1901,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Black dragon": {
@@ -2051,7 +1915,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Celestial dragon": {
@@ -2066,7 +1929,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Dragonstone dragon": {
@@ -2081,7 +1943,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Onyx dragon": {
@@ -2096,7 +1957,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "ED2 - Hydrix dragon": {
@@ -2111,7 +1971,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Kal'gerion Demon": {
@@ -2126,7 +1985,6 @@ targetData = {
       "range": 30,
       "magic": 50
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Lava strykewyrm": {
@@ -2141,7 +1999,6 @@ targetData = {
       "range": 55,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Mighty banshee": {
@@ -2156,7 +2013,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Moss Golem": {
@@ -2171,7 +2027,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Mutated Jadinko Male": {
@@ -2186,7 +2041,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Siege engine": {
@@ -2201,7 +2055,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Nodon enforcer": {
@@ -2216,7 +2069,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Nodon engineer": {
@@ -2231,7 +2083,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Nodon artificer": {
@@ -2246,7 +2097,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Nodon guard": {
@@ -2261,7 +2111,6 @@ targetData = {
       "range": 45,
       "magic": 55
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Nodon hunter": {
@@ -2276,7 +2125,6 @@ targetData = {
       "range": 45,
       "magic": 45
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Revenant Dark Beast": {
@@ -2291,7 +2139,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Revenant Dragon": {
@@ -2306,7 +2153,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Revenant Knight": {
@@ -2321,7 +2167,6 @@ targetData = {
       "range": 40,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ripper Demon": {
@@ -2336,7 +2181,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Rune Dragon": {
@@ -2351,7 +2195,6 @@ targetData = {
       "range": 50,
       "magic": 50
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Risen ghost": {
@@ -2366,7 +2209,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Shadow warrior": {
@@ -2381,7 +2223,6 @@ targetData = {
       "range": 45,
       "magic": 65,
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Manifest shadow": {
@@ -2396,7 +2237,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Blissful shadow": {
@@ -2411,7 +2251,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Truthful shadow": {
@@ -2426,7 +2265,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": true,
     "curseImmune": false
   },
   "Wyvern": {
@@ -2441,7 +2279,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Melee training dummy (weaker)": {
@@ -2456,7 +2293,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ranged training dummy (weaker)": {
@@ -2471,7 +2307,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Magic training dummy (weaker)": {
@@ -2486,7 +2321,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Melee training dummy (same)": {
@@ -2501,7 +2335,6 @@ targetData = {
       "range": 45,
       "magic": 65
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ranged training dummy (same)": {
@@ -2516,7 +2349,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Magic training dummy (same)": {
@@ -2531,7 +2363,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Melee training dummy (stronger)": {
@@ -2546,7 +2377,6 @@ targetData = {
       "range": 45,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Ranged training dummy (stronger)": {
@@ -2561,7 +2391,6 @@ targetData = {
       "range": 55,
       "magic": 45
     },
-    "taggable": false,
     "curseImmune": false
   },
   "Magic training dummy (stronger)": {
@@ -2576,7 +2405,6 @@ targetData = {
       "range": 65,
       "magic": 55
     },
-    "taggable": false,
     "curseImmune": false
   }
 };
