@@ -306,9 +306,7 @@ const calc = (state) => {
   }
   defenceLevel = defenceLevel - dominionGloves;
   let defenceLevelBonus = accF(Math.floor(defenceLevel));
-  if (state.target.taggable) {
-    defenceLevelBonus *= 0.51;
-  }
+
   defenceLevelBonus = Math.floor(defenceLevelBonus);
   // console.log("base defence level bonus " + defenceLevelBonus);
 

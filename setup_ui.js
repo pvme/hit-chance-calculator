@@ -60,10 +60,6 @@ const target = () => {
 
   // set state
   state.target = targetData[targetLabel];
-  state.taggable = targetData[targetLabel].taggable;
-  // taggable is weird because it's also an input button
-  assignInnerText("taggable", state.taggable ? "Yes" : "No");
-  taggable.style["background-color"] = state.taggable ? "#47705b" : "#6c4b58";
 
   // Set ui fields
   assignInnerText("target-defence", state.target.defence);

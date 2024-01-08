@@ -298,11 +298,6 @@ targetDebuffs = {
       "praesul": "Praesul variant"
     }
   },
-  "taggable": {
-    "icon": "https://i.imgur.com/mxN9MLQ.png",
-    "text": "Taggable",
-    "kind": "bool"
-  },
   "quake": {
     "icon": "https://i.imgur.com/vV5WjP5.png",
     "text": "Quake",

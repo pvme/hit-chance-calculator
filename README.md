@@ -63,7 +63,6 @@ applicable.
       "range": 50,
       "magic": 40
     },
-    "taggable": false,
     "curseImmune": false
   }
 }
