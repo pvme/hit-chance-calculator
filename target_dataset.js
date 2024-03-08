@@ -601,6 +601,20 @@ targetData = {
     },
     "curseImmune": false
   },
+  "Hermod": {
+    "name": "Hermod",
+    "defence": 70,
+    "armour": 70,
+    "weakness": "necro",
+    "style": "necro",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 55,
+      "magic": 65
+    },
+    "curseImmune": false
+  },
   "K'ril Tsutsaroth": {
     "name": "K'ril Tsutsaroth",
     "defence": 75,
@@ -905,6 +919,20 @@ targetData = {
       "weakness": 90,
       "melee": 55,
       "range": 65,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Rasial": {
+    "name": "Rasial",
+    "defence": 95,
+    "armour": 90,
+    "weakness": "none",
+    "style": "necro",
+    "affinity": {
+      "weakness": 55,
+      "melee": 55,
+      "range": 55,
       "magic": 55
     },
     "curseImmune": false
@@ -1385,6 +1413,20 @@ targetData = {
     },
     "curseImmune": true
   },
+  "Vorkath": {
+    "name": "Vorkath",
+    "defence": 65,
+    "armour": 65,
+    "weakness": "none",
+    "style": "magic",
+    "affinity": {
+      "weakness": 40,
+      "melee": 55,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
   "Yakamaru": {
     "name": "Yakamaru",
     "defence": 99,
@@ -1491,6 +1533,20 @@ targetData = {
     "style": "magic",
     "affinity": {
       "weakness": 90,
+      "melee": 55,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Zemouregal": {
+    "name": "Zemouregal",
+    "defence": 70,
+    "armour": 95,
+    "weakness": "none",
+    "style": "necro",
+    "affinity": {
+      "weakness": 40,
       "melee": 55,
       "range": 55,
       "magic": 55
