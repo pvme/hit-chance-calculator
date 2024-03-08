@@ -10,6 +10,7 @@ const auraMap = {
 const additionalSpecEffectMap = {
   "none": 0,
   "dragonDagger": 0.15,
+  "dragonMace": 0.25,
   "magicShortbow": -0.3
 };
 

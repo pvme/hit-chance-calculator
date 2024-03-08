@@ -166,6 +166,7 @@ playerBuffs = {
     "labels": {
       "none": "None",
       "dragonDagger": "Dragon dagger: +15%",
+      "dragonMace": "Dragon mace: +25%",
       "magicShortbow": "Magic shortbow: -30%"
     }
   },
