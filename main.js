@@ -112,17 +112,11 @@ const calc = (state) => {
   // ultimate
   const ultimate = state.ultimate ? 0.25 : 0;
   // console.log("ultimate bonus is " + ultimate);
-  // special attack
-  let specialAttack = 1;
-  if (state.specialAttack) {
-    // this only works if you pass the tier directly and not the accuracy
-    specialAttack = 1 + 0.01 * Math.max(0, trueStatLevel - state.weaponTier);
-  }
-  // console.log("special attack bonus is " + specialAttack);
-  // bonus accuracy (special attack)
-  let additionalSpecEffect = 1;
 
-  additionalSpecEffect = additionalSpecEffect + additionalSpecEffectMap[state.additionalSpecEffect];
+  // bonus accuracy (special attack)
+  let specialAttack = 1;
+
+  specialAttack = specialAttack + specialAttackMap[state.specialAttack];
 
   // dragon battleaxe
   const dragonBattleaxe = state.dragonBattleaxe ? 0.9 : 1;
@@ -348,7 +342,7 @@ const calc = (state) => {
             finalAccuracy / finalArmour
           ) * finalAffinity
         ) *
-        specialAttack + keris + nightmare + fleeting
+        keris + nightmare + fleeting
       ) * (1 +
         accuracyAura +
         premierArtefact +
@@ -362,7 +356,7 @@ const calc = (state) => {
         salve
       )
     ) * (
-      additionalSpecEffect *
+      specialAttack *
       dragonBattleaxe *
       salamancy *
       reaver *

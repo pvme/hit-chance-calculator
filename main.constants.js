@@ -7,7 +7,7 @@ const auraMap = {
   "berserker": 0.10,
 };
 
-const additionalSpecEffectMap = {
+const specialAttackMap = {
   "none": 0,
   "dragonDagger": 0.15,
   "dragonMace": 0.25,

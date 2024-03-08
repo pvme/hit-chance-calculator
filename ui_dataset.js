@@ -157,14 +157,9 @@ playerBuffs = {
   "specialAttack": {
     "icon": "https://i.imgur.com/OcoXcJa.png",
     "text": "Special attack",
-    "kind": "bool",
-  },
-  "additionalSpecEffect": {
-    "icon": "https://i.imgur.com/ZHSbeKk.png",
-    "text": "Additional spec effect",
     "kind": "select",
     "labels": {
-      "none": "None",
+      "none": "No boost",
       "dragonDagger": "Dragon dagger: +15%",
       "dragonMace": "Dragon mace: +25%",
       "magicShortbow": "Magic shortbow: -30%"
