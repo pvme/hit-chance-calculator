@@ -933,7 +933,8 @@ targetData = {
       "weakness": 55,
       "melee": 55,
       "range": 55,
-      "magic": 55
+      "magic": 55,
+      "necro": 55
     },
     "curseImmune": false
   },

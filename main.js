@@ -190,7 +190,9 @@ const calc = (state) => {
   // hexhunter
   let hexhunter = 0;
   const weaknessMap = {
-    "melee": "magic", "magic": "range", "range": "melee"
+    "melee": "magic",
+    "magic": "range",
+    "range": "melee"
   };
   if (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) {
     hexhunter = 0.1;
@@ -316,6 +318,8 @@ const calc = (state) => {
     baseAffinity = state.target.affinity.weakness / 100;
   } else if (state.style === state.target.weakness) {
     baseAffinity = state.target.affinity.weakness / 100;
+  } else if (state.style === "necro") {
+    baseAffinity = state.target.affinity[state.target.style] / 100;
   } else {
     baseAffinity = state.target.affinity[styleMap[state.style]] / 100;
   }
@@ -341,7 +345,7 @@ const calc = (state) => {
           roundDown(2,
             finalAccuracy / finalArmour
           ) * finalAffinity
-        ) *
+        ) +
         keris + nightmare + fleeting
       ) * (1 +
         accuracyAura +

@@ -49,7 +49,8 @@ const styleMap = {
   "air": "magic",
   "water": "magic",
   "earth": "magic",
-  "fire": "magic"
+  "fire": "magic",
+  "necro": "necro"
 };
 
 const potionBoost = (potion, level) => {

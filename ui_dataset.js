@@ -24,7 +24,8 @@ playerBuffs = {
       "air": "Air",
       "water": "Water",
       "earth": "Earth",
-      "fire": "Fire"
+      "fire": "Fire",
+      "necro": "Necro"
     },
     "icons": {
       "slash": "https://i.imgur.com/zzymcD6.png",
@@ -40,7 +41,8 @@ playerBuffs = {
       "none": "https://i.imgur.com/lqBKfcq.png",
       "melee": "https://i.imgur.com/L0Q7lvp.png",
       "magic": "https://i.imgur.com/CUfucnB.png",
-      "range": "https://i.imgur.com/m2sNR7s.png"
+      "range": "https://i.imgur.com/m2sNR7s.png",
+      "necro": "https://i.imgur.com/fZzXQ5E.png"
     }
   },
   "prayer": {
