@@ -7,9 +7,10 @@ const auraMap = {
   "berserker": 0.10,
 };
 
-const additionalSpecEffectMap = {
+const specialAttackMap = {
   "none": 0,
   "dragonDagger": 0.15,
+  "dragonMace": 0.25,
   "magicShortbow": -0.3
 };
 
@@ -48,7 +49,8 @@ const styleMap = {
   "air": "magic",
   "water": "magic",
   "earth": "magic",
-  "fire": "magic"
+  "fire": "magic",
+  "necro": "necro"
 };
 
 const potionBoost = (potion, level) => {

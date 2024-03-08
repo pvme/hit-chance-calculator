@@ -112,17 +112,11 @@ const calc = (state) => {
   // ultimate
   const ultimate = state.ultimate ? 0.25 : 0;
   // console.log("ultimate bonus is " + ultimate);
-  // special attack
-  let specialAttack = 1;
-  if (state.specialAttack) {
-    // this only works if you pass the tier directly and not the accuracy
-    specialAttack = 1 + 0.01 * Math.max(0, trueStatLevel - state.weaponTier);
-  }
-  // console.log("special attack bonus is " + specialAttack);
-  // bonus accuracy (special attack)
-  let additionalSpecEffect = 1;
 
-  additionalSpecEffect = additionalSpecEffect + additionalSpecEffectMap[state.additionalSpecEffect];
+  // bonus accuracy (special attack)
+  let specialAttack = 1;
+
+  specialAttack = specialAttack + specialAttackMap[state.specialAttack];
 
   // dragon battleaxe
   const dragonBattleaxe = state.dragonBattleaxe ? 0.9 : 1;
@@ -196,7 +190,9 @@ const calc = (state) => {
   // hexhunter
   let hexhunter = 0;
   const weaknessMap = {
-    "melee": "magic", "magic": "range", "range": "melee"
+    "melee": "magic",
+    "magic": "range",
+    "range": "melee"
   };
   if (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) {
     hexhunter = 0.1;
@@ -322,6 +318,8 @@ const calc = (state) => {
     baseAffinity = state.target.affinity.weakness / 100;
   } else if (state.style === state.target.weakness) {
     baseAffinity = state.target.affinity.weakness / 100;
+  } else if (state.style === "necro") {
+    baseAffinity = state.target.affinity[state.target.style] / 100;
   } else {
     baseAffinity = state.target.affinity[styleMap[state.style]] / 100;
   }
@@ -347,8 +345,8 @@ const calc = (state) => {
           roundDown(2,
             finalAccuracy / finalArmour
           ) * finalAffinity
-        ) *
-        specialAttack + keris + nightmare + fleeting
+        ) +
+        keris + nightmare + fleeting
       ) * (1 +
         accuracyAura +
         premierArtefact +
@@ -362,7 +360,7 @@ const calc = (state) => {
         salve
       )
     ) * (
-      additionalSpecEffect *
+      specialAttack *
       dragonBattleaxe *
       salamancy *
       reaver *
