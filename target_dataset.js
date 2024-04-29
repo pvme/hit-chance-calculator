@@ -651,9 +651,9 @@ targetData = {
     "style": "magic",
     "affinity": {
       "weakness": 60,
-      "melee": 50,
-      "range": 40,
-      "magic": 30
+      "melee": 30,
+      "range": 50,
+      "magic": 40
     },
     "curseImmune": false
   },
@@ -664,7 +664,7 @@ targetData = {
     "weakness": "fire",
     "style": "melee",
     "affinity": {
-      "weakness": 65,
+      "weakness": 60,
       "melee": 40,
       "range": 30,
       "magic": 50
@@ -679,9 +679,9 @@ targetData = {
     "style": "range",
     "affinity": {
       "weakness": 60,
-      "melee": 30,
-      "range": 50,
-      "magic": 40
+      "melee": 50,
+      "range": 40,
+      "magic": 30
     },
     "curseImmune": false
   },
