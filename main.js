@@ -171,7 +171,7 @@ const calc = (state) => {
   // console.log("ful arrows bonus is " + fulArrows);
 
   // wen arrow stacks
-  const wenArrows = state.ultimate ? (state.wenArrows * 0.03) : (state.wenArrows * 0.02);
+  const wenArrows = state.wenArrows * 0.03;
 
   // keris
   const kerisMap = {
