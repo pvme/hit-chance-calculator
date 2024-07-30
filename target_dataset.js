@@ -1064,6 +1064,90 @@ targetData = {
     },
     "curseImmune": false
   },
+  "Sanctum of Rebirth - Vermyx": {
+    "name": "Sanctum of Rebirth - Vermyx",
+    "defence": 85,
+    "armour": 85,
+    "weakness": "none",
+    "style": "range",
+    "affinity": {
+      "weakness": 55,
+      "melee": 65,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Sanctum of Rebirth - Coilspawn": {
+    "name": "Sanctum of Rebirth - Coilspawn",
+    "defence": 75,
+    "armour": 75,
+    "weakness": "none",
+    "style": "range",
+    "affinity": {
+      "weakness": 55,
+      "melee": 65,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Sanctum of Rebirth - Kezalam": {
+    "name": "Sanctum of Rebirth - Kezalam",
+    "defence": 85,
+    "armour": 85,
+    "weakness": "none",
+    "style": "melee",
+    "affinity": {
+      "weakness": 55,
+      "melee": 55,
+      "range": 55,
+      "magic": 65
+    },
+    "curseImmune": false
+  },
+  "Sanctum of Rebirth - Moonstone Obelisk": {
+    "name": "Sanctum of Rebirth - Moonstone Obelisk",
+    "defence": 80,
+    "armour": 80,
+    "weakness": "none",
+    "style": "necro",
+    "affinity": {
+      "weakness": 55,
+      "melee": 55,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Sanctum of Rebirth - Nakatra": {
+    "name": "Sanctum of Rebirth - Nakatra",
+    "defence": 95,
+    "armour": 95,
+    "weakness": "none",
+    "style": "magic",
+    "affinity": {
+      "weakness": 55,
+      "melee": 55,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
+  "Sanctum of Rebirth - Nefthys": {
+    "name": "Sanctum of Rebirth - Nefthys",
+    "defence": 85,
+    "armour": 85,
+    "weakness": "none",
+    "style": "melee",
+    "affinity": {
+      "weakness": 55,
+      "melee": 55,
+      "range": 55,
+      "magic": 65
+    },
+    "curseImmune": false
+  },
   "Solak": {
     "name": "Solak",
     "defence": 70,
