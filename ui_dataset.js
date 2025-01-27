@@ -243,7 +243,7 @@ playerBuffs = {
   },
   "keris": {
     "icon": "https://i.imgur.com/vYjDigU.png",
-    "text": "Keris",
+    "text": "Keris passive",
     "kind": "select",
     "labels": {
       "none": "None",
