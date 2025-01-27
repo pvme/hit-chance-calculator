@@ -151,11 +151,6 @@ playerBuffs = {
     "text": "Extreme dom medallion",
     "kind": "bool",
   },
-  "ultimate": {
-    "icon": "https://i.imgur.com/fDgScdL.png",
-    "text": "Ultimate ability",
-    "kind": "bool",
-  },
   "specialAttack": {
     "icon": "https://i.imgur.com/OcoXcJa.png",
     "text": "Special attack",

@@ -109,10 +109,6 @@ const calc = (state) => {
   const medallion = state.domMedallion ? 0.01 : 0;
   // console.log("extreme dom medallion bonus is " + medallion);
 
-  // ultimate
-  const ultimate = state.ultimate ? 0.25 : 0;
-  // console.log("ultimate bonus is " + ultimate);
-
   // bonus accuracy (special attack)
   let specialAttack = 1;
 
@@ -368,7 +364,6 @@ const calc = (state) => {
     ) + (
       fulArrows +
       wenArrows +
-      ultimate +
       reaper +
       balmung +
       baneAmmo +
