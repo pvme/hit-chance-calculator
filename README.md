@@ -4,21 +4,17 @@ published by the PvME Discord at
 https://docs.google.com/spreadsheets/d/1X0GwTMCpCW5plaV0Gdvgw_glPlj-y-UBDiKjHmTkGBM.
 
 ## Important Note
-This repo is not up to feature parity with the original spreadsheet, it's just
-trying to show what's possible. That said, what features _are_ included should
-match exactly with the original spreadsheet.
-
 Missing Features:
-- Probably should add hover text to the templating engine
-- More input validation (like for empty text fields)
-- A way to convey that something is invalid (like typing "foo" into your weapon
-  tier)
+- [ ] Probably should add hover text to the templating engine
+- [ ] More input validation (like for empty text fields)
+- [ ] A way to convey that something is invalid (like typing "foo" into your
+  weapon tier)
 
 ## Goals
-- Produce identical results to the original spreadsheet under all circumstances
-- Eventually be given to the PvME GitHub for them to maintain
-- Should not require creating a copy with every update
-- Should be possible to host the page as a GitHub Site
+- [x] Produce identical results to the original spreadsheet under all circumstances
+- [x] Eventually be given to the PvME GitHub for them to maintain
+- [x] Should not require creating a copy with every update
+- [x] Should be possible to host the page as a GitHub Site
 
 ## Architecture Considerations
 - I've explicitly used only raw JavaScript when building this to simplify as
@@ -59,9 +55,9 @@ applicable.
     "style": "range",
     "affinity": {
       "weakness": 60,
-      "melee": 30,
-      "range": 50,
-      "magic": 40
+      "melee": 50,
+      "range": 40,
+      "magic": 30
     },
     "curseImmune": false
   }

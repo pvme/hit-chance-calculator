@@ -236,7 +236,6 @@ const calc = (state) => {
 
   // defence modifier
   let leechModifier = 0;
-  // missing none override to curse drain
   const leechMap = {
     "none": 0, "sap": 6, "leech": 8, "turmoil": 10, "praesul": 12
   };
@@ -244,18 +243,13 @@ const calc = (state) => {
     leechModifier = leechMap[state.curse];
   }
 
-  const getMaxArmourDrain = armourBonus => {
-    return Math.ceil((0.15 * armourBonus) / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5;
-  }
+  // black stone arrow drain
+  const bsaDrain = Math.floor(state.blackStoneArrowStacks * Math.floor(0.0075 * armourBonus) / 5);
 
-  const bsaDrain = Math.floor(
-    Math.min(state.blackStoneArrowStacks, getMaxArmourDrain(armourBonus)) *
-    Math.floor(0.0075 * armourBonus) / 5
-  );
+  // invoke lord of bones drain
+  const ilobDrain = Math.floor(state.invokeLordOfBonesStacks * Math.floor(0.002 * armourBonus) / 5);
 
-  const maxArmourDrain = Math.floor(getMaxArmourDrain(armourBonus));
-
-  const defenceModifier = Math.min(leechModifier + bsaDrain, maxArmourDrain);
+  const defenceModifier = leechModifier + bsaDrain + ilobDrain;
 
   // quake
   const quake = state.quake ? 0.02 : 0;

@@ -285,7 +285,7 @@ const generateInput = (id, spec, previous) => {
     input.addEventListener(
       "change",
       () => {
-        state[id] = input.value;
+        state[id] = parseInt(input.value);
 
         calcWrapper();
       }
@@ -293,7 +293,7 @@ const generateInput = (id, spec, previous) => {
     icon.src = spec.icon;
     textCell.innerText = spec.text;
     // for initialization
-    state[id] = input.value;
+    state[id] = parseInt(input.value);
   } else {
     // console.log("unknown kind " + spec.kind);
   }
