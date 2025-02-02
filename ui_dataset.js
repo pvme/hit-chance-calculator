@@ -333,7 +333,13 @@ targetDebuffs = {
   },
   "blackStoneArrowStacks": {
     "icon": "https://i.imgur.com/kYQyldo.png",
-    "text": "BSA stacks",
+    "text": "BSA stacks (max 20)",
+    "kind": "number",
+    "default": 0
+  },
+  "invokeLordOfBonesStacks": {
+    "icon": "https://cdn.discordapp.com/emojis/1176968330582700174.png",
+    "text": "ILoB stacks (max 200)",
     "kind": "number",
     "default": 0
   },
