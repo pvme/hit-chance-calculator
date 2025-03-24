@@ -207,6 +207,7 @@ const generateInput = (id, spec, previous) => {
   iconCell.appendChild(icon);
   row.appendChild(iconCell);
   const textCell = document.createElement("td");
+  textCell.id = id + "-text";
   row.appendChild(textCell);
   const inputCell = document.createElement("td");
   inputCell.className = "input-col";
@@ -285,7 +286,7 @@ const generateInput = (id, spec, previous) => {
     input.addEventListener(
       "change",
       () => {
-        state[id] = input.value;
+        state[id] = parseInt(input.value);
 
         calcWrapper();
       }
@@ -293,7 +294,7 @@ const generateInput = (id, spec, previous) => {
     icon.src = spec.icon;
     textCell.innerText = spec.text;
     // for initialization
-    state[id] = input.value;
+    state[id] = parseInt(input.value);
   } else {
     // console.log("unknown kind " + spec.kind);
   }

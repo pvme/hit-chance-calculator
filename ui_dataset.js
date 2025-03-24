@@ -337,6 +337,12 @@ targetDebuffs = {
     "kind": "number",
     "default": 0
   },
+  "invokeLordOfBonesStacks": {
+    "icon": "https://cdn.discordapp.com/emojis/1176968330582700174.png",
+    "text": "ILoB stacks (max 200)",
+    "kind": "number",
+    "default": 0
+  },
   "additionalDefenceDrain": {
     "icon": "https://i.imgur.com/PiLPIOl.png",
     "text": "Additional defence drain",
@@ -350,8 +356,7 @@ playerDebuffs = {
     "text": "Equipment penalty",
     "kind": "number",
     "default": 0
-  },
-
+  }
 };
 familiarBuffs = {
   "spiritualHealing": {
