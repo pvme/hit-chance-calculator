@@ -36,6 +36,7 @@ const calc = (state) => {
   state.weaponTier = Number(state.weaponTier);
   state.wenArrows = Number(state.wenArrows);
   state.blackStoneArrowStacks = Number(state.blackStoneArrowStacks);
+  state.ilobStacks = Number(state.ilobStacks);
   state.additionalDefenceDrain = Number(state.additionalDefenceDrain);
   state.equipmentPenalty = Number(state.equipmentPenalty);
   state.reaperStacks = Number(state.reaperStacks);
@@ -243,13 +244,36 @@ const calc = (state) => {
     leechModifier = leechMap[state.curse];
   }
 
-  // black stone arrow drain
-  const bsaDrain = Math.floor(state.blackStoneArrowStacks * Math.floor(0.0075 * armourBonus) / 5);
+  // BSA function
+  const getMaxArmourDrain = armourBonus => {
+    return Math.ceil((0.15 * armourBonus) / Math.floor(Math.max(0.0075 * armourBonus, 1))) * Math.floor(0.0075 * armourBonus) / 5;
+  }
 
-  // invoke lord of bones drain
-  const ilobDrain = Math.floor(state.invokeLordOfBonesStacks * Math.floor(0.002 * armourBonus) / 5);
+  // New function for ILOB effect
+  const getIlobArmourDrain = armourBonus => {
+    // 0.2% per stack, up to 200 stacks (40% reduction)
+    return 0.4 * armourBonus;
+  }
 
-  const defenceModifier = leechModifier + bsaDrain + ilobDrain;
+  // BSA calculation
+  const bsaDrain = Math.floor(
+    Math.min(state.blackStoneArrowStacks, getMaxArmourDrain(armourBonus)) *
+    Math.floor(0.0075 * armourBonus) / 5
+  );
+
+  // New ILOB calculation
+  const ilobDrain = Math.floor(
+    Math.min(state.ilobStacks, 200) * (0.002 * armourBonus)
+  );
+
+  const maxArmourDrain = Math.floor(getMaxArmourDrain(armourBonus));
+  const maxIlobDrain = Math.floor(getIlobArmourDrain(armourBonus));
+
+  // Combined armor reduction (assuming these effects can stack together)
+  const defenceModifier = Math.min(
+    leechModifier + bsaDrain + ilobDrain, 
+    maxArmourDrain + maxIlobDrain
+  );
 
   // quake
   const quake = state.quake ? 0.02 : 0;
