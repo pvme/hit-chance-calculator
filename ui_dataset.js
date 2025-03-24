@@ -356,8 +356,7 @@ playerDebuffs = {
     "text": "Equipment penalty",
     "kind": "number",
     "default": 0
-  },
-
+  }
 };
 familiarBuffs = {
   "spiritualHealing": {
