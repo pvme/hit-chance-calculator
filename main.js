@@ -43,7 +43,7 @@ const calc = (state) => {
   const salamancy = state.salamancy ? 1.15 : 1;
   const dragonSlayerGloves = state.dragonSlayerGloves ? 0.1 : 0;
   const fulArrows = state.fulArrows ? -0.1 : 0;
-  const wenArrows = state.wenArrows * 0.03;
+  const wenArrows = state.wenArrows * 0.02;
   const nightmare = state.nightmare ? 0.25 : 0;
   const fleeting = state.fleeting ? 0.1 : 0;
 
