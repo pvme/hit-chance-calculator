@@ -207,6 +207,7 @@ const generateInput = (id, spec, previous) => {
   iconCell.appendChild(icon);
   row.appendChild(iconCell);
   const textCell = document.createElement("td");
+  textCell.id = id + "-text";
   row.appendChild(textCell);
   const inputCell = document.createElement("td");
   inputCell.className = "input-col";
