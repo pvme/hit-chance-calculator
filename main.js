@@ -36,7 +36,7 @@ const calc = (state) => {
   state.weaponTier = Number(state.weaponTier);
   state.wenArrows = Number(state.wenArrows);
   state.blackStoneArrowStacks = Number(state.blackStoneArrowStacks);
-  state.ilobStacks = Number(state.ilobStacks);
+  state.ilobStacks = Number(state.invokeLordOfBonesStacks);
   state.additionalDefenceDrain = Number(state.additionalDefenceDrain);
   state.equipmentPenalty = Number(state.equipmentPenalty);
   state.reaperStacks = Number(state.reaperStacks);
