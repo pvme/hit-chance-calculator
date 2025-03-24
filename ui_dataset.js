@@ -333,7 +333,7 @@ targetDebuffs = {
   },
   "blackStoneArrowStacks": {
     "icon": "https://i.imgur.com/kYQyldo.png",
-    "text": "BSA stacks (max 20)",
+    "text": "BSA stacks",
     "kind": "number",
     "default": 0
   },
