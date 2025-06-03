@@ -294,7 +294,12 @@ targetDebuffs = {
   "quake": {
     "icon": "https://i.imgur.com/vV5WjP5.png",
     "text": "Quake",
-    "kind": "bool"
+    "kind": "select",
+    "labels": {
+      "none": "None",
+      "normal": "Normal",
+      "ezk": "Ek-ZekKil"
+    }
   },
   "statius": {
     "icon": "https://i.imgur.com/OvV3fJi.png",

@@ -55,7 +55,7 @@ function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
 }
 
 function calcAffinity(state, hexhunter, darklight) {
-  const quake = state.quake ? 0.02 : 0;
+  const quake = quakeMap[state.quake];
   const statius = state.statius ? 0.05 : 0;
   const bandos = state.bandos ? 0.03 : 0;
   const guthixStaff = state.guthixStaff ? 0.02 : 0;

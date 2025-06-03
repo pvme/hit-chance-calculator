@@ -48,6 +48,13 @@ const leechMap = {
   "praesul": 12
 };
 
+
+const quakeMap = {
+  "none": 0,
+  "normal": 0.02,
+  "ezk": 0.04,
+};
+
 const slayerMap = {
   "none": 1,
   "basic": 1.125,
