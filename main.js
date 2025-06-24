@@ -65,9 +65,7 @@ const calc = (state) => {
     roundDown(3,
       roundDown(3,
         roundDown(3,
-          roundDown(2,
-            finalAccuracy / finalArmour
-          ) * finalAffinity
+          Math.floor(100 * finalAccuracy / finalArmour) / 100 * finalAffinity
         ) +
         keris + nightmare + fleeting
       ) * (1 +
