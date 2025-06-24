@@ -3,15 +3,7 @@ function accF(x) {
 }
 
 function roundDown(p, x) {
-  return Number((Math.floor(x * Math.pow(10, p)) / Math.pow(10, p)).toFixed(p))
-}
-
-function getPotionBoost(potion, level) {
-  const [mult, add, isOverload] = potionBoostsMap[potion];
-
-  const potionLevels = Math.floor(mult * level + add);
-
-  return { potionLevels, isOverload };
+  return Number((Math.round(x * Math.pow(10, p)) / Math.pow(10, p)).toFixed(p))
 }
 
 function calcAccuracyStat(state) {
@@ -31,15 +23,19 @@ function calcAccuracyStat(state) {
 }
 
 function getTrueStatLevel({ potion, level: skillLevel, bloodEssence, aura }) {
-  const { potionLevels, isOverload } = getPotionBoost(potion, skillLevel)
+  const [potionMult, potionAdd, isOverload] = potionBoostsMap[potion];
+
+  if (isOverload) {
+    const finalMult = (aura === "berserker") ? potionMult + 0.1 : potionMult;
+
+    return skillLevel + Math.floor(skillLevel * finalMult) + potionAdd;
+  }
 
   const bloodEssenceLevels = bloodEssence ? Math.floor(0.14 * skillLevel + 2) : 0;
+  const berserkerLevels = (aura === "berserker") ? Math.floor(skillLevel * 0.1) : 0;
+  const potionLevels = Math.floor(skillLevel * potionMult) + potionAdd
 
-  const berserker = (aura === "berserker") ? Math.floor(skillLevel * 0.1) : 0;
-
-  return skillLevel + (isOverload
-    ? berserker + potionLevels
-    : bloodEssenceLevels + Math.max(berserker, potionLevels));
+  return skillLevel + bloodEssenceLevels + Math.max(berserkerLevels, potionLevels);
 }
 
 function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
