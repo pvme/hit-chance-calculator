@@ -1,4 +1,18 @@
 targetData = {
+  "Amascut, the Devourer": {
+    "name": "Amascut, the Devourer",
+    "defence": 95,
+    "armour": 95,
+    "weakness": "none",
+    "style": "magic",
+    "affinity": {
+      "weakness": 90,
+      "melee": 55,
+      "range": 55,
+      "magic": 55
+    },
+    "curseImmune": false
+  },
   "Araxxi": {
     "name": "Araxxi",
     "defence": 80,
