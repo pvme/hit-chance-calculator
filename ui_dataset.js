@@ -31,8 +31,8 @@ playerBuffs = {
       "slash": "./static/images/weaknesses/slash.png",
       "stab": "./static/images/weaknesses/stab.png",
       "crush": "./static/images/weaknesses/crush.png",
-      "bolt": "./static/images/weaknesses/bolt.png",
-      "arrow": "./static/images/weaknesses/arrow.png",
+      "bolt": "./static/images/weaknesses/bolts.png",
+      "arrow": "./static/images/weaknesses/arrows.png",
       "thrown": "./static/images/weaknesses/thrown.png",
       "air": "./static/images/weaknesses/air.png",
       "water": "./static/images/weaknesses/water.png",
@@ -41,7 +41,7 @@ playerBuffs = {
       "none": "./static/images/weaknesses/none.png",
       "melee": "./static/images/combat_styles/melee.png",
       "magic": "./static/images/combat_styles/magic.png",
-      "range": "./static/images/combat_styles/range.png",
+      "range": "./static/images/combat_styles/ranged.png",
       "necro": "./static/images/combat_styles/necromancy.png"
     }
   },
