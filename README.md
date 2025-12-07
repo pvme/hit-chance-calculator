@@ -84,7 +84,7 @@ Notice all the variants have:
   ```json
   {
     "zealots": {
-      "icon": "https://i.imgur.com/L6LZo4t.png",
+      "icon": "./static/images/items/amulet_of_zealots.png",
       "text": "Zealots",
       "kind": "bool"
     }
@@ -106,10 +106,10 @@ Notice all the variants have:
         "elderOverload": "Elder overload"
       },
       "icons": {
-        "none": "https://i.imgur.com/lqBKfcq.png",
-        "ordinary": "https://i.imgur.com/yrqWZbd.png",
+        "none": "./static/images/weaknesses/none.png",
+        "ordinary": "./static/images/potions/combat_potion.png",
         // ... ,
-        "elderOverload": "https://i.imgur.com/ihRe9T0.png"
+        "elderOverload": "./static/images/potions/elder_overload_salve.png"
       }
     }
   }
@@ -120,7 +120,7 @@ Notice all the variants have:
     "level": {
       "kind": "number",
       "text": "Attack/Range/Magic level",
-      "icon": "https://imgur.com/OMENkUw",
+      "icon": "./static/images/misc/combat_triangle.png",
       "default": 99
     }
   }
