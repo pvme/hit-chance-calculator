@@ -2,13 +2,13 @@ playerBuffs = {
   "level": {
     "kind": "number",
     "text": "Attack/Range/Magic level",
-    "icon": "https://i.imgur.com/OMENkUw.png",
+    "icon": "./static/images/misc/combat_triangle.png",
     "default": 99
   },
   "weaponTier": {
     "kind": "number",
     "text": "Weapon (tier or value)",
-    "icon": "https://i.imgur.com/omyAKio.png",
+    "icon": "./static/images/equipment_slots/weapon_slot.png",
     "default": 95
   },
   "style": {
@@ -28,26 +28,26 @@ playerBuffs = {
       "necro": "Necro"
     },
     "icons": {
-      "slash": "https://i.imgur.com/zzymcD6.png",
-      "stab": "https://i.imgur.com/bx3XKqv.png",
-      "crush": "https://i.imgur.com/2UODvCD.png",
-      "bolt": "https://i.imgur.com/e0Pzpq7.png",
-      "arrow": "https://i.imgur.com/7XTWxTq.png",
-      "thrown": "https://i.imgur.com/qtWu017.png",
-      "air": "https://i.imgur.com/nPnWOaE.png",
-      "water": "https://i.imgur.com/DzyLkwu.png",
-      "earth": "https://i.imgur.com/0egjKRC.png",
-      "fire": "https://i.imgur.com/MXJKm2l.png",
-      "none": "https://i.imgur.com/lqBKfcq.png",
-      "melee": "https://i.imgur.com/L0Q7lvp.png",
-      "magic": "https://i.imgur.com/CUfucnB.png",
-      "range": "https://i.imgur.com/m2sNR7s.png",
-      "necro": "https://i.imgur.com/fZzXQ5E.png"
+      "slash": "./static/images/weaknesses/slash.png",
+      "stab": "./static/images/weaknesses/stab.png",
+      "crush": "./static/images/weaknesses/crush.png",
+      "bolt": "./static/images/weaknesses/bolt.png",
+      "arrow": "./static/images/weaknesses/arrow.png",
+      "thrown": "./static/images/weaknesses/thrown.png",
+      "air": "./static/images/weaknesses/air.png",
+      "water": "./static/images/weaknesses/water.png",
+      "earth": "./static/images/weaknesses/earth.png",
+      "fire": "./static/images/weaknesses/fire.png",
+      "none": "./static/images/weaknesses/none.png",
+      "melee": "./static/images/combat_styles/melee.png",
+      "magic": "./static/images/combat_styles/magic.png",
+      "range": "./static/images/combat_styles/range.png",
+      "necro": "./static/images/combat_styles/necromancy.png"
     }
   },
   "prayer": {
     "kind": "select",
-    "icon": "https://i.imgur.com/1h2rWwG.png",
+    "icon": "./static/images/skill_icons/prayer.png",
     "text": "Prayer",
     "labels": {
       "none": "None",
@@ -62,7 +62,7 @@ playerBuffs = {
     }
   },
   "zealots": {
-    "icon": "https://i.imgur.com/L6LZo4t.png",
+    "icon": "./static/images/items/amulet_of_zealots.png",
     "text": "Zealots",
     "kind": "bool",
   },
@@ -81,24 +81,24 @@ playerBuffs = {
       "elderOverload": "Elder overload",
     },
     "icons": {
-      "none": "https://i.imgur.com/lqBKfcq.png",
-      "ordinary": "https://i.imgur.com/yrqWZbd.png",
-      "super": "https://i.imgur.com/0gJiHwI.png",
-      "grand": "https://i.imgur.com/y6I8v9v.png",
-      "extreme": "https://i.imgur.com/ZK29lzL.png",
-      "supreme": "https://i.imgur.com/wUDIi7C.png",
-      "overload": "https://i.imgur.com/I3ipOwO.png",
-      "supremeOverload": "https://i.imgur.com/HxBtAPi.png",
-      "elderOverload": "https://i.imgur.com/ihRe9T0.png",
+      "none": "./static/images/weaknesses/none.png",
+      "ordinary": "./static/images/potions/combat_potion.png",
+      "super": "./static/images/potions/super_warmasters_potion.png",
+      "grand": "./static/images/potions/grand_attack_potion.png",
+      "extreme": "./static/images/potions/extreme_battlemages_potion.png",
+      "supreme": "./static/images/potions/supreme_attack_potion.png",
+      "overload": "./static/images/potions/overload.png",
+      "supremeOverload": "./static/images/potions/supreme_overload_potion.png",
+      "elderOverload": "./static/images/potions/elder_overload_salve.png",
     }
   },
   "bloodEssence": {
-    "icon": "https://i.imgur.com/BtWlsRD.png",
+    "icon": "./static/images/items/berserk_blood_essence.png",
     "text": "Berserk blood essence",
     "kind": "bool",
   },
   "aura": {
-    "icon": "https://i.imgur.com/Ltq5c7K.png",
+    "icon": "./static/images/equipment_slots/aura_slot.png",
     "text": "Aura",
     "kind": "select",
     "labels": {
@@ -111,12 +111,12 @@ playerBuffs = {
     }
   },
   "nihil": {
-    "icon": "https://i.imgur.com/9zQcO0U.png",
+    "icon": "./static/images/items/shadow_nihil_pouch.png",
     "text": "Nihil",
     "kind": "bool",
   },
   "scrimshaw": {
-    "icon": "https://i.imgur.com/gPd2alq.png",
+    "icon": "./static/images/items/scrimshaw_of_attack.png",
     "text": "Accuracy scrimshaw",
     "kind": "select",
     "labels": {
@@ -126,33 +126,33 @@ playerBuffs = {
     }
   },
   "voidArmor": {
-    "icon": "https://i.imgur.com/bNs2Tlm.png",
+    "icon": "./static/images/items/void_knight_top.png",
     "text": "Void",
     "kind": "bool",
   },
   "premierArtefact": {
-    "icon": "https://i.imgur.com/Ord0GRo.png",
+    "icon": "./static/images/items/premier_artefact.png",
     "text": "Premier artefact",
     "kind": "bool",
   },
   "reaperStacks": {
-    "icon": "https://i.imgur.com/WS5NjE1.png",
+    "icon": "./static/images/items/reaper_necklace.png",
     "text": "Reaper neck stacks",
     "kind": "number",
     "default": 0
   },
   "defender": {
-    "icon": "https://i.imgur.com/fEa81RM.png",
+    "icon": "./static/images/items/kalphite_defender.png",
     "text": "Defender",
     "kind": "bool",
   },
   "domMedallion": {
-    "icon": "https://i.imgur.com/pkC0oWU.png",
+    "icon": "./static/images/items/extreme_dominion_medallion.png",
     "text": "Extreme dom medallion",
     "kind": "bool",
   },
   "specialAttack": {
-    "icon": "https://i.imgur.com/OcoXcJa.png",
+    "icon": "./static/images/abilities/weapon_special_attack.png",
     "text": "Special attack",
     "kind": "select",
     "labels": {
@@ -163,22 +163,22 @@ playerBuffs = {
     }
   },
   "dragonBattleaxe": {
-    "icon": "https://i.imgur.com/Iaalj9F.png",
+    "icon": "./static/images/items/dragon_battleaxe.png",
     "text": "Dragon battleaxe",
     "kind": "bool",
   },
   "dragonScimitar": {
-    "icon": "https://i.imgur.com/pq2ySzz.png",
+    "icon": "./static/images/items/dragon_scimitar.png",
     "text": "Dragon scimitar",
     "kind": "bool",
   },
   "reaver": {
-    "icon": "https://i.imgur.com/efeIB9q.png",
+    "icon": "./static/images/items/reaver_ring.png",
     "text": "Reaver ring",
     "kind": "bool",
   },
   "slayerHelm": {
-    "icon": "https://i.imgur.com/abFTgdp.png",
+    "icon": "./static/images/items/slayer_helmet.png",
     "text": "Slayer helm/mask",
     "kind": "select",
     "labels": {
@@ -191,17 +191,17 @@ playerBuffs = {
     }
   },
   "salamancy": {
-    "icon": "https://i.imgur.com/qqDfvWU.png",
+    "icon": "./static/images/items/necklace_of_salamancy.png",
     "text": "Necklace of Salamancy",
     "kind": "bool",
   },
   "dragonSlayerGloves": {
-    "icon": "https://i.imgur.com/5Bz6fMo.png",
+    "icon": "./static/images/items/dragon_slayer_gloves.png",
     "text": "Dragon slayer gloves",
     "kind": "bool",
   },
   "salve": {
-    "icon": "https://i.imgur.com/XmRqNjT.png",
+    "icon": "./static/images/items/salve_amulet.png",
     "text": "Salve amulet",
     "kind": "select",
     "labels": {
@@ -211,7 +211,7 @@ playerBuffs = {
     }
   },
   "balmung": {
-    "icon": "https://i.imgur.com/A5vCyd5.png",
+    "icon": "./static/images/items/balmung.png",
     "text": "Balmung",
     "kind": "select",
     "labels": {
@@ -221,7 +221,7 @@ playerBuffs = {
     }
   },
   "baneAmmo": {
-    "icon": "https://i.imgur.com/b3wbLzo.png",
+    "icon": "./static/images/items/dragonbane_arrows.png",
     "text": "Bane ammunition",
     "kind": "select",
     "labels": {
@@ -231,18 +231,18 @@ playerBuffs = {
     }
   },
   "fulArrows": {
-    "icon": "https://i.imgur.com/RyRtatn.png",
+    "icon": "./static/images/items/ful_arrows.png",
     "text": "Ful arrows",
     "kind": "bool",
   },
   "wenArrows": {
-    "icon": "https://i.imgur.com/1PjsMTL.png",
+    "icon": "./static/images/items/wen_arrows.png",
     "text": "Wen arrow stacks",
     "kind": "number",
     "default": 0
   },
   "keris": {
-    "icon": "https://i.imgur.com/vYjDigU.png",
+    "icon": "./static/images/items/keris.png",
     "text": "Keris passive",
     "kind": "select",
     "labels": {
@@ -252,7 +252,7 @@ playerBuffs = {
     }
   },
   "darklight": {
-    "icon": "https://i.imgur.com/i7M3ItL.png",
+    "icon": "./static/images/items/darklight.png",
     "text": "Anti-demon-weaponry",
     "kind": "select",
     "labels": {
@@ -262,17 +262,17 @@ playerBuffs = {
     }
   },
   "hexClassWeapon": {
-    "icon": "https://i.imgur.com/IsiOVVb.png",
+    "icon": "./static/images/items/hexhunter_bow.png",
     "text": "Hexhunter/Terrasaur/Inquisitor",
     "kind": "bool",
   },
   "nightmare": {
-    "icon": "https://i.imgur.com/WhE0Wjx.png",
+    "icon": "./static/images/items/nightmare_gauntlets.png",
     "text": "Nightmare gauntlets",
     "kind": "bool",
   },
   "fleeting": {
-    "icon": "https://i.imgur.com/A2Ic69I.png",
+    "icon": "./static/images/items/fleeting_boots.png",
     "text": "Fleeting boots",
     "kind": "bool",
   }
@@ -280,7 +280,7 @@ playerBuffs = {
 
 targetDebuffs = {
   "curse": {
-    "icon": "https://i.imgur.com/5yCfPbD.png",
+    "icon": "./static/images/prayers/sap_melee_attack.png",
     "text": "Curse drain",
     "kind": "select",
     "labels": {
@@ -292,7 +292,7 @@ targetDebuffs = {
     }
   },
   "quake": {
-    "icon": "https://i.imgur.com/vV5WjP5.png",
+    "icon": "./static/images/abilities/quake.png",
     "text": "Quake",
     "kind": "select",
     "labels": {
@@ -302,54 +302,54 @@ targetDebuffs = {
     }
   },
   "statius": {
-    "icon": "https://i.imgur.com/OvV3fJi.png",
+    "icon": "./static/images/items/statius_warhammer.png",
     "text": "Statius' warhammer spec",
     "kind": "bool"
   },
   "bandos": {
-    "icon": "https://i.imgur.com/jebGMZf.png",
+    "icon": "./static/images/items/illuminated_book_of_war.png",
     "text": "Bandos book",
     "kind": "bool"
   },
   "guthixStaff": {
-    "icon": "https://i.imgur.com/InOn8Pg.png",
+    "icon": "./static/images/items/guthix_staff.png",
     "text": "Guthix staff spec",
     "kind": "bool"
   },
   "dragonHatchet": {
-    "icon": "https://i.imgur.com/FVIJG2X.png",
+    "icon": "./static/images/items/dragon_hatchet.png",
     "text": "Dragon hatchet spec",
     "kind": "bool"
   },
   "barrelchest": {
-    "icon": "https://i.imgur.com/ul3D4DI.png",
+    "icon": "./static/images/items/barrelchest_anchor.png",
     "text": "Barrelchest anchor spec",
     "kind": "bool"
   },
   "boneDagger": {
-    "icon": "https://i.imgur.com/iTUQ8cz.png",
+    "icon": "./static/images/items/bone_dagger.png",
     "text": "Bone dagger spec",
     "kind": "bool"
   },
   "domGloves": {
-    "icon": "https://i.imgur.com/f5PPj2V.png",
+    "icon": "./static/images/items/swift_gloves.png",
     "text": "Dominion gloves",
     "kind": "bool"
   },
   "blackStoneArrowStacks": {
-    "icon": "https://i.imgur.com/kYQyldo.png",
+    "icon": "./static/images/items/black_stone_arrows.png",
     "text": "BSA stacks",
     "kind": "number",
     "default": 0
   },
   "invokeLordOfBonesStacks": {
-    "icon": "https://cdn.discordapp.com/emojis/1176968330582700174.png",
+    "icon": "./static/images/abilities/invoke_lord_of_bones.png",
     "text": "ILoB stacks (max 200)",
     "kind": "number",
     "default": 0
   },
   "additionalDefenceDrain": {
-    "icon": "https://i.imgur.com/PiLPIOl.png",
+    "icon": "./static/images/prayers/sap_defence.png",
     "text": "Additional defence drain",
     "kind": "number",
     "default": 0
@@ -357,7 +357,7 @@ targetDebuffs = {
 };
 playerDebuffs = {
   "equipmentPenalty": {
-    "icon": "https://i.imgur.com/BDKv4FP.png",
+    "icon": "./static/images/misc/equipment_penalty.png",
     "text": "Equipment penalty",
     "kind": "number",
     "default": 0
@@ -365,7 +365,7 @@ playerDebuffs = {
 };
 familiarBuffs = {
   "spiritualHealing": {
-    "icon": "https://i.imgur.com/dTYAtzm.png",
+    "icon": "./static/images/abilities/spiritual_healing.png",
     "text": "Spiritual healing",
     "kind": "bool"
   }
