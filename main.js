@@ -30,7 +30,7 @@ const calc = (state) => {
   const baneAmmo = baneMap[state.baneAmmo];
   const keris = kerisMap[state.keris];
   const darklight = darklightMap[state.darklight];
-  const hexhunter = (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) ? 0.1 : 0;
+  const hexhunter = state.hexClassWeapon && weaknessMap[state.target.style] === styleMap[state.style] ? 0.1 : 0;
   const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0;
   const nihil = state.nihil ? 0.05 : 0;
   const voidArmor = state.voidArmor ? 0.03 : 0;
