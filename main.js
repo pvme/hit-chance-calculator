@@ -98,50 +98,16 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  // melee
-  if (state.familiar.levels.melee > 1) {
-    let meleeLevel = state.familiar.levels.melee;
-    meleeLevel = Math.floor(meleeLevel * (state.spiritualHealing ? 1.07 : 1));
-    const meleeAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(meleeLevel) : (0.5 * accF(meleeLevel)))
-    );
+  for (const style of ["melee", "magic", "range"]) {
+    let baseLevel = state.familiar.levels[style];
+    if (baseLevel <= 1) continue;
+    baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));
+    const baseAccuracy = 2.5 * accF(state.familiar.level.base);
+    const bonusAccuracy = accF(baseLevel) * (state.familiar.boss ? 1 : 0.5);
+    const totalAccuracy = Math.floor(baseAccuracy + bonusAccuracy);
 
-    result.familiar.melee = roundDown(3,
-      roundDown(2, meleeAccuracy / finalArmour) *
-      (state.target.affinity.melee / 100 + affinityModifier)
-    );
-  }
-
-  // range
-  if (state.familiar.levels.range > 1) {
-    let rangeLevel = state.familiar.levels.range;
-    rangeLevel = Math.floor(rangeLevel * (state.spiritualHealing ? 1.07 : 1));
-    const rangeAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(rangeLevel) : (0.5 * accF(rangeLevel)))
-    );
-
-    result.familiar.range = roundDown(3,
-      roundDown(2, rangeAccuracy / finalArmour) *
-      (state.target.affinity.range / 100 + affinityModifier)
-    );
-  }
-
-  // magic
-  if (state.familiar.levels.magic > 1) {
-    let magicLevel = state.familiar.levels.magic;
-    magicLevel = Math.floor(magicLevel * (state.spiritualHealing ? 1.07 : 1));
-    const magicAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(magicLevel) : (0.5 * accF(magicLevel)))
-    );
-
-    result.familiar.magic = roundDown(3,
-      roundDown(2, magicAccuracy / finalArmour) *
-      (state.target.affinity.magic / 100 + affinityModifier)
-    );
+    result.familiar[style] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[style] / 100 + affinityModifier));
   }
 
   return result;
-}
+};
