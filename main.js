@@ -111,10 +111,6 @@ const calc = (state) => {
       roundDown(2, meleeAccuracy / finalArmour) *
       (state.target.affinity.melee / 100 + affinityModifier)
     );
-
-    if (state.familiar.name === "Ripper demon" && state.target.name === "Raksha") {
-      result.familiar.melee = 1; // huh?
-    }
   }
 
   // range
