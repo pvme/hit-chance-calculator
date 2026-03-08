@@ -102,7 +102,7 @@ const calc = (state) => {
     let baseLevel = state.familiar.levels[style];
     if (baseLevel <= 1) continue;
     baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));
-    const baseAccuracy = 2.5 * accF(state.familiar.level.base);
+    const baseAccuracy = 2.5 * accF(state.familiar.levels.base);
     const bonusAccuracy = accF(baseLevel) * (state.familiar.boss ? 1 : 0.5);
     const totalAccuracy = Math.floor(baseAccuracy + bonusAccuracy);
 
