@@ -52,7 +52,7 @@ applicable.
     "defence": 85,
     "armour": 85,
     "weakness": "stab",
-    "style": "range",
+    "combatStyle": "range",
     "affinity": {
       "weakness": 60,
       "melee": 50,

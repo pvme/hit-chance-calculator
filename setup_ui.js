@@ -73,9 +73,9 @@ const target = () => {
   assignInnerText("target-armour", state.target.armour);
 
   assignInnerText("target-weakness", state.target.weakness);
-  document.getElementById("target-weakness-icon").src = playerBuffs.style.icons[state.target.weakness];
-  assignInnerText("target-style", state.target.style);
-  document.getElementById("target-style-icon").src = playerBuffs.style.icons[state.target.style];
+  document.getElementById("target-weakness-icon").src = playerBuffs.combatStyle.icons[state.target.weakness];
+  assignInnerText("target-style", state.target.combatStyle);
+  document.getElementById("target-style-icon").src = playerBuffs.combatStyle.icons[state.target.combatStyle];
 
   assignInnerText("target-affinity-weakness", state.target.affinity.weakness);
   assignInnerText("target-affinity-melee", state.target.affinity.melee);

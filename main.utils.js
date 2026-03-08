@@ -55,19 +55,19 @@ function calcAffinity(state, hexhunter, darklight) {
   const dragonHatchet = state.dragonHatchet ? 3 : 0;
   const barrelchest = state.barrelchest ? 4 : 0;
   const boneDagger = state.boneDagger ? 2 : 0;
-  const hexhunterAffinity = (hexhunter && state.target.weakness === state.style) ? 5 : 0;
+  const hexhunterAffinity = (hexhunter && state.target.weakness === state.combatStyle) ? 5 : 0;
 
   // base affinity
   let baseAffinity;
   if (darklight > 0 && state.target.weakness !== "none") {
     // handle darklight overriding which affinity is used
     baseAffinity = state.target.affinity.weakness;
-  } else if (state.style === state.target.weakness) {
+  } else if (state.combatStyle === state.target.weakness) {
     baseAffinity = state.target.affinity.weakness;
-  } else if (state.style === "necro") {
-    baseAffinity = state.target.affinity[state.target.style];
+  } else if (state.combatStyle === "necro") {
+    baseAffinity = state.target.affinity[state.target.combatStyle];
   } else {
-    baseAffinity = state.target.affinity[styleMap[state.style]];
+    baseAffinity = state.target.affinity[combatStyleMap[state.combatStyle]];
   }
   const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
 

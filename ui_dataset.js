@@ -11,9 +11,9 @@ playerBuffs = {
     "icon": "./static/images/equipment_slots/weapon_slot.png",
     "default": 95
   },
-  "style": {
+  "combatStyle": {
     "kind": "select",
-    "text": "Attack style",
+    "text": "Combat style",
     "labels": {
       "slash": "Slash",
       "stab": "Stab",

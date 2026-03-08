@@ -17,7 +17,7 @@ const prayerMap = {
   "praesul": 12
 };
 
-const styleMap = {
+const combatStyleMap = {
   "slash": "melee",
   "stab": "melee",
   "crush": "melee",

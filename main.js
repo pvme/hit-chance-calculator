@@ -29,7 +29,7 @@ const calc = (state) => {
   const baneAmmo = baneMap[state.baneAmmo];
   const keris = kerisMap[state.keris];
   const darklight = darklightMap[state.darklight];
-  const hexhunter = state.hexClassWeapon && weaknessMap[state.target.style] === styleMap[state.style] ? 0.1 : 0;
+  const hexhunter = state.hexClassWeapon && weaknessMap[state.target.combatStyle] === combatStyleMap[state.combatStyle] ? 0.1 : 0;
   const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0;
   const nihil = state.nihil ? 0.05 : 0;
   const voidArmor = state.voidArmor ? 0.03 : 0;
@@ -96,15 +96,15 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  for (const style of ["melee", "magic", "range"]) {
-    let baseLevel = state.familiar.levels[style];
+  for (const combatStyle of ["melee", "magic", "range"]) {
+    let baseLevel = state.familiar.levels[combatStyle];
     if (baseLevel <= 1) continue;
     baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));
     const baseAccuracy = 2.5 * accF(state.familiar.levels.base);
     const bonusAccuracy = accF(baseLevel) * (state.familiar.boss ? 1 : 0.5);
     const totalAccuracy = Math.floor(baseAccuracy + bonusAccuracy);
 
-    result.familiar[style] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[style] / 100 + affinityModifier));
+    result.familiar[combatStyle] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[combatStyle] / 100 + affinityModifier));
   }
 
   return result;
