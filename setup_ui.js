@@ -94,7 +94,7 @@ const filterTargetList = () => {
   const queryWords = query.split(" ").map(word => word.toLowerCase());
 
   // Filter the options based on the query
-  Array.from(targetList.childNodes).filter(target => {
+  Array.from(targetList.childNodes).forEach(target => {
     // Convert the option to lower case for case-insensitive matching
     const targetLower = target.innerText.toLowerCase();
 
