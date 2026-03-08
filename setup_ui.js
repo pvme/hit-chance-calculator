@@ -311,6 +311,7 @@ const generateInput = (id, spec, previous) => {
 //
 // NB this also saves the state, since in calcWrapper is always called right
 //    after something in the UI has been changed, and therefore should be saved
+const percentFormat = Intl.NumberFormat(undefined, { style: "percent", minimumFractionDigits: 2 }).format
 const calcWrapper = () => {
   familiar();
   target();
@@ -318,12 +319,12 @@ const calcWrapper = () => {
   const result = calc(state);
   writeLocalStorage();
 
-  assignInnerText("final-hit-chance", (result.hitchance * 100).toFixed(2) + "%");
+  assignInnerText("final-hit-chance", percentFormat(result.hitchance));
 
   // familiar accuracy
-  assignInnerText("familiar-melee", (result.familiar.melee * 100).toFixed(2) + "%");
-  assignInnerText("familiar-range", (result.familiar.range * 100).toFixed(2) + "%");
-  assignInnerText("familiar-magic", (result.familiar.magic * 100).toFixed(2) + "%");
+  assignInnerText("familiar-melee", percentFormat(result.familiar.melee));
+  assignInnerText("familiar-range", percentFormat(result.familiar.range));
+  assignInnerText("familiar-magic", percentFormat(result.familiar.magic));
 }
 
 // Load all the setup fields from the objects provided by ui_dataset.js
