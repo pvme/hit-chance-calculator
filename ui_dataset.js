@@ -97,19 +97,6 @@ playerBuffs = {
     "text": "Berserk blood essence",
     "kind": "bool",
   },
-  "aura": {
-    "icon": "./static/images/equipment_slots/aura_slot.png",
-    "text": "Aura",
-    "kind": "select",
-    "labels": {
-      "none": "None",
-      "t1": "3% (Tier 1)",
-      "t2": "5% (Tier 2)",
-      "t3": "7% (Tier 3)",
-      "t4": "10% (Tier 4)",
-      "berserker": "Berserker variant"
-    }
-  },
   "nihil": {
     "icon": "./static/images/items/shadow_nihil_pouch.png",
     "text": "Nihil",

@@ -1,12 +1,3 @@
-const auraMap = {
-  "none": 0,
-  "t1": 0.03,
-  "t2": 0.05,
-  "t3": 0.07,
-  "t4": 0.10,
-  "berserker": 0.10,
-};
-
 const specialAttackMap = {
   "none": 1,
   "dragonDagger": 1.15,

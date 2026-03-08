@@ -21,7 +21,6 @@
 // ```
 const calc = (state) => {
   // get input values
-  const accuracyAura = auraMap[state.aura];
   const scrimshaw = scrimshawMap[state.scrimshaw];
   const specialAttack = specialAttackMap[state.specialAttack];
   const slayerHelm = slayerMap[state.slayerHelm];
@@ -69,7 +68,6 @@ const calc = (state) => {
         ) +
         keris + nightmare + fleeting
       ) * (1 +
-        accuracyAura +
         premierArtefact +
         nihil +
         scrimshaw +

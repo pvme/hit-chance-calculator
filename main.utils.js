@@ -22,20 +22,17 @@ function calcAccuracyStat(state) {
   return weaponBonus + levelBonus + prayerBonus - equipmentPenalty;
 }
 
-function getTrueStatLevel({ potion, level: skillLevel, bloodEssence, aura }) {
+function getTrueStatLevel({ potion, level: skillLevel, bloodEssence }) {
   const [potionMult, potionAdd, isOverload] = potionBoostsMap[potion];
 
   if (isOverload) {
-    const finalMult = (aura === "berserker") ? potionMult + 0.1 : potionMult;
-
-    return skillLevel + Math.floor(skillLevel * finalMult) + potionAdd;
+    return skillLevel + Math.floor(skillLevel * potionMult) + potionAdd;
   }
 
   const bloodEssenceLevels = bloodEssence ? Math.floor(0.14 * skillLevel + 2) : 0;
-  const berserkerLevels = (aura === "berserker") ? Math.floor(skillLevel * 0.1) : 0;
   const potionLevels = Math.floor(skillLevel * potionMult) + potionAdd
 
-  return skillLevel + bloodEssenceLevels + Math.max(berserkerLevels, potionLevels);
+  return skillLevel + bloodEssenceLevels + potionLevels;
 }
 
 function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
