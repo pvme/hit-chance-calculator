@@ -81,6 +81,7 @@ const target = () => {
   assignInnerText("target-affinity-melee", state.target.affinity.melee);
   assignInnerText("target-affinity-range", state.target.affinity.range);
   assignInnerText("target-affinity-magic", state.target.affinity.magic);
+  assignInnerText("target-affinity-necromancy", state.target.affinity.same);
 }
 
 // Change the "display" style on list elements according to the current value
