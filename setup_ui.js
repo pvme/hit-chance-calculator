@@ -69,8 +69,8 @@ const target = () => {
   state.target = targetData[targetLabel];
 
   // Set ui fields
-  assignInnerText("target-defence", state.target.defence);
-  assignInnerText("target-armour", state.target.armour);
+  assignInnerText("target-defence", state.target.levels.defence);
+  assignInnerText("target-armour", state.target.baseStats.armour);
 
   assignInnerText("target-weakness", state.target.weakness);
   document.getElementById("target-weakness-icon").src = playerBuffs.combatStyle.icons[state.target.weakness];

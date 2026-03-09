@@ -64,20 +64,18 @@ function calcAffinity(state, hexhunter, darklight) {
     baseAffinity = state.target.affinity.weakness;
   } else if (state.combatStyle === state.target.weakness) {
     baseAffinity = state.target.affinity.weakness;
-  } else if (state.combatStyle === "necro") {
-    baseAffinity = state.target.affinity[state.target.combatStyle];
   } else {
     baseAffinity = state.target.affinity[combatStyleMap[state.combatStyle]];
   }
-  const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
 
+  const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
   const finalAffinity = (baseAffinity / 100 + affinityModifier);
 
   return { finalAffinity, affinityModifier };
 }
 
 function calcArmourStat(state) {
-  const baseArmour = getBaseArmour(state.target.armour);
+  const baseArmour = state.target.baseStats.armour;
   const bonusArmour = getBonusArmour(state);
 
   // armour reduction clusterfuck
@@ -109,19 +107,7 @@ function calcArmourStat(state) {
   return baseArmour + bonusArmour - curseDrain - currentBsaDrain - lobDrain;
 }
 
-function getBaseArmour(targetArmour) {
-  let baseArmour = 0;
-
-  if (targetArmour > 150) {
-    baseArmour = Math.floor(targetArmour);
-  } else if (targetArmour > 0) {
-    baseArmour = Math.round(2.5 * accF(targetArmour))
-  }
-
-  return baseArmour;
-}
-
-function getBonusArmour({ target: { defence }, additionalDefenceDrain, domGloves }) {
+function getBonusArmour({ target: { levels: { defence } }, additionalDefenceDrain, domGloves }) {
   let defenceLevel = defence;
 
   if (Math.abs(additionalDefenceDrain) > 1) {
