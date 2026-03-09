@@ -98,15 +98,15 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  for (const combatStyle of ["melee", "magic", "ranged", "same"]) {
-    let baseLevel = state.familiar.levels[combatStyle];
+  for (const affinity of ["melee", "magic", "ranged", "same"]) {
+    let baseLevel = state.familiar.levels[affinity];
     if (baseLevel <= 1) continue;
     baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));
     const baseAccuracy = 2.5 * accF(state.familiar.levels.base);
     const bonusAccuracy = accF(baseLevel) * (state.familiar.boss ? 1 : 0.5);
     const totalAccuracy = Math.floor(baseAccuracy + bonusAccuracy);
 
-    result.familiar[combatStyle] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[combatStyle] / 100 + affinityModifier));
+    result.familiar[affinity] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[affinity] / 100 + affinityModifier));
   }
 
   return result;
