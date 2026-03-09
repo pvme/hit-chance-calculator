@@ -3,7 +3,7 @@ playerBuffs = {
     "kind": "number",
     "text": "Attack/Range/Magic level",
     "icon": "./static/images/misc/combat_triangle.png",
-    "default": 99
+    "default": 120
   },
   "weaponTier": {
     "kind": "number",
