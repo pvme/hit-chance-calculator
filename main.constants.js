@@ -18,17 +18,17 @@ const prayerMap = {
 };
 
 const combatStyleMap = {
-  "slash": "melee",
-  "stab": "melee",
-  "crush": "melee",
-  "thrown": "range",
-  "arrow": "range",
-  "bolt": "range",
-  "air": "magic",
-  "water": "magic",
-  "earth": "magic",
-  "fire": "magic",
-  "necro": "necro"
+  "Slashing": "melee",
+  "Stabbing": "melee",
+  "Crushing": "melee",
+  "Thrown": "ranged",
+  "Arrow": "ranged",
+  "Bolt": "ranged",
+  "Air": "magic",
+  "Water": "magic",
+  "Earth": "magic",
+  "Fire": "magic",
+  "Necromancy": "same"
 };
 
 const leechMap = {
@@ -87,8 +87,8 @@ const darklightMap = {
 
 const weaknessMap = {
   "melee": "magic",
-  "magic": "range",
-  "range": "melee"
+  "magic": "ranged",
+  "ranged": "melee"
 };
 
 const scrimshawMap = {

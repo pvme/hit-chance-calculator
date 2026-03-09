@@ -51,15 +51,14 @@ applicable.
     "name": "Kalphite King (Ranged)",
     "defence": 85,
     "armour": 85,
-    "weakness": "stab",
-    "combatStyle": "range",
+    "weakness": "Stab",
+    "combatStyle": "Ranged",
     "affinity": {
       "weakness": 60,
       "melee": 50,
-      "range": 40,
+      "ranged": 40,
       "magic": 30
-    },
-    "curseImmune": false
+    }
   }
 }
 ```
@@ -119,7 +118,7 @@ Notice all the variants have:
   {
     "level": {
       "kind": "number",
-      "text": "Attack/Range/Magic level",
+      "text": "Attack/Ranged/Magic level",
       "icon": "./static/images/misc/combat_triangle.png",
       "default": 99
     }
@@ -140,7 +139,7 @@ the familiar is using for the purposes of determining its accuracy.
     "levels": {
       "base": 99,
       "melee": 99,
-      "range": 1,
+      "ranged": 1,
       "magic": 1
     }
   }

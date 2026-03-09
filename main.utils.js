@@ -59,7 +59,7 @@ function calcAffinity(state, hexhunter, darklight) {
 
   // base affinity
   let baseAffinity;
-  if (darklight > 0 && state.target.weakness !== "none") {
+  if (darklight > 0 && state.target.weakness !== "None") {
     // handle darklight overriding which affinity is used
     baseAffinity = state.target.affinity.weakness;
   } else if (state.combatStyle === state.target.weakness) {

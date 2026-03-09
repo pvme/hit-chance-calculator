@@ -79,7 +79,7 @@ const target = () => {
 
   assignInnerText("target-affinity-weakness", state.target.affinity.weakness);
   assignInnerText("target-affinity-melee", state.target.affinity.melee);
-  assignInnerText("target-affinity-range", state.target.affinity.range);
+  assignInnerText("target-affinity-ranged", state.target.affinity.ranged);
   assignInnerText("target-affinity-magic", state.target.affinity.magic);
   assignInnerText("target-affinity-necromancy", state.target.affinity.same);
 }
@@ -324,7 +324,7 @@ const calcWrapper = () => {
 
   // familiar accuracy
   assignInnerText("familiar-melee", percentFormat(result.familiar.melee));
-  assignInnerText("familiar-range", percentFormat(result.familiar.range));
+  assignInnerText("familiar-ranged", percentFormat(result.familiar.ranged));
   assignInnerText("familiar-magic", percentFormat(result.familiar.magic));
 }
 

@@ -14,7 +14,7 @@
 //   "hitchance": Number,
 //   "familiar": {
 //      "melee": Number,
-//      "range": Number,
+//      "ranged": Number,
 //      "magic": Number
 //   }
 // }
@@ -55,7 +55,7 @@ const calc = (state) => {
     hitchance: 0,
     familiar: {
       melee: 0,
-      range: 0,
+      ranged: 0,
       magic: 0
     }
   };
@@ -96,7 +96,7 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  for (const combatStyle of ["melee", "magic", "range"]) {
+  for (const combatStyle of ["melee", "magic", "ranged"]) {
     let baseLevel = state.familiar.levels[combatStyle];
     if (baseLevel <= 1) continue;
     baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));

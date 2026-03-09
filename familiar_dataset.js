@@ -5,7 +5,7 @@ familiarData = {
     "levels": {
       "base": 99,
       "melee": 99,
-      "range": 1,
+      "ranged": 1,
       "magic": 1
     }
   },
@@ -15,7 +15,7 @@ familiarData = {
     "levels": {
       "base": 95,
       "melee": 95,
-      "range": 1,
+      "ranged": 1,
       "magic": 95
     }
   },
@@ -25,7 +25,7 @@ familiarData = {
     "levels": {
       "base": 70,
       "melee": 70,
-      "range": 1,
+      "ranged": 1,
       "magic": 70
     }
   },
@@ -35,7 +35,7 @@ familiarData = {
     "levels": {
       "base": 90,
       "melee": 90,
-      "range": 90,
+      "ranged": 90,
       "magic": 90
     }
   },
@@ -45,7 +45,7 @@ familiarData = {
     "levels": {
       "base": 80,
       "melee": 90,
-      "range": 90,
+      "ranged": 90,
       "magic": 90
     }
   },
@@ -55,7 +55,7 @@ familiarData = {
     "levels": {
       "base": 83,
       "melee": 83,
-      "range": 83,
+      "ranged": 83,
       "magic": 83
     }
   },
@@ -65,7 +65,7 @@ familiarData = {
     "levels": {
       "base": 80,
       "melee": 80,
-      "range": 1,
+      "ranged": 1,
       "magic": 1
     }
   },
@@ -75,7 +75,7 @@ familiarData = {
     "levels": {
       "base": 80,
       "melee": 75,
-      "range": 80,
+      "ranged": 80,
       "magic": 75
     }
   },
@@ -85,7 +85,7 @@ familiarData = {
     "levels": {
       "base": 80,
       "melee": 75,
-      "range": 1,
+      "ranged": 1,
       "magic": 80
     }
   },
@@ -95,7 +95,7 @@ familiarData = {
     "levels": {
       "base": 75,
       "melee": 70,
-      "range": 70,
+      "ranged": 70,
       "magic": 75
     }
   },
@@ -105,7 +105,7 @@ familiarData = {
     "levels": {
       "base": 70,
       "melee": 70,
-      "range": 70,
+      "ranged": 70,
       "magic": 70
     }
   },
@@ -115,7 +115,7 @@ familiarData = {
     "levels": {
       "base": 55,
       "melee": 55,
-      "range": 55,
+      "ranged": 55,
       "magic": 55
     }
   }
