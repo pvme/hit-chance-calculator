@@ -30,7 +30,8 @@ const calc = (state) => {
   const keris = kerisMap[state.keris];
   const darklight = darklightMap[state.darklight];
   const hexhunter = state.hexClassWeapon && weaknessMap[state.target.combatStyle] === combatStyleMap[state.combatStyle] ? 0.1 : 0;
-  const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0;
+  // const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0; // add back in when targets get curseImmune property
+  const premierArtefact = state.premierArtefact ? 0.2 : 0;
   const nihil = state.nihil ? 0.05 : 0;
   const voidArmor = state.voidArmor ? 0.03 : 0;
   const reaper = state.reaperStacks / 1000;

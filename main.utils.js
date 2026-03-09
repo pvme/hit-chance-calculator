@@ -83,7 +83,8 @@ function calcArmourStat(state) {
   // armour reduction clusterfuck
 
   // curses
-  const curseTier = !state.target.curseImmune ? leechMap[state.curse] : 0;
+  // const curseTier = !state.target.curseImmune ? leechMap[state.curse] : 0; // add back in when targets get curseImmune property
+  const curseTier = leechMap[state.curse];
   const curseDrain = curseTier * 5;
 
   // BSA
