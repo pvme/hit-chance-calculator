@@ -57,7 +57,8 @@ const calc = (state) => {
     familiar: {
       melee: 0,
       ranged: 0,
-      magic: 0
+      magic: 0,
+      same: 0 // necromancy
     }
   };
 
@@ -97,7 +98,7 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  for (const combatStyle of ["melee", "magic", "ranged"]) {
+  for (const combatStyle of ["melee", "magic", "ranged", "same"]) {
     let baseLevel = state.familiar.levels[combatStyle];
     if (baseLevel <= 1) continue;
     baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));

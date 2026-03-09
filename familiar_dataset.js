@@ -6,7 +6,8 @@ familiarData = {
       "base": 99,
       "melee": 99,
       "ranged": 1,
-      "magic": 1
+      "magic": 1,
+      "same": 1
     }
   },
   "Kal'gerion demon": {
@@ -16,7 +17,8 @@ familiarData = {
       "base": 95,
       "melee": 95,
       "ranged": 1,
-      "magic": 95
+      "magic": 95,
+      "same": 1
     }
   },
   "Blood reaver": {
@@ -26,7 +28,8 @@ familiarData = {
       "base": 70,
       "melee": 70,
       "ranged": 1,
-      "magic": 70
+      "magic": 70,
+      "same": 1
     }
   },
   "Steel titan": {
@@ -36,7 +39,8 @@ familiarData = {
       "base": 90,
       "melee": 90,
       "ranged": 90,
-      "magic": 90
+      "magic": 90,
+      "same": 1
     }
   },
   "Dreadnip": {
@@ -46,7 +50,8 @@ familiarData = {
       "base": 80,
       "melee": 90,
       "ranged": 90,
-      "magic": 90
+      "magic": 90,
+      "same": 1
     }
   },
   "Wolpertinger": {
@@ -56,7 +61,8 @@ familiarData = {
       "base": 83,
       "melee": 83,
       "ranged": 83,
-      "magic": 83
+      "magic": 83,
+      "same": 1
     }
   },
   "Blood nihil": {
@@ -66,7 +72,8 @@ familiarData = {
       "base": 80,
       "melee": 80,
       "ranged": 1,
-      "magic": 1
+      "magic": 1,
+      "same": 1
     }
   },
   "Shadow nihil": {
@@ -76,7 +83,8 @@ familiarData = {
       "base": 80,
       "melee": 75,
       "ranged": 80,
-      "magic": 75
+      "magic": 75,
+      "same": 1
     }
   },
   "Smoke nihil": {
@@ -86,7 +94,8 @@ familiarData = {
       "base": 80,
       "melee": 75,
       "ranged": 1,
-      "magic": 80
+      "magic": 80,
+      "same": 1
     }
   },
   "Ice nihil": {
@@ -96,7 +105,8 @@ familiarData = {
       "base": 75,
       "melee": 70,
       "ranged": 70,
-      "magic": 75
+      "magic": 75,
+      "same": 80
     }
   },
   "Talon beast": {
@@ -106,7 +116,8 @@ familiarData = {
       "base": 70,
       "melee": 70,
       "ranged": 70,
-      "magic": 70
+      "magic": 70,
+      "same": 1
     }
   },
   "Smoke devil": {
@@ -116,7 +127,8 @@ familiarData = {
       "base": 55,
       "melee": 55,
       "ranged": 55,
-      "magic": 55
+      "magic": 55,
+      "same": 1
     }
   }
 };

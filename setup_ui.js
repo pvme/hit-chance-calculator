@@ -323,9 +323,9 @@ const calcWrapper = () => {
   assignInnerText("final-hit-chance", percentFormat(result.hitchance));
 
   // familiar accuracy
-  assignInnerText("familiar-melee", percentFormat(result.familiar.melee));
-  assignInnerText("familiar-ranged", percentFormat(result.familiar.ranged));
-  assignInnerText("familiar-magic", percentFormat(result.familiar.magic));
+  ["melee", "ranged", "magic", "same"].forEach(affinity => {
+    assignInnerText(`familiar-${affinity}`, percentFormat(result.familiar[affinity]));
+  })
 }
 
 // Load all the setup fields from the objects provided by ui_dataset.js
