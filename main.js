@@ -36,8 +36,8 @@ const calc = (state) => {
   const { finalAffinity, affinityModifier } = calcAffinity(state);
   const finalArmour = calcArmourStat(state);
 
-  result.hitchance = Math.floor(100 * finalAccuracy / finalArmour);
-  result.hitchance = Math.floor(result.hitchance * finalAffinity) * 10;
+  result.hitchance = Math.floor(100 * finalAccuracy / finalArmour) * 10;
+  result.hitchance = Math.floor(result.hitchance * finalAffinity);
 
   // Base additive bonuses  
   const keris = kerisMap[state.keris];
