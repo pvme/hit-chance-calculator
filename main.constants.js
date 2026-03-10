@@ -1,12 +1,3 @@
-const auraMap = {
-  "none": 0,
-  "t1": 0.03,
-  "t2": 0.05,
-  "t3": 0.07,
-  "t4": 0.10,
-  "berserker": 0.10,
-};
-
 const specialAttackMap = {
   "none": 1,
   "dragonDagger": 1.15,
@@ -26,18 +17,18 @@ const prayerMap = {
   "praesul": 12
 };
 
-const styleMap = {
-  "slash": "melee",
-  "stab": "melee",
-  "crush": "melee",
-  "thrown": "range",
-  "arrow": "range",
-  "bolt": "range",
-  "air": "magic",
-  "water": "magic",
-  "earth": "magic",
-  "fire": "magic",
-  "necro": "necro"
+const combatStyleMap = {
+  "Slashing": "melee",
+  "Stabbing": "melee",
+  "Crushing": "melee",
+  "Thrown": "ranged",
+  "Arrow": "ranged",
+  "Bolt": "ranged",
+  "Air": "magic",
+  "Water": "magic",
+  "Earth": "magic",
+  "Fire": "magic",
+  "Necromancy": "same"
 };
 
 const leechMap = {
@@ -96,8 +87,8 @@ const darklightMap = {
 
 const weaknessMap = {
   "melee": "magic",
-  "magic": "range",
-  "range": "melee"
+  "magic": "ranged",
+  "ranged": "melee"
 };
 
 const scrimshawMap = {

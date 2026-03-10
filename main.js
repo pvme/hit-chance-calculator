@@ -14,14 +14,13 @@
 //   "hitchance": Number,
 //   "familiar": {
 //      "melee": Number,
-//      "range": Number,
+//      "ranged": Number,
 //      "magic": Number
 //   }
 // }
 // ```
 const calc = (state) => {
   // get input values
-  const accuracyAura = auraMap[state.aura];
   const scrimshaw = scrimshawMap[state.scrimshaw];
   const specialAttack = specialAttackMap[state.specialAttack];
   const slayerHelm = slayerMap[state.slayerHelm];
@@ -30,8 +29,9 @@ const calc = (state) => {
   const baneAmmo = baneMap[state.baneAmmo];
   const keris = kerisMap[state.keris];
   const darklight = darklightMap[state.darklight];
-  const hexhunter = (state.hexClassWeapon && (weaknessMap[state.target.style] === styleMap[state.style])) ? 0.1 : 0;
-  const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0;
+  const hexhunter = state.hexClassWeapon && weaknessMap[state.target.combatStyle] === combatStyleMap[state.combatStyle] ? 0.1 : 0;
+  // const premierArtefact = state.premierArtefact && !state.target.curseImmune ? 0.2 : 0; // add back in when targets get curseImmune property
+  const premierArtefact = state.premierArtefact ? 0.2 : 0;
   const nihil = state.nihil ? 0.05 : 0;
   const voidArmor = state.voidArmor ? 0.03 : 0;
   const reaper = state.reaperStacks / 1000;
@@ -56,8 +56,9 @@ const calc = (state) => {
     hitchance: 0,
     familiar: {
       melee: 0,
-      range: 0,
-      magic: 0
+      ranged: 0,
+      magic: 0,
+      same: 0 // necromancy
     }
   };
 
@@ -69,7 +70,6 @@ const calc = (state) => {
         ) +
         keris + nightmare + fleeting
       ) * (1 +
-        accuracyAura +
         premierArtefact +
         nihil +
         scrimshaw +
@@ -98,54 +98,16 @@ const calc = (state) => {
   );
 
   // familiar accuracy
-  // melee
-  if (state.familiar.levels.melee > 1) {
-    let meleeLevel = state.familiar.levels.melee;
-    meleeLevel = Math.floor(meleeLevel * (state.spiritualHealing ? 1.07 : 1));
-    const meleeAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(meleeLevel) : (0.5 * accF(meleeLevel)))
-    );
+  for (const affinity of ["melee", "magic", "ranged", "same"]) {
+    let baseLevel = state.familiar.levels[affinity];
+    if (baseLevel <= 1) continue;
+    baseLevel = Math.floor(baseLevel * (state.spiritualHealing ? 1.07 : 1));
+    const baseAccuracy = 2.5 * accF(state.familiar.levels.base);
+    const bonusAccuracy = accF(baseLevel) * (state.familiar.boss ? 1 : 0.5);
+    const totalAccuracy = Math.floor(baseAccuracy + bonusAccuracy);
 
-    result.familiar.melee = roundDown(3,
-      roundDown(2, meleeAccuracy / finalArmour) *
-      (state.target.affinity.melee / 100 + affinityModifier)
-    );
-
-    if (state.familiar.name === "Ripper demon" && state.target.name === "Raksha") {
-      result.familiar.melee = 1; // huh?
-    }
-  }
-
-  // range
-  if (state.familiar.levels.range > 1) {
-    let rangeLevel = state.familiar.levels.range;
-    rangeLevel = Math.floor(rangeLevel * (state.spiritualHealing ? 1.07 : 1));
-    const rangeAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(rangeLevel) : (0.5 * accF(rangeLevel)))
-    );
-
-    result.familiar.range = roundDown(3,
-      roundDown(2, rangeAccuracy / finalArmour) *
-      (state.target.affinity.range / 100 + affinityModifier)
-    );
-  }
-
-  // magic
-  if (state.familiar.levels.magic > 1) {
-    let magicLevel = state.familiar.levels.magic;
-    magicLevel = Math.floor(magicLevel * (state.spiritualHealing ? 1.07 : 1));
-    const magicAccuracy = Math.floor(
-      2.5 * accF(state.familiar.levels.base) +
-      (state.familiar.boss ? accF(magicLevel) : (0.5 * accF(magicLevel)))
-    );
-
-    result.familiar.magic = roundDown(3,
-      roundDown(2, magicAccuracy / finalArmour) *
-      (state.target.affinity.magic / 100 + affinityModifier)
-    );
+    result.familiar[affinity] = roundDown(3, roundDown(2, totalAccuracy / finalArmour) * (state.target.affinity[affinity] / 100 + affinityModifier));
   }
 
   return result;
-}
+};

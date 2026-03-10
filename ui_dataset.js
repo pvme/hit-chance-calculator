@@ -1,9 +1,9 @@
 playerBuffs = {
   "level": {
     "kind": "number",
-    "text": "Attack/Range/Magic level",
+    "text": "Attack/Ranged/Magic level",
     "icon": "./static/images/misc/combat_triangle.png",
-    "default": 99
+    "default": 120
   },
   "weaponTier": {
     "kind": "number",
@@ -11,38 +11,38 @@ playerBuffs = {
     "icon": "./static/images/equipment_slots/weapon_slot.png",
     "default": 95
   },
-  "style": {
+  "combatStyle": {
     "kind": "select",
-    "text": "Attack style",
+    "text": "Combat style",
     "labels": {
-      "slash": "Slash",
-      "stab": "Stab",
-      "crush": "Crush",
-      "bolt": "Bolt",
-      "arrow": "Arrow",
-      "thrown": "Thrown",
-      "air": "Air",
-      "water": "Water",
-      "earth": "Earth",
-      "fire": "Fire",
-      "necro": "Necro"
+      "Slashing": "Slashing",
+      "Stabbing": "Stabbing",
+      "Crushing": "Crushing",
+      "Bolt": "Bolt",
+      "Arrow": "Arrow",
+      "Thrown": "Thrown",
+      "Air": "Air",
+      "Water": "Water",
+      "Earth": "Earth",
+      "Fire": "Fire",
+      "Necromancy": "Necromancy"
     },
     "icons": {
-      "slash": "./static/images/weaknesses/slash.png",
-      "stab": "./static/images/weaknesses/stab.png",
-      "crush": "./static/images/weaknesses/crush.png",
-      "bolt": "./static/images/weaknesses/bolts.png",
-      "arrow": "./static/images/weaknesses/arrows.png",
-      "thrown": "./static/images/weaknesses/thrown.png",
-      "air": "./static/images/weaknesses/air.png",
-      "water": "./static/images/weaknesses/water.png",
-      "earth": "./static/images/weaknesses/earth.png",
-      "fire": "./static/images/weaknesses/fire.png",
-      "none": "./static/images/weaknesses/none.png",
+      "Slashing": "./static/images/weaknesses/slash.png",
+      "Stabbing": "./static/images/weaknesses/stab.png",
+      "Crushing": "./static/images/weaknesses/crush.png",
+      "Bolt": "./static/images/weaknesses/bolts.png",
+      "Arrow": "./static/images/weaknesses/arrows.png",
+      "Thrown": "./static/images/weaknesses/thrown.png",
+      "Air": "./static/images/weaknesses/air.png",
+      "Water": "./static/images/weaknesses/water.png",
+      "Earth": "./static/images/weaknesses/earth.png",
+      "Fire": "./static/images/weaknesses/fire.png",
+      "None": "./static/images/weaknesses/none.png",
       "melee": "./static/images/combat_styles/melee.png",
+      "ranged": "./static/images/combat_styles/ranged.png",
       "magic": "./static/images/combat_styles/magic.png",
-      "range": "./static/images/combat_styles/ranged.png",
-      "necro": "./static/images/combat_styles/necromancy.png"
+      "necromancy": "./static/images/combat_styles/necromancy.png"
     }
   },
   "prayer": {
@@ -96,19 +96,6 @@ playerBuffs = {
     "icon": "./static/images/items/berserk_blood_essence.png",
     "text": "Berserk blood essence",
     "kind": "bool",
-  },
-  "aura": {
-    "icon": "./static/images/equipment_slots/aura_slot.png",
-    "text": "Aura",
-    "kind": "select",
-    "labels": {
-      "none": "None",
-      "t1": "3% (Tier 1)",
-      "t2": "5% (Tier 2)",
-      "t3": "7% (Tier 3)",
-      "t4": "10% (Tier 4)",
-      "berserker": "Berserker variant"
-    }
   },
   "nihil": {
     "icon": "./static/images/items/shadow_nihil_pouch.png",
