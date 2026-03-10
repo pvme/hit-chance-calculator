@@ -1,6 +1,9 @@
 // setup subfields so that null checks can avoid checking for these
 let state = {target: {}, familiar: {}};
 
+let allTargets = [];
+let filteredTargets = [];
+
 const assignInnerText = (id, val) => {
   document.getElementById(id).innerText = val;
 };
@@ -89,20 +92,33 @@ const target = () => {
 const filterTargetList = () => {
   const targetList = document.getElementById("target-list");
   const searchBox = document.getElementById("target-filter");
+  const targetLabel = document.getElementById("target");
 
+  // Clear previous state
+  targetList.innerHTML = "";
+
+  // Do nothing if no query
+  // if (!searchBox.value.trim()) return;
+  
   // Get the search query
-  const query = searchBox.value;
-  const queryWords = query.split(" ").map(word => word.toLowerCase());
+  const queryWords = searchBox.value.toLowerCase().split(" ");
+
+  filteredTargets = allTargets.filter(name => 
+    queryWords.every(queryWord => name.toLowerCase().indexOf(queryWord) >= 0)
+  );
 
   // Filter the options based on the query
-  Array.from(targetList.childNodes).forEach(target => {
-    // Convert the option to lower case for case-insensitive matching
-    const targetLower = target.innerText.toLowerCase();
+  filteredTargets.forEach(name => {
+    const opt = document.createElement("li");
+    opt.innerText = name;
+    opt.addEventListener("mousedown", () => {
+      targetLabel.innerText = name;
+      searchBox.value = "";
+      window.scrollBy(0, -20000);
 
-    // Check if each query word is included in the option
-    const isMatch = queryWords.every(queryWord => targetLower.indexOf(queryWord) >= 0);
-
-    target.style.display = isMatch ? "list-item" : "none";
+      calcWrapper();
+    });
+    targetList.appendChild(opt);
   });
 }
 
@@ -118,8 +134,13 @@ const loadTargets = localStorageState => {
   // label element that displays the currently selected target
   const targetLabel = document.getElementById("target");
 
-  // TODO use the first element of targetData as the default instead
-  let selected = "Araxxi";
+  allTargets = Object.entries(targetData)
+    .toSorted(([keyA, a],[keyB, b]) => {
+      if (a.name === b.name) return b.combatLevel - a.combatLevel;
+      return a.name.localeCompare(b.name);
+    })
+    .map(([key, target]) => key);
+  let selected = allTargets[0];
   // load previous value from localStorageState if applicable
   if (localStorageState.target) {
     selected = localStorageState.target;
@@ -128,8 +149,7 @@ const loadTargets = localStorageState => {
   targetLabel.innerText = selected;
 
   // list of all the "<li>" elements
-  const targets = [];
-  for (let target of Object.keys(targetData)) {
+  for (let target of allTargets) {
     const opt = document.createElement("li");
     opt.innerText = target;
     opt.addEventListener("mousedown", () => {
@@ -139,17 +159,16 @@ const loadTargets = localStorageState => {
 
       calcWrapper();
     });
-    targets.push(opt);
     targetList.appendChild(opt);
   }
 
   // detect enter and assume you're picking the top visible item
   searchBox.addEventListener("keydown", e => {
     if (e.key === 'Enter' || e.code === 'Enter') {
-      const topItem = targets.find(target => target.style.display === "list-item");
+      const topItem = filteredTargets.at(0);
       if (topItem) {
         searchBox.value = "";
-        targetLabel.innerText = topItem.innerText;
+        targetLabel.innerText = topItem;
         searchBox.blur();
 
         calcWrapper();
