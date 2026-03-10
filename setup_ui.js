@@ -67,6 +67,7 @@ const target = () => {
 
   // set state
   state.target = targetData[targetLabel];
+  state.targetLabel = targetLabel;
 
   // Set ui fields
   assignInnerText("target-defence", state.target.defence);
@@ -166,8 +167,7 @@ const loadTargets = localStorageState => {
 // familiar from a localStorageState if present.
 const loadFamiliars = localStorageState => {
   const familiarElem = document.getElementById("familiar");
-  // TODO use the first element of familiarData as the default instead
-  let selected = "Ripper demon";
+  let selected = Object.keys(familiarData)[0];
   if (localStorageState.familiar) {
     selected = localStorageState.familiar;
     state.familiar = familiarData[selected];
@@ -364,7 +364,7 @@ const writeLocalStorage = () => {
   // don't save the full familiar/target data so it gets reloaded
   // create a copy
   let outputState = JSON.parse(JSON.stringify(state));
-  outputState.target = outputState.target.name;
+  outputState.target = outputState.targetLabel;
   outputState.familiar = outputState.familiar.name;
   localStorage.setItem("state", JSON.stringify(outputState));
 }
@@ -443,7 +443,7 @@ const stripDefaults = state => {
   stripDefaultsInner(familiarBuffs);
 
   // save target and familiar as just their names
-  outputState.target = outputState.target.name;
+  outputState.target = outputState.targetLabel;
   outputState.familiar = outputState.familiar.name;
   if (outputState.target === Object.keys(targetData)[0]) {
     delete outputState.target;
