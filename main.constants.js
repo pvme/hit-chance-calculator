@@ -50,32 +50,32 @@ const slayerMap = {
 
 const balmungMap = {
   "none": 0,
-  "basic": 0.3,
-  "upgraded": 0.45
+  "basic": 300,
+  "upgraded": 450
 };
 
 const salveMap = {
   "none": 0,
-  "basic": 0.15,
-  "enchanted": 0.2
+  "basic": 150,
+  "enchanted": 200
 };
 
 const baneMap = {
   "none": 0,
-  "normal": 0.3,
-  "jas": 0.2
+  "normal": 300,
+  "jas": 200
 };
 
 const kerisMap = {
   "none": 0,
-  "basic": 0.15,
-  "upgraded": 0.25
+  "basic": 150,
+  "upgraded": 250
 };
 
 const darklightMap = {
   "none": 0,
-  "basic": 0.249,
-  "upgraded": 0.349
+  "basic": 249,
+  "upgraded": 349
 };
 
 const weaknessMap = {
@@ -86,8 +86,8 @@ const weaknessMap = {
 
 const scrimshawMap = {
   "none": 0,
-  "inferior": 0.02,
-  "superior": 0.04
+  "inferior": 20,
+  "superior": 40
 }
 
 const potionBoostsMap = {
