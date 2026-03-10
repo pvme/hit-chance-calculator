@@ -22,20 +22,17 @@ function calcAccuracyStat(state) {
   return weaponBonus + levelBonus + prayerBonus - equipmentPenalty;
 }
 
-function getTrueStatLevel({ potion, level: skillLevel, bloodEssence, aura }) {
+function getTrueStatLevel({ potion, level: skillLevel, bloodEssence }) {
   const [potionMult, potionAdd, isOverload] = potionBoostsMap[potion];
 
   if (isOverload) {
-    const finalMult = (aura === "berserker") ? potionMult + 0.1 : potionMult;
-
-    return skillLevel + Math.floor(skillLevel * finalMult) + potionAdd;
+    return skillLevel + Math.floor(skillLevel * potionMult) + potionAdd;
   }
 
   const bloodEssenceLevels = bloodEssence ? Math.floor(0.14 * skillLevel + 2) : 0;
-  const berserkerLevels = (aura === "berserker") ? Math.floor(skillLevel * 0.1) : 0;
   const potionLevels = Math.floor(skillLevel * potionMult) + potionAdd
 
-  return skillLevel + bloodEssenceLevels + Math.max(berserkerLevels, potionLevels);
+  return skillLevel + bloodEssenceLevels + potionLevels;
 }
 
 function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
@@ -52,41 +49,40 @@ function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
 
 function calcAffinity(state, hexhunter, darklight) {
   const quake = quakeMap[state.quake];
-  const statius = state.statius ? 0.05 : 0;
-  const bandos = state.bandos ? 0.03 : 0;
-  const guthixStaff = state.guthixStaff ? 0.02 : 0;
-  const dragonHatchet = state.dragonHatchet ? 0.03 : 0;
-  const barrelchest = state.barrelchest ? 0.04 : 0;
-  const boneDagger = state.boneDagger ? 0.02 : 0;
-  const hexhunterAffinity = (hexhunter && state.target.weakness === state.style) ? 0.05 : 0;
+  const statius = state.statius ? 5 : 0;
+  const bandos = state.bandos ? 3 : 0;
+  const guthixStaff = state.guthixStaff ? 2 : 0;
+  const dragonHatchet = state.dragonHatchet ? 3 : 0;
+  const barrelchest = state.barrelchest ? 4 : 0;
+  const boneDagger = state.boneDagger ? 2 : 0;
+  const hexhunterAffinity = (hexhunter && state.target.weakness === state.combatStyle) ? 5 : 0;
 
   // base affinity
   let baseAffinity;
-  if (darklight > 0 && state.target.weakness !== "none") {
+  if (darklight > 0 && state.target.weakness !== "None") {
     // handle darklight overriding which affinity is used
-    baseAffinity = state.target.affinity.weakness / 100;
-  } else if (state.style === state.target.weakness) {
-    baseAffinity = state.target.affinity.weakness / 100;
-  } else if (state.style === "necro") {
-    baseAffinity = state.target.affinity[state.target.style] / 100;
+    baseAffinity = state.target.affinity.weakness;
+  } else if (state.combatStyle === state.target.weakness) {
+    baseAffinity = state.target.affinity.weakness;
   } else {
-    baseAffinity = state.target.affinity[styleMap[state.style]] / 100;
+    baseAffinity = state.target.affinity[combatStyleMap[state.combatStyle]];
   }
-  const affinityModifier = Math.min(0.10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity);
 
-  const finalAffinity = baseAffinity + affinityModifier;
+  const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
+  const finalAffinity = (baseAffinity / 100 + affinityModifier);
 
   return { finalAffinity, affinityModifier };
 }
 
 function calcArmourStat(state) {
-  const baseArmour = getBaseArmour(state.target.armour);
+  const baseArmour = state.target.baseStats.armour;
   const bonusArmour = getBonusArmour(state);
 
   // armour reduction clusterfuck
 
   // curses
-  const curseTier = !state.target.curseImmune ? leechMap[state.curse] : 0;
+  // const curseTier = !state.target.curseImmune ? leechMap[state.curse] : 0; // add back in when targets get curseImmune property
+  const curseTier = leechMap[state.curse];
   const curseDrain = curseTier * 5;
 
   // BSA
@@ -111,19 +107,7 @@ function calcArmourStat(state) {
   return baseArmour + bonusArmour - curseDrain - currentBsaDrain - lobDrain;
 }
 
-function getBaseArmour(targetArmour) {
-  let baseArmour = 0;
-
-  if (targetArmour > 150) {
-    baseArmour = Math.floor(targetArmour);
-  } else if (targetArmour > 0) {
-    baseArmour = Math.round(2.5 * accF(targetArmour))
-  }
-
-  return baseArmour;
-}
-
-function getBonusArmour({ target: { defence }, additionalDefenceDrain, domGloves }) {
+function getBonusArmour({ target: { levels: { defence } }, additionalDefenceDrain, domGloves }) {
   let defenceLevel = defence;
 
   if (Math.abs(additionalDefenceDrain) > 1) {

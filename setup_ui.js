@@ -1,6 +1,9 @@
 // setup subfields so that null checks can avoid checking for these
 let state = {target: {}, familiar: {}};
 
+let allTargets = [];
+let filteredTargets = [];
+
 const assignInnerText = (id, val) => {
   document.getElementById(id).innerText = val;
 };
@@ -70,18 +73,19 @@ const target = () => {
   state.targetLabel = targetLabel;
 
   // Set ui fields
-  assignInnerText("target-defence", state.target.defence);
-  assignInnerText("target-armour", state.target.armour);
+  assignInnerText("target-defence", state.target.levels.defence);
+  assignInnerText("target-armour", state.target.baseStats.armour);
 
   assignInnerText("target-weakness", state.target.weakness);
-  document.getElementById("target-weakness-icon").src = playerBuffs.style.icons[state.target.weakness];
-  assignInnerText("target-style", state.target.style);
-  document.getElementById("target-style-icon").src = playerBuffs.style.icons[state.target.style];
+  document.getElementById("target-weakness-icon").src = playerBuffs.combatStyle.icons[state.target.weakness];
+  assignInnerText("target-style", state.target.combatStyle);
+  document.getElementById("target-style-icon").src = playerBuffs.combatStyle.icons[state.target.combatStyle];
 
   assignInnerText("target-affinity-weakness", state.target.affinity.weakness);
   assignInnerText("target-affinity-melee", state.target.affinity.melee);
-  assignInnerText("target-affinity-range", state.target.affinity.range);
+  assignInnerText("target-affinity-ranged", state.target.affinity.ranged);
   assignInnerText("target-affinity-magic", state.target.affinity.magic);
+  assignInnerText("target-affinity-necromancy", state.target.affinity.same);
 }
 
 // Change the "display" style on list elements according to the current value
@@ -89,20 +93,33 @@ const target = () => {
 const filterTargetList = () => {
   const targetList = document.getElementById("target-list");
   const searchBox = document.getElementById("target-filter");
+  const targetLabel = document.getElementById("target");
 
+  // Clear previous state
+  targetList.innerHTML = "";
+
+  // Do nothing if no query
+  // if (!searchBox.value.trim()) return;
+  
   // Get the search query
-  const query = searchBox.value;
-  const queryWords = query.split(" ").map(word => word.toLowerCase());
+  const queryWords = searchBox.value.toLowerCase().split(" ");
+
+  filteredTargets = allTargets.filter(name => 
+    queryWords.every(queryWord => name.toLowerCase().indexOf(queryWord) >= 0)
+  );
 
   // Filter the options based on the query
-  Array.from(targetList.childNodes).filter(target => {
-    // Convert the option to lower case for case-insensitive matching
-    const targetLower = target.innerText.toLowerCase();
+  filteredTargets.forEach(name => {
+    const opt = document.createElement("li");
+    opt.innerText = name;
+    opt.addEventListener("mousedown", () => {
+      targetLabel.innerText = name;
+      searchBox.value = "";
+      window.scrollBy(0, -20000);
 
-    // Check if each query word is included in the option
-    const isMatch = queryWords.every(queryWord => targetLower.indexOf(queryWord) >= 0);
-
-    target.style.display = isMatch ? "list-item" : "none";
+      calcWrapper();
+    });
+    targetList.appendChild(opt);
   });
 }
 
@@ -118,8 +135,13 @@ const loadTargets = localStorageState => {
   // label element that displays the currently selected target
   const targetLabel = document.getElementById("target");
 
-  // TODO use the first element of targetData as the default instead
-  let selected = "Araxxi";
+  allTargets = Object.entries(targetData)
+    .toSorted(([keyA, a],[keyB, b]) => {
+      if (a.name === b.name) return b.combatLevel - a.combatLevel;
+      return a.name.localeCompare(b.name);
+    })
+    .map(([key, target]) => key);
+  let selected = allTargets[0];
   // load previous value from localStorageState if applicable
   if (localStorageState.target) {
     selected = localStorageState.target;
@@ -128,8 +150,7 @@ const loadTargets = localStorageState => {
   targetLabel.innerText = selected;
 
   // list of all the "<li>" elements
-  const targets = [];
-  for (let target of Object.keys(targetData)) {
+  for (let target of allTargets) {
     const opt = document.createElement("li");
     opt.innerText = target;
     opt.addEventListener("mousedown", () => {
@@ -139,17 +160,16 @@ const loadTargets = localStorageState => {
 
       calcWrapper();
     });
-    targets.push(opt);
     targetList.appendChild(opt);
   }
 
   // detect enter and assume you're picking the top visible item
   searchBox.addEventListener("keydown", e => {
     if (e.key === 'Enter' || e.code === 'Enter') {
-      const topItem = targets.find(target => target.style.display === "list-item");
+      const topItem = filteredTargets.at(0);
       if (topItem) {
         searchBox.value = "";
-        targetLabel.innerText = topItem.innerText;
+        targetLabel.innerText = topItem;
         searchBox.blur();
 
         calcWrapper();
@@ -311,6 +331,7 @@ const generateInput = (id, spec, previous) => {
 //
 // NB this also saves the state, since in calcWrapper is always called right
 //    after something in the UI has been changed, and therefore should be saved
+const percentFormat = Intl.NumberFormat(undefined, { style: "percent", minimumFractionDigits: 2 }).format
 const calcWrapper = () => {
   familiar();
   target();
@@ -318,12 +339,12 @@ const calcWrapper = () => {
   const result = calc(state);
   writeLocalStorage();
 
-  assignInnerText("final-hit-chance", (result.hitchance * 100).toFixed(2) + "%");
+  assignInnerText("final-hit-chance", percentFormat(result.hitchance));
 
   // familiar accuracy
-  assignInnerText("familiar-melee", (result.familiar.melee * 100).toFixed(2) + "%");
-  assignInnerText("familiar-range", (result.familiar.range * 100).toFixed(2) + "%");
-  assignInnerText("familiar-magic", (result.familiar.magic * 100).toFixed(2) + "%");
+  ["melee", "ranged", "magic", "same"].forEach(affinity => {
+    assignInnerText(`familiar-${affinity}`, percentFormat(result.familiar[affinity]));
+  })
 }
 
 // Load all the setup fields from the objects provided by ui_dataset.js

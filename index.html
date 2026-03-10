@@ -46,7 +46,7 @@
         </tr>
         <tr>
           <td class="icon-col"><img src="./static/images/equipment_slots/body_slot.png" alt="armour"></td>
-          <td>Armour (tier or value)</td>
+          <td>Armour</td>
           <td class="target-info" id="target-armour"></td>
         </tr>
         <tr>
@@ -71,13 +71,18 @@
         </tr>
         <tr>
           <td class="icon-col"></td>
-          <td>Range affinity</td>
-          <td class="target-info" id="target-affinity-range"></td>
+          <td>Ranged affinity</td>
+          <td class="target-info" id="target-affinity-ranged"></td>
         </tr>
         <tr>
           <td class="icon-col"></td>
           <td>Magic affinity</td>
           <td class="target-info" id="target-affinity-magic"></td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Necromancy affinity</td>
+          <td class="target-info" id="target-affinity-necromancy"></td>
         </tr>
       </table>
 
@@ -125,7 +130,6 @@
         <tr>
           <td colspan="3" class="input-col">
             <select id="familiar">
-              <option value="Ripper demon" selected>Ripper demon</option>
             </select>
           </td>
         </tr>
@@ -137,12 +141,17 @@
         <tr>
           <td class="icon-col"></td>
           <td>Ranged hit chance</td>
-          <td id="familiar-range">0.00%</td>
+          <td id="familiar-ranged">0.00%</td>
         </tr>
         <tr>
           <td class="icon-col"></td>
           <td>Magic hit chance</td>
           <td id="familiar-magic">0.00%</td>
+        </tr>
+        <tr>
+          <td class="icon-col"></td>
+          <td>Necromancy hit chance</td>
+          <td id="familiar-same">0.00%</td>
         </tr>
         </tbody>
       </table>
