@@ -39,10 +39,10 @@ playerBuffs = {
       "Earth": "./static/images/weaknesses/earth.png",
       "Fire": "./static/images/weaknesses/fire.png",
       "None": "./static/images/weaknesses/none.png",
-      "Melee": "./static/images/combat_styles/melee.png",
-      "Ranged": "./static/images/combat_styles/ranged.png",
-      "Magic": "./static/images/combat_styles/magic.png",
-      "Necromancy": "./static/images/combat_styles/necromancy.png"
+      "melee": "./static/images/combat_styles/melee.png",
+      "ranged": "./static/images/combat_styles/ranged.png",
+      "magic": "./static/images/combat_styles/magic.png",
+      "necromancy": "./static/images/combat_styles/necromancy.png"
     }
   },
   "prayer": {
