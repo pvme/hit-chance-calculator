@@ -48,7 +48,6 @@ function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
 }
 
 function calcAffinity(state, hexhunter, darklight) {
-  const quake = quakeMap[state.quake];
   const statius = state.statius ? 5 : 0;
   const bandos = state.bandos ? 3 : 0;
   const guthixStaff = state.guthixStaff ? 2 : 0;
@@ -68,7 +67,7 @@ function calcAffinity(state, hexhunter, darklight) {
     baseAffinity = state.target.affinity[combatStyleMap[state.combatStyle]];
   }
 
-  const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
+  const affinityModifier = Math.min(10, statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
   const finalAffinity = (baseAffinity / 100 + affinityModifier);
 
   return { finalAffinity, affinityModifier };

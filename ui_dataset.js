@@ -117,11 +117,6 @@ playerBuffs = {
     "text": "Void",
     "kind": "bool",
   },
-  "premierArtefact": {
-    "icon": "./static/images/items/premier_artefact.png",
-    "text": "Premier artefact",
-    "kind": "bool",
-  },
   "reaperStacks": {
     "icon": "./static/images/items/reaper_necklace.png",
     "text": "Reaper neck stacks",
@@ -257,11 +252,6 @@ playerBuffs = {
     "icon": "./static/images/items/nightmare_gauntlets.png",
     "text": "Nightmare gauntlets",
     "kind": "bool",
-  },
-  "fleeting": {
-    "icon": "./static/images/items/fleeting_boots.png",
-    "text": "Fleeting boots",
-    "kind": "bool",
   }
 };
 
@@ -276,16 +266,6 @@ targetDebuffs = {
       "leech": "Leech",
       "turmoil": "Turmoil variant",
       "praesul": "Praesul variant"
-    }
-  },
-  "quake": {
-    "icon": "./static/images/abilities/quake.png",
-    "text": "Quake",
-    "kind": "select",
-    "labels": {
-      "none": "None",
-      "normal": "Normal",
-      "ezk": "Ek-ZekKil"
     }
   },
   "statius": {
