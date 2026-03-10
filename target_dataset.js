@@ -2,7 +2,7 @@ targetData = {
   "Farmer": {
     "name": "Farmer",
     "id": 7,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -34,7 +34,7 @@ targetData = {
   "Warrior woman": {
     "name": "Warrior woman",
     "id": 15,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 43,
     "weakness": "Water",
     "levels": {
@@ -66,7 +66,7 @@ targetData = {
   "Al Kharid warrior": {
     "name": "Al Kharid warrior",
     "id": 18,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 18,
     "weakness": "Water",
     "levels": {
@@ -98,7 +98,7 @@ targetData = {
   "Hero": {
     "name": "Hero",
     "id": 21,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 51,
     "weakness": "Water",
     "levels": {
@@ -130,7 +130,7 @@ targetData = {
   "Knight of Ardougne": {
     "name": "Knight of Ardougne",
     "id": 23,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Water",
     "levels": {
@@ -162,7 +162,7 @@ targetData = {
   "Archer": {
     "name": "Archer",
     "id": 27,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 49,
     "weakness": "Slashing",
     "levels": {
@@ -194,7 +194,7 @@ targetData = {
   "Watchman": {
     "name": "Watchman",
     "id": 34,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Water",
     "levels": {
@@ -226,7 +226,7 @@ targetData = {
   "Soldier": {
     "name": "Soldier",
     "id": 35,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 32,
     "weakness": "Earth",
     "levels": {
@@ -258,7 +258,7 @@ targetData = {
   "Shipyard worker": {
     "name": "Shipyard worker",
     "id": 38,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Air",
     "levels": {
@@ -290,7 +290,7 @@ targetData = {
   "Duck": {
     "name": "Duck",
     "id": 46,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Earth",
     "levels": {
@@ -322,7 +322,7 @@ targetData = {
   "Oomlie bird": {
     "name": "Oomlie bird",
     "id": 48,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "Fire",
     "levels": {
@@ -354,7 +354,7 @@ targetData = {
   "Hellhound": {
     "name": "Hellhound",
     "id": 49,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "Slashing",
     "levels": {
@@ -386,7 +386,7 @@ targetData = {
   "King Black Dragon": {
     "name": "King Black Dragon",
     "id": 50,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 276,
     "weakness": "None",
     "levels": {
@@ -420,7 +420,7 @@ targetData = {
   "Baby blue dragon": {
     "name": "Baby blue dragon",
     "id": 52,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 44,
     "weakness": "Bolt",
     "levels": {
@@ -450,43 +450,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Red dragon": {
-    "name": "Red dragon",
-    "id": 53,
-    "combatStyle": "Magic",
-    "combatLevel": 84,
-    "weakness": "Bolt",
-    "levels": {
-      "attack": 1,
-      "defence": 60,
-      "magic": 60,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "attack": 1132,
-      "magic": 1132,
-      "armour": 1132
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 283,
-      "magic": 283,
-      "ranged": 44
-    }
-  },
   "Blue dragon": {
     "name": "Blue dragon",
     "id": 55,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 74,
     "weakness": "Bolt",
     "levels": {
@@ -519,7 +486,7 @@ targetData = {
   "Shadow spider": {
     "name": "Shadow spider",
     "id": 58,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 46,
     "weakness": "Crushing",
     "levels": {
@@ -552,7 +519,7 @@ targetData = {
   "Deadly red spider": {
     "name": "Deadly red spider",
     "id": 63,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 95,
     "weakness": "Crushing",
     "levels": {
@@ -581,42 +548,10 @@ targetData = {
       "ranged": 316
     }
   },
-  "Gnome": {
-    "name": "Gnome",
-    "id": 66,
-    "combatStyle": "Melee",
-    "combatLevel": 42,
-    "weakness": "Water",
-    "levels": {
-      "attack": 30,
-      "defence": 30,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 454,
-      "armour": 454
-    },
-    "bonusStats": {
-      "attack": 161,
-      "armour": 161,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Death wing": {
     "name": "Death wing",
     "id": 79,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 77,
     "weakness": "Arrow",
     "levels": {
@@ -649,7 +584,7 @@ targetData = {
   "Cow": {
     "name": "Cow",
     "id": 81,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Earth",
     "levels": {
@@ -678,42 +613,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Black demon": {
-    "name": "Black demon",
-    "id": 84,
-    "combatStyle": "Magic",
-    "combatLevel": 98,
-    "weakness": "Bolt",
-    "levels": {
-      "attack": 1,
-      "defence": 70,
-      "magic": 70,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "magic": 1486,
-      "armour": 1486
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 324,
-      "magic": 324,
-      "ranged": 44
-    }
-  },
   "Unicorn": {
     "name": "Unicorn",
     "id": 89,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Arrow",
     "levels": {
@@ -745,7 +648,7 @@ targetData = {
   "Skeleton Mage": {
     "name": "Skeleton Mage",
     "id": 94,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 19,
     "weakness": "Arrow",
     "levels": {
@@ -777,7 +680,7 @@ targetData = {
   "Adolescent White wolf": {
     "name": "Adolescent White wolf",
     "id": 96,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 6,
     "weakness": "Fire",
     "levels": {
@@ -809,7 +712,7 @@ targetData = {
   "White wolf": {
     "name": "White wolf",
     "id": 97,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Water",
     "levels": {
@@ -841,7 +744,7 @@ targetData = {
   "Grizzly bear": {
     "name": "Grizzly bear",
     "id": 105,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 32,
     "weakness": "Water",
     "levels": {
@@ -873,7 +776,7 @@ targetData = {
   "Black bear": {
     "name": "Black bear",
     "id": 106,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "Water",
     "levels": {
@@ -905,7 +808,7 @@ targetData = {
   "Scorpion": {
     "name": "Scorpion",
     "id": 107,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 14,
     "weakness": "Crushing",
     "levels": {
@@ -938,7 +841,7 @@ targetData = {
   "Poison Scorpion": {
     "name": "Poison Scorpion",
     "id": 108,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 49,
     "weakness": "Crushing",
     "levels": {
@@ -971,7 +874,7 @@ targetData = {
   "Pit Scorpion": {
     "name": "Pit Scorpion",
     "id": 109,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 56,
     "weakness": "Crushing",
     "levels": {
@@ -1004,7 +907,7 @@ targetData = {
   "Ice giant": {
     "name": "Ice giant",
     "id": 111,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "Fire",
     "levels": {
@@ -1036,7 +939,7 @@ targetData = {
   "Mogre": {
     "name": "Mogre",
     "id": 114,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 45,
     "weakness": "Air",
     "levels": {
@@ -1068,7 +971,7 @@ targetData = {
   "Hill Giant": {
     "name": "Hill Giant",
     "id": 117,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 26,
     "weakness": "Air",
     "levels": {
@@ -1100,7 +1003,7 @@ targetData = {
   "Ice warrior": {
     "name": "Ice warrior",
     "id": 125,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Fire",
     "levels": {
@@ -1132,7 +1035,7 @@ targetData = {
   "Otherworldly being": {
     "name": "Otherworldly being",
     "id": 126,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 55,
     "weakness": "Thrown",
     "levels": {
@@ -1164,7 +1067,7 @@ targetData = {
   "Magic axe": {
     "name": "Magic axe",
     "id": 127,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 74,
     "weakness": "Air",
     "levels": {
@@ -1196,7 +1099,7 @@ targetData = {
   "Snake": {
     "name": "Snake",
     "id": 128,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Earth",
     "levels": {
@@ -1228,7 +1131,7 @@ targetData = {
   "Penguin": {
     "name": "Penguin",
     "id": 131,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 8,
     "weakness": "Fire",
     "levels": {
@@ -1260,7 +1163,7 @@ targetData = {
   "Black unicorn": {
     "name": "Black unicorn",
     "id": 133,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 33,
     "weakness": "Arrow",
     "levels": {
@@ -1292,7 +1195,7 @@ targetData = {
   "Terrorbird": {
     "name": "Terrorbird",
     "id": 138,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Air",
     "levels": {
@@ -1324,7 +1227,7 @@ targetData = {
   "Soulless": {
     "name": "Soulless",
     "id": 140,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 46,
     "weakness": "Water",
     "levels": {
@@ -1356,7 +1259,7 @@ targetData = {
   "Big Wolf": {
     "name": "Big Wolf",
     "id": 141,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "Water",
     "levels": {
@@ -1388,7 +1291,7 @@ targetData = {
   "Jungle Wolf": {
     "name": "Jungle Wolf",
     "id": 143,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "Water",
     "levels": {
@@ -1420,7 +1323,7 @@ targetData = {
   "King Scorpion": {
     "name": "King Scorpion",
     "id": 144,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 22,
     "weakness": "Water",
     "levels": {
@@ -1452,7 +1355,7 @@ targetData = {
   "Shadow warrior": {
     "name": "Shadow warrior",
     "id": 158,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Water",
     "levels": {
@@ -1484,7 +1387,7 @@ targetData = {
   "Gnome child": {
     "name": "Gnome child",
     "id": 159,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -1516,7 +1419,7 @@ targetData = {
   "Gnome guard": {
     "name": "Gnome guard",
     "id": 163,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -1548,7 +1451,7 @@ targetData = {
   "Gnome woman": {
     "name": "Gnome woman",
     "id": 168,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Water",
     "levels": {
@@ -1580,7 +1483,7 @@ targetData = {
   "Invrigar the Necromancer": {
     "name": "Invrigar the Necromancer",
     "id": 173,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 42,
     "weakness": "Bolt",
     "levels": {
@@ -1612,7 +1515,7 @@ targetData = {
   "Mugger": {
     "name": "Mugger",
     "id": 175,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Fire",
     "levels": {
@@ -1644,7 +1547,7 @@ targetData = {
   "Witch": {
     "name": "Witch",
     "id": 176,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 30,
     "weakness": "Bolt",
     "levels": {
@@ -1676,7 +1579,7 @@ targetData = {
   "Highwayman": {
     "name": "Highwayman",
     "id": 180,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 11,
     "weakness": "Water",
     "levels": {
@@ -1708,7 +1611,7 @@ targetData = {
   "Chaos druid": {
     "name": "Chaos druid",
     "id": 181,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 32,
     "weakness": "Arrow",
     "levels": {
@@ -1740,7 +1643,7 @@ targetData = {
   "Thug": {
     "name": "Thug",
     "id": 186,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 19,
     "weakness": "Fire",
     "levels": {
@@ -1772,7 +1675,7 @@ targetData = {
   "Rogue": {
     "name": "Rogue",
     "id": 187,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 9,
     "weakness": "Fire",
     "levels": {
@@ -1804,7 +1707,7 @@ targetData = {
   "Chaos druid warrior": {
     "name": "Chaos druid warrior",
     "id": 193,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Earth",
     "levels": {
@@ -1836,7 +1739,7 @@ targetData = {
   "Guard Bandit": {
     "name": "Guard Bandit",
     "id": 196,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Slashing",
     "levels": {
@@ -1868,7 +1771,7 @@ targetData = {
   "Gunthor the Brave": {
     "name": "Gunthor the Brave",
     "id": 199,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Earth",
     "levels": {
@@ -1900,7 +1803,7 @@ targetData = {
   "Jailer": {
     "name": "Jailer",
     "id": 201,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Earth",
     "levels": {
@@ -1932,7 +1835,7 @@ targetData = {
   "Black Heather": {
     "name": "Black Heather",
     "id": 202,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 138,
     "weakness": "None",
     "levels": {
@@ -1964,7 +1867,7 @@ targetData = {
   "Donny the Lad": {
     "name": "Donny the Lad",
     "id": 203,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "None",
     "levels": {
@@ -1996,7 +1899,7 @@ targetData = {
   "Speedy Keith": {
     "name": "Speedy Keith",
     "id": 204,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 138,
     "weakness": "None",
     "levels": {
@@ -2025,44 +1928,10 @@ targetData = {
       "ranged": 444
     }
   },
-  "Monk": {
-    "name": "Monk",
-    "id": 222,
-    "combatStyle": "Magic",
-    "combatLevel": 14,
-    "weakness": "Thrown",
-    "levels": {
-      "attack": 7,
-      "defence": 10,
-      "magic": 10,
-      "ranged": 0
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "attack": 75,
-      "magic": 202,
-      "ranged": 0,
-      "armour": 202
-    },
-    "bonusStats": {
-      "attack": 68,
-      "armour": 80,
-      "magic": 80,
-      "ranged": 0
-    }
-  },
   "Renegade Knight": {
     "name": "Renegade Knight",
     "id": 237,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Water",
     "levels": {
@@ -2096,7 +1965,7 @@ targetData = {
   "Thrantax the Mighty": {
     "name": "Thrantax the Mighty",
     "id": 238,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Water",
     "levels": {
@@ -2130,7 +1999,7 @@ targetData = {
   "Sir Mordred": {
     "name": "Sir Mordred",
     "id": 247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "Water",
     "levels": {
@@ -2164,7 +2033,7 @@ targetData = {
   "Khazard Guard": {
     "name": "Khazard Guard",
     "id": 255,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Air",
     "levels": {
@@ -2198,7 +2067,7 @@ targetData = {
   "Khazard ogre": {
     "name": "Khazard ogre",
     "id": 270,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 64,
     "weakness": "Air",
     "levels": {
@@ -2232,7 +2101,7 @@ targetData = {
   "Khazard scorpion": {
     "name": "Khazard scorpion",
     "id": 271,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 50,
     "weakness": "Crushing",
     "levels": {
@@ -2266,7 +2135,7 @@ targetData = {
   "Fire Warrior of Lesarkus": {
     "name": "Fire Warrior of Lesarkus",
     "id": 277,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Arrow",
     "levels": {
@@ -2300,7 +2169,7 @@ targetData = {
   "Head Thief": {
     "name": "Head Thief",
     "id": 283,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 25,
     "weakness": "Fire",
     "levels": {
@@ -2334,7 +2203,7 @@ targetData = {
   "TokHaar-Hur": {
     "name": "TokHaar-Hur",
     "id": 300,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Water",
     "levels": {
@@ -2366,7 +2235,7 @@ targetData = {
   "Bat": {
     "name": "Bat",
     "id": 412,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Earth",
     "levels": {
@@ -2398,7 +2267,7 @@ targetData = {
   "Jail guard": {
     "name": "Jail guard",
     "id": 447,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Fire",
     "levels": {
@@ -2432,7 +2301,7 @@ targetData = {
   "Suit of armour": {
     "name": "Suit of armour",
     "id": 453,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Air",
     "levels": {
@@ -2466,7 +2335,7 @@ targetData = {
   "Skeleton warlock": {
     "name": "Skeleton warlock",
     "id": 459,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -2500,7 +2369,7 @@ targetData = {
   "Famished mage-eye": {
     "name": "Famished mage-eye",
     "id": 476,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -2532,7 +2401,7 @@ targetData = {
   "Khazard warlord": {
     "name": "Khazard warlord",
     "id": 477,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Air",
     "levels": {
@@ -2566,7 +2435,7 @@ targetData = {
   "Khazard commander": {
     "name": "Khazard commander",
     "id": 478,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Air",
     "levels": {
@@ -2600,7 +2469,7 @@ targetData = {
   "Gnome troop": {
     "name": "Gnome troop",
     "id": 479,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 44,
     "weakness": "Slashing",
     "levels": {
@@ -2634,7 +2503,7 @@ targetData = {
   "Goblin guard": {
     "name": "Goblin guard",
     "id": 489,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Water",
     "levels": {
@@ -2666,7 +2535,7 @@ targetData = {
   "Grave scorpion": {
     "name": "Grave scorpion",
     "id": 493,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 14,
     "weakness": "Crushing",
     "levels": {
@@ -2699,7 +2568,7 @@ targetData = {
   "Nazastarool": {
     "name": "Nazastarool",
     "id": 507,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -2733,7 +2602,7 @@ targetData = {
   "Gravecreeper": {
     "name": "Gravecreeper",
     "id": 532,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -2767,7 +2636,7 @@ targetData = {
   "Jonny the beard": {
     "name": "Jonny the beard",
     "id": 645,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -2801,7 +2670,7 @@ targetData = {
   "Dramen tree spirit": {
     "name": "Dramen tree spirit",
     "id": 655,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -2835,7 +2704,7 @@ targetData = {
   "Chronozon": {
     "name": "Chronozon",
     "id": 667,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -2869,7 +2738,7 @@ targetData = {
   "Foreman": {
     "name": "Foreman",
     "id": 674,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -2903,7 +2772,7 @@ targetData = {
   "Imp": {
     "name": "Imp",
     "id": 708,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Water",
     "levels": {
@@ -2937,7 +2806,7 @@ targetData = {
   "Elvarg": {
     "name": "Elvarg",
     "id": 742,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "None",
     "levels": {
@@ -2971,7 +2840,7 @@ targetData = {
   "Wormbrain": {
     "name": "Wormbrain",
     "id": 745,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -3003,7 +2872,7 @@ targetData = {
   "Angry barbarian spirit": {
     "name": "Angry barbarian spirit",
     "id": 749,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "Air",
     "levels": {
@@ -3035,7 +2904,7 @@ targetData = {
   "Enraged barbarian spirit": {
     "name": "Enraged barbarian spirit",
     "id": 750,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "Air",
     "levels": {
@@ -3067,7 +2936,7 @@ targetData = {
   "Berserk barbarian spirit": {
     "name": "Berserk barbarian spirit",
     "id": 751,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "Air",
     "levels": {
@@ -3099,7 +2968,7 @@ targetData = {
   "Ferocious barbarian spirit": {
     "name": "Ferocious barbarian spirit",
     "id": 752,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "Air",
     "levels": {
@@ -3131,7 +3000,7 @@ targetData = {
   "Melzar the Mad": {
     "name": "Melzar the Mad",
     "id": 753,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "None",
     "levels": {
@@ -3165,7 +3034,7 @@ targetData = {
   "Glophren": {
     "name": "Glophren",
     "id": 767,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Thrown",
     "levels": {
@@ -3199,7 +3068,7 @@ targetData = {
   "Grip": {
     "name": "Grip",
     "id": 792,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Earth",
     "levels": {
@@ -3233,7 +3102,7 @@ targetData = {
   "Ice Queen": {
     "name": "Ice Queen",
     "id": 795,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -3267,7 +3136,7 @@ targetData = {
   "Pirate Guard": {
     "name": "Pirate Guard",
     "id": 799,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Air",
     "levels": {
@@ -3301,7 +3170,7 @@ targetData = {
   "Rowdy slave": {
     "name": "Rowdy slave",
     "id": 827,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -3335,7 +3204,7 @@ targetData = {
   "Mercenary Captain": {
     "name": "Mercenary Captain",
     "id": 830,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Fire",
     "levels": {
@@ -3369,7 +3238,7 @@ targetData = {
   "Shantay guard": {
     "name": "Shantay guard",
     "id": 837,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Fire",
     "levels": {
@@ -3403,7 +3272,7 @@ targetData = {
   "Desert wolf": {
     "name": "Desert wolf",
     "id": 839,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Fire",
     "levels": {
@@ -3435,7 +3304,7 @@ targetData = {
   "Ugthanki": {
     "name": "Ugthanki",
     "id": 840,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -3469,7 +3338,7 @@ targetData = {
   "Ogre chieftain": {
     "name": "Ogre chieftain",
     "id": 852,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Water",
     "levels": {
@@ -3503,7 +3372,7 @@ targetData = {
   "Gorad": {
     "name": "Gorad",
     "id": 856,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Water",
     "levels": {
@@ -3537,7 +3406,7 @@ targetData = {
   "City guard": {
     "name": "City guard",
     "id": 862,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Water",
     "levels": {
@@ -3571,7 +3440,7 @@ targetData = {
   "Enclave guard": {
     "name": "Enclave guard",
     "id": 870,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Water",
     "levels": {
@@ -3605,7 +3474,7 @@ targetData = {
   "Tower guard": {
     "name": "Tower guard",
     "id": 877,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "Water",
     "levels": {
@@ -3639,7 +3508,7 @@ targetData = {
   "Colonel Radick": {
     "name": "Colonel Radick",
     "id": 878,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "Water",
     "levels": {
@@ -3673,7 +3542,7 @@ targetData = {
   "Hazeel Cultist": {
     "name": "Hazeel Cultist",
     "id": 894,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 28,
     "weakness": "Arrow",
     "levels": {
@@ -3707,7 +3576,7 @@ targetData = {
   "Witch's experiment": {
     "name": "Witch's experiment",
     "id": 897,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 16,
     "weakness": "Water",
     "levels": {
@@ -3741,7 +3610,7 @@ targetData = {
   "Witch's experiment (second form)": {
     "name": "Witch's experiment (second form)",
     "id": 898,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "Water",
     "levels": {
@@ -3775,7 +3644,7 @@ targetData = {
   "Witch's experiment (third form)": {
     "name": "Witch's experiment (third form)",
     "id": 899,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 37,
     "weakness": "Water",
     "levels": {
@@ -3809,7 +3678,7 @@ targetData = {
   "Witch's experiment (fourth form)": {
     "name": "Witch's experiment (fourth form)",
     "id": 900,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Water",
     "levels": {
@@ -3843,7 +3712,7 @@ targetData = {
   "Battle mage": {
     "name": "Battle mage",
     "id": 912,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 77,
     "weakness": "Arrow",
     "levels": {
@@ -3877,7 +3746,7 @@ targetData = {
   "Nezikchened": {
     "name": "Nezikchened",
     "id": 934,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -3911,7 +3780,7 @@ targetData = {
   "San Tojalon": {
     "name": "San Tojalon",
     "id": 936,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Air",
     "levels": {
@@ -3945,7 +3814,7 @@ targetData = {
   "Irvig Senay": {
     "name": "Irvig Senay",
     "id": 937,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Air",
     "levels": {
@@ -3979,7 +3848,7 @@ targetData = {
   "Ranalph Devere": {
     "name": "Ranalph Devere",
     "id": 938,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Air",
     "levels": {
@@ -4013,7 +3882,7 @@ targetData = {
   "Blessed spider": {
     "name": "Blessed spider",
     "id": 977,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 42,
     "weakness": "Crushing",
     "levels": {
@@ -4046,7 +3915,7 @@ targetData = {
   "Blessed giant rat": {
     "name": "Blessed giant rat",
     "id": 978,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 16,
     "weakness": "Fire",
     "levels": {
@@ -4080,7 +3949,7 @@ targetData = {
   "Sir Jerro": {
     "name": "Sir Jerro",
     "id": 988,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Earth",
     "levels": {
@@ -4114,7 +3983,7 @@ targetData = {
   "Sir Carl": {
     "name": "Sir Carl",
     "id": 989,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Earth",
     "levels": {
@@ -4148,7 +4017,7 @@ targetData = {
   "Sir Harry": {
     "name": "Sir Harry",
     "id": 990,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Earth",
     "levels": {
@@ -4182,7 +4051,7 @@ targetData = {
   "Kalrag": {
     "name": "Kalrag",
     "id": 997,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Water",
     "levels": {
@@ -4216,7 +4085,7 @@ targetData = {
   "Othainian": {
     "name": "Othainian",
     "id": 998,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "Air",
     "levels": {
@@ -4250,7 +4119,7 @@ targetData = {
   "Doomion": {
     "name": "Doomion",
     "id": 999,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "Air",
     "levels": {
@@ -4284,7 +4153,7 @@ targetData = {
   "Holthion": {
     "name": "Holthion",
     "id": 1000,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "Air",
     "levels": {
@@ -4318,7 +4187,7 @@ targetData = {
   "Disciple of Iban": {
     "name": "Disciple of Iban",
     "id": 1002,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 44,
     "weakness": "Arrow",
     "levels": {
@@ -4352,7 +4221,7 @@ targetData = {
   "Zamorak wizard": {
     "name": "Zamorak wizard",
     "id": 1007,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -4386,7 +4255,7 @@ targetData = {
   "Rooster": {
     "name": "Rooster",
     "id": 1018,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -4418,7 +4287,7 @@ targetData = {
   "Fire elemental": {
     "name": "Fire elemental",
     "id": 1019,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 44,
     "weakness": "Arrow",
     "levels": {
@@ -4452,7 +4321,7 @@ targetData = {
   "Earth elemental": {
     "name": "Earth elemental",
     "id": 1020,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Water",
     "levels": {
@@ -4486,7 +4355,7 @@ targetData = {
   "Air elemental": {
     "name": "Air elemental",
     "id": 1021,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 44,
     "weakness": "Slashing",
     "levels": {
@@ -4520,7 +4389,7 @@ targetData = {
   "Water elemental": {
     "name": "Water elemental",
     "id": 1022,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 44,
     "weakness": "Slashing",
     "levels": {
@@ -4554,7 +4423,7 @@ targetData = {
   "Ghast": {
     "name": "Ghast",
     "id": 1053,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -4588,7 +4457,7 @@ targetData = {
   "Rock": {
     "name": "Rock",
     "id": 1095,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 88,
     "weakness": "Water",
     "levels": {
@@ -4620,7 +4489,7 @@ targetData = {
   "Stick": {
     "name": "Stick",
     "id": 1096,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 85,
     "weakness": "Water",
     "levels": {
@@ -4652,7 +4521,7 @@ targetData = {
   "Pee Hat": {
     "name": "Pee Hat",
     "id": 1097,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -4684,7 +4553,7 @@ targetData = {
   "Kraka": {
     "name": "Kraka",
     "id": 1098,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -4716,7 +4585,7 @@ targetData = {
   "Thrower Troll": {
     "name": "Thrower Troll",
     "id": 1101,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 67,
     "weakness": "Stabbing",
     "levels": {
@@ -4749,7 +4618,7 @@ targetData = {
   "Troll spectator": {
     "name": "Troll spectator",
     "id": 1118,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Water",
     "levels": {
@@ -4781,7 +4650,7 @@ targetData = {
   "Dad": {
     "name": "Dad",
     "id": 1125,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Water",
     "levels": {
@@ -4813,7 +4682,7 @@ targetData = {
   "Twig": {
     "name": "Twig",
     "id": 1126,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -4845,7 +4714,7 @@ targetData = {
   "Berry": {
     "name": "Berry",
     "id": 1127,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -4877,7 +4746,7 @@ targetData = {
   "Kalphite Worker": {
     "name": "Kalphite Worker",
     "id": 1153,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Water",
     "levels": {
@@ -4909,7 +4778,7 @@ targetData = {
   "Kalphite Soldier": {
     "name": "Kalphite Soldier",
     "id": 1154,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Water",
     "levels": {
@@ -4941,7 +4810,7 @@ targetData = {
   "Kalphite Guardian": {
     "name": "Kalphite Guardian",
     "id": 1155,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 72,
     "weakness": "Water",
     "levels": {
@@ -4973,7 +4842,7 @@ targetData = {
   "Kalphite Queen": {
     "name": "Kalphite Queen",
     "id": 1158,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 333,
     "weakness": "None",
     "levels": {
@@ -5007,7 +4876,7 @@ targetData = {
   "The Shaikahan": {
     "name": "The Shaikahan",
     "id": 1172,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -5041,7 +4910,7 @@ targetData = {
   "Rabbit": {
     "name": "Rabbit",
     "id": 1192,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -5073,7 +4942,7 @@ targetData = {
   "Grizzly bear cub": {
     "name": "Grizzly bear cub",
     "id": 1196,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Water",
     "levels": {
@@ -5105,7 +4974,7 @@ targetData = {
   "Dire Wolf": {
     "name": "Dire Wolf",
     "id": 1198,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 43,
     "weakness": "Fire",
     "levels": {
@@ -5137,7 +5006,7 @@ targetData = {
   "Tyras guard": {
     "name": "Tyras guard",
     "id": 1200,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Earth",
     "levels": {
@@ -5169,7 +5038,7 @@ targetData = {
   "Ghoul": {
     "name": "Ghoul",
     "id": 1218,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 50,
     "weakness": "Fire",
     "levels": {
@@ -5201,7 +5070,7 @@ targetData = {
   "Leech": {
     "name": "Leech",
     "id": 1219,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Fire",
     "levels": {
@@ -5233,7 +5102,7 @@ targetData = {
   "Myre Blamish Snail": {
     "name": "Myre Blamish Snail",
     "id": 1227,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Fire",
     "levels": {
@@ -5265,7 +5134,7 @@ targetData = {
   "Blood Blamish Snail": {
     "name": "Blood Blamish Snail",
     "id": 1228,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Fire",
     "levels": {
@@ -5297,7 +5166,7 @@ targetData = {
   "Ochre Blamish Snail": {
     "name": "Ochre Blamish Snail",
     "id": 1229,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Fire",
     "levels": {
@@ -5329,7 +5198,7 @@ targetData = {
   "Bruise Blamish Snail": {
     "name": "Bruise Blamish Snail",
     "id": 1230,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Fire",
     "levels": {
@@ -5361,7 +5230,7 @@ targetData = {
   "Bark Blamish Snail": {
     "name": "Bark Blamish Snail",
     "id": 1231,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Fire",
     "levels": {
@@ -5393,7 +5262,7 @@ targetData = {
   "Bedabin nomad fighter": {
     "name": "Bedabin nomad fighter",
     "id": 1239,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -5427,7 +5296,7 @@ targetData = {
   "Loar Shadow": {
     "name": "Loar Shadow",
     "id": 1240,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Water",
     "levels": {
@@ -5459,7 +5328,7 @@ targetData = {
   "Loar Shade": {
     "name": "Loar Shade",
     "id": 1241,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Water",
     "levels": {
@@ -5491,7 +5360,7 @@ targetData = {
   "Phrin Shadow": {
     "name": "Phrin Shadow",
     "id": 1243,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Water",
     "levels": {
@@ -5523,7 +5392,7 @@ targetData = {
   "Phrin Shade": {
     "name": "Phrin Shade",
     "id": 1244,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Water",
     "levels": {
@@ -5555,7 +5424,7 @@ targetData = {
   "Riyl Shadow": {
     "name": "Riyl Shadow",
     "id": 1245,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -5587,7 +5456,7 @@ targetData = {
   "Riyl Shade": {
     "name": "Riyl Shade",
     "id": 1246,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -5619,7 +5488,7 @@ targetData = {
   "Asyn Shadow": {
     "name": "Asyn Shadow",
     "id": 1247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -5651,7 +5520,7 @@ targetData = {
   "Asyn Shade": {
     "name": "Asyn Shade",
     "id": 1248,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -5683,7 +5552,7 @@ targetData = {
   "Fiyr Shadow": {
     "name": "Fiyr Shadow",
     "id": 1249,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Water",
     "levels": {
@@ -5715,7 +5584,7 @@ targetData = {
   "Fiyr Shade": {
     "name": "Fiyr Shade",
     "id": 1250,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Water",
     "levels": {
@@ -5747,7 +5616,7 @@ targetData = {
   "Saradomin wizard": {
     "name": "Saradomin wizard",
     "id": 1264,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -5781,7 +5650,7 @@ targetData = {
   "Rock Crab": {
     "name": "Rock Crab",
     "id": 1265,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "Water",
     "levels": {
@@ -5813,7 +5682,7 @@ targetData = {
   "The Draugen": {
     "name": "The Draugen",
     "id": 1279,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 96,
     "weakness": "Fire",
     "levels": {
@@ -5847,7 +5716,7 @@ targetData = {
   "Koschei the deathless": {
     "name": "Koschei the deathless",
     "id": 1290,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -5881,7 +5750,7 @@ targetData = {
   "Freidir": {
     "name": "Freidir",
     "id": 1306,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -5915,7 +5784,7 @@ targetData = {
   "Borrokar": {
     "name": "Borrokar",
     "id": 1307,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -5949,7 +5818,7 @@ targetData = {
   "Lanzig": {
     "name": "Lanzig",
     "id": 1308,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -5983,7 +5852,7 @@ targetData = {
   "Freygerd": {
     "name": "Freygerd",
     "id": 1310,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -6017,7 +5886,7 @@ targetData = {
   "Lensa": {
     "name": "Lensa",
     "id": 1311,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -6051,7 +5920,7 @@ targetData = {
   "Jennella": {
     "name": "Jennella",
     "id": 1312,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -6085,7 +5954,7 @@ targetData = {
   "Fox": {
     "name": "Fox",
     "id": 1319,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Water",
     "levels": {
@@ -6119,7 +5988,7 @@ targetData = {
   "Bear cub": {
     "name": "Bear cub",
     "id": 1326,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Water",
     "levels": {
@@ -6151,7 +6020,7 @@ targetData = {
   "Fenris wolf": {
     "name": "Fenris wolf",
     "id": 1330,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 46,
     "weakness": "Water",
     "levels": {
@@ -6180,44 +6049,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Dagannoth": {
-    "name": "Dagannoth",
-    "id": 1338,
-    "combatStyle": "Ranged",
-    "combatLevel": 77,
-    "weakness": "Slashing",
-    "levels": {
-      "attack": 41,
-      "defence": 55,
-      "magic": 0,
-      "ranged": 55
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "attack": 412,
-      "magic": 0,
-      "ranged": 983,
-      "armour": 983
-    },
-    "bonusStats": {
-      "attack": 205,
-      "armour": 262,
-      "magic": 0,
-      "ranged": 262
-    }
-  },
   "Dagannoth mother": {
     "name": "Dagannoth mother",
     "id": 1351,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -6251,7 +6086,7 @@ targetData = {
   "Skraeling": {
     "name": "Skraeling",
     "id": 1367,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6285,7 +6120,7 @@ targetData = {
   "Ragnar": {
     "name": "Ragnar",
     "id": 1379,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6319,7 +6154,7 @@ targetData = {
   "Einar": {
     "name": "Einar",
     "id": 1380,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6353,7 +6188,7 @@ targetData = {
   "Alrik": {
     "name": "Alrik",
     "id": 1381,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6387,7 +6222,7 @@ targetData = {
   "Thorhild": {
     "name": "Thorhild",
     "id": 1382,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6421,7 +6256,7 @@ targetData = {
   "Halla": {
     "name": "Halla",
     "id": 1383,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6455,7 +6290,7 @@ targetData = {
   "Rannveig": {
     "name": "Rannveig",
     "id": 1386,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6489,7 +6324,7 @@ targetData = {
   "Thora": {
     "name": "Thora",
     "id": 1387,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6523,7 +6358,7 @@ targetData = {
   "Valgerd": {
     "name": "Valgerd",
     "id": 1388,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6557,7 +6392,7 @@ targetData = {
   "Broddi": {
     "name": "Broddi",
     "id": 1390,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6591,7 +6426,7 @@ targetData = {
   "Ragnvald": {
     "name": "Ragnvald",
     "id": 1392,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -6625,7 +6460,7 @@ targetData = {
   "Duke": {
     "name": "Duke",
     "id": 1442,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6659,7 +6494,7 @@ targetData = {
   "Oipuis": {
     "name": "Oipuis",
     "id": 1443,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6693,7 +6528,7 @@ targetData = {
   "Uyoro": {
     "name": "Uyoro",
     "id": 1444,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6727,7 +6562,7 @@ targetData = {
   "Ouhai": {
     "name": "Ouhai",
     "id": 1445,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6761,7 +6596,7 @@ targetData = {
   "Uodai": {
     "name": "Uodai",
     "id": 1446,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6795,7 +6630,7 @@ targetData = {
   "Padulah": {
     "name": "Padulah",
     "id": 1447,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Fire",
     "levels": {
@@ -6829,7 +6664,7 @@ targetData = {
   "Monkey Archer": {
     "name": "Monkey Archer",
     "id": 1456,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 81,
     "weakness": "Slashing",
     "levels": {
@@ -6863,7 +6698,7 @@ targetData = {
   "Monkey Zombie": {
     "name": "Monkey Zombie",
     "id": 1465,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Air",
     "levels": {
@@ -6897,7 +6732,7 @@ targetData = {
   "Jungle demon": {
     "name": "Jungle demon",
     "id": 1472,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -6931,7 +6766,7 @@ targetData = {
   "Bird": {
     "name": "Bird",
     "id": 1475,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Earth",
     "levels": {
@@ -6963,7 +6798,7 @@ targetData = {
   "Skeletal miner": {
     "name": "Skeletal miner",
     "id": 1539,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Earth",
     "levels": {
@@ -6997,7 +6832,7 @@ targetData = {
   "Treus Dayth": {
     "name": "Treus Dayth",
     "id": 1540,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "None",
     "levels": {
@@ -7031,7 +6866,7 @@ targetData = {
   "Chompy bird": {
     "name": "Chompy bird",
     "id": 1550,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Arrow",
     "levels": {
@@ -7065,7 +6900,7 @@ targetData = {
   "Arrg": {
     "name": "Arrg",
     "id": 1556,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -7099,7 +6934,7 @@ targetData = {
   "Ice wolf": {
     "name": "Ice wolf",
     "id": 1558,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Water",
     "levels": {
@@ -7131,7 +6966,7 @@ targetData = {
   "Ice Troll": {
     "name": "Ice Troll",
     "id": 1560,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -7163,7 +6998,7 @@ targetData = {
   "Skeleton Hellhound": {
     "name": "Skeleton Hellhound",
     "id": 1575,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Air",
     "levels": {
@@ -7195,7 +7030,7 @@ targetData = {
   "Bronze dragon": {
     "name": "Bronze dragon",
     "id": 1590,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Water",
     "levels": {
@@ -7228,7 +7063,7 @@ targetData = {
   "Wild dog": {
     "name": "Wild dog",
     "id": 1593,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Water",
     "levels": {
@@ -7260,7 +7095,7 @@ targetData = {
   "Cave crawler": {
     "name": "Cave crawler",
     "id": 1600,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 24,
     "weakness": "Slashing",
     "levels": {
@@ -7292,7 +7127,7 @@ targetData = {
   "Aberrant spectre": {
     "name": "Aberrant spectre",
     "id": 1604,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 72,
     "weakness": "Thrown",
     "levels": {
@@ -7324,7 +7159,7 @@ targetData = {
   "Kurask": {
     "name": "Kurask",
     "id": 1608,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "Air",
     "levels": {
@@ -7356,7 +7191,7 @@ targetData = {
   "Swarming turoth": {
     "name": "Swarming turoth",
     "id": 1611,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 60,
     "weakness": "Air",
     "levels": {
@@ -7388,7 +7223,7 @@ targetData = {
   "Banshee": {
     "name": "Banshee",
     "id": 1612,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 24,
     "weakness": "Arrow",
     "levels": {
@@ -7421,7 +7256,7 @@ targetData = {
   "Nechryael": {
     "name": "Nechryael",
     "id": 1613,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 96,
     "weakness": "Crushing",
     "levels": {
@@ -7453,7 +7288,7 @@ targetData = {
   "Death spawn": {
     "name": "Death spawn",
     "id": 1614,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 95,
     "weakness": "Crushing",
     "levels": {
@@ -7486,7 +7321,7 @@ targetData = {
   "Basilisk": {
     "name": "Basilisk",
     "id": 1616,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Air",
     "levels": {
@@ -7518,7 +7353,7 @@ targetData = {
   "Bloodveld": {
     "name": "Bloodveld",
     "id": 1618,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 52,
     "weakness": "Fire",
     "levels": {
@@ -7550,7 +7385,7 @@ targetData = {
   "Cockatrice": {
     "name": "Cockatrice",
     "id": 1620,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 31,
     "weakness": "Crushing",
     "levels": {
@@ -7583,7 +7418,7 @@ targetData = {
   "Dust devil": {
     "name": "Dust devil",
     "id": 1624,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 85,
     "weakness": "Crushing",
     "levels": {
@@ -7615,7 +7450,7 @@ targetData = {
   "Smokedevil": {
     "name": "Smokedevil",
     "id": 1625,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 114,
     "weakness": "Crushing",
     "levels": {
@@ -7647,7 +7482,7 @@ targetData = {
   "Rock slug": {
     "name": "Rock slug",
     "id": 1631,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Water",
     "levels": {
@@ -7679,7 +7514,7 @@ targetData = {
   "Pyrefiend": {
     "name": "Pyrefiend",
     "id": 1633,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 38,
     "weakness": "Bolt",
     "levels": {
@@ -7711,7 +7546,7 @@ targetData = {
   "Infernal Mage": {
     "name": "Infernal Mage",
     "id": 1643,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 63,
     "weakness": "Arrow",
     "levels": {
@@ -7743,7 +7578,7 @@ targetData = {
   "Experiment": {
     "name": "Experiment",
     "id": 1676,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -7777,7 +7612,7 @@ targetData = {
   "Undead cow": {
     "name": "Undead cow",
     "id": 1691,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Earth",
     "levels": {
@@ -7809,7 +7644,7 @@ targetData = {
   "Undead chicken": {
     "name": "Undead chicken",
     "id": 1692,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -7841,7 +7676,7 @@ targetData = {
   "H.A.M. Guard": {
     "name": "H.A.M. Guard",
     "id": 1710,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Air",
     "levels": {
@@ -7873,7 +7708,7 @@ targetData = {
   "Sigmund": {
     "name": "Sigmund",
     "id": 1731,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Fire",
     "levels": {
@@ -7907,7 +7742,7 @@ targetData = {
   "Dwarf gang member": {
     "name": "Dwarf gang member",
     "id": 1795,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -7941,7 +7776,7 @@ targetData = {
   "Slagilith": {
     "name": "Slagilith",
     "id": 1802,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Air",
     "levels": {
@@ -7975,7 +7810,7 @@ targetData = {
   "The Kendal": {
     "name": "The Kendal",
     "id": 1812,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 32,
     "weakness": "None",
     "levels": {
@@ -8009,7 +7844,7 @@ targetData = {
   "Camp dweller": {
     "name": "Camp dweller",
     "id": 1814,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Fire",
     "levels": {
@@ -8043,7 +7878,7 @@ targetData = {
   "Cave goblin": {
     "name": "Cave goblin",
     "id": 1822,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -8075,7 +7910,7 @@ targetData = {
   "Giant frog": {
     "name": "Giant frog",
     "id": 1828,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 33,
     "weakness": "Slashing",
     "levels": {
@@ -8107,7 +7942,7 @@ targetData = {
   "Big frog": {
     "name": "Big frog",
     "id": 1829,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 18,
     "weakness": "Slashing",
     "levels": {
@@ -8139,7 +7974,7 @@ targetData = {
   "Cave slime": {
     "name": "Cave slime",
     "id": 1831,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 22,
     "weakness": "Slashing",
     "levels": {
@@ -8171,7 +8006,7 @@ targetData = {
   "Arzinian Avatar of Strength": {
     "name": "Arzinian Avatar of Strength",
     "id": 1850,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -8205,7 +8040,7 @@ targetData = {
   "Arzinian Avatar of Ranging": {
     "name": "Arzinian Avatar of Ranging",
     "id": 1853,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 56,
     "weakness": "Stabbing",
     "levels": {
@@ -8239,7 +8074,7 @@ targetData = {
   "Arzinian Avatar of Magic": {
     "name": "Arzinian Avatar of Magic",
     "id": 1856,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 56,
     "weakness": "Arrow",
     "levels": {
@@ -8273,7 +8108,7 @@ targetData = {
   "Desert snake": {
     "name": "Desert snake",
     "id": 1874,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 8,
     "weakness": "Slashing",
     "levels": {
@@ -8307,7 +8142,7 @@ targetData = {
   "Sir Palomedes": {
     "name": "Sir Palomedes",
     "id": 1883,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -8341,7 +8176,7 @@ targetData = {
   "Bandit champion": {
     "name": "Bandit champion",
     "id": 1885,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 54,
     "weakness": "Fire",
     "levels": {
@@ -8375,7 +8210,7 @@ targetData = {
   "Menaphite Thug": {
     "name": "Menaphite Thug",
     "id": 1904,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Fire",
     "levels": {
@@ -8409,7 +8244,7 @@ targetData = {
   "Tough Guy": {
     "name": "Tough Guy",
     "id": 1906,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 54,
     "weakness": "Fire",
     "levels": {
@@ -8443,7 +8278,7 @@ targetData = {
   "Kamil": {
     "name": "Kamil",
     "id": 1913,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 88,
     "weakness": "Fire",
     "levels": {
@@ -8477,7 +8312,7 @@ targetData = {
   "Dessous": {
     "name": "Dessous",
     "id": 1914,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Air",
     "levels": {
@@ -8511,7 +8346,7 @@ targetData = {
   "Stranger": {
     "name": "Stranger",
     "id": 1919,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Water",
     "levels": {
@@ -8545,7 +8380,7 @@ targetData = {
   "Scarabs": {
     "name": "Scarabs",
     "id": 1969,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Water",
     "levels": {
@@ -8579,7 +8414,7 @@ targetData = {
   "Giant skeleton": {
     "name": "Giant skeleton",
     "id": 1973,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Earth",
     "levels": {
@@ -8613,7 +8448,7 @@ targetData = {
   "Damis": {
     "name": "Damis",
     "id": 1974,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Earth",
     "levels": {
@@ -8647,7 +8482,7 @@ targetData = {
   "Shadow Hound": {
     "name": "Shadow Hound",
     "id": 1976,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Water",
     "levels": {
@@ -8681,7 +8516,7 @@ targetData = {
   "Fareed": {
     "name": "Fareed",
     "id": 1977,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -8715,7 +8550,7 @@ targetData = {
   "Possessed Priest": {
     "name": "Possessed Priest",
     "id": 1991,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 56,
     "weakness": "Slashing",
     "levels": {
@@ -8749,7 +8584,7 @@ targetData = {
   "Crocodile": {
     "name": "Crocodile",
     "id": 1993,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Air",
     "levels": {
@@ -8783,7 +8618,7 @@ targetData = {
   "Jackal": {
     "name": "Jackal",
     "id": 1994,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Air",
     "levels": {
@@ -8817,7 +8652,7 @@ targetData = {
   "Locust": {
     "name": "Locust",
     "id": 1995,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 16,
     "weakness": "Air",
     "levels": {
@@ -8851,7 +8686,7 @@ targetData = {
   "Plague frog": {
     "name": "Plague frog",
     "id": 1997,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 17,
     "weakness": "Air",
     "levels": {
@@ -8883,7 +8718,7 @@ targetData = {
   "Scarab swarm": {
     "name": "Scarab swarm",
     "id": 2001,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Air",
     "levels": {
@@ -8917,7 +8752,7 @@ targetData = {
   "Het apparition": {
     "name": "Het apparition",
     "id": 2007,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Air",
     "levels": {
@@ -8951,7 +8786,7 @@ targetData = {
   "Apmeken apparition": {
     "name": "Apmeken apparition",
     "id": 2008,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 56,
     "weakness": "Bolt",
     "levels": {
@@ -8985,7 +8820,7 @@ targetData = {
   "Scabaras apparition": {
     "name": "Scabaras apparition",
     "id": 2009,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Air",
     "levels": {
@@ -9019,7 +8854,7 @@ targetData = {
   "Crondis apparition": {
     "name": "Crondis apparition",
     "id": 2010,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 57,
     "weakness": "Air",
     "levels": {
@@ -9053,7 +8888,7 @@ targetData = {
   "Bloodworm": {
     "name": "Bloodworm",
     "id": 2031,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Air",
     "levels": {
@@ -9085,7 +8920,7 @@ targetData = {
   "Crypt rat": {
     "name": "Crypt rat",
     "id": 2032,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -9117,7 +8952,7 @@ targetData = {
   "Giant crypt rat": {
     "name": "Giant crypt rat",
     "id": 2033,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -9149,7 +8984,7 @@ targetData = {
   "Crypt spider": {
     "name": "Crypt spider",
     "id": 2034,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Water",
     "levels": {
@@ -9181,7 +9016,7 @@ targetData = {
   "Giant crypt spider": {
     "name": "Giant crypt spider",
     "id": 2035,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -9213,7 +9048,7 @@ targetData = {
   "Zogre": {
     "name": "Zogre",
     "id": 2044,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Arrow",
     "levels": {
@@ -9247,7 +9082,7 @@ targetData = {
   "Skogre": {
     "name": "Skogre",
     "id": 2050,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Arrow",
     "levels": {
@@ -9281,7 +9116,7 @@ targetData = {
   "Slash Bash": {
     "name": "Slash Bash",
     "id": 2060,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "None",
     "levels": {
@@ -9315,7 +9150,7 @@ targetData = {
   "Cave goblin miner": {
     "name": "Cave goblin miner",
     "id": 2069,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Air",
     "levels": {
@@ -9349,7 +9184,7 @@ targetData = {
   "Cave goblin guard": {
     "name": "Cave goblin guard",
     "id": 2073,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Air",
     "levels": {
@@ -9383,7 +9218,7 @@ targetData = {
   "Black Guard Berserker": {
     "name": "Black Guard Berserker",
     "id": 2134,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Air",
     "levels": {
@@ -9415,7 +9250,7 @@ targetData = {
   "Abyssal leech": {
     "name": "Abyssal leech",
     "id": 2263,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 72,
     "weakness": "Crushing",
     "levels": {
@@ -9447,7 +9282,7 @@ targetData = {
   "Abyssal guardian": {
     "name": "Abyssal guardian",
     "id": 2264,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 79,
     "weakness": "Arrow",
     "levels": {
@@ -9479,7 +9314,7 @@ targetData = {
   "Abyssal walker": {
     "name": "Abyssal walker",
     "id": 2265,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Earth",
     "levels": {
@@ -9511,7 +9346,7 @@ targetData = {
   "Sir Leye": {
     "name": "Sir Leye",
     "id": 2285,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -9545,7 +9380,7 @@ targetData = {
   "Cow calf": {
     "name": "Cow calf",
     "id": 2310,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Earth",
     "levels": {
@@ -9577,7 +9412,7 @@ targetData = {
   "Giant Rock Crab": {
     "name": "Giant Rock Crab",
     "id": 2452,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -9609,7 +9444,7 @@ targetData = {
   "Dagannoth spawn": {
     "name": "Dagannoth spawn",
     "id": 2454,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "Fire",
     "levels": {
@@ -9641,7 +9476,7 @@ targetData = {
   "Wallasalki": {
     "name": "Wallasalki",
     "id": 2457,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 91,
     "weakness": "Arrow",
     "levels": {
@@ -9673,7 +9508,7 @@ targetData = {
   "H.A.M. agent Walton": {
     "name": "H.A.M. agent Walton",
     "id": 2468,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Fire",
     "levels": {
@@ -9707,7 +9542,7 @@ targetData = {
   "Bush snake": {
     "name": "Bush snake",
     "id": 2489,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 85,
     "weakness": "Slashing",
     "levels": {
@@ -9739,7 +9574,7 @@ targetData = {
   "Large mosquito": {
     "name": "Large mosquito",
     "id": 2493,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 88,
     "weakness": "Crushing",
     "levels": {
@@ -9771,7 +9606,7 @@ targetData = {
   "TzHaar-Mej": {
     "name": "TzHaar-Mej",
     "id": 2591,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 86,
     "weakness": "Arrow",
     "levels": {
@@ -9803,7 +9638,7 @@ targetData = {
   "TzHaar-Hur": {
     "name": "TzHaar-Hur",
     "id": 2600,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Water",
     "levels": {
@@ -9835,7 +9670,7 @@ targetData = {
   "TzHaar-Ket": {
     "name": "TzHaar-Ket",
     "id": 2611,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Water",
     "levels": {
@@ -9867,7 +9702,7 @@ targetData = {
   "Tz-Kih": {
     "name": "Tz-Kih",
     "id": 2627,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -9899,7 +9734,7 @@ targetData = {
   "Tok-Xil": {
     "name": "Tok-Xil",
     "id": 2631,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -9931,7 +9766,7 @@ targetData = {
   "Hengel": {
     "name": "Hengel",
     "id": 2683,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Fire",
     "levels": {
@@ -9963,7 +9798,7 @@ targetData = {
   "Anja": {
     "name": "Anja",
     "id": 2684,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Fire",
     "levels": {
@@ -9995,7 +9830,7 @@ targetData = {
   "Duckling": {
     "name": "Duckling",
     "id": 2694,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Earth",
     "levels": {
@@ -10027,7 +9862,7 @@ targetData = {
   "Black knight": {
     "name": "Black knight",
     "id": 2698,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 33,
     "weakness": "Water",
     "levels": {
@@ -10059,7 +9894,7 @@ targetData = {
   "Port Sarim guard": {
     "name": "Port Sarim guard",
     "id": 2699,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 18,
     "weakness": "Water",
     "levels": {
@@ -10091,7 +9926,7 @@ targetData = {
   "Fire wizard": {
     "name": "Fire wizard",
     "id": 2709,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 25,
     "weakness": "Arrow",
     "levels": {
@@ -10123,7 +9958,7 @@ targetData = {
   "Water wizard": {
     "name": "Water wizard",
     "id": 2710,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 19,
     "weakness": "Arrow",
     "levels": {
@@ -10155,7 +9990,7 @@ targetData = {
   "Earth wizard": {
     "name": "Earth wizard",
     "id": 2711,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 22,
     "weakness": "Arrow",
     "levels": {
@@ -10187,7 +10022,7 @@ targetData = {
   "Air wizard": {
     "name": "Air wizard",
     "id": 2712,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 16,
     "weakness": "Arrow",
     "levels": {
@@ -10219,7 +10054,7 @@ targetData = {
   "Yt-MejKot": {
     "name": "Yt-MejKot",
     "id": 2741,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 180,
     "weakness": "Water",
     "levels": {
@@ -10251,7 +10086,7 @@ targetData = {
   "Ket-Zek": {
     "name": "Ket-Zek",
     "id": 2743,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 360,
     "weakness": "Arrow",
     "levels": {
@@ -10284,7 +10119,7 @@ targetData = {
   "TzTok-Jad": {
     "name": "TzTok-Jad",
     "id": 2745,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 702,
     "weakness": "None",
     "levels": {
@@ -10318,7 +10153,7 @@ targetData = {
   "Yt-HurKot": {
     "name": "Yt-HurKot",
     "id": 2746,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 108,
     "weakness": "Water",
     "levels": {
@@ -10350,7 +10185,7 @@ targetData = {
   "Solus Dellagar": {
     "name": "Solus Dellagar",
     "id": 2780,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Water",
     "levels": {
@@ -10384,7 +10219,7 @@ targetData = {
   "Dark beast": {
     "name": "Dark beast",
     "id": 2783,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "Bolt",
     "levels": {
@@ -10416,7 +10251,7 @@ targetData = {
   "Lizard": {
     "name": "Lizard",
     "id": 2803,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Water",
     "levels": {
@@ -10448,7 +10283,7 @@ targetData = {
   "Desert lizard": {
     "name": "Desert lizard",
     "id": 2804,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Water",
     "levels": {
@@ -10480,7 +10315,7 @@ targetData = {
   "Small lizard": {
     "name": "Small lizard",
     "id": 2807,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Water",
     "levels": {
@@ -10512,7 +10347,7 @@ targetData = {
   "Evil spirit": {
     "name": "Evil spirit",
     "id": 2849,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -10546,7 +10381,7 @@ targetData = {
   "Fever spider": {
     "name": "Fever spider",
     "id": 2850,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "Crushing",
     "levels": {
@@ -10579,7 +10414,7 @@ targetData = {
   "Bardur": {
     "name": "Bardur",
     "id": 2879,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -10611,7 +10446,7 @@ targetData = {
   "Dagannoth fledgeling": {
     "name": "Dagannoth fledgeling",
     "id": 2880,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 72,
     "weakness": "Air",
     "levels": {
@@ -10643,7 +10478,7 @@ targetData = {
   "Dagannoth Supreme": {
     "name": "Dagannoth Supreme",
     "id": 2881,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 303,
     "weakness": "Stabbing",
     "levels": {
@@ -10675,7 +10510,7 @@ targetData = {
   "Dagannoth Prime": {
     "name": "Dagannoth Prime",
     "id": 2882,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 303,
     "weakness": "Arrow",
     "levels": {
@@ -10707,7 +10542,7 @@ targetData = {
   "Dagannoth Rex": {
     "name": "Dagannoth Rex",
     "id": 2883,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 303,
     "weakness": "Fire",
     "levels": {
@@ -10739,7 +10574,7 @@ targetData = {
   "Rock lobster": {
     "name": "Rock lobster",
     "id": 2889,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "Water",
     "levels": {
@@ -10771,7 +10606,7 @@ targetData = {
   "Spinolyp": {
     "name": "Spinolyp",
     "id": 2892,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 75,
     "weakness": "Arrow",
     "levels": {
@@ -10803,7 +10638,7 @@ targetData = {
   "Agrith Naar": {
     "name": "Agrith Naar",
     "id": 2919,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -10837,7 +10672,7 @@ targetData = {
   "Black golem": {
     "name": "Black golem",
     "id": 3026,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Crushing",
     "levels": {
@@ -10871,7 +10706,7 @@ targetData = {
   "White golem": {
     "name": "White golem",
     "id": 3027,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Stabbing",
     "levels": {
@@ -10905,7 +10740,7 @@ targetData = {
   "Grey golem": {
     "name": "Grey golem",
     "id": 3028,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Slashing",
     "levels": {
@@ -10939,7 +10774,7 @@ targetData = {
   "Tarik": {
     "name": "Tarik",
     "id": 3041,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Air",
     "levels": {
@@ -10973,7 +10808,7 @@ targetData = {
   "Poltenip": {
     "name": "Poltenip",
     "id": 3042,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Air",
     "levels": {
@@ -11007,7 +10842,7 @@ targetData = {
   "Radat": {
     "name": "Radat",
     "id": 3043,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Air",
     "levels": {
@@ -11041,7 +10876,7 @@ targetData = {
   "Earth Warrior Champion": {
     "name": "Earth Warrior Champion",
     "id": 3057,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Water",
     "levels": {
@@ -11073,7 +10908,7 @@ targetData = {
   "Giant Champion": {
     "name": "Giant Champion",
     "id": 3058,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Earth",
     "levels": {
@@ -11105,7 +10940,7 @@ targetData = {
   "Ghoul Champion": {
     "name": "Ghoul Champion",
     "id": 3059,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -11138,7 +10973,7 @@ targetData = {
   "Goblin Champion": {
     "name": "Goblin Champion",
     "id": 3060,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 28,
     "weakness": "None",
     "levels": {
@@ -11171,7 +11006,7 @@ targetData = {
   "Hobgoblin Champion": {
     "name": "Hobgoblin Champion",
     "id": 3061,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 49,
     "weakness": "Stabbing",
     "levels": {
@@ -11205,7 +11040,7 @@ targetData = {
   "Imp Champion": {
     "name": "Imp Champion",
     "id": 3062,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Water",
     "levels": {
@@ -11238,7 +11073,7 @@ targetData = {
   "Jogre Champion": {
     "name": "Jogre Champion",
     "id": 3063,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -11270,7 +11105,7 @@ targetData = {
   "Lesser Demon Champion": {
     "name": "Lesser Demon Champion",
     "id": 3064,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "Thrown",
     "levels": {
@@ -11303,7 +11138,7 @@ targetData = {
   "Skeleton Champion": {
     "name": "Skeleton Champion",
     "id": 3065,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 35,
     "weakness": "Crushing",
     "levels": {
@@ -11336,7 +11171,7 @@ targetData = {
   "Zombie Champion": {
     "name": "Zombie Champion",
     "id": 3066,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -11368,7 +11203,7 @@ targetData = {
   "Leon d'Cour": {
     "name": "Leon d'Cour",
     "id": 3067,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Earth",
     "levels": {
@@ -11400,7 +11235,7 @@ targetData = {
   "Skeletal Wyvern": {
     "name": "Skeletal Wyvern",
     "id": 3068,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 109,
     "weakness": "Fire",
     "levels": {
@@ -11434,7 +11269,7 @@ targetData = {
   "Haakon the Champion": {
     "name": "Haakon the Champion",
     "id": 3090,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Fire",
     "levels": {
@@ -11466,7 +11301,7 @@ targetData = {
   "Harpie Bug Swarm": {
     "name": "Harpie Bug Swarm",
     "id": 3153,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Crushing",
     "levels": {
@@ -11498,7 +11333,7 @@ targetData = {
   "Chaos Elemental": {
     "name": "Chaos Elemental",
     "id": 3200,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 305,
     "weakness": "Bolt",
     "levels": {
@@ -11532,7 +11367,7 @@ targetData = {
   "Killerwatt": {
     "name": "Killerwatt",
     "id": 3201,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 55,
     "weakness": "Crushing",
     "levels": {
@@ -11565,7 +11400,7 @@ targetData = {
   "Drunken man": {
     "name": "Drunken man",
     "id": 3222,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Fire",
     "levels": {
@@ -11594,42 +11429,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Guard": {
-    "name": "Guard",
-    "id": 3229,
-    "combatStyle": "Ranged",
-    "combatLevel": 18,
-    "weakness": "Stabbing",
-    "levels": {
-      "attack": 1,
-      "defence": 13,
-      "magic": 1,
-      "ranged": 13
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "ranged": 234,
-      "armour": 234
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 92,
-      "magic": 44,
-      "ranged": 92
-    }
-  },
   "Cuffs": {
     "name": "Cuffs",
     "id": 3237,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Earth",
     "levels": {
@@ -11661,7 +11464,7 @@ targetData = {
   "Narf": {
     "name": "Narf",
     "id": 3238,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Earth",
     "levels": {
@@ -11693,7 +11496,7 @@ targetData = {
   "Rusty": {
     "name": "Rusty",
     "id": 3239,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Earth",
     "levels": {
@@ -11725,7 +11528,7 @@ targetData = {
   "Jeff": {
     "name": "Jeff",
     "id": 3240,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Earth",
     "levels": {
@@ -11754,42 +11557,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Barbarian": {
-    "name": "Barbarian",
-    "id": 3259,
-    "combatStyle": "Ranged",
-    "combatLevel": 21,
-    "weakness": "Stabbing",
-    "levels": {
-      "attack": 1,
-      "defence": 15,
-      "magic": 1,
-      "ranged": 15
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "ranged": 157,
-      "armour": 257
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 100,
-      "magic": 44,
-      "ranged": 100
-    }
-  },
   "Tanglefoot": {
     "name": "Tanglefoot",
     "id": 3313,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 68,
     "weakness": "Crushing",
     "levels": {
@@ -11821,7 +11592,7 @@ targetData = {
   "Baby tanglefoot": {
     "name": "Baby tanglefoot",
     "id": 3319,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 57,
     "weakness": "Crushing",
     "levels": {
@@ -11853,7 +11624,7 @@ targetData = {
   "Mutated zygomite": {
     "name": "Mutated zygomite",
     "id": 3346,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 58,
     "weakness": "Slashing",
     "levels": {
@@ -11886,7 +11657,7 @@ targetData = {
   "Zanik": {
     "name": "Zanik",
     "id": 3355,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 65,
     "weakness": "None",
     "levels": {
@@ -11920,7 +11691,7 @@ targetData = {
   "Evil Chicken": {
     "name": "Evil Chicken",
     "id": 3375,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -11954,7 +11725,7 @@ targetData = {
   "Baby black dragon": {
     "name": "Baby black dragon",
     "id": 3376,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "Stabbing",
     "levels": {
@@ -11988,7 +11759,7 @@ targetData = {
   "Icefiend": {
     "name": "Icefiend",
     "id": 3406,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -12020,7 +11791,7 @@ targetData = {
   "Wild jade vine": {
     "name": "Wild jade vine",
     "id": 3409,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 72,
     "weakness": "None",
     "levels": {
@@ -12054,7 +11825,7 @@ targetData = {
   "Crab": {
     "name": "Crab",
     "id": 3421,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Fire",
     "levels": {
@@ -12088,7 +11859,7 @@ targetData = {
   "Mudskipper": {
     "name": "Mudskipper",
     "id": 3422,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 33,
     "weakness": "Fire",
     "levels": {
@@ -12122,7 +11893,7 @@ targetData = {
   "Jubbly bird": {
     "name": "Jubbly bird",
     "id": 3476,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 11,
     "weakness": "Stabbing",
     "levels": {
@@ -12156,7 +11927,7 @@ targetData = {
   "Cyclossus": {
     "name": "Cyclossus",
     "id": 3478,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "Stabbing",
     "levels": {
@@ -12188,7 +11959,7 @@ targetData = {
   "Big Snake": {
     "name": "Big Snake",
     "id": 3484,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 64,
     "weakness": "Earth",
     "levels": {
@@ -12222,7 +11993,7 @@ targetData = {
   "Agrith-Na-Na": {
     "name": "Agrith-Na-Na",
     "id": 3493,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 89,
     "weakness": "Bolt",
     "levels": {
@@ -12256,7 +12027,7 @@ targetData = {
   "Flambeed": {
     "name": "Flambeed",
     "id": 3494,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "Water",
     "levels": {
@@ -12290,7 +12061,7 @@ targetData = {
   "Karamel": {
     "name": "Karamel",
     "id": 3495,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 89,
     "weakness": "Crushing",
     "levels": {
@@ -12324,7 +12095,7 @@ targetData = {
   "Dessourt": {
     "name": "Dessourt",
     "id": 3496,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 92,
     "weakness": "Thrown",
     "levels": {
@@ -12358,7 +12129,7 @@ targetData = {
   "Gelatinnoth Mother": {
     "name": "Gelatinnoth Mother",
     "id": 3497,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 91,
     "weakness": "Thrown",
     "levels": {
@@ -12392,7 +12163,7 @@ targetData = {
   "Gadderanks": {
     "name": "Gadderanks",
     "id": 3518,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Fire",
     "levels": {
@@ -12424,7 +12195,7 @@ targetData = {
   "Held Vampyre Juvinate": {
     "name": "Held Vampyre Juvinate",
     "id": 3527,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Stabbing",
     "levels": {
@@ -12456,7 +12227,7 @@ targetData = {
   "Vampyre Juvenile": {
     "name": "Vampyre Juvenile",
     "id": 3531,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -12488,7 +12259,7 @@ targetData = {
   "Held Vampyre Juvenile": {
     "name": "Held Vampyre Juvenile",
     "id": 3534,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -12520,7 +12291,7 @@ targetData = {
   "Huge spider": {
     "name": "Huge spider",
     "id": 3585,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 100,
     "weakness": "Crushing",
     "levels": {
@@ -12553,7 +12324,7 @@ targetData = {
   "Demon": {
     "name": "Demon",
     "id": 3593,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Water",
     "levels": {
@@ -12585,7 +12356,7 @@ targetData = {
   "Rocnar": {
     "name": "Rocnar",
     "id": 3594,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Air",
     "levels": {
@@ -12617,7 +12388,7 @@ targetData = {
   "Head": {
     "name": "Head",
     "id": 3619,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "Fire",
     "levels": {
@@ -12651,7 +12422,7 @@ targetData = {
   "Angry bear": {
     "name": "Angry bear",
     "id": 3645,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Fire",
     "levels": {
@@ -12685,7 +12456,7 @@ targetData = {
   "Angry unicorn": {
     "name": "Angry unicorn",
     "id": 3646,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 45,
     "weakness": "Fire",
     "levels": {
@@ -12719,7 +12490,7 @@ targetData = {
   "Angry giant rat": {
     "name": "Angry giant rat",
     "id": 3647,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 45,
     "weakness": "Fire",
     "levels": {
@@ -12753,7 +12524,7 @@ targetData = {
   "Angry goblin": {
     "name": "Angry goblin",
     "id": 3648,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 45,
     "weakness": "Fire",
     "levels": {
@@ -12787,7 +12558,7 @@ targetData = {
   "Fear reaper": {
     "name": "Fear reaper",
     "id": 3649,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 37,
     "weakness": "Fire",
     "levels": {
@@ -12821,7 +12592,7 @@ targetData = {
   "Confusion beast": {
     "name": "Confusion beast",
     "id": 3650,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Fire",
     "levels": {
@@ -12855,7 +12626,7 @@ targetData = {
   "Hopeless creature": {
     "name": "Hopeless creature",
     "id": 3655,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -12889,7 +12660,7 @@ targetData = {
   "Tolna": {
     "name": "Tolna",
     "id": 3658,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "None",
     "levels": {
@@ -12923,7 +12694,7 @@ targetData = {
   "Ram": {
     "name": "Ram",
     "id": 3673,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Fire",
     "levels": {
@@ -12957,7 +12728,7 @@ targetData = {
   "Vulture": {
     "name": "Vulture",
     "id": 3675,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -12991,7 +12762,7 @@ targetData = {
   "Ulfric": {
     "name": "Ulfric",
     "id": 3706,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "None",
     "levels": {
@@ -13025,7 +12796,7 @@ targetData = {
   "Brine rat": {
     "name": "Brine rat",
     "id": 3707,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 43,
     "weakness": "Fire",
     "levels": {
@@ -13057,7 +12828,7 @@ targetData = {
   "Splatter": {
     "name": "Splatter",
     "id": 3727,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Earth",
     "levels": {
@@ -13089,7 +12860,7 @@ targetData = {
   "Shifter": {
     "name": "Shifter",
     "id": 3732,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -13121,7 +12892,7 @@ targetData = {
   "Ravager": {
     "name": "Ravager",
     "id": 3742,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 36,
     "weakness": "Water",
     "levels": {
@@ -13153,7 +12924,7 @@ targetData = {
   "Torcher": {
     "name": "Torcher",
     "id": 3752,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "Thrown",
     "levels": {
@@ -13185,7 +12956,7 @@ targetData = {
   "Defiler": {
     "name": "Defiler",
     "id": 3762,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 49,
     "weakness": "Stabbing",
     "levels": {
@@ -13217,7 +12988,7 @@ targetData = {
   "Brawler": {
     "name": "Brawler",
     "id": 3772,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -13249,7 +13020,7 @@ targetData = {
   "Frog": {
     "name": "Frog",
     "id": 3783,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Fire",
     "levels": {
@@ -13281,7 +13052,7 @@ targetData = {
   "Tortoise": {
     "name": "Tortoise",
     "id": 3808,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 50,
     "weakness": "Air",
     "levels": {
@@ -13313,7 +13084,7 @@ targetData = {
   "Gnome Archer": {
     "name": "Gnome Archer",
     "id": 3814,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 42,
     "weakness": "Crushing",
     "levels": {
@@ -13345,7 +13116,7 @@ targetData = {
   "Gnome Driver": {
     "name": "Gnome Driver",
     "id": 3815,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 46,
     "weakness": "Fire",
     "levels": {
@@ -13377,7 +13148,7 @@ targetData = {
   "Gnome Mage": {
     "name": "Gnome Mage",
     "id": 3816,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 47,
     "weakness": "Thrown",
     "levels": {
@@ -13409,7 +13180,7 @@ targetData = {
   "Sea Troll Queen": {
     "name": "Sea Troll Queen",
     "id": 3847,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -13443,7 +13214,7 @@ targetData = {
   "Gardener": {
     "name": "Gardener",
     "id": 3914,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Fire",
     "levels": {
@@ -13477,7 +13248,7 @@ targetData = {
   "Sea Snake Young": {
     "name": "Sea Snake Young",
     "id": 3939,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Slashing",
     "levels": {
@@ -13511,7 +13282,7 @@ targetData = {
   "Sea Snake Hatchling": {
     "name": "Sea Snake Hatchling",
     "id": 3940,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Slashing",
     "levels": {
@@ -13545,7 +13316,7 @@ targetData = {
   "Giant Sea Snake": {
     "name": "Giant Sea Snake",
     "id": 3943,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Slashing",
     "levels": {
@@ -13579,7 +13350,7 @@ targetData = {
   "Animated Bronze Armour": {
     "name": "Animated Bronze Armour",
     "id": 4278,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 11,
     "weakness": "Crushing",
     "levels": {
@@ -13611,7 +13382,7 @@ targetData = {
   "Animated Iron Armour": {
     "name": "Animated Iron Armour",
     "id": 4279,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 25,
     "weakness": "Crushing",
     "levels": {
@@ -13643,7 +13414,7 @@ targetData = {
   "Animated Steel Armour": {
     "name": "Animated Steel Armour",
     "id": 4280,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Crushing",
     "levels": {
@@ -13675,7 +13446,7 @@ targetData = {
   "Animated Black Armour": {
     "name": "Animated Black Armour",
     "id": 4281,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 46,
     "weakness": "Crushing",
     "levels": {
@@ -13707,7 +13478,7 @@ targetData = {
   "Animated Mithril Armour": {
     "name": "Animated Mithril Armour",
     "id": 4282,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Crushing",
     "levels": {
@@ -13739,7 +13510,7 @@ targetData = {
   "Animated Adamant Armour": {
     "name": "Animated Adamant Armour",
     "id": 4283,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Crushing",
     "levels": {
@@ -13771,7 +13542,7 @@ targetData = {
   "Animated Rune Armour": {
     "name": "Animated Rune Armour",
     "id": 4284,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Crushing",
     "levels": {
@@ -13803,7 +13574,7 @@ targetData = {
   "Albino bat": {
     "name": "Albino bat",
     "id": 4345,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 43,
     "weakness": "Earth",
     "levels": {
@@ -13835,7 +13606,7 @@ targetData = {
   "Giant mosquito": {
     "name": "Giant mosquito",
     "id": 4347,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 88,
     "weakness": "Earth",
     "levels": {
@@ -13867,7 +13638,7 @@ targetData = {
   "Jungle horror": {
     "name": "Jungle horror",
     "id": 4352,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 48,
     "weakness": "Water",
     "levels": {
@@ -13899,7 +13670,7 @@ targetData = {
   "Cave horror": {
     "name": "Cave horror",
     "id": 4355,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Air",
     "levels": {
@@ -13931,7 +13702,7 @@ targetData = {
   "Ankou": {
     "name": "Ankou",
     "id": 4381,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 54,
     "weakness": "Earth",
     "levels": {
@@ -13963,7 +13734,7 @@ targetData = {
   "Flesh Crawler": {
     "name": "Flesh Crawler",
     "id": 4389,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 26,
     "weakness": "Stabbing",
     "levels": {
@@ -13995,7 +13766,7 @@ targetData = {
   "Catablepon": {
     "name": "Catablepon",
     "id": 4397,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 43,
     "weakness": "Bolt",
     "levels": {
@@ -14028,7 +13799,7 @@ targetData = {
   "Minotaur": {
     "name": "Minotaur",
     "id": 4404,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Water",
     "levels": {
@@ -14060,7 +13831,7 @@ targetData = {
   "Stag": {
     "name": "Stag",
     "id": 4440,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 25,
     "weakness": "Water",
     "levels": {
@@ -14092,7 +13863,7 @@ targetData = {
   "Tree spirit": {
     "name": "Tree spirit",
     "id": 4470,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Air",
     "levels": {
@@ -14126,7 +13897,7 @@ targetData = {
   "Me": {
     "name": "Me",
     "id": 4509,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -14160,7 +13931,7 @@ targetData = {
   "Bandos avatar": {
     "name": "Bandos avatar",
     "id": 4540,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -14194,7 +13965,7 @@ targetData = {
   "Jake": {
     "name": "Jake",
     "id": 4546,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -14228,7 +13999,7 @@ targetData = {
   "Wilson": {
     "name": "Wilson",
     "id": 4548,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -14262,7 +14033,7 @@ targetData = {
   "Palmer": {
     "name": "Palmer",
     "id": 4552,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -14296,7 +14067,7 @@ targetData = {
   "Evil creature": {
     "name": "Evil creature",
     "id": 4615,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Air",
     "levels": {
@@ -14330,7 +14101,7 @@ targetData = {
   "Mega Duck": {
     "name": "Mega Duck",
     "id": 4658,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -14362,7 +14133,7 @@ targetData = {
   "Held vampyre juvenile": {
     "name": "Held vampyre juvenile",
     "id": 4778,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -14394,7 +14165,7 @@ targetData = {
   "Angry vampyre": {
     "name": "Angry vampyre",
     "id": 4789,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Water",
     "levels": {
@@ -14426,7 +14197,7 @@ targetData = {
   "Vyrelady": {
     "name": "Vyrelady",
     "id": 4810,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -14458,7 +14229,7 @@ targetData = {
   "Vyrelord": {
     "name": "Vyrelord",
     "id": 4822,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -14490,7 +14261,7 @@ targetData = {
   "Slug Prince": {
     "name": "Slug Prince",
     "id": 4890,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 51,
     "weakness": "Slashing",
     "levels": {
@@ -14524,7 +14295,7 @@ targetData = {
   "Giant Lobster": {
     "name": "Giant Lobster",
     "id": 4893,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "Fire",
     "levels": {
@@ -14558,7 +14329,7 @@ targetData = {
   "Goat": {
     "name": "Goat",
     "id": 4930,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Air",
     "levels": {
@@ -14590,7 +14361,7 @@ targetData = {
   "Billy Goat": {
     "name": "Billy Goat",
     "id": 4932,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 15,
     "weakness": "Air",
     "levels": {
@@ -14622,7 +14393,7 @@ targetData = {
   "Baby Roc": {
     "name": "Baby Roc",
     "id": 4971,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -14656,7 +14427,7 @@ targetData = {
   "Giant Roc": {
     "name": "Giant Roc",
     "id": 4972,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -14690,7 +14461,7 @@ targetData = {
   "Mercenary": {
     "name": "Mercenary",
     "id": 4989,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -14724,7 +14495,7 @@ targetData = {
   "Weaker than Thok": {
     "name": "Weaker than Thok",
     "id": 5048,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -14758,7 +14529,7 @@ targetData = {
   "Coward in armour": {
     "name": "Coward in armour",
     "id": 5097,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -14792,7 +14563,7 @@ targetData = {
   "Kebbit": {
     "name": "Kebbit",
     "id": 5137,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "Air",
     "levels": {
@@ -14826,7 +14597,7 @@ targetData = {
   "Double agent": {
     "name": "Double agent",
     "id": 5144,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -14858,7 +14629,7 @@ targetData = {
   "Ogre shaman": {
     "name": "Ogre shaman",
     "id": 5176,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Water",
     "levels": {
@@ -14892,7 +14663,7 @@ targetData = {
   "Nial Swiftfling": {
     "name": "Nial Swiftfling",
     "id": 5188,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 81,
     "weakness": "None",
     "levels": {
@@ -14926,7 +14697,7 @@ targetData = {
   "Girly warrior": {
     "name": "Girly warrior",
     "id": 5204,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -14960,7 +14731,7 @@ targetData = {
   "Queen spawn": {
     "name": "Queen spawn",
     "id": 5248,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 69,
     "weakness": "None",
     "levels": {
@@ -14992,7 +14763,7 @@ targetData = {
   "Scarab mage": {
     "name": "Scarab mage",
     "id": 5250,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 75,
     "weakness": "Arrow",
     "levels": {
@@ -15026,7 +14797,7 @@ targetData = {
   "Weakling": {
     "name": "Weakling",
     "id": 5285,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -15060,7 +14831,7 @@ targetData = {
   "Waterfiend": {
     "name": "Waterfiend",
     "id": 5361,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 107,
     "weakness": "Bolt",
     "levels": {
@@ -15094,7 +14865,7 @@ targetData = {
   "Brutal green dragon": {
     "name": "Brutal green dragon",
     "id": 5362,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "Arrow",
     "levels": {
@@ -15127,7 +14898,7 @@ targetData = {
   "Mithril dragon": {
     "name": "Mithril dragon",
     "id": 5363,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Earth",
     "levels": {
@@ -15161,7 +14932,7 @@ targetData = {
   "Confused barbarian": {
     "name": "Confused barbarian",
     "id": 5364,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -15193,7 +14964,7 @@ targetData = {
   "Namby-pamby": {
     "name": "Namby-pamby",
     "id": 5372,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -15227,7 +14998,7 @@ targetData = {
   "Splinter-lobber": {
     "name": "Splinter-lobber",
     "id": 5373,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -15261,7 +15032,7 @@ targetData = {
   "Ugly": {
     "name": "Ugly",
     "id": 5374,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "None",
     "levels": {
@@ -15295,7 +15066,7 @@ targetData = {
   "Animated steel armour": {
     "name": "Animated steel armour",
     "id": 5382,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 39,
     "weakness": "Water",
     "levels": {
@@ -15324,42 +15095,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Skeleton": {
-    "name": "Skeleton",
-    "id": 5385,
-    "combatStyle": "Magic",
-    "combatLevel": 79,
-    "weakness": "Thrown",
-    "levels": {
-      "attack": 1,
-      "defence": 57,
-      "magic": 57,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "magic": 1040,
-      "armour": 1040
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 271,
-      "magic": 271,
-      "ranged": 44
-    }
-  },
   "Animated spade": {
     "name": "Animated spade",
     "id": 5414,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 72,
     "weakness": "Air",
     "levels": {
@@ -15391,7 +15130,7 @@ targetData = {
   "Terror dog": {
     "name": "Terror dog",
     "id": 5417,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 65,
     "weakness": "Slashing",
     "levels": {
@@ -15423,7 +15162,7 @@ targetData = {
   "Tarn": {
     "name": "Tarn",
     "id": 5420,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 79,
     "weakness": "Thrown",
     "levels": {
@@ -15455,7 +15194,7 @@ targetData = {
   "Mutant tarn": {
     "name": "Mutant tarn",
     "id": 5421,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 79,
     "weakness": "Air",
     "levels": {
@@ -15487,7 +15226,7 @@ targetData = {
   "Ice Troll King": {
     "name": "Ice Troll King",
     "id": 5472,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -15521,7 +15260,7 @@ targetData = {
   "Ice troll runt": {
     "name": "Ice troll runt",
     "id": 5473,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "Fire",
     "levels": {
@@ -15553,7 +15292,7 @@ targetData = {
   "Ice troll male": {
     "name": "Ice troll male",
     "id": 5474,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Fire",
     "levels": {
@@ -15585,7 +15324,7 @@ targetData = {
   "Ice troll female": {
     "name": "Ice troll female",
     "id": 5475,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 68,
     "weakness": "Stabbing",
     "levels": {
@@ -15618,7 +15357,7 @@ targetData = {
   "Ice troll grunt": {
     "name": "Ice troll grunt",
     "id": 5476,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -15650,7 +15389,7 @@ targetData = {
   "Yak": {
     "name": "Yak",
     "id": 5529,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Water",
     "levels": {
@@ -15684,7 +15423,7 @@ targetData = {
   "Warped gulega": {
     "name": "Warped gulega",
     "id": 5561,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 99,
     "weakness": "None",
     "levels": {
@@ -15718,7 +15457,7 @@ targetData = {
   "Bulky warrior": {
     "name": "Bulky warrior",
     "id": 5584,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -15752,7 +15491,7 @@ targetData = {
   "Frogeel": {
     "name": "Frogeel",
     "id": 5593,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 68,
     "weakness": "Crushing",
     "levels": {
@@ -15785,7 +15524,7 @@ targetData = {
   "Spidine": {
     "name": "Spidine",
     "id": 5594,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Crushing",
     "levels": {
@@ -15819,7 +15558,7 @@ targetData = {
   "Swordchick": {
     "name": "Swordchick",
     "id": 5595,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Water",
     "levels": {
@@ -15853,7 +15592,7 @@ targetData = {
   "Jubster": {
     "name": "Jubster",
     "id": 5596,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Water",
     "levels": {
@@ -15887,7 +15626,7 @@ targetData = {
   "Newtroost": {
     "name": "Newtroost",
     "id": 5597,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -15921,7 +15660,7 @@ targetData = {
   "Unicow": {
     "name": "Unicow",
     "id": 5603,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 57,
     "weakness": "Bolt",
     "levels": {
@@ -15955,7 +15694,7 @@ targetData = {
   "Sorebones": {
     "name": "Sorebones",
     "id": 5627,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Air",
     "levels": {
@@ -15989,7 +15728,7 @@ targetData = {
   "Barrelchest": {
     "name": "Barrelchest",
     "id": 5666,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "None",
     "levels": {
@@ -16023,7 +15762,7 @@ targetData = {
   "Molanisk": {
     "name": "Molanisk",
     "id": 5751,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -16055,7 +15794,7 @@ targetData = {
   "Outlaw": {
     "name": "Outlaw",
     "id": 5842,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 32,
     "weakness": "Fire",
     "levels": {
@@ -16089,7 +15828,7 @@ targetData = {
   "Thing with eyes": {
     "name": "Thing with eyes",
     "id": 5852,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 69,
     "weakness": "None",
     "levels": {
@@ -16123,7 +15862,7 @@ targetData = {
   "H.A.M. Archer": {
     "name": "H.A.M. Archer",
     "id": 5859,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 28,
     "weakness": "Stabbing",
     "levels": {
@@ -16157,7 +15896,7 @@ targetData = {
   "H.A.M. Mage": {
     "name": "H.A.M. Mage",
     "id": 5860,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 28,
     "weakness": "Arrow",
     "levels": {
@@ -16191,7 +15930,7 @@ targetData = {
   "Gobby demon": {
     "name": "Gobby demon",
     "id": 5861,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -16225,7 +15964,7 @@ targetData = {
   "The Inadequacy": {
     "name": "The Inadequacy",
     "id": 5902,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -16259,7 +15998,7 @@ targetData = {
   "The Everlasting": {
     "name": "The Everlasting",
     "id": 5903,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "None",
     "levels": {
@@ -16293,7 +16032,7 @@ targetData = {
   "The Untouchable": {
     "name": "The Untouchable",
     "id": 5904,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -16327,7 +16066,7 @@ targetData = {
   "The Illusive": {
     "name": "The Illusive",
     "id": 5905,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 88,
     "weakness": "None",
     "levels": {
@@ -16361,7 +16100,7 @@ targetData = {
   "A Doubt": {
     "name": "A Doubt",
     "id": 5906,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Earth",
     "levels": {
@@ -16395,7 +16134,7 @@ targetData = {
   "Goblin statue": {
     "name": "Goblin statue",
     "id": 5908,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Water",
     "levels": {
@@ -16429,7 +16168,7 @@ targetData = {
   "Armoured cow thing": {
     "name": "Armoured cow thing",
     "id": 5986,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 62,
     "weakness": "None",
     "levels": {
@@ -16463,7 +16202,7 @@ targetData = {
   "Experiment No.2": {
     "name": "Experiment No.2",
     "id": 5993,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 64,
     "weakness": "None",
     "levels": {
@@ -16497,7 +16236,7 @@ targetData = {
   "Mouse": {
     "name": "Mouse",
     "id": 5994,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 61,
     "weakness": "Fire",
     "levels": {
@@ -16531,7 +16270,7 @@ targetData = {
   "Glod": {
     "name": "Glod",
     "id": 5996,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "None",
     "levels": {
@@ -16565,7 +16304,7 @@ targetData = {
   "Boris": {
     "name": "Boris",
     "id": 6026,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16597,7 +16336,7 @@ targetData = {
   "Imre": {
     "name": "Imre",
     "id": 6027,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16629,7 +16368,7 @@ targetData = {
   "Yuri": {
     "name": "Yuri",
     "id": 6028,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16661,7 +16400,7 @@ targetData = {
   "Joseph": {
     "name": "Joseph",
     "id": 6029,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16693,7 +16432,7 @@ targetData = {
   "Nikolai": {
     "name": "Nikolai",
     "id": 6030,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16725,7 +16464,7 @@ targetData = {
   "Eduard": {
     "name": "Eduard",
     "id": 6031,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16757,7 +16496,7 @@ targetData = {
   "Lev": {
     "name": "Lev",
     "id": 6032,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16789,7 +16528,7 @@ targetData = {
   "Georgy": {
     "name": "Georgy",
     "id": 6033,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16821,7 +16560,7 @@ targetData = {
   "Svetlana": {
     "name": "Svetlana",
     "id": 6034,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16853,7 +16592,7 @@ targetData = {
   "Irina": {
     "name": "Irina",
     "id": 6035,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16885,7 +16624,7 @@ targetData = {
   "Alexis": {
     "name": "Alexis",
     "id": 6036,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16917,7 +16656,7 @@ targetData = {
   "Milla": {
     "name": "Milla",
     "id": 6037,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16949,7 +16688,7 @@ targetData = {
   "Galina": {
     "name": "Galina",
     "id": 6038,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -16981,7 +16720,7 @@ targetData = {
   "Sofiya": {
     "name": "Sofiya",
     "id": 6039,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17013,7 +16752,7 @@ targetData = {
   "Ksenia": {
     "name": "Ksenia",
     "id": 6040,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17045,7 +16784,7 @@ targetData = {
   "Yadviga": {
     "name": "Yadviga",
     "id": 6041,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17077,7 +16816,7 @@ targetData = {
   "Nikita": {
     "name": "Nikita",
     "id": 6042,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17109,7 +16848,7 @@ targetData = {
   "Vera": {
     "name": "Vera",
     "id": 6043,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17141,7 +16880,7 @@ targetData = {
   "Zoja": {
     "name": "Zoja",
     "id": 6044,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17173,7 +16912,7 @@ targetData = {
   "Liliya": {
     "name": "Liliya",
     "id": 6045,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -17205,7 +16944,7 @@ targetData = {
   "Coward with bow": {
     "name": "Coward with bow",
     "id": 6049,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -17239,7 +16978,7 @@ targetData = {
   "Zombie rat": {
     "name": "Zombie rat",
     "id": 6088,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Water",
     "levels": {
@@ -17270,44 +17009,10 @@ targetData = {
       "ranged": 0
     }
   },
-  "Ghost": {
-    "name": "Ghost",
-    "id": 6097,
-    "combatStyle": "Melee",
-    "combatLevel": 12,
-    "weakness": "Air",
-    "levels": {
-      "attack": 9,
-      "defence": 9,
-      "magic": 0,
-      "ranged": 0
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 191,
-      "magic": 0,
-      "ranged": 0,
-      "armour": 191
-    },
-    "bonusStats": {
-      "attack": 76,
-      "armour": 76,
-      "magic": 0,
-      "ranged": 0
-    }
-  },
   "Lost barbarian": {
     "name": "Lost barbarian",
     "id": 6102,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -17339,7 +17044,7 @@ targetData = {
   "Skeleton hero": {
     "name": "Skeleton hero",
     "id": 6103,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 74,
     "weakness": "Earth",
     "levels": {
@@ -17371,7 +17076,7 @@ targetData = {
   "Skeleton brute": {
     "name": "Skeleton brute",
     "id": 6104,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 88,
     "weakness": "Earth",
     "levels": {
@@ -17403,7 +17108,7 @@ targetData = {
   "Skeleton warlord": {
     "name": "Skeleton warlord",
     "id": 6105,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Earth",
     "levels": {
@@ -17435,7 +17140,7 @@ targetData = {
   "Skeleton heavy": {
     "name": "Skeleton heavy",
     "id": 6106,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "Earth",
     "levels": {
@@ -17467,7 +17172,7 @@ targetData = {
   "Skeleton thug": {
     "name": "Skeleton thug",
     "id": 6107,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 85,
     "weakness": "Earth",
     "levels": {
@@ -17499,7 +17204,7 @@ targetData = {
   "Entranan firebird": {
     "name": "Entranan firebird",
     "id": 6108,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -17531,7 +17236,7 @@ targetData = {
   "Seagull": {
     "name": "Seagull",
     "id": 6115,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Earth",
     "levels": {
@@ -17563,7 +17268,7 @@ targetData = {
   "Walking icecube": {
     "name": "Walking icecube",
     "id": 6159,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "None",
     "levels": {
@@ -17597,7 +17302,7 @@ targetData = {
   "Brigand": {
     "name": "Brigand",
     "id": 6174,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "Fire",
     "levels": {
@@ -17631,7 +17336,7 @@ targetData = {
   "Stomp": {
     "name": "Stomp",
     "id": 6198,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -17665,7 +17370,7 @@ targetData = {
   "K'ril Tsutsaroth": {
     "name": "K'ril Tsutsaroth",
     "id": 6203,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 650,
     "weakness": "Fire",
     "levels": {
@@ -17698,7 +17403,7 @@ targetData = {
   "Tstanon Karlak": {
     "name": "Tstanon Karlak",
     "id": 6204,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "Fire",
     "levels": {
@@ -17730,7 +17435,7 @@ targetData = {
   "Zakl'n Gritch": {
     "name": "Zakl'n Gritch",
     "id": 6206,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 102,
     "weakness": "Stabbing",
     "levels": {
@@ -17762,7 +17467,7 @@ targetData = {
   "Balfrug Kreeyath": {
     "name": "Balfrug Kreeyath",
     "id": 6208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 102,
     "weakness": "Bolt",
     "levels": {
@@ -17794,7 +17499,7 @@ targetData = {
   "Vampyre": {
     "name": "Vampyre",
     "id": 6214,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "Fire",
     "levels": {
@@ -17826,7 +17531,7 @@ targetData = {
   "Kree'arra": {
     "name": "Kree'arra",
     "id": 6222,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 580,
     "weakness": "None",
     "levels": {
@@ -17860,7 +17565,7 @@ targetData = {
   "Wingman Skree": {
     "name": "Wingman Skree",
     "id": 6223,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 102,
     "weakness": "Arrow",
     "levels": {
@@ -17892,7 +17597,7 @@ targetData = {
   "Flockleader Geerin": {
     "name": "Flockleader Geerin",
     "id": 6225,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 102,
     "weakness": "Bolt",
     "levels": {
@@ -17924,7 +17629,7 @@ targetData = {
   "Flight Kilisa": {
     "name": "Flight Kilisa",
     "id": 6227,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "Air",
     "levels": {
@@ -17956,7 +17661,7 @@ targetData = {
   "Commander Zilyana": {
     "name": "Commander Zilyana",
     "id": 6247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 596,
     "weakness": "None",
     "levels": {
@@ -17989,7 +17694,7 @@ targetData = {
   "Starlight": {
     "name": "Starlight",
     "id": 6248,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "Water",
     "levels": {
@@ -18021,7 +17726,7 @@ targetData = {
   "Growler": {
     "name": "Growler",
     "id": 6250,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 102,
     "weakness": "Bolt",
     "levels": {
@@ -18053,7 +17758,7 @@ targetData = {
   "Bree": {
     "name": "Bree",
     "id": 6252,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 102,
     "weakness": "Stabbing",
     "levels": {
@@ -18085,7 +17790,7 @@ targetData = {
   "Saradomin priest": {
     "name": "Saradomin priest",
     "id": 6254,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Arrow",
     "levels": {
@@ -18117,7 +17822,7 @@ targetData = {
   "Knight of Saradomin": {
     "name": "Knight of Saradomin",
     "id": 6258,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Water",
     "levels": {
@@ -18149,7 +17854,7 @@ targetData = {
   "Sergeant Strongstack": {
     "name": "Sergeant Strongstack",
     "id": 6261,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "Earth",
     "levels": {
@@ -18181,7 +17886,7 @@ targetData = {
   "Sergeant Steelwill": {
     "name": "Sergeant Steelwill",
     "id": 6263,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 102,
     "weakness": "Arrow",
     "levels": {
@@ -18213,7 +17918,7 @@ targetData = {
   "Sergeant Grimspike": {
     "name": "Sergeant Grimspike",
     "id": 6265,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 102,
     "weakness": "Crushing",
     "levels": {
@@ -18245,7 +17950,7 @@ targetData = {
   "Ork": {
     "name": "Ork",
     "id": 6271,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 95,
     "weakness": "Earth",
     "levels": {
@@ -18277,7 +17982,7 @@ targetData = {
   "Warped tortoise": {
     "name": "Warped tortoise",
     "id": 6296,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 72,
     "weakness": "Bolt",
     "levels": {
@@ -18311,7 +18016,7 @@ targetData = {
   "Elite defiler": {
     "name": "Elite defiler",
     "id": 6344,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 91,
     "weakness": "Slashing",
     "levels": {
@@ -18345,7 +18050,7 @@ targetData = {
   "Pest Queen": {
     "name": "Pest Queen",
     "id": 6358,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 599,
     "weakness": "None",
     "levels": {
@@ -18379,7 +18084,7 @@ targetData = {
   "Zamorak ranger": {
     "name": "Zamorak ranger",
     "id": 6365,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 64,
     "weakness": "Slashing",
     "levels": {
@@ -18411,7 +18116,7 @@ targetData = {
   "Zamorak mage": {
     "name": "Zamorak mage",
     "id": 6367,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -18443,7 +18148,7 @@ targetData = {
   "Cave lizard": {
     "name": "Cave lizard",
     "id": 6369,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 65,
     "weakness": "Stabbing",
     "levels": {
@@ -18475,7 +18180,7 @@ targetData = {
   "Zamorak crafter": {
     "name": "Zamorak crafter",
     "id": 6371,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 26,
     "weakness": "Water",
     "levels": {
@@ -18507,7 +18212,7 @@ targetData = {
   "Tenacious toucan": {
     "name": "Tenacious toucan",
     "id": 6378,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -18539,7 +18244,7 @@ targetData = {
   "Giant ant worker": {
     "name": "Giant ant worker",
     "id": 6379,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Fire",
     "levels": {
@@ -18573,7 +18278,7 @@ targetData = {
   "Giant ant soldier": {
     "name": "Giant ant soldier",
     "id": 6380,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -18607,7 +18312,7 @@ targetData = {
   "Giant wasp": {
     "name": "Giant wasp",
     "id": 6381,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -18641,7 +18346,7 @@ targetData = {
   "Pernicious parrot": {
     "name": "Pernicious parrot",
     "id": 6382,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -18673,7 +18378,7 @@ targetData = {
   "Snothead": {
     "name": "Snothead",
     "id": 6469,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 19,
     "weakness": "Earth",
     "levels": {
@@ -18707,7 +18412,7 @@ targetData = {
   "Snailfeet": {
     "name": "Snailfeet",
     "id": 6470,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 25,
     "weakness": "Crushing",
     "levels": {
@@ -18741,7 +18446,7 @@ targetData = {
   "Mosschin": {
     "name": "Mosschin",
     "id": 6471,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 30,
     "weakness": "Thrown",
     "levels": {
@@ -18775,7 +18480,7 @@ targetData = {
   "Redeyes": {
     "name": "Redeyes",
     "id": 6472,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 36,
     "weakness": "Thrown",
     "levels": {
@@ -18809,7 +18514,7 @@ targetData = {
   "Strongbones": {
     "name": "Strongbones",
     "id": 6473,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 36,
     "weakness": "Thrown",
     "levels": {
@@ -18843,7 +18548,7 @@ targetData = {
   "Barrelchest Mk II": {
     "name": "Barrelchest Mk II",
     "id": 6712,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -18877,7 +18582,7 @@ targetData = {
   "Dried zombie": {
     "name": "Dried zombie",
     "id": 6761,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Water",
     "levels": {
@@ -18911,7 +18616,7 @@ targetData = {
   "Scarab larva": {
     "name": "Scarab larva",
     "id": 6772,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 25,
     "weakness": "Fire",
     "levels": {
@@ -18945,7 +18650,7 @@ targetData = {
   "Scabaras ranger": {
     "name": "Scabaras ranger",
     "id": 6773,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 77,
     "weakness": "Crushing",
     "levels": {
@@ -18979,7 +18684,7 @@ targetData = {
   "Scabaras lancer": {
     "name": "Scabaras lancer",
     "id": 6774,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -19013,7 +18718,7 @@ targetData = {
   "Scabaras locust": {
     "name": "Scabaras locust",
     "id": 6776,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 77,
     "weakness": "Crushing",
     "levels": {
@@ -19047,7 +18752,7 @@ targetData = {
   "Locust lancer": {
     "name": "Locust lancer",
     "id": 6777,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -19081,7 +18786,7 @@ targetData = {
   "Locust ranger": {
     "name": "Locust ranger",
     "id": 6778,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 77,
     "weakness": "Crushing",
     "levels": {
@@ -19115,7 +18820,7 @@ targetData = {
   "Scabaras mage": {
     "name": "Scabaras mage",
     "id": 6780,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 77,
     "weakness": "Bolt",
     "levels": {
@@ -19149,7 +18854,7 @@ targetData = {
   "High Priest of Scabaras": {
     "name": "High Priest of Scabaras",
     "id": 6789,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "None",
     "levels": {
@@ -19183,7 +18888,7 @@ targetData = {
   "Spirit terrorbird": {
     "name": "Spirit terrorbird",
     "id": 6795,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 62,
     "weakness": "None",
     "levels": {
@@ -19217,7 +18922,7 @@ targetData = {
   "Granite crab": {
     "name": "Granite crab",
     "id": 6797,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 19,
     "weakness": "None",
     "levels": {
@@ -19251,7 +18956,7 @@ targetData = {
   "Praying mantis": {
     "name": "Praying mantis",
     "id": 6799,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 89,
     "weakness": "None",
     "levels": {
@@ -19285,7 +18990,7 @@ targetData = {
   "Giant ent": {
     "name": "Giant ent",
     "id": 6801,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "None",
     "levels": {
@@ -19319,7 +19024,7 @@ targetData = {
   "Spirit cobra": {
     "name": "Spirit cobra",
     "id": 6803,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "None",
     "levels": {
@@ -19353,7 +19058,7 @@ targetData = {
   "Spirit dagannoth": {
     "name": "Spirit dagannoth",
     "id": 6805,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 99,
     "weakness": "None",
     "levels": {
@@ -19387,7 +19092,7 @@ targetData = {
   "Thorny snail": {
     "name": "Thorny snail",
     "id": 6807,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 16,
     "weakness": "None",
     "levels": {
@@ -19421,7 +19126,7 @@ targetData = {
   "Karam. overlord": {
     "name": "Karam. overlord",
     "id": 6810,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 69,
     "weakness": "None",
     "levels": {
@@ -19455,7 +19160,7 @@ targetData = {
   "Hydra": {
     "name": "Hydra",
     "id": 6812,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 94,
     "weakness": "None",
     "levels": {
@@ -19489,7 +19194,7 @@ targetData = {
   "Bunyip": {
     "name": "Bunyip",
     "id": 6814,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "None",
     "levels": {
@@ -19523,7 +19228,7 @@ targetData = {
   "War tortoise": {
     "name": "War tortoise",
     "id": 6816,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 80,
     "weakness": "None",
     "levels": {
@@ -19557,7 +19262,7 @@ targetData = {
   "Abyssal parasite": {
     "name": "Abyssal parasite",
     "id": 6819,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 64,
     "weakness": "None",
     "levels": {
@@ -19591,7 +19296,7 @@ targetData = {
   "Abyssal lurker": {
     "name": "Abyssal lurker",
     "id": 6821,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 73,
     "weakness": "None",
     "levels": {
@@ -19625,7 +19330,7 @@ targetData = {
   "Unicorn stallion": {
     "name": "Unicorn stallion",
     "id": 6823,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -19659,7 +19364,7 @@ targetData = {
   "Dreadfowl": {
     "name": "Dreadfowl",
     "id": 6826,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -19693,7 +19398,7 @@ targetData = {
   "Stranger plant": {
     "name": "Stranger plant",
     "id": 6828,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 94,
     "weakness": "None",
     "levels": {
@@ -19727,7 +19432,7 @@ targetData = {
   "Spirit wolf": {
     "name": "Spirit wolf",
     "id": 6830,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -19761,7 +19466,7 @@ targetData = {
   "Desert wyrm": {
     "name": "Desert wyrm",
     "id": 6832,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 22,
     "weakness": "None",
     "levels": {
@@ -19795,7 +19500,7 @@ targetData = {
   "Evil turnip": {
     "name": "Evil turnip",
     "id": 6834,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 50,
     "weakness": "None",
     "levels": {
@@ -19829,7 +19534,7 @@ targetData = {
   "Vampyre bat": {
     "name": "Vampyre bat",
     "id": 6836,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 36,
     "weakness": "None",
     "levels": {
@@ -19863,7 +19568,7 @@ targetData = {
   "Spirit scorpion": {
     "name": "Spirit scorpion",
     "id": 6838,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 23,
     "weakness": "None",
     "levels": {
@@ -19897,7 +19602,7 @@ targetData = {
   "Arctic bear": {
     "name": "Arctic bear",
     "id": 6840,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -19931,7 +19636,7 @@ targetData = {
   "Spirit spider": {
     "name": "Spirit spider",
     "id": 6842,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -19965,7 +19670,7 @@ targetData = {
   "Bloated leech": {
     "name": "Bloated leech",
     "id": 6844,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 59,
     "weakness": "None",
     "levels": {
@@ -19999,7 +19704,7 @@ targetData = {
   "Honey badger": {
     "name": "Honey badger",
     "id": 6846,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 38,
     "weakness": "None",
     "levels": {
@@ -20033,7 +19738,7 @@ targetData = {
   "Albino rat": {
     "name": "Albino rat",
     "id": 6848,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 27,
     "weakness": "None",
     "levels": {
@@ -20067,7 +19772,7 @@ targetData = {
   "Granite lobster": {
     "name": "Granite lobster",
     "id": 6850,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 88,
     "weakness": "None",
     "levels": {
@@ -20101,7 +19806,7 @@ targetData = {
   "Bronze minotaur": {
     "name": "Bronze minotaur",
     "id": 6854,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 43,
     "weakness": "None",
     "levels": {
@@ -20135,7 +19840,7 @@ targetData = {
   "Iron minotaur": {
     "name": "Iron minotaur",
     "id": 6856,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 55,
     "weakness": "None",
     "levels": {
@@ -20169,7 +19874,7 @@ targetData = {
   "Steel minotaur": {
     "name": "Steel minotaur",
     "id": 6858,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 66,
     "weakness": "None",
     "levels": {
@@ -20203,7 +19908,7 @@ targetData = {
   "Mithril minotaur": {
     "name": "Mithril minotaur",
     "id": 6860,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "None",
     "levels": {
@@ -20237,7 +19942,7 @@ targetData = {
   "Adamant minotaur": {
     "name": "Adamant minotaur",
     "id": 6862,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -20271,7 +19976,7 @@ targetData = {
   "Rune minotaur": {
     "name": "Rune minotaur",
     "id": 6864,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "None",
     "levels": {
@@ -20305,7 +20010,7 @@ targetData = {
   "Smoke devil": {
     "name": "Smoke devil",
     "id": 6866,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 72,
     "weakness": "None",
     "levels": {
@@ -20339,7 +20044,7 @@ targetData = {
   "Bull ant": {
     "name": "Bull ant",
     "id": 6868,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "None",
     "levels": {
@@ -20373,7 +20078,7 @@ targetData = {
   "Wolpertinger": {
     "name": "Wolpertinger",
     "id": 6870,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 109,
     "weakness": "None",
     "levels": {
@@ -20407,7 +20112,7 @@ targetData = {
   "Compost mound": {
     "name": "Compost mound",
     "id": 6872,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 34,
     "weakness": "None",
     "levels": {
@@ -20441,7 +20146,7 @@ targetData = {
   "Pack yak": {
     "name": "Pack yak",
     "id": 6874,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -20475,7 +20180,7 @@ targetData = {
   "Spirit cockatrice": {
     "name": "Spirit cockatrice",
     "id": 6876,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20509,7 +20214,7 @@ targetData = {
   "Spirit guthatrice": {
     "name": "Spirit guthatrice",
     "id": 6878,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20543,7 +20248,7 @@ targetData = {
   "Spirit saratrice": {
     "name": "Spirit saratrice",
     "id": 6880,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20577,7 +20282,7 @@ targetData = {
   "Spirit zamatrice": {
     "name": "Spirit zamatrice",
     "id": 6882,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20611,7 +20316,7 @@ targetData = {
   "Spirit pengatrice": {
     "name": "Spirit pengatrice",
     "id": 6884,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20645,7 +20350,7 @@ targetData = {
   "Spirit coraxatrice": {
     "name": "Spirit coraxatrice",
     "id": 6886,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20679,7 +20384,7 @@ targetData = {
   "Spirit vulatrice": {
     "name": "Spirit vulatrice",
     "id": 6888,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 51,
     "weakness": "None",
     "levels": {
@@ -20713,7 +20418,7 @@ targetData = {
   "Barker toad": {
     "name": "Barker toad",
     "id": 6890,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 78,
     "weakness": "None",
     "levels": {
@@ -20747,7 +20452,7 @@ targetData = {
   "Druid": {
     "name": "Druid",
     "id": 6972,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 26,
     "weakness": "Arrow",
     "levels": {
@@ -20781,7 +20486,7 @@ targetData = {
   "Druidess": {
     "name": "Druidess",
     "id": 6981,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 26,
     "weakness": "Arrow",
     "levels": {
@@ -20815,7 +20520,7 @@ targetData = {
   "Spirit jelly": {
     "name": "Spirit jelly",
     "id": 6993,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "None",
     "levels": {
@@ -20849,7 +20554,7 @@ targetData = {
   "Spirit kalphite": {
     "name": "Spirit kalphite",
     "id": 6995,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 29,
     "weakness": "None",
     "levels": {
@@ -20883,7 +20588,7 @@ targetData = {
   "Big wolf": {
     "name": "Big wolf",
     "id": 7005,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "Water",
     "levels": {
@@ -20915,7 +20620,7 @@ targetData = {
   "Ogress champion": {
     "name": "Ogress champion",
     "id": 7078,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 67,
     "weakness": "Air",
     "levels": {
@@ -20947,7 +20652,7 @@ targetData = {
   "Ogress warrior": {
     "name": "Ogress warrior",
     "id": 7079,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Air",
     "levels": {
@@ -20979,7 +20684,7 @@ targetData = {
   "Ogress": {
     "name": "Ogress",
     "id": 7081,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "Air",
     "levels": {
@@ -21011,7 +20716,7 @@ targetData = {
   "Ork statue": {
     "name": "Ork statue",
     "id": 7084,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 71,
     "weakness": "Water",
     "levels": {
@@ -21045,7 +20750,7 @@ targetData = {
   "Ogre statue": {
     "name": "Ogre statue",
     "id": 7085,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -21079,7 +20784,7 @@ targetData = {
   "Ourg statue": {
     "name": "Ourg statue",
     "id": 7086,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 79,
     "weakness": "Water",
     "levels": {
@@ -21113,7 +20818,7 @@ targetData = {
   "Cockroach drone": {
     "name": "Cockroach drone",
     "id": 7158,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Earth",
     "levels": {
@@ -21145,7 +20850,7 @@ targetData = {
   "Cockroach worker": {
     "name": "Cockroach worker",
     "id": 7159,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 30,
     "weakness": "Earth",
     "levels": {
@@ -21177,7 +20882,7 @@ targetData = {
   "Cockroach soldier": {
     "name": "Cockroach soldier",
     "id": 7160,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Earth",
     "levels": {
@@ -21210,7 +20915,7 @@ targetData = {
   "Swamp titan": {
     "name": "Swamp titan",
     "id": 7330,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "None",
     "levels": {
@@ -21244,7 +20949,7 @@ targetData = {
   "Spirit mosquito": {
     "name": "Spirit mosquito",
     "id": 7332,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "None",
     "levels": {
@@ -21278,7 +20983,7 @@ targetData = {
   "Void spinner": {
     "name": "Void spinner",
     "id": 7334,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 41,
     "weakness": "None",
     "levels": {
@@ -21312,7 +21017,7 @@ targetData = {
   "Forge regent": {
     "name": "Forge regent",
     "id": 7336,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -21346,7 +21051,7 @@ targetData = {
   "Spirit larupia": {
     "name": "Spirit larupia",
     "id": 7338,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "None",
     "levels": {
@@ -21380,7 +21085,7 @@ targetData = {
   "Geyser titan": {
     "name": "Geyser titan",
     "id": 7340,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 106,
     "weakness": "None",
     "levels": {
@@ -21414,7 +21119,7 @@ targetData = {
   "Lava titan": {
     "name": "Lava titan",
     "id": 7342,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 99,
     "weakness": "None",
     "levels": {
@@ -21448,7 +21153,7 @@ targetData = {
   "Steel titan": {
     "name": "Steel titan",
     "id": 7344,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -21482,7 +21187,7 @@ targetData = {
   "Obsidian golem": {
     "name": "Obsidian golem",
     "id": 7346,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 87,
     "weakness": "None",
     "levels": {
@@ -21516,7 +21221,7 @@ targetData = {
   "Talon beast": {
     "name": "Talon beast",
     "id": 7348,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "None",
     "levels": {
@@ -21550,7 +21255,7 @@ targetData = {
   "Abyssal titan": {
     "name": "Abyssal titan",
     "id": 7350,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 110,
     "weakness": "None",
     "levels": {
@@ -21584,7 +21289,7 @@ targetData = {
   "Void torcher": {
     "name": "Void torcher",
     "id": 7352,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 41,
     "weakness": "None",
     "levels": {
@@ -21618,7 +21323,7 @@ targetData = {
   "Giant chinchompa": {
     "name": "Giant chinchompa",
     "id": 7354,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "None",
     "levels": {
@@ -21652,7 +21357,7 @@ targetData = {
   "Fire titan": {
     "name": "Fire titan",
     "id": 7356,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 94,
     "weakness": "None",
     "levels": {
@@ -21686,7 +21391,7 @@ targetData = {
   "Moss titan": {
     "name": "Moss titan",
     "id": 7358,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 94,
     "weakness": "None",
     "levels": {
@@ -21720,7 +21425,7 @@ targetData = {
   "Ice titan": {
     "name": "Ice titan",
     "id": 7360,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 94,
     "weakness": "None",
     "levels": {
@@ -21754,7 +21459,7 @@ targetData = {
   "Spirit Tz-Kih": {
     "name": "Spirit Tz-Kih",
     "id": 7362,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 26,
     "weakness": "None",
     "levels": {
@@ -21788,7 +21493,7 @@ targetData = {
   "Spirit graahk": {
     "name": "Spirit graahk",
     "id": 7364,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "None",
     "levels": {
@@ -21822,7 +21527,7 @@ targetData = {
   "Spirit kyatt": {
     "name": "Spirit kyatt",
     "id": 7366,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "None",
     "levels": {
@@ -21856,7 +21561,7 @@ targetData = {
   "Void shifter": {
     "name": "Void shifter",
     "id": 7368,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 41,
     "weakness": "None",
     "levels": {
@@ -21890,7 +21595,7 @@ targetData = {
   "Void ravager": {
     "name": "Void ravager",
     "id": 7371,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 41,
     "weakness": "None",
     "levels": {
@@ -21924,7 +21629,7 @@ targetData = {
   "Ravenous locust": {
     "name": "Ravenous locust",
     "id": 7373,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "None",
     "levels": {
@@ -21958,7 +21663,7 @@ targetData = {
   "Iron titan": {
     "name": "Iron titan",
     "id": 7376,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -21992,7 +21697,7 @@ targetData = {
   "Pyrelord": {
     "name": "Pyrelord",
     "id": 7378,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 55,
     "weakness": "None",
     "levels": {
@@ -22026,7 +21731,7 @@ targetData = {
   "Yeti": {
     "name": "Yeti",
     "id": 7379,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -22060,7 +21765,7 @@ targetData = {
   "Gnoeals": {
     "name": "Gnoeals",
     "id": 7381,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 70,
     "weakness": "Bolt",
     "levels": {
@@ -22094,7 +21799,7 @@ targetData = {
   "Mysterious shade": {
     "name": "Mysterious shade",
     "id": 7398,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 35,
     "weakness": "Arrow",
     "levels": {
@@ -22128,7 +21833,7 @@ targetData = {
   "Tumeken's shadow": {
     "name": "Tumeken's shadow",
     "id": 7475,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -22162,7 +21867,7 @@ targetData = {
   "Skeleton looter": {
     "name": "Skeleton looter",
     "id": 7481,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Air",
     "levels": {
@@ -22196,7 +21901,7 @@ targetData = {
   "Bandit looter": {
     "name": "Bandit looter",
     "id": 7492,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Air",
     "levels": {
@@ -22230,7 +21935,7 @@ targetData = {
   "Golem guard": {
     "name": "Golem guard",
     "id": 7497,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 37,
     "weakness": "Air",
     "levels": {
@@ -22264,7 +21969,7 @@ targetData = {
   "Skeletal hand": {
     "name": "Skeletal hand",
     "id": 7640,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -22296,7 +22001,7 @@ targetData = {
   "Zombie hand": {
     "name": "Zombie hand",
     "id": 7641,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 69,
     "weakness": "Fire",
     "levels": {
@@ -22328,7 +22033,7 @@ targetData = {
   "Mutated bloodveld": {
     "name": "Mutated bloodveld",
     "id": 7642,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 81,
     "weakness": "Fire",
     "levels": {
@@ -22360,7 +22065,7 @@ targetData = {
   "Fistandantilus": {
     "name": "Fistandantilus",
     "id": 7654,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 77,
     "weakness": "Arrow",
     "levels": {
@@ -22392,7 +22097,7 @@ targetData = {
   "Cerberus": {
     "name": "Cerberus",
     "id": 7711,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 33,
     "weakness": "Fire",
     "levels": {
@@ -22426,7 +22131,7 @@ targetData = {
   "Fire monster": {
     "name": "Fire monster",
     "id": 7773,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 53,
     "weakness": "Stabbing",
     "levels": {
@@ -22460,7 +22165,7 @@ targetData = {
   "Mighty banshee": {
     "name": "Mighty banshee",
     "id": 7786,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 61,
     "weakness": "Arrow",
     "levels": {
@@ -22493,7 +22198,7 @@ targetData = {
   "Banshee mistress": {
     "name": "Banshee mistress",
     "id": 7793,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Bolt",
     "levels": {
@@ -22527,7 +22232,7 @@ targetData = {
   "Insectoid assassin": {
     "name": "Insectoid assassin",
     "id": 7795,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 81,
     "weakness": "Crushing",
     "levels": {
@@ -22561,7 +22266,7 @@ targetData = {
   "Kurask overlord": {
     "name": "Kurask overlord",
     "id": 7797,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 90,
     "weakness": "Air",
     "levels": {
@@ -22593,7 +22298,7 @@ targetData = {
   "Monstrous cave crawler": {
     "name": "Monstrous cave crawler",
     "id": 7798,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 76,
     "weakness": "Slashing",
     "levels": {
@@ -22625,7 +22330,7 @@ targetData = {
   "Basilisk boss": {
     "name": "Basilisk boss",
     "id": 7799,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 79,
     "weakness": "Bolt",
     "levels": {
@@ -22658,7 +22363,7 @@ targetData = {
   "Mightiest turoth": {
     "name": "Mightiest turoth",
     "id": 7800,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 83,
     "weakness": "Air",
     "levels": {
@@ -22690,7 +22395,7 @@ targetData = {
   "Kurask minion": {
     "name": "Kurask minion",
     "id": 7805,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 73,
     "weakness": "Air",
     "levels": {
@@ -22722,7 +22427,7 @@ targetData = {
   "Mummy warrior": {
     "name": "Mummy warrior",
     "id": 7807,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Water",
     "levels": {
@@ -22754,7 +22459,7 @@ targetData = {
   "Wall beast": {
     "name": "Wall beast",
     "id": 7823,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 45,
     "weakness": "Water",
     "levels": {
@@ -22786,7 +22491,7 @@ targetData = {
   "Giant crab": {
     "name": "Giant crab",
     "id": 7829,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Earth",
     "levels": {
@@ -22820,7 +22525,7 @@ targetData = {
   "Customs Officer": {
     "name": "Customs Officer",
     "id": 7837,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 37,
     "weakness": "Fire",
     "levels": {
@@ -22854,7 +22559,7 @@ targetData = {
   "Jack": {
     "name": "Jack",
     "id": 7861,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -22888,7 +22593,7 @@ targetData = {
   "Warped cockroach": {
     "name": "Warped cockroach",
     "id": 7913,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "Crushing",
     "levels": {
@@ -22920,7 +22625,7 @@ targetData = {
   "Corpse spider": {
     "name": "Corpse spider",
     "id": 7914,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 4,
     "weakness": "Crushing",
     "levels": {
@@ -22952,7 +22657,7 @@ targetData = {
   "Warped fly": {
     "name": "Warped fly",
     "id": 7915,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Crushing",
     "levels": {
@@ -22984,7 +22689,7 @@ targetData = {
   "Crawling corpse torso": {
     "name": "Crawling corpse torso",
     "id": 7916,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 9,
     "weakness": "Bolt",
     "levels": {
@@ -23016,7 +22721,7 @@ targetData = {
   "Warped rat": {
     "name": "Warped rat",
     "id": 7920,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Fire",
     "levels": {
@@ -23048,7 +22753,7 @@ targetData = {
   "Warped bat": {
     "name": "Warped bat",
     "id": 7922,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 16,
     "weakness": "Arrow",
     "levels": {
@@ -23080,7 +22785,7 @@ targetData = {
   "Corpse archer": {
     "name": "Corpse archer",
     "id": 7923,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 18,
     "weakness": "Crushing",
     "levels": {
@@ -23112,7 +22817,7 @@ targetData = {
   "Carn": {
     "name": "Carn",
     "id": 7940,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 38,
     "weakness": "None",
     "levels": {
@@ -23146,7 +22851,7 @@ targetData = {
   "Ghostly warrior": {
     "name": "Ghostly warrior",
     "id": 7994,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 61,
     "weakness": "Earth",
     "levels": {
@@ -23180,7 +22885,7 @@ targetData = {
   "Tormented wraith": {
     "name": "Tormented wraith",
     "id": 8125,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 42,
     "weakness": "Bolt",
     "levels": {
@@ -23214,7 +22919,7 @@ targetData = {
   "Dark energy core": {
     "name": "Dark energy core",
     "id": 8127,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -23246,7 +22951,7 @@ targetData = {
   "Corporeal Beast": {
     "name": "Corporeal Beast",
     "id": 8133,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 785,
     "weakness": "None",
     "levels": {
@@ -23280,7 +22985,7 @@ targetData = {
   "Armoured zombie": {
     "name": "Armoured zombie",
     "id": 8149,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 86,
     "weakness": "Water",
     "levels": {
@@ -23314,7 +23019,7 @@ targetData = {
   "Clay familiar (class 1)": {
     "name": "Clay familiar (class 1)",
     "id": 8241,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -23348,7 +23053,7 @@ targetData = {
   "Clay familiar (class 2)": {
     "name": "Clay familiar (class 2)",
     "id": 8243,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "None",
     "levels": {
@@ -23382,7 +23087,7 @@ targetData = {
   "Clay familiar (class 3)": {
     "name": "Clay familiar (class 3)",
     "id": 8245,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -23416,7 +23121,7 @@ targetData = {
   "Clay familiar (class 4)": {
     "name": "Clay familiar (class 4)",
     "id": 8247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -23450,7 +23155,7 @@ targetData = {
   "Clay familiar (class 5)": {
     "name": "Clay familiar (class 5)",
     "id": 8249,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -23484,7 +23189,7 @@ targetData = {
   "Balance Elemental": {
     "name": "Balance Elemental",
     "id": 8281,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 117,
     "weakness": "None",
     "levels": {
@@ -23518,7 +23223,7 @@ targetData = {
   "Elite Dark Warrior": {
     "name": "Elite Dark Warrior",
     "id": 8312,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Air",
     "levels": {
@@ -23552,7 +23257,7 @@ targetData = {
   "Elite Dark Ranger": {
     "name": "Elite Dark Ranger",
     "id": 8316,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "Slashing",
     "levels": {
@@ -23586,7 +23291,7 @@ targetData = {
   "Elite Dark Mage": {
     "name": "Elite Dark Mage",
     "id": 8320,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Arrow",
     "levels": {
@@ -23620,7 +23325,7 @@ targetData = {
   "Elite Black Knight": {
     "name": "Elite Black Knight",
     "id": 8324,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "Air",
     "levels": {
@@ -23654,7 +23359,7 @@ targetData = {
   "Mercenary axeman": {
     "name": "Mercenary axeman",
     "id": 8334,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -23686,7 +23391,7 @@ targetData = {
   "Mercenary mage": {
     "name": "Mercenary mage",
     "id": 8335,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 70,
     "weakness": "Arrow",
     "levels": {
@@ -23718,7 +23423,7 @@ targetData = {
   "Shady stranger": {
     "name": "Shady stranger",
     "id": 8339,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Fire",
     "levels": {
@@ -23750,7 +23455,7 @@ targetData = {
   "Local mage": {
     "name": "Local mage",
     "id": 8348,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 16,
     "weakness": "Thrown",
     "levels": {
@@ -23784,7 +23489,7 @@ targetData = {
   "Suspicious outsider": {
     "name": "Suspicious outsider",
     "id": 8436,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Fire",
     "levels": {
@@ -23816,7 +23521,7 @@ targetData = {
   "Lesser reborn warrior": {
     "name": "Lesser reborn warrior",
     "id": 8557,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Water",
     "levels": {
@@ -23850,7 +23555,7 @@ targetData = {
   "Greater reborn warrior": {
     "name": "Greater reborn warrior",
     "id": 8559,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "Water",
     "levels": {
@@ -23884,7 +23589,7 @@ targetData = {
   "Lesser reborn ranger": {
     "name": "Lesser reborn ranger",
     "id": 8561,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 68,
     "weakness": "Stabbing",
     "levels": {
@@ -23918,7 +23623,7 @@ targetData = {
   "Greater reborn ranger": {
     "name": "Greater reborn ranger",
     "id": 8563,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 82,
     "weakness": "Stabbing",
     "levels": {
@@ -23952,7 +23657,7 @@ targetData = {
   "Lesser reborn mage": {
     "name": "Lesser reborn mage",
     "id": 8565,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -23986,7 +23691,7 @@ targetData = {
   "Greater reborn mage": {
     "name": "Greater reborn mage",
     "id": 8567,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Thrown",
     "levels": {
@@ -24020,7 +23725,7 @@ targetData = {
   "Avatar of Destruction": {
     "name": "Avatar of Destruction",
     "id": 8596,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "None",
     "levels": {
@@ -24052,7 +23757,7 @@ targetData = {
   "Avatar of Creation": {
     "name": "Avatar of Creation",
     "id": 8597,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 65,
     "weakness": "None",
     "levels": {
@@ -24084,7 +23789,7 @@ targetData = {
   "Barricade": {
     "name": "Barricade",
     "id": 8600,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -24116,7 +23821,7 @@ targetData = {
   "Chaos dwogre": {
     "name": "Chaos dwogre",
     "id": 8771,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 92,
     "weakness": "None",
     "levels": {
@@ -24150,7 +23855,7 @@ targetData = {
   "Chaos dwarf hand cannoneer": {
     "name": "Chaos dwarf hand cannoneer",
     "id": 8776,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "Stabbing",
     "levels": {
@@ -24184,7 +23889,7 @@ targetData = {
   "Black Guard crossbowdwarf": {
     "name": "Black Guard crossbowdwarf",
     "id": 8781,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "Crushing",
     "levels": {
@@ -24218,7 +23923,7 @@ targetData = {
   "Black Guard berserker": {
     "name": "Black Guard berserker",
     "id": 8783,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Water",
     "levels": {
@@ -24252,7 +23957,7 @@ targetData = {
   "Trade floor guard": {
     "name": "Trade floor guard",
     "id": 8813,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -24286,7 +23991,7 @@ targetData = {
   "Living rock protector": {
     "name": "Living rock protector",
     "id": 8832,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "Water",
     "levels": {
@@ -24318,7 +24023,7 @@ targetData = {
   "Living rock striker": {
     "name": "Living rock striker",
     "id": 8833,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 92,
     "weakness": "Crushing",
     "levels": {
@@ -24351,7 +24056,7 @@ targetData = {
   "Living rock patriarch": {
     "name": "Living rock patriarch",
     "id": 8834,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 95,
     "weakness": "Water",
     "levels": {
@@ -24382,42 +24087,10 @@ targetData = {
       "ranged": 316
     }
   },
-  "Dark wizard": {
-    "name": "Dark wizard",
-    "id": 8874,
-    "combatStyle": "Necromancy",
-    "combatLevel": 14,
-    "weakness": "Necromancy",
-    "levels": {
-      "attack": 1,
-      "defence": 10,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 60,
-      "ranged": 60
-    },
-    "baseStats": {
-      "necromancy": 102,
-      "armour": 202
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 80,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Frank": {
     "name": "Frank",
     "id": 8938,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -24450,7 +24123,7 @@ targetData = {
   "Banshee Champion": {
     "name": "Banshee Champion",
     "id": 8986,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 63,
     "weakness": "Bolt",
     "levels": {
@@ -24483,7 +24156,7 @@ targetData = {
   "Aberrant Spectre Champion": {
     "name": "Aberrant Spectre Champion",
     "id": 8987,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -24516,7 +24189,7 @@ targetData = {
   "Mummy Champion": {
     "name": "Mummy Champion",
     "id": 8988,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Fire",
     "levels": {
@@ -24549,7 +24222,7 @@ targetData = {
   "Leprechaun Champion": {
     "name": "Leprechaun Champion",
     "id": 8993,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "Air",
     "levels": {
@@ -24581,7 +24254,7 @@ targetData = {
   "Ice demon": {
     "name": "Ice demon",
     "id": 9052,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -24615,7 +24288,7 @@ targetData = {
   "Lotheria Seldorina": {
     "name": "Lotheria Seldorina",
     "id": 9062,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -24649,7 +24322,7 @@ targetData = {
   "Ican Haz": {
     "name": "Ican Haz",
     "id": 9074,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -24683,7 +24356,7 @@ targetData = {
   "Dagannoth sentinel": {
     "name": "Dagannoth sentinel",
     "id": 9089,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "Slashing",
     "levels": {
@@ -24717,7 +24390,7 @@ targetData = {
   "Dagannoth guardian": {
     "name": "Dagannoth guardian",
     "id": 9092,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Air",
     "levels": {
@@ -24751,7 +24424,7 @@ targetData = {
   "Dagannoth Mother": {
     "name": "Dagannoth Mother",
     "id": 9107,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 102,
     "weakness": "None",
     "levels": {
@@ -24785,7 +24458,7 @@ targetData = {
   "Aquanite": {
     "name": "Aquanite",
     "id": 9172,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 95,
     "weakness": "Arrow",
     "levels": {
@@ -24819,7 +24492,7 @@ targetData = {
   "Lumbridge guardsman": {
     "name": "Lumbridge guardsman",
     "id": 9213,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 9,
     "weakness": "Air",
     "levels": {
@@ -24851,7 +24524,7 @@ targetData = {
   "Lola Wut": {
     "name": "Lola Wut",
     "id": 9310,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -24885,7 +24558,7 @@ targetData = {
   "Count Draynor": {
     "name": "Count Draynor",
     "id": 9356,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -24919,7 +24592,7 @@ targetData = {
   "Kay Thanxby": {
     "name": "Kay Thanxby",
     "id": 9380,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -24953,7 +24626,7 @@ targetData = {
   "Dungeon spider": {
     "name": "Dungeon spider",
     "id": 9382,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -24987,7 +24660,7 @@ targetData = {
   "Decaying avatar": {
     "name": "Decaying avatar",
     "id": 9437,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -25021,7 +24694,7 @@ targetData = {
   "Spectral tender": {
     "name": "Spectral tender",
     "id": 9451,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -25055,7 +24728,7 @@ targetData = {
   "Spectral cultivator": {
     "name": "Spectral cultivator",
     "id": 9452,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -25089,7 +24762,7 @@ targetData = {
   "Spectral worshipper": {
     "name": "Spectral worshipper",
     "id": 9453,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -25123,7 +24796,7 @@ targetData = {
   "Spectral attendant": {
     "name": "Spectral attendant",
     "id": 9454,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -25157,7 +24830,7 @@ targetData = {
   "Corruption beast": {
     "name": "Corruption beast",
     "id": 9455,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "None",
     "levels": {
@@ -25191,7 +24864,7 @@ targetData = {
   "Ice strykewyrm": {
     "name": "Ice strykewyrm",
     "id": 9463,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 106,
     "weakness": "Fire",
     "levels": {
@@ -25225,7 +24898,7 @@ targetData = {
   "Desert strykewyrm": {
     "name": "Desert strykewyrm",
     "id": 9465,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 103,
     "weakness": "Stabbing",
     "levels": {
@@ -25259,7 +24932,7 @@ targetData = {
   "Jungle strykewyrm": {
     "name": "Jungle strykewyrm",
     "id": 9467,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 93,
     "weakness": "Stabbing",
     "levels": {
@@ -25293,7 +24966,7 @@ targetData = {
   "Corpse mage": {
     "name": "Corpse mage",
     "id": 9612,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 21,
     "weakness": "Thrown",
     "levels": {
@@ -25325,7 +24998,7 @@ targetData = {
   "Dragith Nurn": {
     "name": "Dragith Nurn",
     "id": 9622,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 26,
     "weakness": "Arrow",
     "levels": {
@@ -25359,7 +25032,7 @@ targetData = {
   "Reese": {
     "name": "Reese",
     "id": 9624,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -25391,7 +25064,7 @@ targetData = {
   "Caitlin": {
     "name": "Caitlin",
     "id": 9626,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "Arrow",
     "levels": {
@@ -25423,7 +25096,7 @@ targetData = {
   "Kayle": {
     "name": "Kayle",
     "id": 9628,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "Slashing",
     "levels": {
@@ -25455,7 +25128,7 @@ targetData = {
   "Night-gazer Khighorahk": {
     "name": "Night-gazer Khighorahk",
     "id": 9725,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25489,7 +25162,7 @@ targetData = {
   "Sagittare": {
     "name": "Sagittare",
     "id": 9753,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25523,7 +25196,7 @@ targetData = {
   "Rammernaut": {
     "name": "Rammernaut",
     "id": 9767,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25557,7 +25230,7 @@ targetData = {
   "Lexicus Runewright": {
     "name": "Lexicus Runewright",
     "id": 9842,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25591,7 +25264,7 @@ targetData = {
   "Tome of Strength": {
     "name": "Tome of Strength",
     "id": 9856,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25625,7 +25298,7 @@ targetData = {
   "Tome of Ranging": {
     "name": "Tome of Ranging",
     "id": 9857,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25659,7 +25332,7 @@ targetData = {
   "Tome of Magic": {
     "name": "Tome of Magic",
     "id": 9858,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25693,7 +25366,7 @@ targetData = {
   "Luminescent icefiend": {
     "name": "Luminescent icefiend",
     "id": 9912,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25727,7 +25400,7 @@ targetData = {
   "Plane-freezer Lakhrahnaz": {
     "name": "Plane-freezer Lakhrahnaz",
     "id": 9929,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25761,7 +25434,7 @@ targetData = {
   "Gluttonous behemoth": {
     "name": "Gluttonous behemoth",
     "id": 9948,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25795,7 +25468,7 @@ targetData = {
   "Astea Frostweb": {
     "name": "Astea Frostweb",
     "id": 9965,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25829,7 +25502,7 @@ targetData = {
   "To'Kash the Bloodchiller": {
     "name": "To'Kash the Bloodchiller",
     "id": 10024,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25863,7 +25536,7 @@ targetData = {
   "Icy Bones": {
     "name": "Icy Bones",
     "id": 10040,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -25897,7 +25570,7 @@ targetData = {
   "Hobgoblin Geomancer": {
     "name": "Hobgoblin Geomancer",
     "id": 10059,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25931,7 +25604,7 @@ targetData = {
   "Bulwark beast": {
     "name": "Bulwark beast",
     "id": 10073,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -25965,7 +25638,7 @@ targetData = {
   "Unholy cursebearer": {
     "name": "Unholy cursebearer",
     "id": 10111,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "None",
     "levels": {
@@ -25999,7 +25672,7 @@ targetData = {
   "Bal'lak the Pummeller": {
     "name": "Bal'lak the Pummeller",
     "id": 10128,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -26033,7 +25706,7 @@ targetData = {
   "Shadow-Forger Ihlakhizan": {
     "name": "Shadow-Forger Ihlakhizan",
     "id": 10143,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -26067,7 +25740,7 @@ targetData = {
   "Animated pickaxe": {
     "name": "Animated pickaxe",
     "id": 10168,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Air",
     "levels": {
@@ -26096,42 +25769,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Zombie": {
-    "name": "Zombie",
-    "id": 10375,
-    "combatStyle": "Ranged",
-    "combatLevel": 1,
-    "weakness": "Slashing",
-    "levels": {
-      "attack": 1,
-      "defence": 1,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "ranged": 110,
-      "armour": 110
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 44,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Ice elemental": {
     "name": "Ice elemental",
     "id": 10460,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 12,
     "weakness": "Crushing",
     "levels": {
@@ -26163,7 +25804,7 @@ targetData = {
   "Night spider": {
     "name": "Night spider",
     "id": 10698,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 73,
     "weakness": "Fire",
     "levels": {
@@ -26195,7 +25836,7 @@ targetData = {
   "Spiritual guardian": {
     "name": "Spiritual guardian",
     "id": 10700,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "Water",
     "levels": {
@@ -26227,7 +25868,7 @@ targetData = {
   "Seeker": {
     "name": "Seeker",
     "id": 10701,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 86,
     "weakness": "Thrown",
     "levels": {
@@ -26259,7 +25900,7 @@ targetData = {
   "Soulgazer": {
     "name": "Soulgazer",
     "id": 10705,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 128,
     "weakness": "Arrow",
     "levels": {
@@ -26292,7 +25933,7 @@ targetData = {
   "Animated book": {
     "name": "Animated book",
     "id": 10744,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 2,
     "weakness": "Thrown",
     "levels": {
@@ -26324,7 +25965,7 @@ targetData = {
   "Cub bloodrager": {
     "name": "Cub bloodrager",
     "id": 11107,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -26358,7 +25999,7 @@ targetData = {
   "Little bloodrager": {
     "name": "Little bloodrager",
     "id": 11109,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -26392,7 +26033,7 @@ targetData = {
   "Naïve bloodrager": {
     "name": "Naïve bloodrager",
     "id": 11111,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -26426,7 +26067,7 @@ targetData = {
   "Keen bloodrager": {
     "name": "Keen bloodrager",
     "id": 11113,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -26460,7 +26101,7 @@ targetData = {
   "Brave bloodrager": {
     "name": "Brave bloodrager",
     "id": 11115,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -26494,7 +26135,7 @@ targetData = {
   "Brah bloodrager": {
     "name": "Brah bloodrager",
     "id": 11117,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -26528,7 +26169,7 @@ targetData = {
   "Naabe bloodrager": {
     "name": "Naabe bloodrager",
     "id": 11119,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -26562,7 +26203,7 @@ targetData = {
   "Wise bloodrager": {
     "name": "Wise bloodrager",
     "id": 11121,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 126,
     "weakness": "Fire",
     "levels": {
@@ -26596,7 +26237,7 @@ targetData = {
   "Adept bloodrager": {
     "name": "Adept bloodrager",
     "id": 11123,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 133,
     "weakness": "Fire",
     "levels": {
@@ -26630,7 +26271,7 @@ targetData = {
   "Sachem bloodrager": {
     "name": "Sachem bloodrager",
     "id": 11125,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "Fire",
     "levels": {
@@ -26664,7 +26305,7 @@ targetData = {
   "Cub stormbringer": {
     "name": "Cub stormbringer",
     "id": 11127,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 21,
     "weakness": "Arrow",
     "levels": {
@@ -26698,7 +26339,7 @@ targetData = {
   "Little stormbringer": {
     "name": "Little stormbringer",
     "id": 11129,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 42,
     "weakness": "Arrow",
     "levels": {
@@ -26732,7 +26373,7 @@ targetData = {
   "Naïve stormbringer": {
     "name": "Naïve stormbringer",
     "id": 11131,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 63,
     "weakness": "Arrow",
     "levels": {
@@ -26766,7 +26407,7 @@ targetData = {
   "Keen stormbringer": {
     "name": "Keen stormbringer",
     "id": 11133,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 70,
     "weakness": "Arrow",
     "levels": {
@@ -26800,7 +26441,7 @@ targetData = {
   "Brave stormbringer": {
     "name": "Brave stormbringer",
     "id": 11135,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -26834,7 +26475,7 @@ targetData = {
   "Brah stormbringer": {
     "name": "Brah stormbringer",
     "id": 11137,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Arrow",
     "levels": {
@@ -26868,7 +26509,7 @@ targetData = {
   "Naabe stormbringer": {
     "name": "Naabe stormbringer",
     "id": 11139,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "Arrow",
     "levels": {
@@ -26902,7 +26543,7 @@ targetData = {
   "Wise stormbringer": {
     "name": "Wise stormbringer",
     "id": 11141,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 126,
     "weakness": "Arrow",
     "levels": {
@@ -26936,7 +26577,7 @@ targetData = {
   "Adept stormbringer": {
     "name": "Adept stormbringer",
     "id": 11143,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 133,
     "weakness": "Arrow",
     "levels": {
@@ -26970,7 +26611,7 @@ targetData = {
   "Sachem stormbringer": {
     "name": "Sachem stormbringer",
     "id": 11145,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 138,
     "weakness": "Arrow",
     "levels": {
@@ -27004,7 +26645,7 @@ targetData = {
   "Cub hoardstalker": {
     "name": "Cub hoardstalker",
     "id": 11147,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -27038,7 +26679,7 @@ targetData = {
   "Little hoardstalker": {
     "name": "Little hoardstalker",
     "id": 11149,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -27072,7 +26713,7 @@ targetData = {
   "Naïve hoardstalker": {
     "name": "Naïve hoardstalker",
     "id": 11151,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -27106,7 +26747,7 @@ targetData = {
   "Keen hoardstalker": {
     "name": "Keen hoardstalker",
     "id": 11153,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -27140,7 +26781,7 @@ targetData = {
   "Brave hoardstalker": {
     "name": "Brave hoardstalker",
     "id": 11155,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -27174,7 +26815,7 @@ targetData = {
   "Brah hoardstalker": {
     "name": "Brah hoardstalker",
     "id": 11157,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -27208,7 +26849,7 @@ targetData = {
   "Naabe hoardstalker": {
     "name": "Naabe hoardstalker",
     "id": 11159,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -27242,7 +26883,7 @@ targetData = {
   "Wise hoardstalker": {
     "name": "Wise hoardstalker",
     "id": 11161,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -27276,7 +26917,7 @@ targetData = {
   "Adept hoardstalker": {
     "name": "Adept hoardstalker",
     "id": 11163,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Fire",
     "levels": {
@@ -27310,7 +26951,7 @@ targetData = {
   "Sachem hoardstalker": {
     "name": "Sachem hoardstalker",
     "id": 11165,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -27344,7 +26985,7 @@ targetData = {
   "Cub skinweaver": {
     "name": "Cub skinweaver",
     "id": 11167,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -27378,7 +27019,7 @@ targetData = {
   "Little skinweaver": {
     "name": "Little skinweaver",
     "id": 11169,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -27412,7 +27053,7 @@ targetData = {
   "Naïve skinweaver": {
     "name": "Naïve skinweaver",
     "id": 11171,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -27446,7 +27087,7 @@ targetData = {
   "Keen skinweaver": {
     "name": "Keen skinweaver",
     "id": 11173,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -27480,7 +27121,7 @@ targetData = {
   "Brave skinweaver": {
     "name": "Brave skinweaver",
     "id": 11175,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -27514,7 +27155,7 @@ targetData = {
   "Brah skinweaver": {
     "name": "Brah skinweaver",
     "id": 11177,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -27548,7 +27189,7 @@ targetData = {
   "Naabe skinweaver": {
     "name": "Naabe skinweaver",
     "id": 11179,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -27582,7 +27223,7 @@ targetData = {
   "Wise skinweaver": {
     "name": "Wise skinweaver",
     "id": 11181,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -27616,7 +27257,7 @@ targetData = {
   "Adept skinweaver": {
     "name": "Adept skinweaver",
     "id": 11183,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Fire",
     "levels": {
@@ -27650,7 +27291,7 @@ targetData = {
   "Sachem skinweaver": {
     "name": "Sachem skinweaver",
     "id": 11185,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -27684,7 +27325,7 @@ targetData = {
   "Cub worldbearer": {
     "name": "Cub worldbearer",
     "id": 11187,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 21,
     "weakness": "Fire",
     "levels": {
@@ -27718,7 +27359,7 @@ targetData = {
   "Little worldbearer": {
     "name": "Little worldbearer",
     "id": 11189,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -27752,7 +27393,7 @@ targetData = {
   "Naïve worldbearer": {
     "name": "Naïve worldbearer",
     "id": 11191,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Fire",
     "levels": {
@@ -27786,7 +27427,7 @@ targetData = {
   "Keen worldbearer": {
     "name": "Keen worldbearer",
     "id": 11193,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -27820,7 +27461,7 @@ targetData = {
   "Brave worldbearer": {
     "name": "Brave worldbearer",
     "id": 11195,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Fire",
     "levels": {
@@ -27854,7 +27495,7 @@ targetData = {
   "Brah worldbearer": {
     "name": "Brah worldbearer",
     "id": 11197,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -27888,7 +27529,7 @@ targetData = {
   "Naabe worldbearer": {
     "name": "Naabe worldbearer",
     "id": 11199,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -27922,7 +27563,7 @@ targetData = {
   "Wise worldbearer": {
     "name": "Wise worldbearer",
     "id": 11201,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -27956,7 +27597,7 @@ targetData = {
   "Adept worldbearer": {
     "name": "Adept worldbearer",
     "id": 11203,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Fire",
     "levels": {
@@ -27990,7 +27631,7 @@ targetData = {
   "Sachem worldbearer": {
     "name": "Sachem worldbearer",
     "id": 11205,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -28024,7 +27665,7 @@ targetData = {
   "Cub deathslinger": {
     "name": "Cub deathslinger",
     "id": 11207,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 21,
     "weakness": "Slashing",
     "levels": {
@@ -28058,7 +27699,7 @@ targetData = {
   "Little deathslinger": {
     "name": "Little deathslinger",
     "id": 11209,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 42,
     "weakness": "Slashing",
     "levels": {
@@ -28092,7 +27733,7 @@ targetData = {
   "Naïve deathslinger": {
     "name": "Naïve deathslinger",
     "id": 11211,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 63,
     "weakness": "Slashing",
     "levels": {
@@ -28126,7 +27767,7 @@ targetData = {
   "Keen deathslinger": {
     "name": "Keen deathslinger",
     "id": 11213,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "Slashing",
     "levels": {
@@ -28160,7 +27801,7 @@ targetData = {
   "Brave deathslinger": {
     "name": "Brave deathslinger",
     "id": 11215,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Slashing",
     "levels": {
@@ -28194,7 +27835,7 @@ targetData = {
   "Brah deathslinger": {
     "name": "Brah deathslinger",
     "id": 11217,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "Slashing",
     "levels": {
@@ -28228,7 +27869,7 @@ targetData = {
   "Naabe deathslinger": {
     "name": "Naabe deathslinger",
     "id": 11219,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 112,
     "weakness": "Slashing",
     "levels": {
@@ -28262,7 +27903,7 @@ targetData = {
   "Wise deathslinger": {
     "name": "Wise deathslinger",
     "id": 11221,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 126,
     "weakness": "Slashing",
     "levels": {
@@ -28296,7 +27937,7 @@ targetData = {
   "Adept deathslinger": {
     "name": "Adept deathslinger",
     "id": 11223,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 133,
     "weakness": "Slashing",
     "levels": {
@@ -28330,7 +27971,7 @@ targetData = {
   "Sachem deathslinger": {
     "name": "Sachem deathslinger",
     "id": 11225,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 138,
     "weakness": "Slashing",
     "levels": {
@@ -28364,7 +28005,7 @@ targetData = {
   "Ravenous vampyre": {
     "name": "Ravenous vampyre",
     "id": 11264,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 91,
     "weakness": "Slashing",
     "levels": {
@@ -28396,7 +28037,7 @@ targetData = {
   "Ravenous ghoul": {
     "name": "Ravenous ghoul",
     "id": 11265,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -28428,7 +28069,7 @@ targetData = {
   "Ravenous snail": {
     "name": "Ravenous snail",
     "id": 11266,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 49,
     "weakness": "Crushing",
     "levels": {
@@ -28457,42 +28098,10 @@ targetData = {
       "ranged": 181
     }
   },
-  "Kolodion": {
-    "name": "Kolodion",
-    "id": 11302,
-    "combatStyle": "Melee",
-    "combatLevel": 0,
-    "weakness": "None",
-    "levels": {
-      "attack": 42,
-      "defence": 57,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 427,
-      "armour": 1040
-    },
-    "bonusStats": {
-      "attack": 209,
-      "armour": 271,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Fairy Godfather": {
     "name": "Fairy Godfather",
     "id": 11324,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -28526,7 +28135,7 @@ targetData = {
   "General Gromblod": {
     "name": "General Gromblod",
     "id": 11329,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 85,
     "weakness": "None",
     "levels": {
@@ -28560,7 +28169,7 @@ targetData = {
   "General Shredflesh": {
     "name": "General Shredflesh",
     "id": 11331,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 85,
     "weakness": "None",
     "levels": {
@@ -28594,7 +28203,7 @@ targetData = {
   "General Bre'egth": {
     "name": "General Bre'egth",
     "id": 11332,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 85,
     "weakness": "None",
     "levels": {
@@ -28628,7 +28237,7 @@ targetData = {
   "Ivory Shredflesh (cursed)": {
     "name": "Ivory Shredflesh (cursed)",
     "id": 11352,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 82,
     "weakness": "Water",
     "levels": {
@@ -28660,7 +28269,7 @@ targetData = {
   "Ivory Gromblod (cursed)": {
     "name": "Ivory Gromblod (cursed)",
     "id": 11353,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 82,
     "weakness": "Stabbing",
     "levels": {
@@ -28692,7 +28301,7 @@ targetData = {
   "Ivory Bre'egth (cursed)": {
     "name": "Ivory Bre'egth (cursed)",
     "id": 11354,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Arrow",
     "levels": {
@@ -28724,7 +28333,7 @@ targetData = {
   "Ork warrior": {
     "name": "Ork warrior",
     "id": 11359,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 79,
     "weakness": "Air",
     "levels": {
@@ -28756,7 +28365,7 @@ targetData = {
   "Pit dog": {
     "name": "Pit dog",
     "id": 11562,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Air",
     "levels": {
@@ -28788,7 +28397,7 @@ targetData = {
   "Pit ogre": {
     "name": "Pit ogre",
     "id": 11563,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 102,
     "weakness": "Air",
     "levels": {
@@ -28820,7 +28429,7 @@ targetData = {
   "Pit rock protector": {
     "name": "Pit rock protector",
     "id": 11564,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 110,
     "weakness": "Air",
     "levels": {
@@ -28852,7 +28461,7 @@ targetData = {
   "Pit scabarite": {
     "name": "Pit scabarite",
     "id": 11565,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 117,
     "weakness": "Crushing",
     "levels": {
@@ -28884,7 +28493,7 @@ targetData = {
   "Zenevivia": {
     "name": "Zenevivia",
     "id": 11578,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -28918,7 +28527,7 @@ targetData = {
   "Black Knight guardian": {
     "name": "Black Knight guardian",
     "id": 11696,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Water",
     "levels": {
@@ -28952,7 +28561,7 @@ targetData = {
   "Necrolord": {
     "name": "Necrolord",
     "id": 11737,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -28986,7 +28595,7 @@ targetData = {
   "Runebound behemoth": {
     "name": "Runebound behemoth",
     "id": 11752,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -29020,7 +28629,7 @@ targetData = {
   "Yk'Lagor the Thunderous": {
     "name": "Yk'Lagor the Thunderous",
     "id": 11872,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -29054,7 +28663,7 @@ targetData = {
   "Mysterious mage": {
     "name": "Mysterious mage",
     "id": 11887,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -29088,7 +28697,7 @@ targetData = {
   "Flesh-Spoiler spawn": {
     "name": "Flesh-Spoiler spawn",
     "id": 11910,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "None",
     "levels": {
@@ -29122,7 +28731,7 @@ targetData = {
   "Skeletal sorcerer": {
     "name": "Skeletal sorcerer",
     "id": 11999,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -29156,7 +28765,7 @@ targetData = {
   "Lumbridge guard": {
     "name": "Lumbridge guard",
     "id": 12367,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Air",
     "levels": {
@@ -29188,7 +28797,7 @@ targetData = {
   "Famished warrior-eye": {
     "name": "Famished warrior-eye",
     "id": 12448,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -29220,7 +28829,7 @@ targetData = {
   "Famished ranger-eye": {
     "name": "Famished ranger-eye",
     "id": 12463,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Slashing",
     "levels": {
@@ -29252,7 +28861,7 @@ targetData = {
   "Warped Gulega": {
     "name": "Warped Gulega",
     "id": 12737,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -29286,7 +28895,7 @@ targetData = {
   "Dreadnaut": {
     "name": "Dreadnaut",
     "id": 12848,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -29320,7 +28929,7 @@ targetData = {
   "Blink": {
     "name": "Blink",
     "id": 12865,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -29354,7 +28963,7 @@ targetData = {
   "Hope devourer": {
     "name": "Hope devourer",
     "id": 12886,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -29388,7 +28997,7 @@ targetData = {
   "Reborn mage": {
     "name": "Reborn mage",
     "id": 12903,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 40,
     "weakness": "Thrown",
     "levels": {
@@ -29420,7 +29029,7 @@ targetData = {
   "Reborn warrior": {
     "name": "Reborn warrior",
     "id": 12941,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -29452,7 +29061,7 @@ targetData = {
   "Leeuni": {
     "name": "Leeuni",
     "id": 13216,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -29486,7 +29095,7 @@ targetData = {
   "Ayuni": {
     "name": "Ayuni",
     "id": 13219,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -29520,7 +29129,7 @@ targetData = {
   "Eruni": {
     "name": "Eruni",
     "id": 13222,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -29554,7 +29163,7 @@ targetData = {
   "Nex": {
     "name": "Nex",
     "id": 13447,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1001,
     "weakness": "None",
     "levels": {
@@ -29588,7 +29197,7 @@ targetData = {
   "Blood reaver": {
     "name": "Blood reaver",
     "id": 13458,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 108,
     "weakness": "Arrow",
     "levels": {
@@ -29620,7 +29229,7 @@ targetData = {
   "Hati": {
     "name": "Hati",
     "id": 13460,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -29653,7 +29262,7 @@ targetData = {
   "Revenant imp": {
     "name": "Revenant imp",
     "id": 13465,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 14,
     "weakness": "None",
     "levels": {
@@ -29687,7 +29296,7 @@ targetData = {
   "Revenant icefiend": {
     "name": "Revenant icefiend",
     "id": 13470,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 37,
     "weakness": "None",
     "levels": {
@@ -29721,7 +29330,7 @@ targetData = {
   "Revenant pyrefiend": {
     "name": "Revenant pyrefiend",
     "id": 13471,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "None",
     "levels": {
@@ -29755,7 +29364,7 @@ targetData = {
   "Revenant hobgoblin": {
     "name": "Revenant hobgoblin",
     "id": 13472,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "None",
     "levels": {
@@ -29789,7 +29398,7 @@ targetData = {
   "Revenant vampyre": {
     "name": "Revenant vampyre",
     "id": 13473,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 47,
     "weakness": "None",
     "levels": {
@@ -29823,7 +29432,7 @@ targetData = {
   "Revenant werewolf": {
     "name": "Revenant werewolf",
     "id": 13474,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 53,
     "weakness": "None",
     "levels": {
@@ -29857,7 +29466,7 @@ targetData = {
   "Revenant cyclops": {
     "name": "Revenant cyclops",
     "id": 13475,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -29891,7 +29500,7 @@ targetData = {
   "Revenant hellhound": {
     "name": "Revenant hellhound",
     "id": 13476,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -29925,7 +29534,7 @@ targetData = {
   "Revenant demon": {
     "name": "Revenant demon",
     "id": 13477,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -29959,7 +29568,7 @@ targetData = {
   "Revenant ork": {
     "name": "Revenant ork",
     "id": 13478,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -29993,7 +29602,7 @@ targetData = {
   "Revenant dark beast": {
     "name": "Revenant dark beast",
     "id": 13479,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -30027,7 +29636,7 @@ targetData = {
   "Revenant knight": {
     "name": "Revenant knight",
     "id": 13480,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -30061,7 +29670,7 @@ targetData = {
   "Revenant dragon": {
     "name": "Revenant dragon",
     "id": 13481,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 126,
     "weakness": "None",
     "levels": {
@@ -30095,7 +29704,7 @@ targetData = {
   "Sado-machinist": {
     "name": "Sado-machinist",
     "id": 13595,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 63,
     "weakness": "Air",
     "levels": {
@@ -30129,7 +29738,7 @@ targetData = {
   "General malpractitioner": {
     "name": "General malpractitioner",
     "id": 13601,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Stabbing",
     "levels": {
@@ -30163,7 +29772,7 @@ targetData = {
   "'Rum'-pumped crab": {
     "name": "'Rum'-pumped crab",
     "id": 13603,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Stabbing",
     "levels": {
@@ -30197,7 +29806,7 @@ targetData = {
   "Troll ranger": {
     "name": "Troll ranger",
     "id": 13652,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "Crushing",
     "levels": {
@@ -30231,7 +29840,7 @@ targetData = {
   "Poorly Cooked Karambwan": {
     "name": "Poorly Cooked Karambwan",
     "id": 13662,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -30265,7 +29874,7 @@ targetData = {
   "Summoner": {
     "name": "Summoner",
     "id": 13670,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "Bolt",
     "levels": {
@@ -30299,7 +29908,7 @@ targetData = {
   "Troll father": {
     "name": "Troll father",
     "id": 13686,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 2,
     "weakness": "Crushing",
     "levels": {
@@ -30333,7 +29942,7 @@ targetData = {
   "Dynamite": {
     "name": "Dynamite",
     "id": 13713,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
     "levels": {
@@ -30367,7 +29976,7 @@ targetData = {
   "Mutated jadinko baby": {
     "name": "Mutated jadinko baby",
     "id": 13820,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 93,
     "weakness": "Stabbing",
     "levels": {
@@ -30400,7 +30009,7 @@ targetData = {
   "Mutated jadinko guard": {
     "name": "Mutated jadinko guard",
     "id": 13821,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 96,
     "weakness": "Stabbing",
     "levels": {
@@ -30434,7 +30043,7 @@ targetData = {
   "Mutated jadinko male": {
     "name": "Mutated jadinko male",
     "id": 13822,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 100,
     "weakness": "Stabbing",
     "levels": {
@@ -30468,7 +30077,7 @@ targetData = {
   "Mage": {
     "name": "Mage",
     "id": 13835,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 30,
     "weakness": "Arrow",
     "levels": {
@@ -30500,7 +30109,7 @@ targetData = {
   "Red mage": {
     "name": "Red mage",
     "id": 13836,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 30,
     "weakness": "Arrow",
     "levels": {
@@ -30532,7 +30141,7 @@ targetData = {
   "Blue mage": {
     "name": "Blue mage",
     "id": 13837,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 30,
     "weakness": "Arrow",
     "levels": {
@@ -30564,7 +30173,7 @@ targetData = {
   "Red warrior": {
     "name": "Red warrior",
     "id": 13851,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "Fire",
     "levels": {
@@ -30596,7 +30205,7 @@ targetData = {
   "Blue warrior": {
     "name": "Blue warrior",
     "id": 13852,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 20,
     "weakness": "Fire",
     "levels": {
@@ -30628,7 +30237,7 @@ targetData = {
   "Ranger": {
     "name": "Ranger",
     "id": 13865,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 30,
     "weakness": "Slashing",
     "levels": {
@@ -30660,7 +30269,7 @@ targetData = {
   "Red ranger": {
     "name": "Red ranger",
     "id": 13866,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 30,
     "weakness": "Slashing",
     "levels": {
@@ -30692,7 +30301,7 @@ targetData = {
   "Blue ranger": {
     "name": "Blue ranger",
     "id": 13867,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 30,
     "weakness": "Slashing",
     "levels": {
@@ -30724,7 +30333,7 @@ targetData = {
   "Swamp snake": {
     "name": "Swamp snake",
     "id": 14023,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 42,
     "weakness": "Arrow",
     "levels": {
@@ -30758,7 +30367,7 @@ targetData = {
   "Giant snail": {
     "name": "Giant snail",
     "id": 14029,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Crushing",
     "levels": {
@@ -30792,7 +30401,7 @@ targetData = {
   "Juvinate": {
     "name": "Juvinate",
     "id": 14041,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Slashing",
     "levels": {
@@ -30826,7 +30435,7 @@ targetData = {
   "Angry juvinate": {
     "name": "Angry juvinate",
     "id": 14045,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "Slashing",
     "levels": {
@@ -30860,7 +30469,7 @@ targetData = {
   "Riyl shadow": {
     "name": "Riyl shadow",
     "id": 14052,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Fire",
     "levels": {
@@ -30894,7 +30503,7 @@ targetData = {
   "Asyn shadow": {
     "name": "Asyn shadow",
     "id": 14053,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -30928,7 +30537,7 @@ targetData = {
   "Held Vyrewatch": {
     "name": "Held Vyrewatch",
     "id": 14085,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -30961,7 +30570,7 @@ targetData = {
   "Vyrewatch guard": {
     "name": "Vyrewatch guard",
     "id": 14100,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "None",
     "levels": {
@@ -30993,7 +30602,7 @@ targetData = {
   "Held Vyrewatch guard": {
     "name": "Held Vyrewatch guard",
     "id": 14101,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 92,
     "weakness": "None",
     "levels": {
@@ -31025,7 +30634,7 @@ targetData = {
   "Captured Meiyerditch citizen": {
     "name": "Captured Meiyerditch citizen",
     "id": 14142,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -31057,7 +30666,7 @@ targetData = {
   "Harold": {
     "name": "Harold",
     "id": 14181,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -31089,7 +30698,7 @@ targetData = {
   "Bloodveld leecher": {
     "name": "Bloodveld leecher",
     "id": 14183,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -31121,7 +30730,7 @@ targetData = {
   "Enhanced ice titan": {
     "name": "Enhanced ice titan",
     "id": 14257,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -31155,7 +30764,7 @@ targetData = {
   "Akrisae the Doomed": {
     "name": "Akrisae the Doomed",
     "id": 14297,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 115,
     "weakness": "Bolt",
     "levels": {
@@ -31187,7 +30796,7 @@ targetData = {
   "Glacor": {
     "name": "Glacor",
     "id": 14301,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -31221,7 +30830,7 @@ targetData = {
   "Unstable glacyte": {
     "name": "Unstable glacyte",
     "id": 14302,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -31253,7 +30862,7 @@ targetData = {
   "Sapping glacyte": {
     "name": "Sapping glacyte",
     "id": 14303,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -31285,7 +30894,7 @@ targetData = {
   "Enduring glacyte": {
     "name": "Enduring glacyte",
     "id": 14304,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -31317,7 +30926,7 @@ targetData = {
   "Vorago": {
     "name": "Vorago",
     "id": 14416,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -31351,7 +30960,7 @@ targetData = {
   "Delrith": {
     "name": "Delrith",
     "id": 14578,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -31385,7 +30994,7 @@ targetData = {
   "Grifolapine": {
     "name": "Grifolapine",
     "id": 14688,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 103,
     "weakness": "Water",
     "levels": {
@@ -31418,7 +31027,7 @@ targetData = {
   "Fungal mage": {
     "name": "Fungal mage",
     "id": 14690,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 81,
     "weakness": "Air",
     "levels": {
@@ -31450,7 +31059,7 @@ targetData = {
   "Fungal rodent": {
     "name": "Fungal rodent",
     "id": 14692,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 26,
     "weakness": "Air",
     "levels": {
@@ -31482,7 +31091,7 @@ targetData = {
   "Grifolaroo": {
     "name": "Grifolaroo",
     "id": 14700,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 107,
     "weakness": "Earth",
     "levels": {
@@ -31515,7 +31124,7 @@ targetData = {
   "Char": {
     "name": "Char",
     "id": 14816,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -31549,7 +31158,7 @@ targetData = {
   "Sköll": {
     "name": "Sköll",
     "id": 14836,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -31582,7 +31191,7 @@ targetData = {
   "Gelatinous abomination": {
     "name": "Gelatinous abomination",
     "id": 14849,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 2,
     "weakness": "Arrow",
     "levels": {
@@ -31614,7 +31223,7 @@ targetData = {
   "Troll commando": {
     "name": "Troll commando",
     "id": 14926,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Air",
     "levels": {
@@ -31646,7 +31255,7 @@ targetData = {
   "Troll ranger commando": {
     "name": "Troll ranger commando",
     "id": 14927,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 5,
     "weakness": "Slashing",
     "levels": {
@@ -31678,7 +31287,7 @@ targetData = {
   "Troll mage commando": {
     "name": "Troll mage commando",
     "id": 14928,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 5,
     "weakness": "Arrow",
     "levels": {
@@ -31710,7 +31319,7 @@ targetData = {
   "Blood nihil": {
     "name": "Blood nihil",
     "id": 14939,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -31742,7 +31351,7 @@ targetData = {
   "Ice nihil": {
     "name": "Ice nihil",
     "id": 14941,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -31774,7 +31383,7 @@ targetData = {
   "Shadow nihil": {
     "name": "Shadow nihil",
     "id": 14942,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -31806,7 +31415,7 @@ targetData = {
   "Smoke nihil": {
     "name": "Smoke nihil",
     "id": 14943,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -31838,7 +31447,7 @@ targetData = {
   "Kal'gerion demon": {
     "name": "Kal'gerion demon",
     "id": 14973,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 126,
     "weakness": "None",
     "levels": {
@@ -31871,7 +31480,7 @@ targetData = {
   "Troll chucker": {
     "name": "Troll chucker",
     "id": 14981,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Stabbing",
     "levels": {
@@ -31903,7 +31512,7 @@ targetData = {
   "Troll shaman": {
     "name": "Troll shaman",
     "id": 14982,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -31935,7 +31544,7 @@ targetData = {
   "The Map": {
     "name": "The Map",
     "id": 15101,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 9,
     "weakness": "Water",
     "levels": {
@@ -31967,7 +31576,7 @@ targetData = {
   "LolthenKILL": {
     "name": "LolthenKILL",
     "id": 15172,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Arrow",
     "levels": {
@@ -32001,7 +31610,7 @@ targetData = {
   "Odischamp": {
     "name": "Odischamp",
     "id": 15173,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Arrow",
     "levels": {
@@ -32035,7 +31644,7 @@ targetData = {
   "Firecapezorz": {
     "name": "Firecapezorz",
     "id": 15174,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -32069,7 +31678,7 @@ targetData = {
   "NoRemorse77": {
     "name": "NoRemorse77",
     "id": 15175,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -32103,7 +31712,7 @@ targetData = {
   "FightpitPKer": {
     "name": "FightpitPKer",
     "id": 15176,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Stabbing",
     "levels": {
@@ -32137,7 +31746,7 @@ targetData = {
   "TzHaar-Ket (Hardened)": {
     "name": "TzHaar-Ket (Hardened)",
     "id": 15177,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -32171,7 +31780,7 @@ targetData = {
   "TzHaar-Xil (Hardened)": {
     "name": "TzHaar-Xil (Hardened)",
     "id": 15178,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -32205,7 +31814,7 @@ targetData = {
   "TzHaar-Ket-Yit'tal": {
     "name": "TzHaar-Ket-Yit'tal",
     "id": 15181,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -32239,7 +31848,7 @@ targetData = {
   "TokHaar-Xil": {
     "name": "TokHaar-Xil",
     "id": 15184,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 140,
     "weakness": "Crushing",
     "levels": {
@@ -32273,7 +31882,7 @@ targetData = {
   "TokHaar-Ket": {
     "name": "TokHaar-Ket",
     "id": 15186,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 180,
     "weakness": "Water",
     "levels": {
@@ -32307,7 +31916,7 @@ targetData = {
   "TokHaar-Ket Champion": {
     "name": "TokHaar-Ket Champion",
     "id": 15187,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -32341,7 +31950,7 @@ targetData = {
   "TokHaar-Tok-Xil": {
     "name": "TokHaar-Tok-Xil",
     "id": 15205,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 200,
     "weakness": "Crushing",
     "levels": {
@@ -32375,7 +31984,7 @@ targetData = {
   "TokHaar-Yt-MejKot": {
     "name": "TokHaar-Yt-MejKot",
     "id": 15206,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 300,
     "weakness": "Water",
     "levels": {
@@ -32409,7 +32018,7 @@ targetData = {
   "TokHaar-Ket-Zek": {
     "name": "TokHaar-Ket-Zek",
     "id": 15207,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 400,
     "weakness": "Bolt",
     "levels": {
@@ -32443,7 +32052,7 @@ targetData = {
   "TokHaar-Jad": {
     "name": "TokHaar-Jad",
     "id": 15208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 780,
     "weakness": "None",
     "levels": {
@@ -32477,7 +32086,7 @@ targetData = {
   "Har-Aken (Ranged Tentacle)": {
     "name": "Har-Aken (Ranged Tentacle)",
     "id": 15209,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 800,
     "weakness": "Slashing",
     "levels": {
@@ -32511,7 +32120,7 @@ targetData = {
   "Har-Aken (Magic Tentacle)": {
     "name": "Har-Aken (Magic Tentacle)",
     "id": 15210,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 800,
     "weakness": "Thrown",
     "levels": {
@@ -32545,7 +32154,7 @@ targetData = {
   "Har-Aken": {
     "name": "Har-Aken",
     "id": 15211,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 800,
     "weakness": "None",
     "levels": {
@@ -32579,7 +32188,7 @@ targetData = {
   "Sunfreet": {
     "name": "Sunfreet",
     "id": 15222,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -32613,7 +32222,7 @@ targetData = {
   "Ate all the pies": {
     "name": "Ate all the pies",
     "id": 15297,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 147,
     "weakness": "None",
     "levels": {
@@ -32647,7 +32256,7 @@ targetData = {
   "A face only his mum loves": {
     "name": "A face only his mum loves",
     "id": 15298,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -32681,7 +32290,7 @@ targetData = {
   "Derek": {
     "name": "Derek",
     "id": 15299,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -32715,7 +32324,7 @@ targetData = {
   "Crawly monster": {
     "name": "Crawly monster",
     "id": 15304,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -32749,7 +32358,7 @@ targetData = {
   "Huge troll": {
     "name": "Huge troll",
     "id": 15306,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -32783,7 +32392,7 @@ targetData = {
   "Pitiful zombie": {
     "name": "Pitiful zombie",
     "id": 15307,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -32817,7 +32426,7 @@ targetData = {
   "Young grotworm": {
     "name": "Young grotworm",
     "id": 15461,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 28,
     "weakness": "Bolt",
     "levels": {
@@ -32849,7 +32458,7 @@ targetData = {
   "Mature grotworm": {
     "name": "Mature grotworm",
     "id": 15463,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Bolt",
     "levels": {
@@ -32882,7 +32491,7 @@ targetData = {
   "Giant worm": {
     "name": "Giant worm",
     "id": 15464,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 72,
     "weakness": "Bolt",
     "levels": {
@@ -32914,7 +32523,7 @@ targetData = {
   "Flying leech": {
     "name": "Flying leech",
     "id": 15494,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -32948,7 +32557,7 @@ targetData = {
   "Alomone": {
     "name": "Alomone",
     "id": 15587,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -32982,7 +32591,7 @@ targetData = {
   "Cave Wolf Matriarch": {
     "name": "Cave Wolf Matriarch",
     "id": 15599,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -33016,7 +32625,7 @@ targetData = {
   "Juvenile wolf": {
     "name": "Juvenile wolf",
     "id": 15600,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "Air",
     "levels": {
@@ -33050,7 +32659,7 @@ targetData = {
   "Mercenary Joe": {
     "name": "Mercenary Joe",
     "id": 15897,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "None",
     "levels": {
@@ -33082,7 +32691,7 @@ targetData = {
   "Brokeface": {
     "name": "Brokeface",
     "id": 15953,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Water",
     "levels": {
@@ -33114,7 +32723,7 @@ targetData = {
   "Lumpnose": {
     "name": "Lumpnose",
     "id": 15954,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Stabbing",
     "levels": {
@@ -33146,7 +32755,7 @@ targetData = {
   "Stinkears": {
     "name": "Stinkears",
     "id": 15955,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -33178,7 +32787,7 @@ targetData = {
   "Goblin Raider": {
     "name": "Goblin Raider",
     "id": 15956,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -33210,7 +32819,7 @@ targetData = {
   "Hollowtoof": {
     "name": "Hollowtoof",
     "id": 15958,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -33242,7 +32851,7 @@ targetData = {
   "Morningstar": {
     "name": "Morningstar",
     "id": 15999,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "None",
     "levels": {
@@ -33276,7 +32885,7 @@ targetData = {
   "Training dummy": {
     "name": "Training dummy",
     "id": 16028,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -33308,7 +32917,7 @@ targetData = {
   "Skeletal mage": {
     "name": "Skeletal mage",
     "id": 16033,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "Arrow",
     "levels": {
@@ -33340,7 +32949,7 @@ targetData = {
   "Melee training dummy": {
     "name": "Melee training dummy",
     "id": 16034,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Air",
     "levels": {
@@ -33372,7 +32981,7 @@ targetData = {
   "Ranged training dummy": {
     "name": "Ranged training dummy",
     "id": 16038,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "Stabbing",
     "levels": {
@@ -33404,7 +33013,7 @@ targetData = {
   "Magic training dummy": {
     "name": "Magic training dummy",
     "id": 16041,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "Arrow",
     "levels": {
@@ -33436,7 +33045,7 @@ targetData = {
   "Skeletal peon": {
     "name": "Skeletal peon",
     "id": 16083,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 33,
     "weakness": "None",
     "levels": {
@@ -33468,7 +33077,7 @@ targetData = {
   "Skeletal juggernaut": {
     "name": "Skeletal juggernaut",
     "id": 16084,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -33500,7 +33109,7 @@ targetData = {
   "Torva": {
     "name": "Torva",
     "id": 16102,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "Fire",
     "levels": {
@@ -33534,7 +33143,7 @@ targetData = {
   "Pernix": {
     "name": "Pernix",
     "id": 16103,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 200,
     "weakness": "Slashing",
     "levels": {
@@ -33568,7 +33177,7 @@ targetData = {
   "Virtus": {
     "name": "Virtus",
     "id": 16104,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 200,
     "weakness": "Arrow",
     "levels": {
@@ -33602,7 +33211,7 @@ targetData = {
   "Spellwisp": {
     "name": "Spellwisp",
     "id": 16208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 18,
     "weakness": "Arrow",
     "levels": {
@@ -33634,7 +33243,7 @@ targetData = {
   "Tz-Kil": {
     "name": "Tz-Kil",
     "id": 16268,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 103,
     "weakness": "Bolt",
     "levels": {
@@ -33668,7 +33277,7 @@ targetData = {
   "Guthixian votary": {
     "name": "Guthixian votary",
     "id": 16681,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Arrow",
     "levels": {
@@ -33700,7 +33309,7 @@ targetData = {
   "Saradominist zealot": {
     "name": "Saradominist zealot",
     "id": 16682,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Arrow",
     "levels": {
@@ -33732,7 +33341,7 @@ targetData = {
   "Zamorakian fanatic": {
     "name": "Zamorakian fanatic",
     "id": 16683,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Arrow",
     "levels": {
@@ -33764,7 +33373,7 @@ targetData = {
   "Bandosian brawler": {
     "name": "Bandosian brawler",
     "id": 16684,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Arrow",
     "levels": {
@@ -33796,7 +33405,7 @@ targetData = {
   "Guthixian spirit": {
     "name": "Guthixian spirit",
     "id": 16685,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -33828,7 +33437,7 @@ targetData = {
   "Saradominist initiate": {
     "name": "Saradominist initiate",
     "id": 16686,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -33860,7 +33469,7 @@ targetData = {
   "Zamorakian marauder": {
     "name": "Zamorakian marauder",
     "id": 16687,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -33892,7 +33501,7 @@ targetData = {
   "Bandosian ogre": {
     "name": "Bandosian ogre",
     "id": 16688,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -33924,7 +33533,7 @@ targetData = {
   "Guthixian moss giant": {
     "name": "Guthixian moss giant",
     "id": 16689,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -33956,7 +33565,7 @@ targetData = {
   "Saradominist knight": {
     "name": "Saradominist knight",
     "id": 16690,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -33988,7 +33597,7 @@ targetData = {
   "Zamorakian werewolf": {
     "name": "Zamorakian werewolf",
     "id": 16691,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -34020,7 +33629,7 @@ targetData = {
   "Bandosian ork": {
     "name": "Bandosian ork",
     "id": 16692,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -34052,7 +33661,7 @@ targetData = {
   "Guthixian druid": {
     "name": "Guthixian druid",
     "id": 16693,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Water",
     "levels": {
@@ -34084,7 +33693,7 @@ targetData = {
   "Saradominist magister": {
     "name": "Saradominist magister",
     "id": 16694,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Water",
     "levels": {
@@ -34116,7 +33725,7 @@ targetData = {
   "Bandosian shaman": {
     "name": "Bandosian shaman",
     "id": 16696,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Water",
     "levels": {
@@ -34148,7 +33757,7 @@ targetData = {
   "Kalphite King": {
     "name": "Kalphite King",
     "id": 16697,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2500,
     "weakness": "Fire",
     "levels": {
@@ -34182,7 +33791,7 @@ targetData = {
   "Exiled kalphite worker": {
     "name": "Exiled kalphite worker",
     "id": 16700,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -34214,7 +33823,7 @@ targetData = {
   "Exiled kalphite soldier": {
     "name": "Exiled kalphite soldier",
     "id": 16703,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Water",
     "levels": {
@@ -34246,7 +33855,7 @@ targetData = {
   "Exiled kalphite paragon": {
     "name": "Exiled kalphite paragon",
     "id": 16704,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -34278,7 +33887,7 @@ targetData = {
   "Exiled kalphite guardian": {
     "name": "Exiled kalphite guardian",
     "id": 16705,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Water",
     "levels": {
@@ -34310,7 +33919,7 @@ targetData = {
   "Exiled kalphite marauder": {
     "name": "Exiled kalphite marauder",
     "id": 16706,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Arrow",
     "levels": {
@@ -34342,7 +33951,7 @@ targetData = {
   "Exiled Kalphite Queen": {
     "name": "Exiled Kalphite Queen",
     "id": 16707,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 356,
     "weakness": "None",
     "levels": {
@@ -34376,7 +33985,7 @@ targetData = {
   "Imp herald": {
     "name": "Imp herald",
     "id": 16726,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Bolt",
     "levels": {
@@ -34408,7 +34017,7 @@ targetData = {
   "Demon boss": {
     "name": "Demon boss",
     "id": 16732,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -34441,7 +34050,7 @@ targetData = {
   "Automaton Generator": {
     "name": "Automaton Generator",
     "id": 16905,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -34473,7 +34082,7 @@ targetData = {
   "Automaton Tracer": {
     "name": "Automaton Tracer",
     "id": 16906,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -34505,7 +34114,7 @@ targetData = {
   "Automaton Guardian": {
     "name": "Automaton Guardian",
     "id": 16907,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -34537,7 +34146,7 @@ targetData = {
   "Ghostly wraith": {
     "name": "Ghostly wraith",
     "id": 17011,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 46,
     "weakness": "Thrown",
     "levels": {
@@ -34569,7 +34178,7 @@ targetData = {
   "Skeleton bone thrower": {
     "name": "Skeleton bone thrower",
     "id": 17012,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 46,
     "weakness": "Crushing",
     "levels": {
@@ -34601,7 +34210,7 @@ targetData = {
   "Dark portal": {
     "name": "Dark portal",
     "id": 17014,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -34632,7 +34241,7 @@ targetData = {
   "Decaying portal": {
     "name": "Decaying portal",
     "id": 17015,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -34663,7 +34272,7 @@ targetData = {
   "Enakhra": {
     "name": "Enakhra",
     "id": 17026,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -34695,7 +34304,7 @@ targetData = {
   "Saradominist thaumaturge": {
     "name": "Saradominist thaumaturge",
     "id": 17066,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -34729,7 +34338,7 @@ targetData = {
   "Saradominist enforcer": {
     "name": "Saradominist enforcer",
     "id": 17067,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -34763,7 +34372,7 @@ targetData = {
   "Saradominist scout": {
     "name": "Saradominist scout",
     "id": 17068,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Slashing",
     "levels": {
@@ -34797,7 +34406,7 @@ targetData = {
   "Saradominist sergeant": {
     "name": "Saradominist sergeant",
     "id": 17069,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -34830,7 +34439,7 @@ targetData = {
   "Zamorakian occultist": {
     "name": "Zamorakian occultist",
     "id": 17070,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -34864,7 +34473,7 @@ targetData = {
   "Zamorakian blackguard": {
     "name": "Zamorakian blackguard",
     "id": 17071,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -34898,7 +34507,7 @@ targetData = {
   "Zamorakian bandit": {
     "name": "Zamorakian bandit",
     "id": 17072,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Slashing",
     "levels": {
@@ -34932,7 +34541,7 @@ targetData = {
   "Zamorakian demon lord": {
     "name": "Zamorakian demon lord",
     "id": 17073,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -34965,7 +34574,7 @@ targetData = {
   "Armadylean shaman": {
     "name": "Armadylean shaman",
     "id": 17074,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -34999,7 +34608,7 @@ targetData = {
   "Armadylean myrmidon": {
     "name": "Armadylean myrmidon",
     "id": 17075,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -35033,7 +34642,7 @@ targetData = {
   "Armadylean skirmisher": {
     "name": "Armadylean skirmisher",
     "id": 17076,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Slashing",
     "levels": {
@@ -35067,7 +34676,7 @@ targetData = {
   "Armadylean archon": {
     "name": "Armadylean archon",
     "id": 17077,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -35100,7 +34709,7 @@ targetData = {
   "Bandosian wild mage": {
     "name": "Bandosian wild mage",
     "id": 17078,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "Arrow",
     "levels": {
@@ -35134,7 +34743,7 @@ targetData = {
   "Bandosian reaver": {
     "name": "Bandosian reaver",
     "id": 17079,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -35168,7 +34777,7 @@ targetData = {
   "Bandosian hunter": {
     "name": "Bandosian hunter",
     "id": 17080,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 84,
     "weakness": "Slashing",
     "levels": {
@@ -35202,7 +34811,7 @@ targetData = {
   "Bandosian warlord": {
     "name": "Bandosian warlord",
     "id": 17081,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -35235,7 +34844,7 @@ targetData = {
   "Rorarius": {
     "name": "Rorarius",
     "id": 17144,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -35267,7 +34876,7 @@ targetData = {
   "Gladius": {
     "name": "Gladius",
     "id": 17145,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -35299,7 +34908,7 @@ targetData = {
   "Capsarius": {
     "name": "Capsarius",
     "id": 17146,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -35331,7 +34940,7 @@ targetData = {
   "Scutarius": {
     "name": "Scutarius",
     "id": 17147,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -35363,7 +34972,7 @@ targetData = {
   "Legio Primus": {
     "name": "Legio Primus",
     "id": 17149,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35395,7 +35004,7 @@ targetData = {
   "Legio Secundus": {
     "name": "Legio Secundus",
     "id": 17150,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35427,7 +35036,7 @@ targetData = {
   "Legio Tertius": {
     "name": "Legio Tertius",
     "id": 17151,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35459,7 +35068,7 @@ targetData = {
   "Legio Quartus": {
     "name": "Legio Quartus",
     "id": 17152,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35491,7 +35100,7 @@ targetData = {
   "Legio Quintus": {
     "name": "Legio Quintus",
     "id": 17153,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35523,7 +35132,7 @@ targetData = {
   "Legio Sextus": {
     "name": "Legio Sextus",
     "id": 17154,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 304,
     "weakness": "None",
     "levels": {
@@ -35555,7 +35164,7 @@ targetData = {
   "Vitalis": {
     "name": "Vitalis",
     "id": 17157,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 130,
     "weakness": "None",
     "levels": {
@@ -35589,7 +35198,7 @@ targetData = {
   "Stone clone": {
     "name": "Stone clone",
     "id": 17158,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "Fire",
     "levels": {
@@ -35623,7 +35232,7 @@ targetData = {
   "Scopulus": {
     "name": "Scopulus",
     "id": 17185,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -35657,7 +35266,7 @@ targetData = {
   "Snowverload": {
     "name": "Snowverload",
     "id": 17208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -35691,7 +35300,7 @@ targetData = {
   "Chaos Grimsson": {
     "name": "Chaos Grimsson",
     "id": 17227,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -35724,7 +35333,7 @@ targetData = {
   "Chaos Hreidmar": {
     "name": "Chaos Hreidmar",
     "id": 17231,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -35757,7 +35366,7 @@ targetData = {
   "Dawn": {
     "name": "Dawn",
     "id": 17245,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -35789,7 +35398,7 @@ targetData = {
   "Skeleton mage": {
     "name": "Skeleton mage",
     "id": 17248,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -35821,7 +35430,7 @@ targetData = {
   "Dragon-hunter warrior": {
     "name": "Dragon-hunter warrior",
     "id": 17252,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 94,
     "weakness": "Air",
     "levels": {
@@ -35853,7 +35462,7 @@ targetData = {
   "Dragon-hunter mage": {
     "name": "Dragon-hunter mage",
     "id": 17253,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 92,
     "weakness": "Arrow",
     "levels": {
@@ -35885,7 +35494,7 @@ targetData = {
   "Dragon-hunter archer": {
     "name": "Dragon-hunter archer",
     "id": 17254,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 93,
     "weakness": "Stabbing",
     "levels": {
@@ -35917,7 +35526,7 @@ targetData = {
   "Echo of Jas": {
     "name": "Echo of Jas",
     "id": 17256,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 133,
     "weakness": "None",
     "levels": {
@@ -35949,7 +35558,7 @@ targetData = {
   "False user": {
     "name": "False user",
     "id": 17257,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -35981,7 +35590,7 @@ targetData = {
   "Lol": {
     "name": "Lol",
     "id": 17269,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 110,
     "weakness": "None",
     "levels": {
@@ -36013,7 +35622,7 @@ targetData = {
   "Wahisietel": {
     "name": "Wahisietel",
     "id": 17275,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -36047,7 +35656,7 @@ targetData = {
   "Mutant Tarn": {
     "name": "Mutant Tarn",
     "id": 17317,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 79,
     "weakness": "None",
     "levels": {
@@ -36081,7 +35690,7 @@ targetData = {
   "Giant roc": {
     "name": "Giant roc",
     "id": 17340,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -36115,7 +35724,7 @@ targetData = {
   "Pig": {
     "name": "Pig",
     "id": 17393,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Earth",
     "levels": {
@@ -36147,7 +35756,7 @@ targetData = {
   "Spirit war pig": {
     "name": "Spirit war pig",
     "id": 17400,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 17,
     "weakness": "None",
     "levels": {
@@ -36181,7 +35790,7 @@ targetData = {
   "Spirit pack pig": {
     "name": "Spirit pack pig",
     "id": 17402,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 17,
     "weakness": "None",
     "levels": {
@@ -36215,7 +35824,7 @@ targetData = {
   "Spirit prayer pig": {
     "name": "Spirit prayer pig",
     "id": 17404,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 17,
     "weakness": "None",
     "levels": {
@@ -36249,7 +35858,7 @@ targetData = {
   "Mod Drebin's clone": {
     "name": "Mod Drebin's clone",
     "id": 17463,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36283,7 +35892,7 @@ targetData = {
   "Mod Rocket's clone": {
     "name": "Mod Rocket's clone",
     "id": 17464,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36317,7 +35926,7 @@ targetData = {
   "Mod Daezhun's clone": {
     "name": "Mod Daezhun's clone",
     "id": 17465,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -36351,7 +35960,7 @@ targetData = {
   "Mod Moltare's clone": {
     "name": "Mod Moltare's clone",
     "id": 17466,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36385,7 +35994,7 @@ targetData = {
   "Mod Raven's clone": {
     "name": "Mod Raven's clone",
     "id": 17467,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -36419,7 +36028,7 @@ targetData = {
   "Mod Crow's clone": {
     "name": "Mod Crow's clone",
     "id": 17468,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -36453,7 +36062,7 @@ targetData = {
   "Mod Sabre's clone": {
     "name": "Mod Sabre's clone",
     "id": 17469,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -36487,7 +36096,7 @@ targetData = {
   "Mod Sushi Pi's clone": {
     "name": "Mod Sushi Pi's clone",
     "id": 17470,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36521,7 +36130,7 @@ targetData = {
   "Mod Jane's clone": {
     "name": "Mod Jane's clone",
     "id": 17471,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36555,7 +36164,7 @@ targetData = {
   "Mod Michelle's clone": {
     "name": "Mod Michelle's clone",
     "id": 17472,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36589,7 +36198,7 @@ targetData = {
   "Saradominist sharpshooter": {
     "name": "Saradominist sharpshooter",
     "id": 17524,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -36623,7 +36232,7 @@ targetData = {
   "Zamorakian sharpshooter": {
     "name": "Zamorakian sharpshooter",
     "id": 17525,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -36657,7 +36266,7 @@ targetData = {
   "Saradominist minelayer": {
     "name": "Saradominist minelayer",
     "id": 17528,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36691,7 +36300,7 @@ targetData = {
   "Zamorakian minelayer": {
     "name": "Zamorakian minelayer",
     "id": 17529,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36725,7 +36334,7 @@ targetData = {
   "Saradominist rogue": {
     "name": "Saradominist rogue",
     "id": 17530,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36759,7 +36368,7 @@ targetData = {
   "Zamorakian rogue": {
     "name": "Zamorakian rogue",
     "id": 17531,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36793,7 +36402,7 @@ targetData = {
   "Saradominist gatherer": {
     "name": "Saradominist gatherer",
     "id": 17532,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36827,7 +36436,7 @@ targetData = {
   "Zamorakian gatherer": {
     "name": "Zamorakian gatherer",
     "id": 17533,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36861,7 +36470,7 @@ targetData = {
   "Saradominist field medic": {
     "name": "Saradominist field medic",
     "id": 17534,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -36895,7 +36504,7 @@ targetData = {
   "Zamorakian field medic": {
     "name": "Zamorakian field medic",
     "id": 17536,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -36929,7 +36538,7 @@ targetData = {
   "Head Mourner": {
     "name": "Head Mourner",
     "id": 17551,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "Fire",
     "levels": {
@@ -36961,7 +36570,7 @@ targetData = {
   "Saradominist crusader": {
     "name": "Saradominist crusader",
     "id": 17580,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -36995,7 +36604,7 @@ targetData = {
   "Saradominist ranger": {
     "name": "Saradominist ranger",
     "id": 17582,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -37029,7 +36638,7 @@ targetData = {
   "Saradominist sage": {
     "name": "Saradominist sage",
     "id": 17585,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -37063,7 +36672,7 @@ targetData = {
   "Zamorakian footsoldier": {
     "name": "Zamorakian footsoldier",
     "id": 17590,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -37097,7 +36706,7 @@ targetData = {
   "Zamorakian sniper": {
     "name": "Zamorakian sniper",
     "id": 17591,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -37131,7 +36740,7 @@ targetData = {
   "Saradominist champion": {
     "name": "Saradominist champion",
     "id": 17599,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37163,7 +36772,7 @@ targetData = {
   "Zamorakian champion": {
     "name": "Zamorakian champion",
     "id": 17600,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37195,7 +36804,7 @@ targetData = {
   "Saradominist prideleader": {
     "name": "Saradominist prideleader",
     "id": 17601,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37229,7 +36838,7 @@ targetData = {
   "Zamorakian butcher demon": {
     "name": "Zamorakian butcher demon",
     "id": 17603,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37263,7 +36872,7 @@ targetData = {
   "Zamorakian siege beast": {
     "name": "Zamorakian siege beast",
     "id": 17604,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37297,7 +36906,7 @@ targetData = {
   "Saradominist colossus": {
     "name": "Saradominist colossus",
     "id": 17606,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37331,7 +36940,7 @@ targetData = {
   "Sir Owen": {
     "name": "Sir Owen",
     "id": 18030,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37363,7 +36972,7 @@ targetData = {
   "Fern": {
     "name": "Fern",
     "id": 18087,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "levels": {
       "attack": 1,
@@ -37394,7 +37003,7 @@ targetData = {
   "Black Knight zombie": {
     "name": "Black Knight zombie",
     "id": 18089,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37426,7 +37035,7 @@ targetData = {
   "Ikadia the Exile": {
     "name": "Ikadia the Exile",
     "id": 18320,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 126,
     "weakness": "Arrow",
     "levels": {
@@ -37458,7 +37067,7 @@ targetData = {
   "Chaos Giant": {
     "name": "Chaos Giant",
     "id": 18373,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 126,
     "weakness": "Stabbing",
     "levels": {
@@ -37491,7 +37100,7 @@ targetData = {
   "Colonel Grimsson (holding)": {
     "name": "Colonel Grimsson (holding)",
     "id": 18384,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 107,
     "weakness": "None",
     "levels": {
@@ -37523,7 +37132,7 @@ targetData = {
   "Wight": {
     "name": "Wight",
     "id": 18467,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Air",
     "levels": {
@@ -37555,7 +37164,7 @@ targetData = {
   "Wight footsoldier": {
     "name": "Wight footsoldier",
     "id": 18496,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -37587,7 +37196,7 @@ targetData = {
   "Wight ranger": {
     "name": "Wight ranger",
     "id": 18497,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Slashing",
     "levels": {
@@ -37619,7 +37228,7 @@ targetData = {
   "Morwenna the Cruel": {
     "name": "Morwenna the Cruel",
     "id": 18593,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 2,
     "weakness": "None",
     "levels": {
@@ -37651,7 +37260,7 @@ targetData = {
   "Airut": {
     "name": "Airut",
     "id": 18621,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "None",
     "levels": {
@@ -37683,7 +37292,7 @@ targetData = {
   "Armadylean caravan": {
     "name": "Armadylean caravan",
     "id": 18624,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Air",
     "levels": {
@@ -37715,7 +37324,7 @@ targetData = {
   "Bandosian caravan": {
     "name": "Bandosian caravan",
     "id": 18647,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Air",
     "levels": {
@@ -37747,7 +37356,7 @@ targetData = {
   "Godless ambusher": {
     "name": "Godless ambusher",
     "id": 18673,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "Fire",
     "levels": {
@@ -37779,7 +37388,7 @@ targetData = {
   "Local defender": {
     "name": "Local defender",
     "id": 18742,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Air",
     "levels": {
@@ -37811,7 +37420,7 @@ targetData = {
   "Armadylean golem": {
     "name": "Armadylean golem",
     "id": 18748,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37845,7 +37454,7 @@ targetData = {
   "Bandosian golem": {
     "name": "Bandosian golem",
     "id": 18749,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -37879,7 +37488,7 @@ targetData = {
   "Armadylean battle-mage": {
     "name": "Armadylean battle-mage",
     "id": 18790,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -37911,7 +37520,7 @@ targetData = {
   "Bandosian battle-mage": {
     "name": "Bandosian battle-mage",
     "id": 18796,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Arrow",
     "levels": {
@@ -37943,7 +37552,7 @@ targetData = {
   "Giant mole": {
     "name": "Giant mole",
     "id": 18932,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 230,
     "weakness": "None",
     "levels": {
@@ -37975,7 +37584,7 @@ targetData = {
   "Mole": {
     "name": "Mole",
     "id": 18936,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 58,
     "weakness": "None",
     "levels": {
@@ -38007,7 +37616,7 @@ targetData = {
   "Baby mole": {
     "name": "Baby mole",
     "id": 18938,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -38039,7 +37648,7 @@ targetData = {
   "Celestial dragon": {
     "name": "Celestial dragon",
     "id": 19109,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 127,
     "weakness": "Arrow",
     "levels": {
@@ -38072,7 +37681,7 @@ targetData = {
   "False User": {
     "name": "False User",
     "id": 19115,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7,
     "weakness": "Arrow",
     "levels": {
@@ -38104,7 +37713,7 @@ targetData = {
   "Throwing muspah": {
     "name": "Throwing muspah",
     "id": 19150,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -38136,7 +37745,7 @@ targetData = {
   "Force muspah": {
     "name": "Force muspah",
     "id": 19151,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -38168,7 +37777,7 @@ targetData = {
   "Bladed muspah": {
     "name": "Bladed muspah",
     "id": 19152,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -38200,7 +37809,7 @@ targetData = {
   "Chain": {
     "name": "Chain",
     "id": 19279,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -38231,7 +37840,7 @@ targetData = {
   "Gorilla guard": {
     "name": "Gorilla guard",
     "id": 19281,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "Earth",
     "levels": {
@@ -38265,7 +37874,7 @@ targetData = {
   "Monkey minion": {
     "name": "Monkey minion",
     "id": 19282,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 12,
     "weakness": "Earth",
     "levels": {
@@ -38299,7 +37908,7 @@ targetData = {
   "Sewer rat": {
     "name": "Sewer rat",
     "id": 19311,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2,
     "weakness": "Earth",
     "levels": {
@@ -38331,7 +37940,7 @@ targetData = {
   "Agoroth": {
     "name": "Agoroth",
     "id": 19332,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -38363,7 +37972,7 @@ targetData = {
   "Yelps": {
     "name": "Yelps",
     "id": 19357,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -38395,7 +38004,7 @@ targetData = {
   "Yelps's bodyguard": {
     "name": "Yelps's bodyguard",
     "id": 19358,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -38427,7 +38036,7 @@ targetData = {
   "Human infiltrator": {
     "name": "Human infiltrator",
     "id": 19361,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Water",
     "levels": {
@@ -38459,7 +38068,7 @@ targetData = {
   "Bladed spider": {
     "name": "Bladed spider",
     "id": 19458,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -38493,7 +38102,7 @@ targetData = {
   "Imbued spider": {
     "name": "Imbued spider",
     "id": 19459,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -38527,7 +38136,7 @@ targetData = {
   "Spitting spider": {
     "name": "Spitting spider",
     "id": 19460,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -38561,7 +38170,7 @@ targetData = {
   "Araxxi": {
     "name": "Araxxi",
     "id": 19464,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 3000,
     "weakness": "None",
     "levels": {
@@ -38595,7 +38204,7 @@ targetData = {
   "Mirrorback spider": {
     "name": "Mirrorback spider",
     "id": 19468,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -38629,7 +38238,7 @@ targetData = {
   "Pulsing spider": {
     "name": "Pulsing spider",
     "id": 19469,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -38663,7 +38272,7 @@ targetData = {
   "Cultist": {
     "name": "Cultist",
     "id": 19506,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -38695,7 +38304,7 @@ targetData = {
   "Sir Hugo": {
     "name": "Sir Hugo",
     "id": 19545,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 107,
     "weakness": "Air",
     "levels": {
@@ -38727,7 +38336,7 @@ targetData = {
   "Greater shadow": {
     "name": "Greater shadow",
     "id": 19551,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "Fire",
     "levels": {
@@ -38760,7 +38369,7 @@ targetData = {
   "Dark Lord": {
     "name": "Dark Lord",
     "id": 19553,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 107,
     "weakness": "Fire",
     "levels": {
@@ -38793,7 +38402,7 @@ targetData = {
   "Elf": {
     "name": "Elf",
     "id": 19622,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 79,
     "weakness": "Fire",
     "levels": {
@@ -38825,7 +38434,7 @@ targetData = {
   "Penance King": {
     "name": "Penance King",
     "id": 19670,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -38857,7 +38466,7 @@ targetData = {
   "King spawn": {
     "name": "King spawn",
     "id": 19672,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 69,
     "weakness": "None",
     "levels": {
@@ -38889,7 +38498,7 @@ targetData = {
   "Ospawn": {
     "name": "Ospawn",
     "id": 19673,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 69,
     "weakness": "None",
     "levels": {
@@ -38921,7 +38530,7 @@ targetData = {
   "Cadarn ranger": {
     "name": "Cadarn ranger",
     "id": 19814,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 122,
     "weakness": "Slashing",
     "levels": {
@@ -38954,7 +38563,7 @@ targetData = {
   "Cadarn magus": {
     "name": "Cadarn magus",
     "id": 19818,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 122,
     "weakness": "Arrow",
     "levels": {
@@ -38987,7 +38596,7 @@ targetData = {
   "Iorwerth guard": {
     "name": "Iorwerth guard",
     "id": 19877,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "Fire",
     "levels": {
@@ -39019,7 +38628,7 @@ targetData = {
   "Trahaearn automaton mk I": {
     "name": "Trahaearn automaton mk I",
     "id": 20096,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Arrow",
     "levels": {
@@ -39051,7 +38660,7 @@ targetData = {
   "Trahaearn automaton mk II": {
     "name": "Trahaearn automaton mk II",
     "id": 20097,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Crushing",
     "levels": {
@@ -39083,7 +38692,7 @@ targetData = {
   "Trahaearn automaton mk III": {
     "name": "Trahaearn automaton mk III",
     "id": 20098,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Thrown",
     "levels": {
@@ -39115,7 +38724,7 @@ targetData = {
   "Trahaearn automaton mk IV": {
     "name": "Trahaearn automaton mk IV",
     "id": 20099,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Water",
     "levels": {
@@ -39147,7 +38756,7 @@ targetData = {
   "Truthful shadow": {
     "name": "Truthful shadow",
     "id": 20265,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -39179,7 +38788,7 @@ targetData = {
   "Blissful shadow": {
     "name": "Blissful shadow",
     "id": 20266,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Fire",
     "levels": {
@@ -39211,7 +38820,7 @@ targetData = {
   "Manifest shadow": {
     "name": "Manifest shadow",
     "id": 20267,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 126,
     "weakness": "Fire",
     "levels": {
@@ -39243,7 +38852,7 @@ targetData = {
   "FulKra's attendant": {
     "name": "FulKra's attendant",
     "id": 20367,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 44,
     "weakness": "Air",
     "levels": {
@@ -39275,7 +38884,7 @@ targetData = {
   "BikKra's attendant": {
     "name": "BikKra's attendant",
     "id": 20369,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Air",
     "levels": {
@@ -39307,7 +38916,7 @@ targetData = {
   "Unstable attendant": {
     "name": "Unstable attendant",
     "id": 20370,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 31,
     "weakness": "Air",
     "levels": {
@@ -39339,7 +38948,7 @@ targetData = {
   "Prehistoric abyssal": {
     "name": "Prehistoric abyssal",
     "id": 20374,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "Air",
     "levels": {
@@ -39371,7 +38980,7 @@ targetData = {
   "Dominion wizard": {
     "name": "Dominion wizard",
     "id": 20431,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 76,
     "weakness": "None",
     "levels": {
@@ -39403,7 +39012,7 @@ targetData = {
   "Dwarven Challenge Barrel": {
     "name": "Dwarven Challenge Barrel",
     "id": 20516,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39435,7 +39044,7 @@ targetData = {
   "Lesser demon brawler": {
     "name": "Lesser demon brawler",
     "id": 20612,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 97,
     "weakness": "None",
     "levels": {
@@ -39469,7 +39078,7 @@ targetData = {
   "Lesser demon executioner": {
     "name": "Lesser demon executioner",
     "id": 20614,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 97,
     "weakness": "None",
     "levels": {
@@ -39503,7 +39112,7 @@ targetData = {
   "Lesser demon deacon": {
     "name": "Lesser demon deacon",
     "id": 20616,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 97,
     "weakness": "None",
     "levels": {
@@ -39537,7 +39146,7 @@ targetData = {
   "Lava strykewyrm": {
     "name": "Lava strykewyrm",
     "id": 20630,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 115,
     "weakness": "None",
     "levels": {
@@ -39571,7 +39180,7 @@ targetData = {
   "Hazeel apparition": {
     "name": "Hazeel apparition",
     "id": 20723,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39605,7 +39214,7 @@ targetData = {
   "General Khazard apparition": {
     "name": "General Khazard apparition",
     "id": 20724,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39639,7 +39248,7 @@ targetData = {
   "Lord Daquarius apparition": {
     "name": "Lord Daquarius apparition",
     "id": 20725,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39673,7 +39282,7 @@ targetData = {
   "Nomad apparition": {
     "name": "Nomad apparition",
     "id": 20726,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39707,7 +39316,7 @@ targetData = {
   "Moia apparition": {
     "name": "Moia apparition",
     "id": 20727,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39741,7 +39350,7 @@ targetData = {
   "Jerrod apparition": {
     "name": "Jerrod apparition",
     "id": 20728,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39775,7 +39384,7 @@ targetData = {
   "Enakhra apparition": {
     "name": "Enakhra apparition",
     "id": 20729,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39809,7 +39418,7 @@ targetData = {
   "Zemouregal apparition": {
     "name": "Zemouregal apparition",
     "id": 20730,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -39843,7 +39452,7 @@ targetData = {
   "Foreshadow": {
     "name": "Foreshadow",
     "id": 20739,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -39877,7 +39486,7 @@ targetData = {
   "Inner demon": {
     "name": "Inner demon",
     "id": 20742,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -39911,7 +39520,7 @@ targetData = {
   "Jonny the Beard": {
     "name": "Jonny the Beard",
     "id": 20803,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -39945,7 +39554,7 @@ targetData = {
   "New Varrock guard": {
     "name": "New Varrock guard",
     "id": 20892,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 56,
     "weakness": "None",
     "levels": {
@@ -39977,7 +39586,7 @@ targetData = {
   "Protection portal": {
     "name": "Protection portal",
     "id": 20905,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -40008,7 +39617,7 @@ targetData = {
   "New Varrock guard captain": {
     "name": "New Varrock guard captain",
     "id": 20911,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "None",
     "levels": {
@@ -40040,7 +39649,7 @@ targetData = {
   "Timid jadinko": {
     "name": "Timid jadinko",
     "id": 20961,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 14,
     "weakness": "None",
     "levels": {
@@ -40072,7 +39681,7 @@ targetData = {
   "Tenacious jadinko": {
     "name": "Tenacious jadinko",
     "id": 20962,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -40104,7 +39713,7 @@ targetData = {
   "Stalwart jadinko": {
     "name": "Stalwart jadinko",
     "id": 20963,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -40136,7 +39745,7 @@ targetData = {
   "Brutish jadinko": {
     "name": "Brutish jadinko",
     "id": 20964,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -40168,7 +39777,7 @@ targetData = {
   "Ferocious jadinko": {
     "name": "Ferocious jadinko",
     "id": 20965,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -40200,7 +39809,7 @@ targetData = {
   "Fragmented Spirit": {
     "name": "Fragmented Spirit",
     "id": 21024,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Fire",
     "levels": {
@@ -40234,7 +39843,7 @@ targetData = {
   "Airut Brawler": {
     "name": "Airut Brawler",
     "id": 21051,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "None",
     "levels": {
@@ -40266,7 +39875,7 @@ targetData = {
   "Airut Ranger": {
     "name": "Airut Ranger",
     "id": 21052,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 122,
     "weakness": "None",
     "levels": {
@@ -40298,7 +39907,7 @@ targetData = {
   "Airut Grunt": {
     "name": "Airut Grunt",
     "id": 21053,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 108,
     "weakness": "None",
     "levels": {
@@ -40330,7 +39939,7 @@ targetData = {
   "Airut Scout": {
     "name": "Airut Scout",
     "id": 21054,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 108,
     "weakness": "None",
     "levels": {
@@ -40362,7 +39971,7 @@ targetData = {
   "Airut Champion": {
     "name": "Airut Champion",
     "id": 21055,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 127,
     "weakness": "None",
     "levels": {
@@ -40394,7 +40003,7 @@ targetData = {
   "Strange insect": {
     "name": "Strange insect",
     "id": 21072,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -40426,7 +40035,7 @@ targetData = {
   "Reborn Phoenix": {
     "name": "Reborn Phoenix",
     "id": 21093,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 100,
     "weakness": "None",
     "levels": {
@@ -40460,7 +40069,7 @@ targetData = {
   "Parasite": {
     "name": "Parasite",
     "id": 21105,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "Water",
     "levels": {
@@ -40489,42 +40098,10 @@ targetData = {
       "ranged": 44
     }
   },
-  "Tentacle": {
-    "name": "Tentacle",
-    "id": 21120,
-    "combatStyle": "Magic",
-    "combatLevel": 0,
-    "weakness": "Arrow",
-    "levels": {
-      "attack": 1,
-      "defence": 3,
-      "magic": 3,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "magic": 268,
-      "armour": 130
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 52,
-      "magic": 52,
-      "ranged": 44
-    }
-  },
   "Jeroen": {
     "name": "Jeroen",
     "id": 21130,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "Fire",
     "levels": {
@@ -40556,7 +40133,7 @@ targetData = {
   "Adamant dragon": {
     "name": "Adamant dragon",
     "id": 21135,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 116,
     "weakness": "Air",
     "levels": {
@@ -40590,7 +40167,7 @@ targetData = {
   "Rune dragon": {
     "name": "Rune dragon",
     "id": 21136,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 127,
     "weakness": "None",
     "levels": {
@@ -40624,7 +40201,7 @@ targetData = {
   "Elite rune dragon": {
     "name": "Elite rune dragon",
     "id": 21138,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 130,
     "weakness": "None",
     "levels": {
@@ -40658,7 +40235,7 @@ targetData = {
   "Clawdia": {
     "name": "Clawdia",
     "id": 21156,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 250,
     "weakness": "None",
     "levels": {
@@ -40692,7 +40269,7 @@ targetData = {
   "Tarshak": {
     "name": "Tarshak",
     "id": 21203,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -40726,7 +40303,7 @@ targetData = {
   "Ragged Abomination": {
     "name": "Ragged Abomination",
     "id": 21208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -40760,7 +40337,7 @@ targetData = {
   "Beastmaster Durzag": {
     "name": "Beastmaster Durzag",
     "id": 21335,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2000,
     "weakness": "None",
     "levels": {
@@ -40794,7 +40371,7 @@ targetData = {
   "Tuz": {
     "name": "Tuz",
     "id": 21336,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 900,
     "weakness": "Bolt",
     "levels": {
@@ -40828,7 +40405,7 @@ targetData = {
   "Krar": {
     "name": "Krar",
     "id": 21337,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 900,
     "weakness": "Water",
     "levels": {
@@ -40862,7 +40439,7 @@ targetData = {
   "Charger": {
     "name": "Charger",
     "id": 21343,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "Crushing",
     "levels": {
@@ -40895,7 +40472,7 @@ targetData = {
   "Yakamaru": {
     "name": "Yakamaru",
     "id": 21348,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -40929,7 +40506,7 @@ targetData = {
   "Yakamaru (Melee)": {
     "name": "Yakamaru (Melee)",
     "id": 21349,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -40963,7 +40540,7 @@ targetData = {
   "Yakamaru (Ranged)": {
     "name": "Yakamaru (Ranged)",
     "id": 21350,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -40997,7 +40574,7 @@ targetData = {
   "Yakamaru (Magic)": {
     "name": "Yakamaru (Magic)",
     "id": 21351,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41031,7 +40608,7 @@ targetData = {
   "Image of Yakamaru": {
     "name": "Image of Yakamaru",
     "id": 21352,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41065,7 +40642,7 @@ targetData = {
   "Image of Yakamaru (Melee)": {
     "name": "Image of Yakamaru (Melee)",
     "id": 21353,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41099,7 +40676,7 @@ targetData = {
   "Image of Yakamaru (Magic)": {
     "name": "Image of Yakamaru (Magic)",
     "id": 21354,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41133,7 +40710,7 @@ targetData = {
   "Image of Yakamaru (Ranged)": {
     "name": "Image of Yakamaru (Ranged)",
     "id": 21355,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41167,7 +40744,7 @@ targetData = {
   "Sick Yakamaru": {
     "name": "Sick Yakamaru",
     "id": 21357,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -41201,7 +40778,7 @@ targetData = {
   "Reflecting Jellyfish": {
     "name": "Reflecting Jellyfish",
     "id": 21358,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Crushing",
     "levels": {
@@ -41235,7 +40812,7 @@ targetData = {
   "Magical jellyfish": {
     "name": "Magical jellyfish",
     "id": 21359,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "Arrow",
     "levels": {
@@ -41269,7 +40846,7 @@ targetData = {
   "Piercing Jellyfish": {
     "name": "Piercing Jellyfish",
     "id": 21360,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 112,
     "weakness": "Stabbing",
     "levels": {
@@ -41303,7 +40880,7 @@ targetData = {
   "Durable Jellyfish": {
     "name": "Durable Jellyfish",
     "id": 21361,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "Slashing",
     "levels": {
@@ -41337,7 +40914,7 @@ targetData = {
   "Meleefish": {
     "name": "Meleefish",
     "id": 21362,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "Earth",
     "levels": {
@@ -41371,7 +40948,7 @@ targetData = {
   "Jellyfish": {
     "name": "Jellyfish",
     "id": 21363,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -41405,7 +40982,7 @@ targetData = {
   "Cormes": {
     "name": "Cormes",
     "id": 21389,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 900,
     "weakness": "Stabbing",
     "levels": {
@@ -41439,7 +41016,7 @@ targetData = {
   "Traitor": {
     "name": "Traitor",
     "id": 21413,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Water",
     "levels": {
@@ -41471,7 +41048,7 @@ targetData = {
   "Warrior cabbage": {
     "name": "Warrior cabbage",
     "id": 21454,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Water",
     "levels": {
@@ -41505,7 +41082,7 @@ targetData = {
   "Cabbage archer": {
     "name": "Cabbage archer",
     "id": 21455,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -41539,7 +41116,7 @@ targetData = {
   "Cabbageomancer": {
     "name": "Cabbageomancer",
     "id": 21456,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Thrown",
     "levels": {
@@ -41573,7 +41150,7 @@ targetData = {
   "Ninja cabbage": {
     "name": "Ninja cabbage",
     "id": 21457,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -41607,7 +41184,7 @@ targetData = {
   "The Delicious Destructor": {
     "name": "The Delicious Destructor",
     "id": 21458,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -41641,7 +41218,7 @@ targetData = {
   "Monkey warrior": {
     "name": "Monkey warrior",
     "id": 21459,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Water",
     "levels": {
@@ -41675,7 +41252,7 @@ targetData = {
   "Monkey archer": {
     "name": "Monkey archer",
     "id": 21460,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -41709,7 +41286,7 @@ targetData = {
   "Monkey spirit": {
     "name": "Monkey spirit",
     "id": 21461,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "Thrown",
     "levels": {
@@ -41743,7 +41320,7 @@ targetData = {
   "Intoxicated gargantuan gorilla": {
     "name": "Intoxicated gargantuan gorilla",
     "id": 21462,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -41777,7 +41354,7 @@ targetData = {
   "Trahaearn titan": {
     "name": "Trahaearn titan",
     "id": 21479,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -41811,7 +41388,7 @@ targetData = {
   "Tenebral Nihil": {
     "name": "Tenebral Nihil",
     "id": 21493,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -41845,7 +41422,7 @@ targetData = {
   "Super Cow": {
     "name": "Super Cow",
     "id": 21497,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Earth",
     "levels": {
@@ -41877,7 +41454,7 @@ targetData = {
   "Venator": {
     "name": "Venator",
     "id": 21750,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 126,
     "weakness": "None",
     "levels": {
@@ -41909,7 +41486,7 @@ targetData = {
   "Wyvern": {
     "name": "Wyvern",
     "id": 21812,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "Fire",
     "levels": {
@@ -41943,7 +41520,7 @@ targetData = {
   "Soul Devourer": {
     "name": "Soul Devourer",
     "id": 21937,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 75,
     "weakness": "None",
     "levels": {
@@ -41975,7 +41552,7 @@ targetData = {
   "Avatar of Amascut": {
     "name": "Avatar of Amascut",
     "id": 21939,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -42009,7 +41586,7 @@ targetData = {
   "Ripper Demon": {
     "name": "Ripper Demon",
     "id": 21994,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 131,
     "weakness": "Earth",
     "levels": {
@@ -42041,7 +41618,7 @@ targetData = {
   "Slasher Demon": {
     "name": "Slasher Demon",
     "id": 21995,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "Earth",
     "levels": {
@@ -42073,7 +41650,7 @@ targetData = {
   "Camel Warrior": {
     "name": "Camel Warrior",
     "id": 22001,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 132,
     "weakness": "Crushing",
     "levels": {
@@ -42107,7 +41684,7 @@ targetData = {
   "Smoke mirage": {
     "name": "Smoke mirage",
     "id": 22002,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 122,
     "weakness": "Thrown",
     "levels": {
@@ -42139,7 +41716,7 @@ targetData = {
   "Blood mirage": {
     "name": "Blood mirage",
     "id": 22003,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 122,
     "weakness": "Thrown",
     "levels": {
@@ -42171,7 +41748,7 @@ targetData = {
   "Shadow mirage": {
     "name": "Shadow mirage",
     "id": 22004,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 122,
     "weakness": "Thrown",
     "levels": {
@@ -42203,7 +41780,7 @@ targetData = {
   "Pack mammoth": {
     "name": "Pack mammoth",
     "id": 22006,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -42237,7 +41814,7 @@ targetData = {
   "Acheron mammoth": {
     "name": "Acheron mammoth",
     "id": 22007,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 131,
     "weakness": "Stabbing",
     "levels": {
@@ -42269,7 +41846,7 @@ targetData = {
   "Loot Piñata": {
     "name": "Loot Piñata",
     "id": 22057,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -42301,7 +41878,7 @@ targetData = {
   "Fenrir": {
     "name": "Fenrir",
     "id": 22144,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -42334,7 +41911,7 @@ targetData = {
   "Image of Hati": {
     "name": "Image of Hati",
     "id": 22145,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -42367,7 +41944,7 @@ targetData = {
   "Image of Sköll": {
     "name": "Image of Sköll",
     "id": 22146,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Fire",
     "levels": {
@@ -42400,7 +41977,7 @@ targetData = {
   "Giant Mimic": {
     "name": "Giant Mimic",
     "id": 22165,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 38,
     "weakness": "None",
     "levels": {
@@ -42434,7 +42011,7 @@ targetData = {
   "Minimic": {
     "name": "Minimic",
     "id": 22169,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 28,
     "weakness": "None",
     "levels": {
@@ -42468,7 +42045,7 @@ targetData = {
   "Ork Headhunter": {
     "name": "Ork Headhunter",
     "id": 22196,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -42500,7 +42077,7 @@ targetData = {
   "Ogre Skulltaker": {
     "name": "Ogre Skulltaker",
     "id": 22197,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -42532,7 +42109,7 @@ targetData = {
   "Guilt": {
     "name": "Guilt",
     "id": 22235,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -42565,7 +42142,7 @@ targetData = {
   "Shame": {
     "name": "Shame",
     "id": 22236,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -42598,7 +42175,7 @@ targetData = {
   "Cywir Alpha": {
     "name": "Cywir Alpha",
     "id": 22439,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "Water",
     "levels": {
@@ -42630,41 +42207,7 @@ targetData = {
   "Gregorovic": {
     "name": "Gregorovic",
     "id": 22442,
-    "combatStyle": "Ranged",
-    "combatLevel": 1000,
-    "weakness": "None",
-    "levels": {
-      "attack": 85,
-      "defence": 75,
-      "magic": 85,
-      "ranged": 85
-    },
-    "affinity": {
-      "strong": 60,
-      "same": 60,
-      "weak": 60,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 60,
-      "ranged": 60
-    },
-    "baseStats": {
-      "attack": 2178,
-      "magic": 2178,
-      "ranged": 2178,
-      "armour": 1694
-    },
-    "bonusStats": {
-      "attack": 386,
-      "armour": 345,
-      "magic": 386,
-      "ranged": 386
-    }
-  },
-  "Shadow": {
-    "name": "Shadow",
-    "id": 22444,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42698,7 +42241,7 @@ targetData = {
   "Spirit of mania": {
     "name": "Spirit of mania",
     "id": 22450,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -42729,7 +42272,7 @@ targetData = {
   "Spirit of delirium": {
     "name": "Spirit of delirium",
     "id": 22451,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -42760,7 +42303,7 @@ targetData = {
   "Spirit of rage": {
     "name": "Spirit of rage",
     "id": 22452,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -42791,7 +42334,7 @@ targetData = {
   "Avaryss, the Unceasing": {
     "name": "Avaryss, the Unceasing",
     "id": 22453,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42825,7 +42368,7 @@ targetData = {
   "Nymora, the Vengeful": {
     "name": "Nymora, the Vengeful",
     "id": 22454,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42859,7 +42402,7 @@ targetData = {
   "Vindicta": {
     "name": "Vindicta",
     "id": 22459,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42892,7 +42435,7 @@ targetData = {
   "Gorvek and Vindicta": {
     "name": "Gorvek and Vindicta",
     "id": 22460,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42925,7 +42468,7 @@ targetData = {
   "Gorvek": {
     "name": "Gorvek",
     "id": 22463,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -42958,7 +42501,7 @@ targetData = {
   "Seren archer": {
     "name": "Seren archer",
     "id": 22470,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 108,
     "weakness": "Slashing",
     "levels": {
@@ -42991,7 +42534,7 @@ targetData = {
   "Seren warrior": {
     "name": "Seren warrior",
     "id": 22471,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 108,
     "weakness": "Air",
     "levels": {
@@ -43023,7 +42566,7 @@ targetData = {
   "Seren mage": {
     "name": "Seren mage",
     "id": 22472,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 108,
     "weakness": "Arrow",
     "levels": {
@@ -43056,7 +42599,7 @@ targetData = {
   "Automaton champion": {
     "name": "Automaton champion",
     "id": 22477,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "Thrown",
     "levels": {
@@ -43088,7 +42631,7 @@ targetData = {
   "Shadow demon": {
     "name": "Shadow demon",
     "id": 22485,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -43122,7 +42665,7 @@ targetData = {
   "Champion of Infernus": {
     "name": "Champion of Infernus",
     "id": 22493,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -43155,7 +42698,7 @@ targetData = {
   "Butcher demon": {
     "name": "Butcher demon",
     "id": 22495,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -43189,7 +42732,7 @@ targetData = {
   "Mighty Blood reaver": {
     "name": "Mighty Blood reaver",
     "id": 22502,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -43223,7 +42766,7 @@ targetData = {
   "Zamorakian leader": {
     "name": "Zamorakian leader",
     "id": 22571,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Arrow",
     "levels": {
@@ -43255,7 +42798,7 @@ targetData = {
   "Zamorakian bodyguard": {
     "name": "Zamorakian bodyguard",
     "id": 22573,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "Stabbing",
     "levels": {
@@ -43287,7 +42830,7 @@ targetData = {
   "Safalaan": {
     "name": "Safalaan",
     "id": 22590,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 117,
     "weakness": "None",
     "levels": {
@@ -43319,7 +42862,7 @@ targetData = {
   "Vampyre juvinate": {
     "name": "Vampyre juvinate",
     "id": 22601,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 84,
     "weakness": "None",
     "levels": {
@@ -43351,7 +42894,7 @@ targetData = {
   "Gatekeeper gorilla akh": {
     "name": "Gatekeeper gorilla akh",
     "id": 22679,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 175,
     "weakness": "Water",
     "levels": {
@@ -43385,7 +42928,7 @@ targetData = {
   "Feline guard akh": {
     "name": "Feline guard akh",
     "id": 22680,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 160,
     "weakness": "Water",
     "levels": {
@@ -43419,7 +42962,7 @@ targetData = {
   "Chainwarden mage akh": {
     "name": "Chainwarden mage akh",
     "id": 22681,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 160,
     "weakness": "Arrow",
     "levels": {
@@ -43453,7 +42996,7 @@ targetData = {
   "Volatile scarab akh": {
     "name": "Volatile scarab akh",
     "id": 22682,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 142,
     "weakness": "Fire",
     "levels": {
@@ -43484,7 +43027,7 @@ targetData = {
   "Modest crocodile demon": {
     "name": "Modest crocodile demon",
     "id": 22684,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 118,
     "weakness": "Fire",
     "levels": {
@@ -43518,7 +43061,7 @@ targetData = {
   "Lightstealer salawa akh": {
     "name": "Lightstealer salawa akh",
     "id": 22685,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 160,
     "weakness": "Water",
     "levels": {
@@ -43552,7 +43095,7 @@ targetData = {
   "Shadow of Amascut": {
     "name": "Shadow of Amascut",
     "id": 22687,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 2499,
     "weakness": "None",
     "levels": {
@@ -43586,7 +43129,7 @@ targetData = {
   "Devoured mage": {
     "name": "Devoured mage",
     "id": 22689,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 130,
     "weakness": "Arrow",
     "levels": {
@@ -43620,7 +43163,7 @@ targetData = {
   "Devoured ranger": {
     "name": "Devoured ranger",
     "id": 22690,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 130,
     "weakness": "Crushing",
     "levels": {
@@ -43654,7 +43197,7 @@ targetData = {
   "Linza the Disgraced": {
     "name": "Linza the Disgraced",
     "id": 22721,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "Fire",
     "levels": {
@@ -43686,7 +43229,7 @@ targetData = {
   "Durial321": {
     "name": "Durial321",
     "id": 22774,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 321,
     "weakness": "None",
     "levels": {
@@ -43720,7 +43263,7 @@ targetData = {
   "Telos, the Warden": {
     "name": "Telos, the Warden",
     "id": 22891,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 2000,
     "weakness": "None",
     "levels": {
@@ -43754,7 +43297,7 @@ targetData = {
   "Pure anima-golem": {
     "name": "Pure anima-golem",
     "id": 22905,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 500,
     "weakness": "Water",
     "levels": {
@@ -43788,7 +43331,7 @@ targetData = {
   "Corrupt anima-golem": {
     "name": "Corrupt anima-golem",
     "id": 22906,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 500,
     "weakness": "Water",
     "levels": {
@@ -43822,7 +43365,7 @@ targetData = {
   "Volcanic anima-golem": {
     "name": "Volcanic anima-golem",
     "id": 22907,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 500,
     "weakness": "Water",
     "levels": {
@@ -43856,7 +43399,7 @@ targetData = {
   "Anima-golem": {
     "name": "Anima-golem",
     "id": 22918,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 500,
     "weakness": "None",
     "levels": {
@@ -43890,7 +43433,7 @@ targetData = {
   "Shadow clone": {
     "name": "Shadow clone",
     "id": 22920,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -43922,7 +43465,7 @@ targetData = {
   "Hein (Skulls champion)": {
     "name": "Hein (Skulls champion)",
     "id": 22931,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -43956,7 +43499,7 @@ targetData = {
   "Skulls scout": {
     "name": "Skulls scout",
     "id": 22932,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -43990,7 +43533,7 @@ targetData = {
   "Skulls press-ganger": {
     "name": "Skulls press-ganger",
     "id": 22933,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -44024,7 +43567,7 @@ targetData = {
   "Skulls bosun": {
     "name": "Skulls bosun",
     "id": 22935,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -44058,7 +43601,7 @@ targetData = {
   "Cyclops labourer": {
     "name": "Cyclops labourer",
     "id": 23018,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -44092,7 +43635,7 @@ targetData = {
   "Flying jellyfish": {
     "name": "Flying jellyfish",
     "id": 23041,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 93,
     "weakness": "Slashing",
     "levels": {
@@ -44126,7 +43669,7 @@ targetData = {
   "Eastern soldier": {
     "name": "Eastern soldier",
     "id": 23057,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "Fire",
     "levels": {
@@ -44160,7 +43703,7 @@ targetData = {
   "Gorilla": {
     "name": "Gorilla",
     "id": 23061,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 93,
     "weakness": "None",
     "levels": {
@@ -44194,7 +43737,7 @@ targetData = {
   "Seasinger priest": {
     "name": "Seasinger priest",
     "id": 23063,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Thrown",
     "levels": {
@@ -44228,7 +43771,7 @@ targetData = {
   "Seasinger priestess": {
     "name": "Seasinger priestess",
     "id": 23064,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Thrown",
     "levels": {
@@ -44262,7 +43805,7 @@ targetData = {
   "Death Lotus rogue": {
     "name": "Death Lotus rogue",
     "id": 23065,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 119,
     "weakness": "Stabbing",
     "levels": {
@@ -44296,7 +43839,7 @@ targetData = {
   "Gu ronin": {
     "name": "Gu ronin",
     "id": 23067,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -44330,7 +43873,7 @@ targetData = {
   "Sotapanna": {
     "name": "Sotapanna",
     "id": 23069,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "Air",
     "levels": {
@@ -44362,7 +43905,7 @@ targetData = {
   "Sakadagami": {
     "name": "Sakadagami",
     "id": 23071,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "Air",
     "levels": {
@@ -44394,7 +43937,7 @@ targetData = {
   "Anagami": {
     "name": "Anagami",
     "id": 23073,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 124,
     "weakness": "Air",
     "levels": {
@@ -44426,7 +43969,7 @@ targetData = {
   "Arhat": {
     "name": "Arhat",
     "id": 23075,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 126,
     "weakness": "Air",
     "levels": {
@@ -44458,7 +44001,7 @@ targetData = {
   "Rogue Enforcer": {
     "name": "Rogue Enforcer",
     "id": 23140,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 35,
     "weakness": "Fire",
     "levels": {
@@ -44490,7 +44033,7 @@ targetData = {
   "Rogue Captain": {
     "name": "Rogue Captain",
     "id": 23141,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Fire",
     "levels": {
@@ -44522,7 +44065,7 @@ targetData = {
   "Light creature": {
     "name": "Light creature",
     "id": 23214,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -44556,7 +44099,7 @@ targetData = {
   "Nightmare muspah": {
     "name": "Nightmare muspah",
     "id": 23215,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -44590,7 +44133,7 @@ targetData = {
   "Pekin": {
     "name": "Pekin",
     "id": 23362,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -44622,7 +44165,7 @@ targetData = {
   "Undead pekin": {
     "name": "Undead pekin",
     "id": 23366,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Fire",
     "levels": {
@@ -44654,7 +44197,7 @@ targetData = {
   "Undead Jed": {
     "name": "Undead Jed",
     "id": 23413,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -44688,7 +44231,7 @@ targetData = {
   "Zyclops": {
     "name": "Zyclops",
     "id": 23414,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "Fire",
     "levels": {
@@ -44722,7 +44265,7 @@ targetData = {
   "Captain Cora": {
     "name": "Captain Cora",
     "id": 23422,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -44756,7 +44299,7 @@ targetData = {
   "Zyclops cannoneer": {
     "name": "Zyclops cannoneer",
     "id": 23424,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "Fire",
     "levels": {
@@ -44790,7 +44333,7 @@ targetData = {
   "God construct": {
     "name": "God construct",
     "id": 23511,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -44822,7 +44365,7 @@ targetData = {
   "Grand force muspah": {
     "name": "Grand force muspah",
     "id": 23681,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -44854,7 +44397,7 @@ targetData = {
   "Nightmare": {
     "name": "Nightmare",
     "id": 23695,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 118,
     "weakness": "Earth",
     "levels": {
@@ -44888,7 +44431,7 @@ targetData = {
   "Zamorak, Lord of Chaos": {
     "name": "Zamorak, Lord of Chaos",
     "id": 23762,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -44922,7 +44465,7 @@ targetData = {
   "Christmas Loot Piñata": {
     "name": "Christmas Loot Piñata",
     "id": 23763,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -44954,7 +44497,7 @@ targetData = {
   "Imbued wight footsoldier": {
     "name": "Imbued wight footsoldier",
     "id": 23834,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 85,
     "weakness": "None",
     "levels": {
@@ -44986,7 +44529,7 @@ targetData = {
   "Unstable wight footsoldier": {
     "name": "Unstable wight footsoldier",
     "id": 23835,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "None",
     "levels": {
@@ -45018,7 +44561,7 @@ targetData = {
   "Spirit of renew": {
     "name": "Spirit of renew",
     "id": 23845,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 60,
     "weakness": "None",
     "levels": {
@@ -45049,7 +44592,7 @@ targetData = {
   "Sliske": {
     "name": "Sliske",
     "id": 23849,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -45081,7 +44624,7 @@ targetData = {
   "Nex, Angel of Death": {
     "name": "Nex, Angel of Death",
     "id": 24004,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7000,
     "weakness": "None",
     "levels": {
@@ -45115,7 +44658,7 @@ targetData = {
   "Choleric imp": {
     "name": "Choleric imp",
     "id": 24158,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 5,
     "weakness": "Water",
     "levels": {
@@ -45149,7 +44692,7 @@ targetData = {
   "Dragonstone dragon": {
     "name": "Dragonstone dragon",
     "id": 24170,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Arrow",
     "levels": {
@@ -45182,7 +44725,7 @@ targetData = {
   "Onyx dragon": {
     "name": "Onyx dragon",
     "id": 24171,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 126,
     "weakness": "Arrow",
     "levels": {
@@ -45215,7 +44758,7 @@ targetData = {
   "Hydrix dragon": {
     "name": "Hydrix dragon",
     "id": 24172,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 133,
     "weakness": "Arrow",
     "levels": {
@@ -45248,7 +44791,7 @@ targetData = {
   "Treasure goebie": {
     "name": "Treasure goebie",
     "id": 24202,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Air",
     "levels": {
@@ -45280,7 +44823,7 @@ targetData = {
   "Unnatural Trahaearn titan": {
     "name": "Unnatural Trahaearn titan",
     "id": 24205,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45312,7 +44855,7 @@ targetData = {
   "Unnatural Trahaearn titan (hydra)": {
     "name": "Unnatural Trahaearn titan (hydra)",
     "id": 24206,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45344,7 +44887,7 @@ targetData = {
   "Abnormal shadow": {
     "name": "Abnormal shadow",
     "id": 24207,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45377,7 +44920,7 @@ targetData = {
   "Abnormal shadow (hydra)": {
     "name": "Abnormal shadow (hydra)",
     "id": 24208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45410,7 +44953,7 @@ targetData = {
   "Unnatural Black Knight champion": {
     "name": "Unnatural Black Knight champion",
     "id": 24209,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45442,7 +44985,7 @@ targetData = {
   "Unnatural Black Knight champion (hydra)": {
     "name": "Unnatural Black Knight champion (hydra)",
     "id": 24210,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45474,7 +45017,7 @@ targetData = {
   "Imitation gorak": {
     "name": "Imitation gorak",
     "id": 24211,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45506,7 +45049,7 @@ targetData = {
   "Imitation gorak (hydra)": {
     "name": "Imitation gorak (hydra)",
     "id": 24212,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45538,7 +45081,7 @@ targetData = {
   "False chaos giant": {
     "name": "False chaos giant",
     "id": 24213,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45570,7 +45113,7 @@ targetData = {
   "False chaos giant (hydra)": {
     "name": "False chaos giant (hydra)",
     "id": 24214,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45602,7 +45145,7 @@ targetData = {
   "Malignant siege beast": {
     "name": "Malignant siege beast",
     "id": 24215,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45634,7 +45177,7 @@ targetData = {
   "Malignant siege beast (hydra)": {
     "name": "Malignant siege beast (hydra)",
     "id": 24216,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45666,7 +45209,7 @@ targetData = {
   "Abnormal White Knight champion": {
     "name": "Abnormal White Knight champion",
     "id": 24217,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45698,7 +45241,7 @@ targetData = {
   "Abnormal White Knight champion (hydra)": {
     "name": "Abnormal White Knight champion (hydra)",
     "id": 24218,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45730,7 +45273,7 @@ targetData = {
   "False Saradominist champion": {
     "name": "False Saradominist champion",
     "id": 24219,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45762,7 +45305,7 @@ targetData = {
   "False Saradominist champion (hydra)": {
     "name": "False Saradominist champion (hydra)",
     "id": 24220,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45794,7 +45337,7 @@ targetData = {
   "Unnatural Saradominist prideleader": {
     "name": "Unnatural Saradominist prideleader",
     "id": 24221,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45826,7 +45369,7 @@ targetData = {
   "Unnatural Saradominist prideleader (hydra)": {
     "name": "Unnatural Saradominist prideleader (hydra)",
     "id": 24222,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45858,7 +45401,7 @@ targetData = {
   "Imitation colossus": {
     "name": "Imitation colossus",
     "id": 24223,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45890,7 +45433,7 @@ targetData = {
   "Imitation colossus (hydra)": {
     "name": "Imitation colossus (hydra)",
     "id": 24224,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45922,7 +45465,7 @@ targetData = {
   "Unnatural gorilla": {
     "name": "Unnatural gorilla",
     "id": 24225,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45954,7 +45497,7 @@ targetData = {
   "Unnatural gorilla (hydra)": {
     "name": "Unnatural gorilla (hydra)",
     "id": 24226,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -45986,7 +45529,7 @@ targetData = {
   "Abnormal demonic champion": {
     "name": "Abnormal demonic champion",
     "id": 24227,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46018,7 +45561,7 @@ targetData = {
   "Abnormal demonic champion (hydra)": {
     "name": "Abnormal demonic champion (hydra)",
     "id": 24228,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46050,7 +45593,7 @@ targetData = {
   "Fabricated butcher demon": {
     "name": "Fabricated butcher demon",
     "id": 24229,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46083,7 +45626,7 @@ targetData = {
   "Fabricated butcher demon (hydra)": {
     "name": "Fabricated butcher demon (hydra)",
     "id": 24230,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46116,7 +45659,7 @@ targetData = {
   "Imitation ripper demon": {
     "name": "Imitation ripper demon",
     "id": 24231,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46148,7 +45691,7 @@ targetData = {
   "Imitation ripper demon (hydra)": {
     "name": "Imitation ripper demon (hydra)",
     "id": 24232,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46180,7 +45723,7 @@ targetData = {
   "Unnatural kalphite guardian": {
     "name": "Unnatural kalphite guardian",
     "id": 24233,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46213,7 +45756,7 @@ targetData = {
   "Unnatural kalphite guardian (hydra)": {
     "name": "Unnatural kalphite guardian (hydra)",
     "id": 24234,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46246,7 +45789,7 @@ targetData = {
   "False bladed araxyte": {
     "name": "False bladed araxyte",
     "id": 24235,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46278,7 +45821,7 @@ targetData = {
   "False bladed araxyte (hydra)": {
     "name": "False bladed araxyte (hydra)",
     "id": 24236,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46310,7 +45853,7 @@ targetData = {
   "Abnormal imbued spider": {
     "name": "Abnormal imbued spider",
     "id": 24239,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46343,7 +45886,7 @@ targetData = {
   "Abnormal imbued spider (hydra)": {
     "name": "Abnormal imbued spider (hydra)",
     "id": 24240,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46376,7 +45919,7 @@ targetData = {
   "Abnormal golem": {
     "name": "Abnormal golem",
     "id": 24243,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46408,7 +45951,7 @@ targetData = {
   "Abnormal golem (hydra)": {
     "name": "Abnormal golem (hydra)",
     "id": 24244,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46440,7 +45983,7 @@ targetData = {
   "Fabricated giant skeleton": {
     "name": "Fabricated giant skeleton",
     "id": 24245,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46472,7 +46015,7 @@ targetData = {
   "=Fabricated giant skeleton (hydra)": {
     "name": "=Fabricated giant skeleton (hydra)",
     "id": 24246,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46504,7 +46047,7 @@ targetData = {
   "False wyrd": {
     "name": "False wyrd",
     "id": 24247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46536,7 +46079,7 @@ targetData = {
   "False wyrd (hydra)": {
     "name": "False wyrd (hydra)",
     "id": 24248,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46568,7 +46111,7 @@ targetData = {
   "Malignant giant dwarf": {
     "name": "Malignant giant dwarf",
     "id": 24249,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46600,7 +46143,7 @@ targetData = {
   "Malignant giant dwarf (hydra)": {
     "name": "Malignant giant dwarf (hydra)",
     "id": 24250,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46632,7 +46175,7 @@ targetData = {
   "Unnatural big troll": {
     "name": "Unnatural big troll",
     "id": 24251,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46664,7 +46207,7 @@ targetData = {
   "Unnatural big troll (hydra)": {
     "name": "Unnatural big troll (hydra)",
     "id": 24252,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46696,7 +46239,7 @@ targetData = {
   "Imitation golem": {
     "name": "Imitation golem",
     "id": 24253,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46728,7 +46271,7 @@ targetData = {
   "Imitation golem (hydra)": {
     "name": "Imitation golem (hydra)",
     "id": 24254,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46760,7 +46303,7 @@ targetData = {
   "Fabricated rock patriarch": {
     "name": "Fabricated rock patriarch",
     "id": 24255,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46792,7 +46335,7 @@ targetData = {
   "Fabricated rock patriarch (hydra)": {
     "name": "Fabricated rock patriarch (hydra)",
     "id": 24256,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46824,7 +46367,7 @@ targetData = {
   "Unnatural prime automaton": {
     "name": "Unnatural prime automaton",
     "id": 24257,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46856,7 +46399,7 @@ targetData = {
   "Unnatural prime automaton (hydra)": {
     "name": "Unnatural prime automaton (hydra)",
     "id": 24258,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46888,7 +46431,7 @@ targetData = {
   "Imitation TokHaar-Ket-Zek": {
     "name": "Imitation TokHaar-Ket-Zek",
     "id": 24259,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46921,7 +46464,7 @@ targetData = {
   "Imitation TokHaar-Ket-Zek (hydra)": {
     "name": "Imitation TokHaar-Ket-Zek (hydra)",
     "id": 24260,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46954,7 +46497,7 @@ targetData = {
   "Fabricated elven warrior": {
     "name": "Fabricated elven warrior",
     "id": 24261,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -46986,7 +46529,7 @@ targetData = {
   "Fabricated elven warrior (hydra)": {
     "name": "Fabricated elven warrior (hydra)",
     "id": 24262,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47018,7 +46561,7 @@ targetData = {
   "Unnatural elven warrior": {
     "name": "Unnatural elven warrior",
     "id": 24263,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47050,7 +46593,7 @@ targetData = {
   "Unnatural elven warrior (hydra)": {
     "name": "Unnatural elven warrior (hydra)",
     "id": 24264,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47082,7 +46625,7 @@ targetData = {
   "Malignant elven magus": {
     "name": "Malignant elven magus",
     "id": 24265,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47116,7 +46659,7 @@ targetData = {
   "Malignant elven magus (hydra)": {
     "name": "Malignant elven magus (hydra)",
     "id": 24266,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47150,7 +46693,7 @@ targetData = {
   "Imitation elven magus": {
     "name": "Imitation elven magus",
     "id": 24267,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47184,7 +46727,7 @@ targetData = {
   "Imitation elven magus (hydra)": {
     "name": "Imitation elven magus (hydra)",
     "id": 24268,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47218,7 +46761,7 @@ targetData = {
   "Abnormal elven ranger": {
     "name": "Abnormal elven ranger",
     "id": 24269,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47252,7 +46795,7 @@ targetData = {
   "Abnormal elven ranger (hydra)": {
     "name": "Abnormal elven ranger (hydra)",
     "id": 24270,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47286,7 +46829,7 @@ targetData = {
   "False elven ranger": {
     "name": "False elven ranger",
     "id": 24271,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47320,7 +46863,7 @@ targetData = {
   "False elven ranger (hydra)": {
     "name": "False elven ranger (hydra)",
     "id": 24272,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47354,7 +46897,7 @@ targetData = {
   "Abnormal Zamorakian warrior": {
     "name": "Abnormal Zamorakian warrior",
     "id": 24273,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47386,7 +46929,7 @@ targetData = {
   "Abnormal Zamorakian warrior (hydra)": {
     "name": "Abnormal Zamorakian warrior (hydra)",
     "id": 24274,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47418,7 +46961,7 @@ targetData = {
   "Malignant Zamorakian warrior": {
     "name": "Malignant Zamorakian warrior",
     "id": 24275,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47450,7 +46993,7 @@ targetData = {
   "Malignant Zamorakian warrior (hydra)": {
     "name": "Malignant Zamorakian warrior (hydra)",
     "id": 24276,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47482,7 +47025,7 @@ targetData = {
   "False Zamorakian warlock": {
     "name": "False Zamorakian warlock",
     "id": 24277,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47516,7 +47059,7 @@ targetData = {
   "False Zamorakian warlock (hydra)": {
     "name": "False Zamorakian warlock (hydra)",
     "id": 24278,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47550,7 +47093,7 @@ targetData = {
   "Imitation Zamorakian warlock": {
     "name": "Imitation Zamorakian warlock",
     "id": 24279,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47584,7 +47127,7 @@ targetData = {
   "Imitation Zamorakian warlock (hydra)": {
     "name": "Imitation Zamorakian warlock (hydra)",
     "id": 24280,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47618,7 +47161,7 @@ targetData = {
   "Fabricated Zamorakian archer": {
     "name": "Fabricated Zamorakian archer",
     "id": 24281,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47650,7 +47193,7 @@ targetData = {
   "Fabricated Zamorakian archer (hydra)": {
     "name": "Fabricated Zamorakian archer (hydra)",
     "id": 24282,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47682,7 +47225,7 @@ targetData = {
   "Unnatural Zamorakian sniper": {
     "name": "Unnatural Zamorakian sniper",
     "id": 24283,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47714,7 +47257,7 @@ targetData = {
   "Unnatural Zamorakian sniper (hydra)": {
     "name": "Unnatural Zamorakian sniper (hydra)",
     "id": 24284,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47746,7 +47289,7 @@ targetData = {
   "False Saradominist crusader": {
     "name": "False Saradominist crusader",
     "id": 24285,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47778,7 +47321,7 @@ targetData = {
   "False Saradominist crusader (hydra)": {
     "name": "False Saradominist crusader (hydra)",
     "id": 24286,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47810,7 +47353,7 @@ targetData = {
   "Imitation Saradominist crusader": {
     "name": "Imitation Saradominist crusader",
     "id": 24287,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47842,7 +47385,7 @@ targetData = {
   "Imitation Saradominist crusader (hydra)": {
     "name": "Imitation Saradominist crusader (hydra)",
     "id": 24288,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47874,7 +47417,7 @@ targetData = {
   "Unnatural Saradominist sage": {
     "name": "Unnatural Saradominist sage",
     "id": 24289,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47908,7 +47451,7 @@ targetData = {
   "Unnatural Saradominist sage (hydra)": {
     "name": "Unnatural Saradominist sage (hydra)",
     "id": 24290,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47942,7 +47485,7 @@ targetData = {
   "Malignant Saradominist sage": {
     "name": "Malignant Saradominist sage",
     "id": 24291,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -47976,7 +47519,7 @@ targetData = {
   "Malignant Saradominist sage (hydra)": {
     "name": "Malignant Saradominist sage (hydra)",
     "id": 24292,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48010,7 +47553,7 @@ targetData = {
   "Fabricated Saradominist archer": {
     "name": "Fabricated Saradominist archer",
     "id": 24293,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48042,7 +47585,7 @@ targetData = {
   "Fabricated Saradominist archer (hydra)": {
     "name": "Fabricated Saradominist archer (hydra)",
     "id": 24294,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48074,7 +47617,7 @@ targetData = {
   "Abnormal Saradominist archer": {
     "name": "Abnormal Saradominist archer",
     "id": 24295,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48106,7 +47649,7 @@ targetData = {
   "Abnormal Saradominist archer (hydra)": {
     "name": "Abnormal Saradominist archer (hydra)",
     "id": 24296,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48138,7 +47681,7 @@ targetData = {
   "Fabricated warrior cabbage": {
     "name": "Fabricated warrior cabbage",
     "id": 24297,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48170,7 +47713,7 @@ targetData = {
   "Fabricated warrior cabbage (hydra)": {
     "name": "Fabricated warrior cabbage (hydra)",
     "id": 24298,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48202,7 +47745,7 @@ targetData = {
   "Abnormal cabbage leafspeaker": {
     "name": "Abnormal cabbage leafspeaker",
     "id": 24299,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48236,7 +47779,7 @@ targetData = {
   "Abnormal cabbage leafspeaker (hydra)": {
     "name": "Abnormal cabbage leafspeaker (hydra)",
     "id": 24300,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48270,7 +47813,7 @@ targetData = {
   "False cabbage archer": {
     "name": "False cabbage archer",
     "id": 24301,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48302,7 +47845,7 @@ targetData = {
   "False cabbage archer (hydra)": {
     "name": "False cabbage archer (hydra)",
     "id": 24302,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48334,7 +47877,7 @@ targetData = {
   "Unnatural hellhound": {
     "name": "Unnatural hellhound",
     "id": 24303,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48366,7 +47909,7 @@ targetData = {
   "Unnatural hellhound (hydra)": {
     "name": "Unnatural hellhound (hydra)",
     "id": 24304,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48398,7 +47941,7 @@ targetData = {
   "Imitation lesser demon": {
     "name": "Imitation lesser demon",
     "id": 24305,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48432,7 +47975,7 @@ targetData = {
   "Imitation lesser demon (hydra)": {
     "name": "Imitation lesser demon (hydra)",
     "id": 24306,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48466,7 +48009,7 @@ targetData = {
   "Malignant lesser demon": {
     "name": "Malignant lesser demon",
     "id": 24307,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48500,7 +48043,7 @@ targetData = {
   "Malignant lesser demon (hydra)": {
     "name": "Malignant lesser demon (hydra)",
     "id": 24308,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48534,7 +48077,7 @@ targetData = {
   "False lesser demon": {
     "name": "False lesser demon",
     "id": 24309,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48568,7 +48111,7 @@ targetData = {
   "False lesser demon (hydra)": {
     "name": "False lesser demon (hydra)",
     "id": 24310,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48602,7 +48145,7 @@ targetData = {
   "Fabricated ice demon": {
     "name": "Fabricated ice demon",
     "id": 24311,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48634,7 +48177,7 @@ targetData = {
   "Fabricated ice demon (hydra)": {
     "name": "Fabricated ice demon (hydra)",
     "id": 24312,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48666,7 +48209,7 @@ targetData = {
   "Abnormal dagannoth": {
     "name": "Abnormal dagannoth",
     "id": 24313,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48698,7 +48241,7 @@ targetData = {
   "Abnormal dagannoth (hydra)": {
     "name": "Abnormal dagannoth (hydra)",
     "id": 24314,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48730,7 +48273,7 @@ targetData = {
   "Unnatural spinespitter dagannoth": {
     "name": "Unnatural spinespitter dagannoth",
     "id": 24315,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48762,7 +48305,7 @@ targetData = {
   "Unnatural spinespitter dagannoth (hydra)": {
     "name": "Unnatural spinespitter dagannoth (hydra)",
     "id": 24316,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48794,7 +48337,7 @@ targetData = {
   "False aquanite": {
     "name": "False aquanite",
     "id": 24317,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48828,7 +48371,7 @@ targetData = {
   "False aquanite (hydra)": {
     "name": "False aquanite (hydra)",
     "id": 24318,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48862,7 +48405,7 @@ targetData = {
   "Malignant ramokee bloodrager": {
     "name": "Malignant ramokee bloodrager",
     "id": 24319,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48894,7 +48437,7 @@ targetData = {
   "Malignant ramokee bloodrager (hydra)": {
     "name": "Malignant ramokee bloodrager (hydra)",
     "id": 24320,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48926,7 +48469,7 @@ targetData = {
   "Imitation ramokee deathslinger": {
     "name": "Imitation ramokee deathslinger",
     "id": 24321,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48958,7 +48501,7 @@ targetData = {
   "Imitation ramokee deathslinger (hydra)": {
     "name": "Imitation ramokee deathslinger (hydra)",
     "id": 24322,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -48990,7 +48533,7 @@ targetData = {
   "Unnatural ramokee stormbringer": {
     "name": "Unnatural ramokee stormbringer",
     "id": 24323,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49024,7 +48567,7 @@ targetData = {
   "Unnatural ramokee stormbringer (hydra)": {
     "name": "Unnatural ramokee stormbringer (hydra)",
     "id": 24324,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49058,7 +48601,7 @@ targetData = {
   "Malignant earth warrior": {
     "name": "Malignant earth warrior",
     "id": 24325,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49090,7 +48633,7 @@ targetData = {
   "Malignant earth warrior (hydra)": {
     "name": "Malignant earth warrior (hydra)",
     "id": 24326,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49122,7 +48665,7 @@ targetData = {
   "Unnatural killerwatt": {
     "name": "Unnatural killerwatt",
     "id": 24327,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49154,7 +48697,7 @@ targetData = {
   "Unnatural killerwatt (hydra)": {
     "name": "Unnatural killerwatt (hydra)",
     "id": 24328,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49186,7 +48729,7 @@ targetData = {
   "False pyrefiend": {
     "name": "False pyrefiend",
     "id": 24329,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49220,7 +48763,7 @@ targetData = {
   "False pyrefiend (hydra)": {
     "name": "False pyrefiend (hydra)",
     "id": 24330,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49254,7 +48797,7 @@ targetData = {
   "Abnormal automaton guardian": {
     "name": "Abnormal automaton guardian",
     "id": 24331,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49286,7 +48829,7 @@ targetData = {
   "Abnormal automaton guardian (hydra)": {
     "name": "Abnormal automaton guardian (hydra)",
     "id": 24332,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49318,7 +48861,7 @@ targetData = {
   "Unnatural automaton tracer": {
     "name": "Unnatural automaton tracer",
     "id": 24333,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49350,7 +48893,7 @@ targetData = {
   "Unnatural automaton tracer (hydra)": {
     "name": "Unnatural automaton tracer (hydra)",
     "id": 24334,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49382,7 +48925,7 @@ targetData = {
   "Malignant automaton generator": {
     "name": "Malignant automaton generator",
     "id": 24335,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49416,7 +48959,7 @@ targetData = {
   "Malignant automaton generator (hydra)": {
     "name": "Malignant automaton generator (hydra)",
     "id": 24336,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49450,7 +48993,7 @@ targetData = {
   "Abnormal kalphite worker": {
     "name": "Abnormal kalphite worker",
     "id": 24337,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49482,7 +49025,7 @@ targetData = {
   "Abnormal kalphite worker (hydra)": {
     "name": "Abnormal kalphite worker (hydra)",
     "id": 24338,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49514,7 +49057,7 @@ targetData = {
   "Unnatural kalphite paragon": {
     "name": "Unnatural kalphite paragon",
     "id": 24339,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49546,7 +49089,7 @@ targetData = {
   "Unnatural kalphite paragon (hydra)": {
     "name": "Unnatural kalphite paragon (hydra)",
     "id": 24340,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49578,7 +49121,7 @@ targetData = {
   "Fabricated bladed spider": {
     "name": "Fabricated bladed spider",
     "id": 24341,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49610,7 +49153,7 @@ targetData = {
   "Fabricated bladed spider (hydra)": {
     "name": "Fabricated bladed spider (hydra)",
     "id": 24342,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49642,7 +49185,7 @@ targetData = {
   "Malignant imbued spider": {
     "name": "Malignant imbued spider",
     "id": 24345,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49674,7 +49217,7 @@ targetData = {
   "Malignant imbued spider (hydra)": {
     "name": "Malignant imbued spider (hydra)",
     "id": 24346,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49706,7 +49249,7 @@ targetData = {
   "False ork": {
     "name": "False ork",
     "id": 24347,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49738,7 +49281,7 @@ targetData = {
   "False ork (hydra)": {
     "name": "False ork (hydra)",
     "id": 24348,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49770,7 +49313,7 @@ targetData = {
   "Malignant ork": {
     "name": "Malignant ork",
     "id": 24349,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49802,7 +49345,7 @@ targetData = {
   "Malignant ork (hydra)": {
     "name": "Malignant ork (hydra)",
     "id": 24350,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49834,7 +49377,7 @@ targetData = {
   "Imitation ork": {
     "name": "Imitation ork",
     "id": 24351,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49866,7 +49409,7 @@ targetData = {
   "Imitation ork (hydra)": {
     "name": "Imitation ork (hydra)",
     "id": 24352,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49898,7 +49441,7 @@ targetData = {
   "Fabricated hobgoblin": {
     "name": "Fabricated hobgoblin",
     "id": 24353,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49930,7 +49473,7 @@ targetData = {
   "Fabricated hobgoblin (hydra)": {
     "name": "Fabricated hobgoblin (hydra)",
     "id": 24354,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49962,7 +49505,7 @@ targetData = {
   "False ghast": {
     "name": "False ghast",
     "id": 24355,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -49994,7 +49537,7 @@ targetData = {
   "False ghast (hydra)": {
     "name": "False ghast (hydra)",
     "id": 24356,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -50026,7 +49569,7 @@ targetData = {
   "Fabricated skeleton archer": {
     "name": "Fabricated skeleton archer",
     "id": 24357,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -50058,7 +49601,7 @@ targetData = {
   "Fabricated skeleton archer (hydra)": {
     "name": "Fabricated skeleton archer (hydra)",
     "id": 24358,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -50090,7 +49633,7 @@ targetData = {
   "False skeleton mage": {
     "name": "False skeleton mage",
     "id": 24359,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -50122,7 +49665,7 @@ targetData = {
   "False skeleton mage (hydra)": {
     "name": "False skeleton mage (hydra)",
     "id": 24360,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -50154,7 +49697,7 @@ targetData = {
   "Corrupted scorpion": {
     "name": "Corrupted scorpion",
     "id": 24592,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Water",
     "levels": {
@@ -50188,7 +49731,7 @@ targetData = {
   "Corrupted scarab": {
     "name": "Corrupted scarab",
     "id": 24593,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "Fire",
     "levels": {
@@ -50222,7 +49765,7 @@ targetData = {
   "Corrupted lizard": {
     "name": "Corrupted lizard",
     "id": 24594,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 105,
     "weakness": "Stabbing",
     "levels": {
@@ -50256,7 +49799,7 @@ targetData = {
   "Corrupted dust devil": {
     "name": "Corrupted dust devil",
     "id": 24595,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 107,
     "weakness": "Crushing",
     "levels": {
@@ -50290,7 +49833,7 @@ targetData = {
   "Corrupted kalphite guardian": {
     "name": "Corrupted kalphite guardian",
     "id": 24596,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 110,
     "weakness": "Earth",
     "levels": {
@@ -50324,7 +49867,7 @@ targetData = {
   "Corrupted kalphite marauder": {
     "name": "Corrupted kalphite marauder",
     "id": 24597,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 110,
     "weakness": "Arrow",
     "levels": {
@@ -50358,7 +49901,7 @@ targetData = {
   "Corrupted worker": {
     "name": "Corrupted worker",
     "id": 24598,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 113,
     "weakness": "Water",
     "levels": {
@@ -50392,7 +49935,7 @@ targetData = {
   "Salawa akh": {
     "name": "Salawa akh",
     "id": 24599,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "Water",
     "levels": {
@@ -50426,7 +49969,7 @@ targetData = {
   "Feline akh": {
     "name": "Feline akh",
     "id": 24600,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 109,
     "weakness": "Water",
     "levels": {
@@ -50460,7 +50003,7 @@ targetData = {
   "Scarab akh": {
     "name": "Scarab akh",
     "id": 24601,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "Fire",
     "levels": {
@@ -50494,7 +50037,7 @@ targetData = {
   "Crocodile akh": {
     "name": "Crocodile akh",
     "id": 24602,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 115,
     "weakness": "Water",
     "levels": {
@@ -50528,7 +50071,7 @@ targetData = {
   "Imperial warrior akh": {
     "name": "Imperial warrior akh",
     "id": 24604,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 130,
     "weakness": "Water",
     "levels": {
@@ -50562,7 +50105,7 @@ targetData = {
   "Imperial mage akh": {
     "name": "Imperial mage akh",
     "id": 24605,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 130,
     "weakness": "Arrow",
     "levels": {
@@ -50596,7 +50139,7 @@ targetData = {
   "Imperial ranger akh": {
     "name": "Imperial ranger akh",
     "id": 24606,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 130,
     "weakness": "Crushing",
     "levels": {
@@ -50630,7 +50173,7 @@ targetData = {
   "Ukunduka": {
     "name": "Ukunduka",
     "id": 24616,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 108,
     "weakness": "None",
     "levels": {
@@ -50664,7 +50207,7 @@ targetData = {
   "Jabari": {
     "name": "Jabari",
     "id": 24627,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "Slashing",
     "levels": {
@@ -50696,7 +50239,7 @@ targetData = {
   "Menaphite thug": {
     "name": "Menaphite thug",
     "id": 24638,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "None",
     "levels": {
@@ -50730,7 +50273,7 @@ targetData = {
   "Pharaoh": {
     "name": "Pharaoh",
     "id": 24676,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -50764,7 +50307,7 @@ targetData = {
   "Menaphite palace guard": {
     "name": "Menaphite palace guard",
     "id": 24677,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -50798,7 +50341,7 @@ targetData = {
   "The Magister": {
     "name": "The Magister",
     "id": 24765,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 899,
     "weakness": "None",
     "levels": {
@@ -50832,7 +50375,7 @@ targetData = {
   "Combat dummy MKII": {
     "name": "Combat dummy MKII",
     "id": 24826,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -50864,7 +50407,7 @@ targetData = {
   "Vinecrawler": {
     "name": "Vinecrawler",
     "id": 24830,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 140,
     "weakness": "Arrow",
     "levels": {
@@ -50896,7 +50439,7 @@ targetData = {
   "Bulbous crawler": {
     "name": "Bulbous crawler",
     "id": 24831,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 140,
     "weakness": "Slashing",
     "levels": {
@@ -50928,7 +50471,7 @@ targetData = {
   "Moss golem": {
     "name": "Moss golem",
     "id": 24832,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 140,
     "weakness": "Fire",
     "levels": {
@@ -50960,7 +50503,7 @@ targetData = {
   "Mossy rock": {
     "name": "Mossy rock",
     "id": 24834,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 91,
     "weakness": "Fire",
     "levels": {
@@ -50992,7 +50535,7 @@ targetData = {
   "Chaos Demon": {
     "name": "Chaos Demon",
     "id": 25086,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "None",
     "levels": {
@@ -51026,7 +50569,7 @@ targetData = {
   "Veil-ripper Ozharakha": {
     "name": "Veil-ripper Ozharakha",
     "id": 25127,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 135,
     "weakness": "None",
     "levels": {
@@ -51060,7 +50603,7 @@ targetData = {
   "Cabbagemancer": {
     "name": "Cabbagemancer",
     "id": 25157,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -51094,7 +50637,7 @@ targetData = {
   "Unspeakable horror": {
     "name": "Unspeakable horror",
     "id": 25286,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "Air",
     "levels": {
@@ -51126,7 +50669,7 @@ targetData = {
   "Zombie captain": {
     "name": "Zombie captain",
     "id": 25320,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 49,
     "weakness": "Air",
     "levels": {
@@ -51160,7 +50703,7 @@ targetData = {
   "DKS": {
     "name": "DKS",
     "id": 25327,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -51194,7 +50737,7 @@ targetData = {
   "Zogoth": {
     "name": "Zogoth",
     "id": 25351,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -51226,7 +50769,7 @@ targetData = {
   "Rabid Jack": {
     "name": "Rabid Jack",
     "id": 25399,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -51260,7 +50803,7 @@ targetData = {
   "Graahk": {
     "name": "Graahk",
     "id": 25478,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -51294,7 +50837,7 @@ targetData = {
   "Solak, Guardian of the Grove": {
     "name": "Solak, Guardian of the Grove",
     "id": 25513,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7000,
     "weakness": "None",
     "levels": {
@@ -51328,7 +50871,7 @@ targetData = {
   "Blight afflicted core": {
     "name": "Blight afflicted core",
     "id": 25519,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 2000,
     "weakness": "None",
     "levels": {
@@ -51359,7 +50902,7 @@ targetData = {
   "Volatile rootling": {
     "name": "Volatile rootling",
     "id": 25520,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -51390,7 +50933,7 @@ targetData = {
   "Blightbound lasher": {
     "name": "Blightbound lasher",
     "id": 25521,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 2000,
     "weakness": "None",
     "levels": {
@@ -51422,7 +50965,7 @@ targetData = {
   "Anima eruption": {
     "name": "Anima eruption",
     "id": 25526,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 3000,
     "weakness": "None",
     "levels": {
@@ -51453,7 +50996,7 @@ targetData = {
   "Manifestation of Erethdor": {
     "name": "Manifestation of Erethdor",
     "id": 25527,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -51486,7 +51029,7 @@ targetData = {
   "Summer Piñata": {
     "name": "Summer Piñata",
     "id": 25566,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -51518,7 +51061,7 @@ targetData = {
   "Elite Sakadagami": {
     "name": "Elite Sakadagami",
     "id": 25583,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -51552,7 +51095,7 @@ targetData = {
   "The Sanctum Guardian": {
     "name": "The Sanctum Guardian",
     "id": 25587,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 850,
     "weakness": "None",
     "levels": {
@@ -51586,7 +51129,7 @@ targetData = {
   "Crassian reinforcement": {
     "name": "Crassian reinforcement",
     "id": 25588,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -51620,7 +51163,7 @@ targetData = {
   "Masuta the Ascended": {
     "name": "Masuta the Ascended",
     "id": 25589,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -51654,7 +51197,7 @@ targetData = {
   "Seiryu the Azure Serpent": {
     "name": "Seiryu the Azure Serpent",
     "id": 25593,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 10000,
     "weakness": "None",
     "levels": {
@@ -51688,7 +51231,7 @@ targetData = {
   "Defence Pylon": {
     "name": "Defence Pylon",
     "id": 25596,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 50,
     "weakness": "None",
     "levels": {
@@ -51720,7 +51263,7 @@ targetData = {
   "Shadow enigma": {
     "name": "Shadow enigma",
     "id": 25602,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -51754,7 +51297,7 @@ targetData = {
   "Sea crocodile": {
     "name": "Sea crocodile",
     "id": 25606,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "Air",
     "levels": {
@@ -51786,7 +51329,7 @@ targetData = {
   "Renegade Menaphite soldier": {
     "name": "Renegade Menaphite soldier",
     "id": 25607,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "None",
     "levels": {
@@ -51820,7 +51363,7 @@ targetData = {
   "Hanto sellsword": {
     "name": "Hanto sellsword",
     "id": 25608,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -51854,7 +51397,7 @@ targetData = {
   "Eastern mercenary": {
     "name": "Eastern mercenary",
     "id": 25610,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -51888,7 +51431,7 @@ targetData = {
   "Cloaked zealot": {
     "name": "Cloaked zealot",
     "id": 25612,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -51922,7 +51465,7 @@ targetData = {
   "Olivia the Chronicler": {
     "name": "Olivia the Chronicler",
     "id": 25619,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "Arrow",
     "levels": {
@@ -51954,7 +51497,7 @@ targetData = {
   "Goku the Unrelenting": {
     "name": "Goku the Unrelenting",
     "id": 25620,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "Stabbing",
     "levels": {
@@ -51986,7 +51529,7 @@ targetData = {
   "Sarkhan the Serpentspeaker": {
     "name": "Sarkhan the Serpentspeaker",
     "id": 25621,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -52018,7 +51561,7 @@ targetData = {
   "Ahoeitu the Chef": {
     "name": "Ahoeitu the Chef",
     "id": 25622,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -52050,7 +51593,7 @@ targetData = {
   "Xiang the Water-shaper": {
     "name": "Xiang the Water-shaper",
     "id": 25623,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -52082,7 +51625,7 @@ targetData = {
   "Jade the Unruly": {
     "name": "Jade the Unruly",
     "id": 25624,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -52114,7 +51657,7 @@ targetData = {
   "Ol' Sawtooth": {
     "name": "Ol' Sawtooth",
     "id": 25625,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 120,
     "weakness": "None",
     "levels": {
@@ -52148,7 +51691,7 @@ targetData = {
   "Menaphite guard captain": {
     "name": "Menaphite guard captain",
     "id": 25626,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "levels": {
       "attack": 70,
@@ -52181,7 +51724,7 @@ targetData = {
   "Horrific crassian": {
     "name": "Horrific crassian",
     "id": 25627,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 93,
     "weakness": "None",
     "levels": {
@@ -52215,7 +51758,7 @@ targetData = {
   "The Violet Lotus": {
     "name": "The Violet Lotus",
     "id": 25628,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -52247,7 +51790,7 @@ targetData = {
   "Yukimura of Hanto": {
     "name": "Yukimura of Hanto",
     "id": 25629,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -52281,7 +51824,7 @@ targetData = {
   "Arhat paragon": {
     "name": "Arhat paragon",
     "id": 25630,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 121,
     "weakness": "None",
     "levels": {
@@ -52315,7 +51858,7 @@ targetData = {
   "Oyu the Quietest": {
     "name": "Oyu the Quietest",
     "id": 25631,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -52349,7 +51892,7 @@ targetData = {
   "Chaos witch channeler": {
     "name": "Chaos witch channeler",
     "id": 25650,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 147,
     "weakness": "Arrow",
     "levels": {
@@ -52383,7 +51926,7 @@ targetData = {
   "Astellarn": {
     "name": "Astellarn",
     "id": 25653,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1200,
     "weakness": "None",
     "levels": {
@@ -52417,7 +51960,7 @@ targetData = {
   "Neutron star": {
     "name": "Neutron star",
     "id": 25654,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -52448,7 +51991,7 @@ targetData = {
   "Pulsar": {
     "name": "Pulsar",
     "id": 25655,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -52479,7 +52022,7 @@ targetData = {
   "Verak Lith": {
     "name": "Verak Lith",
     "id": 25656,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1450,
     "weakness": "None",
     "levels": {
@@ -52513,7 +52056,7 @@ targetData = {
   "Black stone dragon": {
     "name": "Black stone dragon",
     "id": 25662,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 2500,
     "weakness": "None",
     "levels": {
@@ -52547,7 +52090,7 @@ targetData = {
   "Black hand": {
     "name": "Black hand",
     "id": 25663,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 120,
     "weakness": "None",
     "levels": {
@@ -52580,7 +52123,7 @@ targetData = {
   "Lava spider": {
     "name": "Lava spider",
     "id": 25665,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -52614,7 +52157,7 @@ targetData = {
   "Laboratory slime": {
     "name": "Laboratory slime",
     "id": 25666,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 90,
     "weakness": "None",
     "levels": {
@@ -52648,7 +52191,7 @@ targetData = {
   "Magma golem": {
     "name": "Magma golem",
     "id": 25669,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 140,
     "weakness": "None",
     "levels": {
@@ -52682,7 +52225,7 @@ targetData = {
   "Spyndra": {
     "name": "Spyndra",
     "id": 25688,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 107,
     "weakness": "None",
     "levels": {
@@ -52716,7 +52259,7 @@ targetData = {
   "Dragon wolf alpha": {
     "name": "Dragon wolf alpha",
     "id": 25689,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 107,
     "weakness": "None",
     "levels": {
@@ -52750,7 +52293,7 @@ targetData = {
   "Giant slime": {
     "name": "Giant slime",
     "id": 25690,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 106,
     "weakness": "None",
     "levels": {
@@ -52784,7 +52327,7 @@ targetData = {
   "Shul the Molten": {
     "name": "Shul the Molten",
     "id": 25691,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 140,
     "weakness": "None",
     "levels": {
@@ -52818,7 +52361,7 @@ targetData = {
   "Smoulders": {
     "name": "Smoulders",
     "id": 25692,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 129,
     "weakness": "Bolt",
     "levels": {
@@ -52850,7 +52393,7 @@ targetData = {
   "Deathbreath": {
     "name": "Deathbreath",
     "id": 25693,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 121,
     "weakness": "None",
     "levels": {
@@ -52884,7 +52427,7 @@ targetData = {
   "Firebelly": {
     "name": "Firebelly",
     "id": 25694,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 113,
     "weakness": "None",
     "levels": {
@@ -52918,7 +52461,7 @@ targetData = {
   "Elegorn the Celestial": {
     "name": "Elegorn the Celestial",
     "id": 25695,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -52952,7 +52495,7 @@ targetData = {
   "Emberbound Soul": {
     "name": "Emberbound Soul",
     "id": 25696,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -52986,7 +52529,7 @@ targetData = {
   "Alanogard the Black": {
     "name": "Alanogard the Black",
     "id": 25697,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 117,
     "weakness": "None",
     "levels": {
@@ -53020,7 +52563,7 @@ targetData = {
   "Engorged lava strykewyrm": {
     "name": "Engorged lava strykewyrm",
     "id": 25698,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 113,
     "weakness": "None",
     "levels": {
@@ -53054,7 +52597,7 @@ targetData = {
   "Sangri the Red": {
     "name": "Sangri the Red",
     "id": 25699,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 131,
     "weakness": "None",
     "levels": {
@@ -53088,7 +52631,7 @@ targetData = {
   "Verak Little": {
     "name": "Verak Little",
     "id": 25700,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 107,
     "weakness": "None",
     "levels": {
@@ -53122,7 +52665,7 @@ targetData = {
   "Soulless armoured zombie": {
     "name": "Soulless armoured zombie",
     "id": 25938,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -53156,7 +52699,7 @@ targetData = {
   "Infernal demon": {
     "name": "Infernal demon",
     "id": 25941,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Thrown",
     "levels": {
@@ -53189,7 +52732,7 @@ targetData = {
   "Crassian Leviathan": {
     "name": "Crassian Leviathan",
     "id": 26050,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1500,
     "weakness": "None",
     "levels": {
@@ -53223,7 +52766,7 @@ targetData = {
   "Taraket the Necromancer": {
     "name": "Taraket the Necromancer",
     "id": 26053,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -53257,7 +52800,7 @@ targetData = {
   "Corpse carrier": {
     "name": "Corpse carrier",
     "id": 26056,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 300,
     "weakness": "None",
     "levels": {
@@ -53291,7 +52834,7 @@ targetData = {
   "Bloated monstrosity": {
     "name": "Bloated monstrosity",
     "id": 26057,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 300,
     "weakness": "None",
     "levels": {
@@ -53325,7 +52868,7 @@ targetData = {
   "Summoned skeleton archer": {
     "name": "Summoned skeleton archer",
     "id": 26061,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "Crushing",
     "levels": {
@@ -53359,7 +52902,7 @@ targetData = {
   "The Ambassador": {
     "name": "The Ambassador",
     "id": 26062,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 5500,
     "weakness": "None",
     "levels": {
@@ -53393,7 +52936,7 @@ targetData = {
   "Crassian ritual keeper": {
     "name": "Crassian ritual keeper",
     "id": 26063,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 121,
     "weakness": "None",
     "levels": {
@@ -53427,7 +52970,7 @@ targetData = {
   "Sinister fragment": {
     "name": "Sinister fragment",
     "id": 26064,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 121,
     "weakness": "None",
     "levels": {
@@ -53461,7 +53004,7 @@ targetData = {
   "Unstable black hole": {
     "name": "Unstable black hole",
     "id": 26066,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 106,
     "weakness": "None",
     "levels": {
@@ -53495,7 +53038,7 @@ targetData = {
   "Bossy McBossFace's First mate": {
     "name": "Bossy McBossFace's First mate",
     "id": 26138,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 122,
     "weakness": "Earth",
     "levels": {
@@ -53527,7 +53070,7 @@ targetData = {
   "Huge skeleton": {
     "name": "Huge skeleton",
     "id": 26139,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 113,
     "weakness": "Earth",
     "levels": {
@@ -53559,7 +53102,7 @@ targetData = {
   "Warped skeleton": {
     "name": "Warped skeleton",
     "id": 26141,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 113,
     "weakness": "Earth",
     "levels": {
@@ -53592,7 +53135,7 @@ targetData = {
   "Ulthven necromancer": {
     "name": "Ulthven necromancer",
     "id": 26142,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -53626,7 +53169,7 @@ targetData = {
   "Crassian scuttler": {
     "name": "Crassian scuttler",
     "id": 26154,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -53658,7 +53201,7 @@ targetData = {
   "Sea horror": {
     "name": "Sea horror",
     "id": 26158,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "None",
     "levels": {
@@ -53690,7 +53233,7 @@ targetData = {
   "Undead Witch": {
     "name": "Undead Witch",
     "id": 26174,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 170,
     "weakness": "None",
     "levels": {
@@ -53724,7 +53267,7 @@ targetData = {
   "Summoned armoured zombie": {
     "name": "Summoned armoured zombie",
     "id": 26185,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 116,
     "weakness": "Water",
     "levels": {
@@ -53758,7 +53301,7 @@ targetData = {
   "Skeleton Archer": {
     "name": "Skeleton Archer",
     "id": 26189,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 100,
     "weakness": "Crushing",
     "levels": {
@@ -53792,7 +53335,7 @@ targetData = {
   "Boggoth": {
     "name": "Boggoth",
     "id": 26204,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 300,
     "weakness": "None",
     "levels": {
@@ -53826,7 +53369,7 @@ targetData = {
   "Ulthven Keith": {
     "name": "Ulthven Keith",
     "id": 26205,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 117,
     "weakness": "None",
     "levels": {
@@ -53858,7 +53401,7 @@ targetData = {
   "Bossy McBossFace": {
     "name": "Bossy McBossFace",
     "id": 26206,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 123,
     "weakness": "None",
     "levels": {
@@ -53890,7 +53433,7 @@ targetData = {
   "Cooper": {
     "name": "Cooper",
     "id": 26207,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -53924,7 +53467,7 @@ targetData = {
   "Lady Himiko": {
     "name": "Lady Himiko",
     "id": 26208,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 117,
     "weakness": "None",
     "levels": {
@@ -53958,7 +53501,7 @@ targetData = {
   "Shrine Maiden Elei": {
     "name": "Shrine Maiden Elei",
     "id": 26209,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -53992,7 +53535,7 @@ targetData = {
   "Quetzathog": {
     "name": "Quetzathog",
     "id": 26210,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 133,
     "weakness": "None",
     "levels": {
@@ -54024,7 +53567,7 @@ targetData = {
   "Tombi, Khan of Thalassia": {
     "name": "Tombi, Khan of Thalassia",
     "id": 26211,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 111,
     "weakness": "None",
     "levels": {
@@ -54058,7 +53601,7 @@ targetData = {
   "Yor'Ger the Deceiver": {
     "name": "Yor'Ger the Deceiver",
     "id": 26212,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -54092,7 +53635,7 @@ targetData = {
   "Oreb, the Magister": {
     "name": "Oreb, the Magister",
     "id": 26213,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 899,
     "weakness": "None",
     "levels": {
@@ -54126,7 +53669,7 @@ targetData = {
   "Black Stone Scuttler": {
     "name": "Black Stone Scuttler",
     "id": 26214,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -54158,7 +53701,7 @@ targetData = {
   "Masuta the Descended": {
     "name": "Masuta the Descended",
     "id": 26215,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -54192,7 +53735,7 @@ targetData = {
   "Maw of Kolthregar": {
     "name": "Maw of Kolthregar",
     "id": 26216,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -54226,7 +53769,7 @@ targetData = {
   "Hand of Dagnath": {
     "name": "Hand of Dagnath",
     "id": 26217,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -54260,7 +53803,7 @@ targetData = {
   "Eye of Cythan": {
     "name": "Eye of Cythan",
     "id": 26218,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "None",
     "levels": {
@@ -54294,7 +53837,7 @@ targetData = {
   "Feral Dinosaur": {
     "name": "Feral Dinosaur",
     "id": 26559,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -54326,7 +53869,7 @@ targetData = {
   "Brutish dinosaur": {
     "name": "Brutish dinosaur",
     "id": 26560,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 164,
     "weakness": "None",
     "levels": {
@@ -54358,7 +53901,7 @@ targetData = {
   "Venomous dinosaur": {
     "name": "Venomous dinosaur",
     "id": 26561,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 172,
     "weakness": "None",
     "levels": {
@@ -54390,7 +53933,7 @@ targetData = {
   "Ripper dinosaur": {
     "name": "Ripper dinosaur",
     "id": 26562,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 176,
     "weakness": "None",
     "levels": {
@@ -54422,7 +53965,7 @@ targetData = {
   "Lampenflora": {
     "name": "Lampenflora",
     "id": 26563,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 216,
     "weakness": "Fire",
     "levels": {
@@ -54456,7 +53999,7 @@ targetData = {
   "Devil's snare": {
     "name": "Devil's snare",
     "id": 26565,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 220,
     "weakness": "Fire",
     "levels": {
@@ -54490,7 +54033,7 @@ targetData = {
   "Luminous snaggler": {
     "name": "Luminous snaggler",
     "id": 26566,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 224,
     "weakness": "Fire",
     "levels": {
@@ -54524,7 +54067,7 @@ targetData = {
   "Liverworts": {
     "name": "Liverworts",
     "id": 26567,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 228,
     "weakness": "Fire",
     "levels": {
@@ -54558,7 +54101,7 @@ targetData = {
   "Magic Stick": {
     "name": "Magic Stick",
     "id": 26659,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 14,
     "weakness": "None",
     "levels": {
@@ -54592,7 +54135,7 @@ targetData = {
   "Jungle dweller": {
     "name": "Jungle dweller",
     "id": 26836,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 61,
     "weakness": "Air",
     "levels": {
@@ -54626,7 +54169,7 @@ targetData = {
   "Generally Graardor": {
     "name": "Generally Graardor",
     "id": 27037,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 624,
     "weakness": "None",
     "levels": {
@@ -54659,7 +54202,7 @@ targetData = {
   "Commandeered Zilyana": {
     "name": "Commandeered Zilyana",
     "id": 27038,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 596,
     "weakness": "None",
     "levels": {
@@ -54692,7 +54235,7 @@ targetData = {
   "K'ril Too'tsaroth": {
     "name": "K'ril Too'tsaroth",
     "id": 27039,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 650,
     "weakness": "None",
     "levels": {
@@ -54725,7 +54268,7 @@ targetData = {
   "Kree'arranged": {
     "name": "Kree'arranged",
     "id": 27040,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 580,
     "weakness": "None",
     "levels": {
@@ -54759,7 +54302,7 @@ targetData = {
   "Chaos Experimental": {
     "name": "Chaos Experimental",
     "id": 27041,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -54793,7 +54336,7 @@ targetData = {
   "Dagannot Supreme": {
     "name": "Dagannot Supreme",
     "id": 27042,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -54825,7 +54368,7 @@ targetData = {
   "Dagannot Prime": {
     "name": "Dagannot Prime",
     "id": 27043,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -54857,7 +54400,7 @@ targetData = {
   "Dagannot Rex": {
     "name": "Dagannot Rex",
     "id": 27044,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -54889,7 +54432,7 @@ targetData = {
   "Ahrntim the Blighted": {
     "name": "Ahrntim the Blighted",
     "id": 27045,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -54921,7 +54464,7 @@ targetData = {
   "Dharok the Retconned": {
     "name": "Dharok the Retconned",
     "id": 27046,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -54953,7 +54496,7 @@ targetData = {
   "Guthan the Inverted": {
     "name": "Guthan the Inverted",
     "id": 27047,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -54985,7 +54528,7 @@ targetData = {
   "Karil the Twisted": {
     "name": "Karil the Twisted",
     "id": 27048,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55017,7 +54560,7 @@ targetData = {
   "Norag the Corrupted": {
     "name": "Norag the Corrupted",
     "id": 27049,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55049,7 +54592,7 @@ targetData = {
   "Verac the Redefined": {
     "name": "Verac the Redefined",
     "id": 27050,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55081,7 +54624,7 @@ targetData = {
   "Generally Graardor (hydra)": {
     "name": "Generally Graardor (hydra)",
     "id": 27051,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 624,
     "weakness": "None",
     "levels": {
@@ -55114,7 +54657,7 @@ targetData = {
   "Commandeered Zilyana (hydra)": {
     "name": "Commandeered Zilyana (hydra)",
     "id": 27052,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 596,
     "weakness": "None",
     "levels": {
@@ -55147,7 +54690,7 @@ targetData = {
   "K'ril Too'tsaroth (hydra)": {
     "name": "K'ril Too'tsaroth (hydra)",
     "id": 27053,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 650,
     "weakness": "None",
     "levels": {
@@ -55180,7 +54723,7 @@ targetData = {
   "Kree'arranged (hydra)": {
     "name": "Kree'arranged (hydra)",
     "id": 27054,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 580,
     "weakness": "None",
     "levels": {
@@ -55214,7 +54757,7 @@ targetData = {
   "Chaos Experimental (hydra)": {
     "name": "Chaos Experimental (hydra)",
     "id": 27055,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 96,
     "weakness": "None",
     "levels": {
@@ -55248,7 +54791,7 @@ targetData = {
   "Dagannot Supreme (hydra)": {
     "name": "Dagannot Supreme (hydra)",
     "id": 27056,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -55280,7 +54823,7 @@ targetData = {
   "Dagannot Prime (hydra)": {
     "name": "Dagannot Prime (hydra)",
     "id": 27057,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -55312,7 +54855,7 @@ targetData = {
   "Dagannot Rex (hydra)": {
     "name": "Dagannot Rex (hydra)",
     "id": 27058,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 95,
     "weakness": "None",
     "levels": {
@@ -55344,7 +54887,7 @@ targetData = {
   "Ahrntim the Blighted (hydra)": {
     "name": "Ahrntim the Blighted (hydra)",
     "id": 27059,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55376,7 +54919,7 @@ targetData = {
   "Dharok the Retconned (hydra)": {
     "name": "Dharok the Retconned (hydra)",
     "id": 27060,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55408,7 +54951,7 @@ targetData = {
   "Guthan the Inverted (hydra)": {
     "name": "Guthan the Inverted (hydra)",
     "id": 27061,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55440,7 +54983,7 @@ targetData = {
   "Karil the Twisted (hydra)": {
     "name": "Karil the Twisted (hydra)",
     "id": 27062,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55472,7 +55015,7 @@ targetData = {
   "Norag the Corrupted (hydra)": {
     "name": "Norag the Corrupted (hydra)",
     "id": 27063,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55504,7 +55047,7 @@ targetData = {
   "Verac the Redefined (hydra)": {
     "name": "Verac the Redefined (hydra)",
     "id": 27064,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -55536,7 +55079,7 @@ targetData = {
   "Kerapac": {
     "name": "Kerapac",
     "id": 27158,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 122,
     "weakness": "None",
     "levels": {
@@ -55570,7 +55113,7 @@ targetData = {
   "Raksha, the Shadow Colossus": {
     "name": "Raksha, the Shadow Colossus",
     "id": 27352,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 6000,
     "weakness": "None",
     "levels": {
@@ -55604,7 +55147,7 @@ targetData = {
   "Shadow anima pool": {
     "name": "Shadow anima pool",
     "id": 27354,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 50,
     "weakness": "None",
     "levels": {
@@ -55635,7 +55178,7 @@ targetData = {
   "Shadow manifestation": {
     "name": "Shadow manifestation",
     "id": 27355,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 160,
     "weakness": "None",
     "levels": {
@@ -55667,7 +55210,7 @@ targetData = {
   "Elder Overload Golem": {
     "name": "Elder Overload Golem",
     "id": 27438,
-    "combatStyle": "Dummy",
+    "combatStyle": "dummy",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -55699,7 +55242,7 @@ targetData = {
   "Squiggles": {
     "name": "Squiggles",
     "id": 27566,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Fire",
     "levels": {
@@ -55731,7 +55274,7 @@ targetData = {
   "Swamp frog": {
     "name": "Swamp frog",
     "id": 27733,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Air",
     "levels": {
@@ -55763,7 +55306,7 @@ targetData = {
   "Pthentraken": {
     "name": "Pthentraken",
     "id": 27792,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 888,
     "weakness": "Arrow",
     "levels": {
@@ -55796,7 +55339,7 @@ targetData = {
   "Orikalka": {
     "name": "Orikalka",
     "id": 27793,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 888,
     "weakness": "Fire",
     "levels": {
@@ -55830,7 +55373,7 @@ targetData = {
   "Rathis": {
     "name": "Rathis",
     "id": 27794,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 888,
     "weakness": "Stabbing",
     "levels": {
@@ -55864,7 +55407,7 @@ targetData = {
   "Arch-Glacor": {
     "name": "Arch-Glacor",
     "id": 27795,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 7000,
     "weakness": "None",
     "levels": {
@@ -55898,7 +55441,7 @@ targetData = {
   "Troll lout": {
     "name": "Troll lout",
     "id": 27835,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Stabbing",
     "levels": {
@@ -55930,7 +55473,7 @@ targetData = {
   "Stove": {
     "name": "Stove",
     "id": 27836,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 4,
     "weakness": "Stabbing",
     "levels": {
@@ -55962,7 +55505,7 @@ targetData = {
   "Temple Knight": {
     "name": "Temple Knight",
     "id": 27865,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -55996,7 +55539,7 @@ targetData = {
   "Abyssal Prowler": {
     "name": "Abyssal Prowler",
     "id": 27867,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Fire",
     "levels": {
@@ -56030,7 +55573,7 @@ targetData = {
   "Shadow Cackler": {
     "name": "Shadow Cackler",
     "id": 27868,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 107,
     "weakness": "Slashing",
     "levels": {
@@ -56062,7 +55605,7 @@ targetData = {
   "Elite Shadow Cackler": {
     "name": "Elite Shadow Cackler",
     "id": 27869,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "Slashing",
     "levels": {
@@ -56094,7 +55637,7 @@ targetData = {
   "Blood Warden": {
     "name": "Blood Warden",
     "id": 27994,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 114,
     "weakness": "None",
     "levels": {
@@ -56127,7 +55670,7 @@ targetData = {
   "Gargoyle sentinel": {
     "name": "Gargoyle sentinel",
     "id": 28008,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 127,
     "weakness": "Water",
     "levels": {
@@ -56159,7 +55702,7 @@ targetData = {
   "Relomia": {
     "name": "Relomia",
     "id": 28032,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 119,
     "weakness": "None",
     "levels": {
@@ -56191,7 +55734,7 @@ targetData = {
   "Kerapac, the bound": {
     "name": "Kerapac, the bound",
     "id": 28069,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 3000,
     "weakness": "None",
     "levels": {
@@ -56225,7 +55768,7 @@ targetData = {
   "Echo of Kerapac": {
     "name": "Echo of Kerapac",
     "id": 28070,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 3000,
     "weakness": "None",
     "levels": {
@@ -56259,7 +55802,7 @@ targetData = {
   "Time thread tear": {
     "name": "Time thread tear",
     "id": 28072,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -56290,7 +55833,7 @@ targetData = {
   "Nodon guard": {
     "name": "Nodon guard",
     "id": 28172,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 120,
     "weakness": "Air",
     "levels": {
@@ -56322,7 +55865,7 @@ targetData = {
   "Nodon hunter": {
     "name": "Nodon hunter",
     "id": 28173,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 120,
     "weakness": "Stabbing",
     "levels": {
@@ -56354,7 +55897,7 @@ targetData = {
   "Nodon artificer": {
     "name": "Nodon artificer",
     "id": 28174,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 120,
     "weakness": "Arrow",
     "levels": {
@@ -56386,7 +55929,7 @@ targetData = {
   "Nodon engineer": {
     "name": "Nodon engineer",
     "id": 28175,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "Air",
     "levels": {
@@ -56420,7 +55963,7 @@ targetData = {
   "Nodon enforcer": {
     "name": "Nodon enforcer",
     "id": 28176,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "Air",
     "levels": {
@@ -56454,7 +55997,7 @@ targetData = {
   "Siege engine": {
     "name": "Siege engine",
     "id": 28178,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 150,
     "weakness": "Water",
     "levels": {
@@ -56486,7 +56029,7 @@ targetData = {
   "Icy Arm (left)": {
     "name": "Icy Arm (left)",
     "id": 28242,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 7000,
     "weakness": "Fire",
     "levels": {
@@ -56517,7 +56060,7 @@ targetData = {
   "Icy Arm (right)": {
     "name": "Icy Arm (right)",
     "id": 28243,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 7000,
     "weakness": "Crushing",
     "levels": {
@@ -56548,7 +56091,7 @@ targetData = {
   "Glacyte (melee)": {
     "name": "Glacyte (melee)",
     "id": 28246,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "None",
     "levels": {
@@ -56580,7 +56123,7 @@ targetData = {
   "Bolstered Glacyte": {
     "name": "Bolstered Glacyte",
     "id": 28247,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 127,
     "weakness": "None",
     "levels": {
@@ -56612,7 +56155,7 @@ targetData = {
   "Glacyte (magic)": {
     "name": "Glacyte (magic)",
     "id": 28248,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 101,
     "weakness": "None",
     "levels": {
@@ -56644,7 +56187,7 @@ targetData = {
   "Glacyte": {
     "name": "Glacyte",
     "id": 28348,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 105,
     "weakness": "None",
     "levels": {
@@ -56676,7 +56219,7 @@ targetData = {
   "TzekHaar-Aken": {
     "name": "TzekHaar-Aken",
     "id": 28529,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1600,
     "weakness": "None",
     "levels": {
@@ -56710,7 +56253,7 @@ targetData = {
   "Ranged Tentacle": {
     "name": "Ranged Tentacle",
     "id": 28530,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1600,
     "weakness": "Slashing",
     "levels": {
@@ -56744,7 +56287,7 @@ targetData = {
   "Magic Tentacle": {
     "name": "Magic Tentacle",
     "id": 28531,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1600,
     "weakness": "Thrown",
     "levels": {
@@ -56778,7 +56321,7 @@ targetData = {
   "Piercing Ranged Tentacle": {
     "name": "Piercing Ranged Tentacle",
     "id": 28532,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 1600,
     "weakness": "Slashing",
     "levels": {
@@ -56812,7 +56355,7 @@ targetData = {
   "Warding Magic Tentacle": {
     "name": "Warding Magic Tentacle",
     "id": 28533,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1600,
     "weakness": "Thrown",
     "levels": {
@@ -56846,7 +56389,7 @@ targetData = {
   "TzekHaar-Jad": {
     "name": "TzekHaar-Jad",
     "id": 28534,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1000,
     "weakness": "None",
     "levels": {
@@ -56880,7 +56423,7 @@ targetData = {
   "TzekHaar-Hur": {
     "name": "TzekHaar-Hur",
     "id": 28535,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Water",
     "levels": {
@@ -56914,7 +56457,7 @@ targetData = {
   "TzekHaar-Yt-Mejkot": {
     "name": "TzekHaar-Yt-Mejkot",
     "id": 28536,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 450,
     "weakness": "Water",
     "levels": {
@@ -56948,7 +56491,7 @@ targetData = {
   "Igneous TzekHaar-Hur": {
     "name": "Igneous TzekHaar-Hur",
     "id": 28537,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 140,
     "weakness": "Water",
     "levels": {
@@ -56982,7 +56525,7 @@ targetData = {
   "TzekHaar-Xil": {
     "name": "TzekHaar-Xil",
     "id": 28538,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 210,
     "weakness": "Crushing",
     "levels": {
@@ -57016,7 +56559,7 @@ targetData = {
   "TzekHaar-Tok-Xil": {
     "name": "TzekHaar-Tok-Xil",
     "id": 28539,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 300,
     "weakness": "Crushing",
     "levels": {
@@ -57050,7 +56593,7 @@ targetData = {
   "Igneous TzekHaar-Xil": {
     "name": "Igneous TzekHaar-Xil",
     "id": 28540,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 420,
     "weakness": "Crushing",
     "levels": {
@@ -57084,7 +56627,7 @@ targetData = {
   "TzekHaar-Mej Disciple": {
     "name": "TzekHaar-Mej Disciple",
     "id": 28541,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 140,
     "weakness": "None",
     "levels": {
@@ -57118,7 +56661,7 @@ targetData = {
   "TzekHaar-Mej": {
     "name": "TzekHaar-Mej",
     "id": 28542,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 240,
     "weakness": "Arrow",
     "levels": {
@@ -57152,7 +56695,7 @@ targetData = {
   "TzekHaar-Ket-Zek": {
     "name": "TzekHaar-Ket-Zek",
     "id": 28543,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 600,
     "weakness": "Bolt",
     "levels": {
@@ -57186,7 +56729,7 @@ targetData = {
   "Igneous TzekHaar-Mej": {
     "name": "Igneous TzekHaar-Mej",
     "id": 28544,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 480,
     "weakness": "Arrow",
     "levels": {
@@ -57220,7 +56763,7 @@ targetData = {
   "TzekHaar-Kih": {
     "name": "TzekHaar-Kih",
     "id": 28545,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 100,
     "weakness": "None",
     "levels": {
@@ -57254,7 +56797,7 @@ targetData = {
   "Volatile TzekHaar-Hur": {
     "name": "Volatile TzekHaar-Hur",
     "id": 28546,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -57288,7 +56831,7 @@ targetData = {
   "Unbreakable TzekHaar-Ket": {
     "name": "Unbreakable TzekHaar-Ket",
     "id": 28547,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -57322,7 +56865,7 @@ targetData = {
   "Fatal TzekHaar-Yt-HurKot": {
     "name": "Fatal TzekHaar-Yt-HurKot",
     "id": 28548,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -57356,7 +56899,7 @@ targetData = {
   "TzekHaar-Yt-HurKot": {
     "name": "TzekHaar-Yt-HurKot",
     "id": 28551,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -57390,7 +56933,7 @@ targetData = {
   "Abyssal beast": {
     "name": "Abyssal beast",
     "id": 28781,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 119,
     "weakness": "Slashing",
     "levels": {
@@ -57422,7 +56965,7 @@ targetData = {
   "Abyssal savage": {
     "name": "Abyssal savage",
     "id": 28782,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "Water",
     "levels": {
@@ -57454,7 +56997,7 @@ targetData = {
   "Abyssal lord": {
     "name": "Abyssal lord",
     "id": 28783,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 133,
     "weakness": "Arrow",
     "levels": {
@@ -57486,7 +57029,7 @@ targetData = {
   "Abyssal tentacle": {
     "name": "Abyssal tentacle",
     "id": 28784,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 56,
     "weakness": "Arrow",
     "levels": {
@@ -57518,7 +57061,7 @@ targetData = {
   "Dragon training dummy": {
     "name": "Dragon training dummy",
     "id": 28785,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -57550,7 +57093,7 @@ targetData = {
   "Undead training dummy": {
     "name": "Undead training dummy",
     "id": 28788,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -57582,7 +57125,7 @@ targetData = {
   "Demon training dummy": {
     "name": "Demon training dummy",
     "id": 28791,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -57614,7 +57157,7 @@ targetData = {
   "TzekHaar-Mej disciple": {
     "name": "TzekHaar-Mej disciple",
     "id": 28810,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 70,
     "weakness": "None",
     "levels": {
@@ -57648,7 +57191,7 @@ targetData = {
   "Generating glacor": {
     "name": "Generating glacor",
     "id": 28823,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 112,
     "weakness": "None",
     "levels": {
@@ -57680,7 +57223,7 @@ targetData = {
   "Light Lord": {
     "name": "Light Lord",
     "id": 28873,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 175,
     "weakness": "None",
     "levels": {
@@ -57713,7 +57256,7 @@ targetData = {
   "Large throwing muspah": {
     "name": "Large throwing muspah",
     "id": 28878,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -57745,7 +57288,7 @@ targetData = {
   "Enraged throwing muspah": {
     "name": "Enraged throwing muspah",
     "id": 28879,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 250,
     "weakness": "None",
     "levels": {
@@ -57777,7 +57320,7 @@ targetData = {
   "Large force muspah": {
     "name": "Large force muspah",
     "id": 28881,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -57809,7 +57352,7 @@ targetData = {
   "Enraged force muspah": {
     "name": "Enraged force muspah",
     "id": 28882,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 250,
     "weakness": "None",
     "levels": {
@@ -57841,7 +57384,7 @@ targetData = {
   "Large bladed muspah": {
     "name": "Large bladed muspah",
     "id": 28884,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 200,
     "weakness": "None",
     "levels": {
@@ -57873,7 +57416,7 @@ targetData = {
   "Enraged bladed muspah": {
     "name": "Enraged bladed muspah",
     "id": 28885,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 250,
     "weakness": "None",
     "levels": {
@@ -57905,7 +57448,7 @@ targetData = {
   "Aspect of Seren (Wen)": {
     "name": "Aspect of Seren (Wen)",
     "id": 28887,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 175,
     "weakness": "Crushing",
     "levels": {
@@ -57938,7 +57481,7 @@ targetData = {
   "Aspect of Seren (Bik)": {
     "name": "Aspect of Seren (Bik)",
     "id": 28888,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 175,
     "weakness": "Crushing",
     "levels": {
@@ -57971,7 +57514,7 @@ targetData = {
   "Aspect of Seren (Ful)": {
     "name": "Aspect of Seren (Ful)",
     "id": 28889,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 175,
     "weakness": "Crushing",
     "levels": {
@@ -58004,7 +57547,7 @@ targetData = {
   "Abyssal demon training dummy": {
     "name": "Abyssal demon training dummy",
     "id": 29183,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -58036,7 +57579,7 @@ targetData = {
   "Wallasalki training dummy": {
     "name": "Wallasalki training dummy",
     "id": 29186,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -58068,7 +57611,7 @@ targetData = {
   "Basilisk training dummy": {
     "name": "Basilisk training dummy",
     "id": 29189,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -58100,7 +57643,7 @@ targetData = {
   "Revenant training dummy": {
     "name": "Revenant training dummy",
     "id": 29192,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 1,
     "weakness": "None",
     "levels": {
@@ -58132,7 +57675,7 @@ targetData = {
   "Kax'Hath the Unyielding": {
     "name": "Kax'Hath the Unyielding",
     "id": 29203,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Bolt",
     "levels": {
@@ -58164,7 +57707,7 @@ targetData = {
   "La'Kalor the Unbroken": {
     "name": "La'Kalor the Unbroken",
     "id": 29204,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Bolt",
     "levels": {
@@ -58196,7 +57739,7 @@ targetData = {
   "Kor'Vath the Blightbringer": {
     "name": "Kor'Vath the Blightbringer",
     "id": 29205,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Bolt",
     "levels": {
@@ -58228,7 +57771,7 @@ targetData = {
   "Mor'Gol the Desecrator": {
     "name": "Mor'Gol the Desecrator",
     "id": 29206,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Bolt",
     "levels": {
@@ -58260,7 +57803,7 @@ targetData = {
   "Shara'Kor the Widowmaker": {
     "name": "Shara'Kor the Widowmaker",
     "id": 29207,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 82,
     "weakness": "Bolt",
     "levels": {
@@ -58292,7 +57835,7 @@ targetData = {
   "Lifeweaver": {
     "name": "Lifeweaver",
     "id": 29229,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 124,
     "weakness": "Arrow",
     "levels": {
@@ -58326,7 +57869,7 @@ targetData = {
   "Protector": {
     "name": "Protector",
     "id": 29230,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 124,
     "weakness": "Arrow",
     "levels": {
@@ -58360,7 +57903,7 @@ targetData = {
   "Greater demon pyromancer": {
     "name": "Greater demon pyromancer",
     "id": 29257,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 132,
     "weakness": "None",
     "levels": {
@@ -58394,7 +57937,7 @@ targetData = {
   "Greater demon sage": {
     "name": "Greater demon sage",
     "id": 29258,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 146,
     "weakness": "None",
     "levels": {
@@ -58428,7 +57971,7 @@ targetData = {
   "Greater demon ash lord": {
     "name": "Greater demon ash lord",
     "id": 29259,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 157,
     "weakness": "None",
     "levels": {
@@ -58462,7 +58005,7 @@ targetData = {
   "Greater demon savage": {
     "name": "Greater demon savage",
     "id": 29260,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 133,
     "weakness": "None",
     "levels": {
@@ -58496,7 +58039,7 @@ targetData = {
   "Greater demon brute": {
     "name": "Greater demon brute",
     "id": 29261,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 148,
     "weakness": "None",
     "levels": {
@@ -58530,7 +58073,7 @@ targetData = {
   "Greater demon berserker": {
     "name": "Greater demon berserker",
     "id": 29262,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 166,
     "weakness": "None",
     "levels": {
@@ -58564,7 +58107,7 @@ targetData = {
   "Hellhound Hunter": {
     "name": "Hellhound Hunter",
     "id": 29264,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "Earth",
     "levels": {
@@ -58598,7 +58141,7 @@ targetData = {
   "Hellhound Alpha": {
     "name": "Hellhound Alpha",
     "id": 29265,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 113,
     "weakness": "Earth",
     "levels": {
@@ -58632,7 +58175,7 @@ targetData = {
   "Hellhound (summoned)": {
     "name": "Hellhound (summoned)",
     "id": 29266,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 104,
     "weakness": "Earth",
     "levels": {
@@ -58666,7 +58209,7 @@ targetData = {
   "Hellhound Hunter (summoned)": {
     "name": "Hellhound Hunter (summoned)",
     "id": 29267,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "Earth",
     "levels": {
@@ -58700,7 +58243,7 @@ targetData = {
   "Torrential Waterfiend": {
     "name": "Torrential Waterfiend",
     "id": 29269,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "Bolt",
     "levels": {
@@ -58734,7 +58277,7 @@ targetData = {
   "Waterfiend (summoned)": {
     "name": "Waterfiend (summoned)",
     "id": 29270,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 111,
     "weakness": "Bolt",
     "levels": {
@@ -58768,7 +58311,7 @@ targetData = {
   "Torrential Waterfiend (summoned)": {
     "name": "Torrential Waterfiend (summoned)",
     "id": 29271,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 118,
     "weakness": "Bolt",
     "levels": {
@@ -58802,7 +58345,7 @@ targetData = {
   "Pyrefiend (summoned)": {
     "name": "Pyrefiend (summoned)",
     "id": 29273,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 113,
     "weakness": "Bolt",
     "levels": {
@@ -58836,7 +58379,7 @@ targetData = {
   "Seething Pyrefiend": {
     "name": "Seething Pyrefiend",
     "id": 29274,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Bolt",
     "levels": {
@@ -58870,7 +58413,7 @@ targetData = {
   "Seething Pyrefiend (summoned)": {
     "name": "Seething Pyrefiend (summoned)",
     "id": 29275,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 119,
     "weakness": "Bolt",
     "levels": {
@@ -58904,7 +58447,7 @@ targetData = {
   "Imp scavenger": {
     "name": "Imp scavenger",
     "id": 29276,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 126,
     "weakness": "Water",
     "levels": {
@@ -58938,7 +58481,7 @@ targetData = {
   "Zamorakian cultist": {
     "name": "Zamorakian cultist",
     "id": 29277,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 116,
     "weakness": "Slashing",
     "levels": {
@@ -58972,7 +58515,7 @@ targetData = {
   "Monk of chaos": {
     "name": "Monk of chaos",
     "id": 29279,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 124,
     "weakness": "Slashing",
     "levels": {
@@ -59006,7 +58549,7 @@ targetData = {
   "Monk of Chaos": {
     "name": "Monk of Chaos",
     "id": 29280,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 124,
     "weakness": "Slashing",
     "levels": {
@@ -59040,7 +58583,7 @@ targetData = {
   "War priestess of chaos": {
     "name": "War priestess of chaos",
     "id": 29281,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 137,
     "weakness": "Earth",
     "levels": {
@@ -59074,7 +58617,7 @@ targetData = {
   "War priest of chaos": {
     "name": "War priest of chaos",
     "id": 29282,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 137,
     "weakness": "Earth",
     "levels": {
@@ -59108,7 +58651,7 @@ targetData = {
   "Zamorakian hunter": {
     "name": "Zamorakian hunter",
     "id": 29285,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 114,
     "weakness": "Slashing",
     "levels": {
@@ -59142,7 +58685,7 @@ targetData = {
   "Zamorakian hound master": {
     "name": "Zamorakian hound master",
     "id": 29286,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 123,
     "weakness": "Slashing",
     "levels": {
@@ -59176,7 +58719,7 @@ targetData = {
   "Chaos witch apprentice": {
     "name": "Chaos witch apprentice",
     "id": 29287,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 121,
     "weakness": "Arrow",
     "levels": {
@@ -59210,7 +58753,7 @@ targetData = {
   "Chaos witch": {
     "name": "Chaos witch",
     "id": 29288,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 141,
     "weakness": "Arrow",
     "levels": {
@@ -59244,7 +58787,7 @@ targetData = {
   "Chaos witch magus": {
     "name": "Chaos witch magus",
     "id": 29289,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 157,
     "weakness": "Arrow",
     "levels": {
@@ -59278,7 +58821,7 @@ targetData = {
   "Chaos witch mender": {
     "name": "Chaos witch mender",
     "id": 29290,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 109,
     "weakness": "Arrow",
     "levels": {
@@ -59312,7 +58855,7 @@ targetData = {
   "Chaos witch lifeweaver": {
     "name": "Chaos witch lifeweaver",
     "id": 29291,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 115,
     "weakness": "Arrow",
     "levels": {
@@ -59346,7 +58889,7 @@ targetData = {
   "Dark wizard elder": {
     "name": "Dark wizard elder",
     "id": 29293,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 123,
     "weakness": "Bolt",
     "levels": {
@@ -59380,7 +58923,7 @@ targetData = {
   "Dark wizard master": {
     "name": "Dark wizard master",
     "id": 29294,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 129,
     "weakness": "Bolt",
     "levels": {
@@ -59414,7 +58957,7 @@ targetData = {
   "Chaos witch channeller": {
     "name": "Chaos witch channeller",
     "id": 29295,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 143,
     "weakness": "Arrow",
     "levels": {
@@ -59448,7 +58991,7 @@ targetData = {
   "Berserk Archaeologist": {
     "name": "Berserk Archaeologist",
     "id": 29300,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 138,
     "weakness": "Arrow",
     "levels": {
@@ -59482,7 +59025,7 @@ targetData = {
   "Fred": {
     "name": "Fred",
     "id": 29301,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 110,
     "weakness": "Crushing",
     "levels": {
@@ -59516,7 +59059,7 @@ targetData = {
   "Cerberus Juvenile": {
     "name": "Cerberus Juvenile",
     "id": 29302,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 138,
     "weakness": "Earth",
     "levels": {
@@ -59550,7 +59093,7 @@ targetData = {
   "Desha, Guardian of the Hounds": {
     "name": "Desha, Guardian of the Hounds",
     "id": 29303,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 145,
     "weakness": "Crushing",
     "levels": {
@@ -59584,7 +59127,7 @@ targetData = {
   "Maelstrom, Raging Waterfiend": {
     "name": "Maelstrom, Raging Waterfiend",
     "id": 29304,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 142,
     "weakness": "Bolt",
     "levels": {
@@ -59618,7 +59161,7 @@ targetData = {
   "Smoulders, the Revenger": {
     "name": "Smoulders, the Revenger",
     "id": 29305,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 152,
     "weakness": "Bolt",
     "levels": {
@@ -59652,7 +59195,7 @@ targetData = {
   "Mazera, the Dark": {
     "name": "Mazera, the Dark",
     "id": 29306,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 148,
     "weakness": "Bolt",
     "levels": {
@@ -59686,7 +59229,7 @@ targetData = {
   "Mefis, the Jailer": {
     "name": "Mefis, the Jailer",
     "id": 29307,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 130,
     "weakness": "Water",
     "levels": {
@@ -59720,7 +59263,7 @@ targetData = {
   "Zamorakian archer": {
     "name": "Zamorakian archer",
     "id": 29308,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 114,
     "weakness": "Slashing",
     "levels": {
@@ -59754,7 +59297,7 @@ targetData = {
   "Denizen of Infernus": {
     "name": "Denizen of Infernus",
     "id": 29309,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 127,
     "weakness": "Arrow",
     "levels": {
@@ -59788,7 +59331,7 @@ targetData = {
   "Eterna, Ritual Leader": {
     "name": "Eterna, Ritual Leader",
     "id": 29310,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 139,
     "weakness": "Crushing",
     "levels": {
@@ -59822,7 +59365,7 @@ targetData = {
   "Chaos Demon Savage": {
     "name": "Chaos Demon Savage",
     "id": 29312,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 141,
     "weakness": "None",
     "levels": {
@@ -59856,7 +59399,7 @@ targetData = {
   "Graveside Phantom": {
     "name": "Graveside Phantom",
     "id": 29561,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 104,
     "weakness": "Air",
     "levels": {
@@ -59888,7 +59431,7 @@ targetData = {
   "Shocking black dragon": {
     "name": "Shocking black dragon",
     "id": 29611,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Bolt",
     "levels": {
@@ -59921,7 +59464,7 @@ targetData = {
   "Freezing black dragon": {
     "name": "Freezing black dragon",
     "id": 29612,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Bolt",
     "levels": {
@@ -59954,7 +59497,7 @@ targetData = {
   "Poison black dragon": {
     "name": "Poison black dragon",
     "id": 29613,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 98,
     "weakness": "Bolt",
     "levels": {
@@ -59987,7 +59530,7 @@ targetData = {
   "Mal": {
     "name": "Mal",
     "id": 29710,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "Slashing",
     "levels": {
@@ -60019,7 +59562,7 @@ targetData = {
   "Fetid zombie": {
     "name": "Fetid zombie",
     "id": 30017,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 66,
     "weakness": "Air",
     "levels": {
@@ -60051,7 +59594,7 @@ targetData = {
   "Risen ghost": {
     "name": "Risen ghost",
     "id": 30019,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 101,
     "weakness": "Arrow",
     "levels": {
@@ -60083,7 +59626,7 @@ targetData = {
   "Bound skeleton": {
     "name": "Bound skeleton",
     "id": 30020,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 70,
     "weakness": "Earth",
     "levels": {
@@ -60117,7 +59660,7 @@ targetData = {
   "Armoured phantom": {
     "name": "Armoured phantom",
     "id": 30023,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 150,
     "weakness": "Crushing",
     "levels": {
@@ -60151,7 +59694,7 @@ targetData = {
   "Phantom spirit": {
     "name": "Phantom spirit",
     "id": 30026,
-    "combatStyle": "Unknown",
+    "combatStyle": "unknown",
     "combatLevel": 62,
     "weakness": "None",
     "levels": {
@@ -60185,7 +59728,7 @@ targetData = {
   "The Nightmare": {
     "name": "The Nightmare",
     "id": 30097,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -60216,7 +59759,7 @@ targetData = {
   "Dream Raptor": {
     "name": "Dream Raptor",
     "id": 30099,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -60248,7 +59791,7 @@ targetData = {
   "Dream Roald Nightmare": {
     "name": "Dream Roald Nightmare",
     "id": 30100,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -60280,7 +59823,7 @@ targetData = {
   "Dream Bianca": {
     "name": "Dream Bianca",
     "id": 30101,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -60312,7 +59855,7 @@ targetData = {
   "Material ghoul": {
     "name": "Material ghoul",
     "id": 30120,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 42,
     "weakness": "None",
     "levels": {
@@ -60344,7 +59887,7 @@ targetData = {
   "Hermod, the Spirit of War": {
     "name": "Hermod, the Spirit of War",
     "id": 30163,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 732,
     "weakness": "Necromancy",
     "levels": {
@@ -60378,7 +59921,7 @@ targetData = {
   "Rasial, the First Necromancer": {
     "name": "Rasial, the First Necromancer",
     "id": 30165,
-    "combatStyle": "Necromancy",
+    "combatStyle": "necromancy",
     "combatLevel": 8462,
     "weakness": "Necromancy",
     "levels": {
@@ -60410,7 +59953,7 @@ targetData = {
   "Putrid zombie": {
     "name": "Putrid zombie",
     "id": 30167,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "Necromancy",
     "levels": {
@@ -60442,7 +59985,7 @@ targetData = {
   "Netty's skeleton": {
     "name": "Netty's skeleton",
     "id": 30201,
-    "combatStyle": "Necromancy",
+    "combatStyle": "necromancy",
     "combatLevel": 160,
     "weakness": "Necromancy",
     "levels": {
@@ -60474,7 +60017,7 @@ targetData = {
   "Ghost troll brute": {
     "name": "Ghost troll brute",
     "id": 30260,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 3,
     "weakness": "Necromancy",
     "levels": {
@@ -60506,7 +60049,7 @@ targetData = {
   "Ghost troll lout": {
     "name": "Ghost troll lout",
     "id": 30261,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 3,
     "weakness": "Necromancy",
     "levels": {
@@ -60538,7 +60081,7 @@ targetData = {
   "Ghostly troll thrower": {
     "name": "Ghostly troll thrower",
     "id": 30425,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 7,
     "weakness": "Stabbing",
     "levels": {
@@ -60570,7 +60113,7 @@ targetData = {
   "Ghostly troll bruiser": {
     "name": "Ghostly troll bruiser",
     "id": 30426,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 7,
     "weakness": "Water",
     "levels": {
@@ -60602,7 +60145,7 @@ targetData = {
   "Zombie warrior": {
     "name": "Zombie warrior",
     "id": 30528,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 76,
     "weakness": "Fire",
     "levels": {
@@ -60634,7 +60177,7 @@ targetData = {
   "Zombie knight": {
     "name": "Zombie knight",
     "id": 30531,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 97,
     "weakness": "Fire",
     "levels": {
@@ -60666,7 +60209,7 @@ targetData = {
   "Skeleton knight": {
     "name": "Skeleton knight",
     "id": 30532,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 97,
     "weakness": "Earth",
     "levels": {
@@ -60698,7 +60241,7 @@ targetData = {
   "Unstable zombie": {
     "name": "Unstable zombie",
     "id": 30533,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 97,
     "weakness": "Fire",
     "levels": {
@@ -60730,7 +60273,7 @@ targetData = {
   "Necrotic slime": {
     "name": "Necrotic slime",
     "id": 30534,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 76,
     "weakness": "Water",
     "levels": {
@@ -60762,7 +60305,7 @@ targetData = {
   "Phantom wizard": {
     "name": "Phantom wizard",
     "id": 30538,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 76,
     "weakness": "Arrow",
     "levels": {
@@ -60794,7 +60337,7 @@ targetData = {
   "Phantom sorcerer": {
     "name": "Phantom sorcerer",
     "id": 30540,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 97,
     "weakness": "Arrow",
     "levels": {
@@ -60826,7 +60369,7 @@ targetData = {
   "Undead giant": {
     "name": "Undead giant",
     "id": 30542,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 300,
     "weakness": "Fire",
     "levels": {
@@ -60858,7 +60401,7 @@ targetData = {
   "Tomb zombie": {
     "name": "Tomb zombie",
     "id": 30565,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 40,
     "weakness": "None",
     "levels": {
@@ -60890,7 +60433,7 @@ targetData = {
   "Osseous": {
     "name": "Osseous",
     "id": 30629,
-    "combatStyle": "Necromancy",
+    "combatStyle": "necromancy",
     "combatLevel": 888,
     "weakness": "Necromancy",
     "levels": {
@@ -60925,7 +60468,7 @@ targetData = {
   "Haunting ghost": {
     "name": "Haunting ghost",
     "id": 30663,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 97,
     "weakness": "Arrow",
     "levels": {
@@ -60957,7 +60500,7 @@ targetData = {
   "Ghost healer": {
     "name": "Ghost healer",
     "id": 30675,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 76,
     "weakness": "Arrow",
     "levels": {
@@ -60989,7 +60532,7 @@ targetData = {
   "Skeletal shielder": {
     "name": "Skeletal shielder",
     "id": 30676,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 76,
     "weakness": "Arrow",
     "levels": {
@@ -61021,7 +60564,7 @@ targetData = {
   "Empowering zombie": {
     "name": "Empowering zombie",
     "id": 30677,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 76,
     "weakness": "Fire",
     "levels": {
@@ -61053,7 +60596,7 @@ targetData = {
   "Vorkath": {
     "name": "Vorkath",
     "id": 30690,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 789,
     "weakness": "None",
     "levels": {
@@ -61087,7 +60630,7 @@ targetData = {
   "Wildywyrm": {
     "name": "Wildywyrm",
     "id": 30798,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1337,
     "weakness": "None",
     "levels": {
@@ -61121,7 +60664,7 @@ targetData = {
   "Flesh-hatcher Mhekarnahz": {
     "name": "Flesh-hatcher Mhekarnahz",
     "id": 30823,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 368,
     "weakness": "None",
     "levels": {
@@ -61155,7 +60698,7 @@ targetData = {
   "Zamorakian scout": {
     "name": "Zamorakian scout",
     "id": 30901,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 85,
     "weakness": "Slashing",
     "levels": {
@@ -61187,7 +60730,7 @@ targetData = {
   "Translator": {
     "name": "Translator",
     "id": 30903,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 75,
     "weakness": "Slashing",
     "levels": {
@@ -61219,7 +60762,7 @@ targetData = {
   "Vengeance": {
     "name": "Vengeance",
     "id": 30912,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 300,
     "weakness": "None",
     "levels": {
@@ -61251,7 +60794,7 @@ targetData = {
   "Baby Dinosaur Skeleton": {
     "name": "Baby Dinosaur Skeleton",
     "id": 30945,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 77,
     "weakness": "None",
     "levels": {
@@ -61285,7 +60828,7 @@ targetData = {
   "Corrupted scarab healer": {
     "name": "Corrupted scarab healer",
     "id": 31096,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 103,
     "weakness": "Fire",
     "levels": {
@@ -61316,7 +60859,7 @@ targetData = {
   "Vermyx, Brood Mother": {
     "name": "Vermyx, Brood Mother",
     "id": 31098,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 720,
     "weakness": "None",
     "levels": {
@@ -61350,7 +60893,7 @@ targetData = {
   "Coilspawn": {
     "name": "Coilspawn",
     "id": 31099,
-    "combatStyle": "Ranged",
+    "combatStyle": "ranged",
     "combatLevel": 540,
     "weakness": "None",
     "levels": {
@@ -61384,7 +60927,7 @@ targetData = {
   "Kezalam, the Wanderer": {
     "name": "Kezalam, the Wanderer",
     "id": 31100,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1440,
     "weakness": "None",
     "levels": {
@@ -61418,7 +60961,7 @@ targetData = {
   "Moonstone Obelisk": {
     "name": "Moonstone Obelisk",
     "id": 31101,
-    "combatStyle": "None",
+    "combatStyle": "none",
     "combatLevel": 150,
     "weakness": "None",
     "levels": {
@@ -61449,7 +60992,7 @@ targetData = {
   "Nefthys, the Split Soul": {
     "name": "Nefthys, the Split Soul",
     "id": 31104,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 1080,
     "weakness": "None",
     "levels": {
@@ -61483,7 +61026,7 @@ targetData = {
   "Shadowsands feline akh": {
     "name": "Shadowsands feline akh",
     "id": 31106,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 109,
     "weakness": "Water",
     "levels": {
@@ -61517,7 +61060,7 @@ targetData = {
   "Shadowsands gorilla akh": {
     "name": "Shadowsands gorilla akh",
     "id": 31107,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 111,
     "weakness": "Water",
     "levels": {
@@ -61551,7 +61094,7 @@ targetData = {
   "Shadowsands salawa akh": {
     "name": "Shadowsands salawa akh",
     "id": 31225,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 101,
     "weakness": "None",
     "levels": {
@@ -61585,7 +61128,7 @@ targetData = {
   "Profane Scabarite": {
     "name": "Profane Scabarite",
     "id": 31433,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 125,
     "weakness": "Earth",
     "levels": {
@@ -61617,7 +61160,7 @@ targetData = {
   "Spirit Scarab": {
     "name": "Spirit Scarab",
     "id": 31434,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 59,
     "weakness": "Earth",
     "levels": {
@@ -61649,7 +61192,7 @@ targetData = {
   "Grief": {
     "name": "Grief",
     "id": 31598,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 146,
     "weakness": "Earth",
     "levels": {
@@ -61681,7 +61224,7 @@ targetData = {
   "Elite Profane Scabarite": {
     "name": "Elite Profane Scabarite",
     "id": 31601,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 143,
     "weakness": "Earth",
     "levels": {
@@ -61713,7 +61256,7 @@ targetData = {
   "Mrs Duck": {
     "name": "Mrs Duck",
     "id": 31675,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 0,
     "weakness": "None",
     "levels": {
@@ -61745,7 +61288,7 @@ targetData = {
   "Lingering shadow": {
     "name": "Lingering shadow",
     "id": 32061,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 5000,
     "weakness": "None",
     "levels": {
@@ -61779,7 +61322,7 @@ targetData = {
   "Mizaru": {
     "name": "Mizaru",
     "id": 32146,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -61813,7 +61356,7 @@ targetData = {
   "Kikazaru": {
     "name": "Kikazaru",
     "id": 32148,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -61847,7 +61390,7 @@ targetData = {
   "Iwazaru": {
     "name": "Iwazaru",
     "id": 32152,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 98,
     "weakness": "None",
     "levels": {
@@ -61881,7 +61424,7 @@ targetData = {
   "Beastmaster's hound": {
     "name": "Beastmaster's hound",
     "id": 32221,
-    "combatStyle": "Melee",
+    "combatStyle": "melee",
     "combatLevel": 68,
     "weakness": "Crushing",
     "levels": {
@@ -61913,7 +61456,7 @@ targetData = {
   "Warped Seeker": {
     "name": "Warped Seeker",
     "id": 32509,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 58,
     "weakness": "Thrown",
     "levels": {
@@ -61947,7 +61490,7 @@ targetData = {
   "Warped flesh sac": {
     "name": "Warped flesh sac",
     "id": 32510,
-    "combatStyle": "Magic",
+    "combatStyle": "magic",
     "combatLevel": 58,
     "weakness": "Crushing",
     "levels": {
@@ -61976,6 +61519,18234 @@ targetData = {
       "armour": 181,
       "magic": 242,
       "ranged": 242
+    }
+  },
+  "Guard (ranged)": {
+    "name": "Guard",
+    "id": 3229,
+    "combatStyle": "ranged",
+    "combatLevel": 18,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 13,
+      "magic": 1,
+      "ranged": 13
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 234,
+      "armour": 234
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 92,
+      "magic": 44,
+      "ranged": 92
+    }
+  },
+  "Red dragon (magic)": {
+    "name": "Red dragon",
+    "id": 53,
+    "combatStyle": "magic",
+    "combatLevel": 84,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 44
+    }
+  },
+  "Ice spider (ranged)": {
+    "name": "Ice spider",
+    "id": 64,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 22,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 241,
+      "ranged": 354,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 161
+    }
+  },
+  "Ice spider (melee)": {
+    "name": "Ice spider",
+    "id": 10157,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Gnome (melee)": {
+    "name": "Gnome",
+    "id": 66,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Water",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (ranged)": {
+    "name": "Zombie",
+    "id": 10375,
+    "combatStyle": "ranged",
+    "combatLevel": 1,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Greater demon (magic)": {
+    "name": "Greater demon",
+    "id": 83,
+    "combatStyle": "magic",
+    "combatLevel": 82,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 59,
+      "magic": 59,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1101,
+      "armour": 1101
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 279,
+      "magic": 279,
+      "ranged": 44
+    }
+  },
+  "Greater demon (melee)": {
+    "name": "Greater demon",
+    "id": 10721,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 44
+    }
+  },
+  "Black demon (magic)": {
+    "name": "Black demon",
+    "id": 84,
+    "combatStyle": "magic",
+    "combatLevel": 98,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 44
+    }
+  },
+  "Skeleton (magic)": {
+    "name": "Skeleton",
+    "id": 5385,
+    "combatStyle": "magic",
+    "combatLevel": 79,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 57,
+      "magic": 57,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1040,
+      "armour": 1040
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 271,
+      "magic": 271,
+      "ranged": 44
+    }
+  },
+  "Ghost (melee)": {
+    "name": "Ghost",
+    "id": 6097,
+    "combatStyle": "melee",
+    "combatLevel": 12,
+    "weakness": "Air",
+    "levels": {
+      "attack": 9,
+      "defence": 9,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 191,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 76,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monkey (melee)": {
+    "name": "Monkey",
+    "id": 132,
+    "combatStyle": "melee",
+    "combatLevel": 8,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 6,
+      "defence": 6,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 160,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 160
+    },
+    "bonusStats": {
+      "attack": 64,
+      "armour": 64,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monkey (unknown)": {
+    "name": "Monkey",
+    "id": 23062,
+    "combatStyle": "unknown",
+    "combatLevel": 93,
+    "weakness": "None",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "Dark wizard (necromancy)": {
+    "name": "Dark wizard",
+    "id": 8874,
+    "combatStyle": "necromancy",
+    "combatLevel": 14,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 102,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Bandit Brawler (melee)": {
+    "name": "Bandit Brawler",
+    "id": 195,
+    "combatStyle": "melee",
+    "combatLevel": 112,
+    "weakness": "None",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Bandit Brawler (ranged)": {
+    "name": "Bandit Brawler",
+    "id": 23157,
+    "combatStyle": "ranged",
+    "combatLevel": 112,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 365
+    }
+  },
+  "Bandit Brawler (magic)": {
+    "name": "Bandit Brawler",
+    "id": 23158,
+    "combatStyle": "magic",
+    "combatLevel": 118,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 90,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 406,
+      "ranged": 44
+    }
+  },
+  "Monk (magic)": {
+    "name": "Monk",
+    "id": 222,
+    "combatStyle": "magic",
+    "combatLevel": 14,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 7,
+      "defence": 10,
+      "magic": 10,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 75,
+      "magic": 202,
+      "ranged": 0,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 80,
+      "magic": 80,
+      "ranged": 0
+    }
+  },
+  "Kolodion (melee)": {
+    "name": "Kolodion",
+    "id": 11302,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 42,
+      "defence": 57,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 427,
+      "armour": 1040
+    },
+    "bonusStats": {
+      "attack": 209,
+      "armour": 271,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Elf warrior (ranged)": {
+    "name": "Elf warrior",
+    "id": 1183,
+    "combatStyle": "ranged",
+    "combatLevel": 89,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 64
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1264,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 299
+    }
+  },
+  "Elf warrior (melee)": {
+    "name": "Elf warrior",
+    "id": 1184,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dagannoth (ranged)": {
+    "name": "Dagannoth",
+    "id": 1338,
+    "combatStyle": "ranged",
+    "combatLevel": 77,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 41,
+      "defence": 55,
+      "magic": 0,
+      "ranged": 55
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 412,
+      "magic": 0,
+      "ranged": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 205,
+      "armour": 262,
+      "magic": 0,
+      "ranged": 262
+    }
+  },
+  "Baby red dragon (magic)": {
+    "name": "Baby red dragon",
+    "id": 1589,
+    "combatStyle": "magic",
+    "combatLevel": 47,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 34,
+      "magic": 34,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 519,
+      "magic": 519,
+      "armour": 519
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 177,
+      "magic": 177,
+      "ranged": 44
+    }
+  },
+  "Baby red dragon (melee)": {
+    "name": "Baby red dragon",
+    "id": 3588,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Iron dragon (melee)": {
+    "name": "Iron dragon",
+    "id": 1591,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Water",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1650,
+      "magic": 1650,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Iron dragon (ranged)": {
+    "name": "Iron dragon",
+    "id": 10776,
+    "combatStyle": "ranged",
+    "combatLevel": 46,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 33,
+      "magic": 1,
+      "ranged": 33
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 502,
+      "ranged": 502,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 173,
+      "magic": 44,
+      "ranged": 173
+    }
+  },
+  "Steel dragon (melee)": {
+    "name": "Steel dragon",
+    "id": 1592,
+    "combatStyle": "melee",
+    "combatLevel": 100,
+    "weakness": "Water",
+    "levels": {
+      "attack": 72,
+      "defence": 72,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1783,
+      "magic": 1783,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 332,
+      "armour": 332,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Steel dragon (magic)": {
+    "name": "Steel dragon",
+    "id": 3590,
+    "combatStyle": "magic",
+    "combatLevel": 112,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 80,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1924,
+      "magic": 1924,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 365,
+      "ranged": 44
+    }
+  },
+  "Tortured soul (magic)": {
+    "name": "Tortured soul",
+    "id": 1698,
+    "combatStyle": "magic",
+    "combatLevel": 53,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 28,
+      "defence": 38,
+      "magic": 38,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 285,
+      "magic": 590,
+      "ranged": 0,
+      "armour": 590
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 193,
+      "magic": 193,
+      "ranged": 0
+    }
+  },
+  "Tortured soul (melee)": {
+    "name": "Tortured soul",
+    "id": 15510,
+    "combatStyle": "melee",
+    "combatLevel": 93,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "TzHaar-Xil (melee)": {
+    "name": "TzHaar-Xil",
+    "id": 2605,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 75,
+      "weak": 10,
+      "weakness": 90,
+      "magic": 10,
+      "melee": 75,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "TzHaar-Xil (ranged)": {
+    "name": "TzHaar-Xil",
+    "id": 2606,
+    "combatStyle": "ranged",
+    "combatLevel": 86,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 62
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 291
+    }
+  },
+  "Shadow (ranged)": {
+    "name": "Shadow",
+    "id": 22444,
+    "combatStyle": "ranged",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 75,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 345,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Barbarian (ranged)": {
+    "name": "Barbarian",
+    "id": 3259,
+    "combatStyle": "ranged",
+    "combatLevel": 21,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 15
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 157,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 100
+    }
+  },
+  "Tentacle (magic)": {
+    "name": "Tentacle",
+    "id": 21120,
+    "combatStyle": "magic",
+    "combatLevel": 0,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 3,
+      "magic": 3,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 268,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 52,
+      "magic": 52,
+      "ranged": 44
+    }
+  },
+  "Held vampyre juvinate (ranged)": {
+    "name": "Held vampyre juvinate",
+    "id": 4780,
+    "combatStyle": "ranged",
+    "combatLevel": 61,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 44
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 710,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 218
+    }
+  },
+  "Held vampyre juvinate (melee)": {
+    "name": "Held vampyre juvinate",
+    "id": 14044,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Vanstrom Klause (melee)": {
+    "name": "Vanstrom Klause",
+    "id": 4793,
+    "combatStyle": "melee",
+    "combatLevel": 82,
+    "weakness": "Water",
+    "levels": {
+      "attack": 59,
+      "defence": 59,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1101,
+      "armour": 1101
+    },
+    "bonusStats": {
+      "attack": 279,
+      "armour": 279,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Vanstrom Klause (magic)": {
+    "name": "Vanstrom Klause",
+    "id": 14176,
+    "combatStyle": "magic",
+    "combatLevel": 140,
+    "weakness": "None",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 1486,
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 324
+    }
+  },
+  "Locust rider (melee)": {
+    "name": "Locust rider",
+    "id": 5251,
+    "combatStyle": "melee",
+    "combatLevel": 75,
+    "weakness": "Water",
+    "levels": {
+      "attack": 54,
+      "defence": 54,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 955,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 955
+    },
+    "bonusStats": {
+      "attack": 258,
+      "armour": 258,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Locust rider (ranged)": {
+    "name": "Locust rider",
+    "id": 5252,
+    "combatStyle": "ranged",
+    "combatLevel": 75,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 40,
+      "defence": 54,
+      "magic": 0,
+      "ranged": 54
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 955,
+      "magic": 0,
+      "ranged": 955,
+      "armour": 955
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 258,
+      "magic": 0,
+      "ranged": 258
+    }
+  },
+  "Icelord (ranged)": {
+    "name": "Icelord",
+    "id": 5452,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 22,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 225,
+      "magic": 0,
+      "ranged": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 161
+    }
+  },
+  "Icelord (melee)": {
+    "name": "Icelord",
+    "id": 5453,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Portal (melee)": {
+    "name": "Portal",
+    "id": 6142,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 0,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 0,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Portal (ranged)": {
+    "name": "Portal",
+    "id": 6144,
+    "combatStyle": "ranged",
+    "combatLevel": 0,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 0
+    }
+  },
+  "Small scarab (melee)": {
+    "name": "Small scarab",
+    "id": 7500,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Air",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Small scarab (ranged)": {
+    "name": "Small scarab",
+    "id": 13231,
+    "combatStyle": "ranged",
+    "combatLevel": 50,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 27,
+      "defence": 36,
+      "magic": 0,
+      "ranged": 36
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 409,
+      "magic": 0,
+      "ranged": 553,
+      "armour": 553
+    },
+    "bonusStats": {
+      "attack": 149,
+      "armour": 185,
+      "magic": 0,
+      "ranged": 185
+    }
+  },
+  "Zaromark Sliver (ranged)": {
+    "name": "Zaromark Sliver",
+    "id": 7644,
+    "combatStyle": "ranged",
+    "combatLevel": 77,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 55
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 262
+    }
+  },
+  "Zaromark Sliver (melee)": {
+    "name": "Zaromark Sliver",
+    "id": 7648,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Air",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lava monster (ranged)": {
+    "name": "Lava monster",
+    "id": 7772,
+    "combatStyle": "ranged",
+    "combatLevel": 53,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 28,
+      "defence": 38,
+      "magic": 0,
+      "ranged": 38
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 285,
+      "magic": 0,
+      "ranged": 590,
+      "armour": 590
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 193,
+      "magic": 0,
+      "ranged": 193
+    }
+  },
+  "Lava monster (magic)": {
+    "name": "Lava monster",
+    "id": 15188,
+    "combatStyle": "magic",
+    "combatLevel": 103,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 55,
+      "defence": 74,
+      "magic": 74,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 555,
+      "magic": 1650,
+      "ranged": 0,
+      "armour": 1650
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 340,
+      "magic": 340,
+      "ranged": 0
+    }
+  },
+  "Assassin (ranged)": {
+    "name": "Assassin",
+    "id": 8422,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 161
+    }
+  },
+  "Assassin (melee)": {
+    "name": "Assassin",
+    "id": 29951,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Elite Khazard guard (ranged)": {
+    "name": "Elite Khazard guard",
+    "id": 14249,
+    "combatStyle": "ranged",
+    "combatLevel": 84,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 45,
+      "defence": 60,
+      "magic": 0,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 0,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 283,
+      "magic": 0,
+      "ranged": 283
+    }
+  },
+  "Elite Khazard guard (magic)": {
+    "name": "Elite Khazard guard",
+    "id": 14250,
+    "combatStyle": "magic",
+    "combatLevel": 84,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 45,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 1132,
+      "ranged": 0,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 0
+    }
+  },
+  "Crassian scout (ranged)": {
+    "name": "Crassian scout",
+    "id": 9071,
+    "combatStyle": "ranged",
+    "combatLevel": 75,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Crassian scout (melee)": {
+    "name": "Crassian scout",
+    "id": 19312,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Kal'Ger the Warmonger (melee)": {
+    "name": "Kal'Ger the Warmonger",
+    "id": 12752,
+    "combatStyle": "melee",
+    "combatLevel": 126,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Kal'Ger the Warmonger (magic)": {
+    "name": "Kal'Ger the Warmonger",
+    "id": 12782,
+    "combatStyle": "magic",
+    "combatLevel": 126,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 628,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Troll runt (magic)": {
+    "name": "Troll runt",
+    "id": 15997,
+    "combatStyle": "magic",
+    "combatLevel": 2,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 90,
+      "same": 90,
+      "weak": 90,
+      "weakness": 90,
+      "magic": 90,
+      "melee": 90,
+      "ranged": 90
+    },
+    "baseStats": {
+      "magic": 140,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll runt (ranged)": {
+    "name": "Troll runt",
+    "id": 15998,
+    "combatStyle": "ranged",
+    "combatLevel": 2,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 90,
+      "same": 90,
+      "weak": 90,
+      "weakness": 90,
+      "magic": 90,
+      "melee": 90,
+      "ranged": 90
+    },
+    "baseStats": {
+      "ranged": 140,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Cliff (magic)": {
+    "name": "Cliff",
+    "id": 15112,
+    "combatStyle": "magic",
+    "combatLevel": 91,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 44
+    }
+  },
+  "Cliff (ranged)": {
+    "name": "Cliff",
+    "id": 15114,
+    "combatStyle": "ranged",
+    "combatLevel": 91,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 303
+    }
+  },
+  "Colonel Grimsson (ranged)": {
+    "name": "Colonel Grimsson",
+    "id": 13421,
+    "combatStyle": "ranged",
+    "combatLevel": 84,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 0,
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 283
+    }
+  },
+  "Colonel Grimsson (melee)": {
+    "name": "Colonel Grimsson",
+    "id": 18383,
+    "combatStyle": "melee",
+    "combatLevel": 107,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "ranged": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 386
+    }
+  },
+  "Risen knight (melee)": {
+    "name": "Risen knight",
+    "id": 13743,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Air",
+    "levels": {
+      "attack": 43,
+      "defence": 43,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 689,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 213,
+      "armour": 213,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Risen knight (ranged)": {
+    "name": "Risen knight",
+    "id": 13746,
+    "combatStyle": "ranged",
+    "combatLevel": 60,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 32,
+      "defence": 43,
+      "magic": 0,
+      "ranged": 43
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 322,
+      "magic": 0,
+      "ranged": 689,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 213,
+      "magic": 0,
+      "ranged": 213
+    }
+  },
+  "Risen knight (magic)": {
+    "name": "Risen knight",
+    "id": 13748,
+    "combatStyle": "magic",
+    "combatLevel": 60,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 32,
+      "defence": 43,
+      "magic": 43,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 322,
+      "magic": 689,
+      "ranged": 0,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 213,
+      "magic": 213,
+      "ranged": 0
+    }
+  },
+  "Zemouregal (melee)": {
+    "name": "Zemouregal",
+    "id": 14271,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 72,
+      "defence": 72,
+      "magic": 72,
+      "ranged": 72
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1566,
+      "magic": 1566,
+      "ranged": 1566,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 332,
+      "armour": 332,
+      "magic": 332,
+      "ranged": 332
+    }
+  },
+  "Zemouregal (necromancy)": {
+    "name": "Zemouregal",
+    "id": 30692,
+    "combatStyle": "necromancy",
+    "combatLevel": 789,
+    "weakness": "None",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 2765,
+      "necromancy": 1386,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 324
+    }
+  },
+  "Max (melee)": {
+    "name": "Max",
+    "id": 15976,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Max (ranged)": {
+    "name": "Max",
+    "id": 15977,
+    "combatStyle": "ranged",
+    "combatLevel": 138,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Max (magic)": {
+    "name": "Max",
+    "id": 15978,
+    "combatStyle": "magic",
+    "combatLevel": 138,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Armadylean bodyguard (melee)": {
+    "name": "Armadylean bodyguard",
+    "id": 18633,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Air",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Armadylean bodyguard (ranged)": {
+    "name": "Armadylean bodyguard",
+    "id": 18636,
+    "combatStyle": "ranged",
+    "combatLevel": 70,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Armadylean bodyguard (magic)": {
+    "name": "Armadylean bodyguard",
+    "id": 18639,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Bandosian bodyguard (melee)": {
+    "name": "Bandosian bodyguard",
+    "id": 18652,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Air",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Bandosian bodyguard (ranged)": {
+    "name": "Bandosian bodyguard",
+    "id": 18655,
+    "combatStyle": "ranged",
+    "combatLevel": 70,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Bandosian bodyguard (magic)": {
+    "name": "Bandosian bodyguard",
+    "id": 18658,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Armadylean ambusher (melee)": {
+    "name": "Armadylean ambusher",
+    "id": 18768,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Armadylean ambusher (ranged)": {
+    "name": "Armadylean ambusher",
+    "id": 18788,
+    "combatStyle": "ranged",
+    "combatLevel": 0,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Bandosian ambusher (melee)": {
+    "name": "Bandosian ambusher",
+    "id": 18784,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Bandosian ambusher (ranged)": {
+    "name": "Bandosian ambusher",
+    "id": 18794,
+    "combatStyle": "ranged",
+    "combatLevel": 0,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Araxxor (melee)": {
+    "name": "Araxxor",
+    "id": 19457,
+    "combatStyle": "melee",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 80,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 45,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 45,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 365,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Araxxor (magic)": {
+    "name": "Araxxor",
+    "id": 19462,
+    "combatStyle": "magic",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 80,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 45,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 40,
+      "melee": 60,
+      "ranged": 45
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 365,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Araxxor (ranged)": {
+    "name": "Araxxor",
+    "id": 19463,
+    "combatStyle": "ranged",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 80,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 45,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 45,
+      "melee": 40,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 365,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Araxxor (acidic) (melee)": {
+    "name": "Araxxor (acidic)",
+    "id": 19465,
+    "combatStyle": "melee",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 83,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 45,
+      "same": 50,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 45
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 2074
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 378,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Araxxor (acidic) (magic)": {
+    "name": "Araxxor (acidic)",
+    "id": 19466,
+    "combatStyle": "magic",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 83,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 45,
+      "same": 50,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 45,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 2074
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 378,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Araxxor (acidic) (ranged)": {
+    "name": "Araxxor (acidic)",
+    "id": 19467,
+    "combatStyle": "ranged",
+    "combatLevel": 2500,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 83,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 45,
+      "same": 50,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 50,
+      "melee": 45,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 2074
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 378,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Trahaearn automaton (melee)": {
+    "name": "Trahaearn automaton",
+    "id": 19527,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Water",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Trahaearn automaton (ranged)": {
+    "name": "Trahaearn automaton",
+    "id": 19528,
+    "combatStyle": "ranged",
+    "combatLevel": 70,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Trahaearn automaton (magic)": {
+    "name": "Trahaearn automaton",
+    "id": 19529,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Crystal Shapeshifter (melee)": {
+    "name": "Crystal Shapeshifter",
+    "id": 21630,
+    "combatStyle": "melee",
+    "combatLevel": 112,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Crystal Shapeshifter (ranged)": {
+    "name": "Crystal Shapeshifter",
+    "id": 21631,
+    "combatStyle": "ranged",
+    "combatLevel": 112,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1924,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 365
+    }
+  },
+  "Crystal Shapeshifter (magic)": {
+    "name": "Crystal Shapeshifter",
+    "id": 21632,
+    "combatStyle": "magic",
+    "combatLevel": 112,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 80,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1924,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 365,
+      "ranged": 44
+    }
+  },
+  "Goblin Looter (melee)": {
+    "name": "Goblin Looter",
+    "id": 22177,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "None",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Goblin Looter (ranged)": {
+    "name": "Goblin Looter",
+    "id": 22178,
+    "combatStyle": "ranged",
+    "combatLevel": 35,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 25
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 141
+    }
+  },
+  "Goblin Looter (magic)": {
+    "name": "Goblin Looter",
+    "id": 22179,
+    "combatStyle": "magic",
+    "combatLevel": 35,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 25,
+      "magic": 25,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 141,
+      "magic": 141,
+      "ranged": 44
+    }
+  },
+  "Spirit Marauder (melee)": {
+    "name": "Spirit Marauder",
+    "id": 22184,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "None",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Spirit Marauder (ranged)": {
+    "name": "Spirit Marauder",
+    "id": 22185,
+    "combatStyle": "ranged",
+    "combatLevel": 70,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Spirit Marauder (magic)": {
+    "name": "Spirit Marauder",
+    "id": 22186,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Troll Pillager (melee)": {
+    "name": "Troll Pillager",
+    "id": 22190,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "None",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll Pillager (ranged)": {
+    "name": "Troll Pillager",
+    "id": 22191,
+    "combatStyle": "ranged",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 1,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 44,
+      "ranged": 345
+    }
+  },
+  "Troll Pillager (magic)": {
+    "name": "Troll Pillager",
+    "id": 22192,
+    "combatStyle": "magic",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 44
+    }
+  },
+  "Automaton (melee)": {
+    "name": "Automaton",
+    "id": 22474,
+    "combatStyle": "melee",
+    "combatLevel": 115,
+    "weakness": "Water",
+    "levels": {
+      "attack": 85,
+      "defence": 80,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 365,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Automaton (ranged)": {
+    "name": "Automaton",
+    "id": 22475,
+    "combatStyle": "ranged",
+    "combatLevel": 115,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 85,
+      "defence": 80,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 365,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Automaton (magic)": {
+    "name": "Automaton",
+    "id": 22476,
+    "combatStyle": "magic",
+    "combatLevel": 115,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 85,
+      "defence": 80,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 365,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Fallen champion (melee)": {
+    "name": "Fallen champion",
+    "id": 22482,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Fallen champion (ranged)": {
+    "name": "Fallen champion",
+    "id": 22483,
+    "combatStyle": "ranged",
+    "combatLevel": 119,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 2178,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Elite Sotapanna (melee)": {
+    "name": "Elite Sotapanna",
+    "id": 25573,
+    "combatStyle": "melee",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Elite Sotapanna (magic)": {
+    "name": "Elite Sotapanna",
+    "id": 25575,
+    "combatStyle": "magic",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Elite Sotapanna (ranged)": {
+    "name": "Elite Sotapanna",
+    "id": 25576,
+    "combatStyle": "ranged",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Enlightened Sotapanna (melee)": {
+    "name": "Enlightened Sotapanna",
+    "id": 26193,
+    "combatStyle": "melee",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Enlightened Sotapanna (magic)": {
+    "name": "Enlightened Sotapanna",
+    "id": 26195,
+    "combatStyle": "magic",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Enlightened Sotapanna (ranged)": {
+    "name": "Enlightened Sotapanna",
+    "id": 26196,
+    "combatStyle": "ranged",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Human akh (melee)": {
+    "name": "Human akh",
+    "id": 32137,
+    "combatStyle": "melee",
+    "combatLevel": 108,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1594,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Human akh (ranged)": {
+    "name": "Human akh",
+    "id": 32138,
+    "combatStyle": "ranged",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 1,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1594,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 44,
+      "ranged": 345
+    }
+  },
+  "Human akh (magic)": {
+    "name": "Human akh",
+    "id": 32139,
+    "combatStyle": "magic",
+    "combatLevel": 101,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 75,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1594,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 345,
+      "ranged": 44
+    }
+  },
+  "Man (lvl 1)": {
+    "name": "Man",
+    "id": 3915,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Woman (lvl 4)": {
+    "name": "Woman",
+    "id": 4,
+    "combatStyle": "melee",
+    "combatLevel": 4,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 3,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 130,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 52,
+      "armour": 52,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Thief (lvl 14)": {
+    "name": "Thief",
+    "id": 8,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Thief (lvl 21)": {
+    "name": "Thief",
+    "id": 282,
+    "combatStyle": "melee",
+    "combatLevel": 21,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 15,
+      "defence": 15,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 257,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 100,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Thief (lvl 12)": {
+    "name": "Thief",
+    "id": 5926,
+    "combatStyle": "melee",
+    "combatLevel": 12,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 9,
+      "defence": 9,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 191,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 76,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Thief (lvl 11)": {
+    "name": "Thief",
+    "id": 5928,
+    "combatStyle": "melee",
+    "combatLevel": 11,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 9,
+      "defence": 8,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 191,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 72,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Guard (lvl 16)": {
+    "name": "Guard",
+    "id": 206,
+    "combatStyle": "melee",
+    "combatLevel": 16,
+    "weakness": "Air",
+    "levels": {
+      "attack": 12,
+      "defence": 12,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 223,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 88,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Guard (lvl 58)": {
+    "name": "Guard",
+    "id": 5800,
+    "combatStyle": "melee",
+    "combatLevel": 58,
+    "weakness": "Air",
+    "levels": {
+      "attack": 42,
+      "defence": 42,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 668,
+      "armour": 668
+    },
+    "bonusStats": {
+      "attack": 209,
+      "armour": 209,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guard (lvl 25)": {
+    "name": "Guard",
+    "id": 5919,
+    "combatStyle": "melee",
+    "combatLevel": 25,
+    "weakness": "Air",
+    "levels": {
+      "attack": 18,
+      "defence": 18,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 292,
+      "armour": 292
+    },
+    "bonusStats": {
+      "attack": 112,
+      "armour": 112,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guard (lvl 9)": {
+    "name": "Guard",
+    "id": 14920,
+    "combatStyle": "melee",
+    "combatLevel": 9,
+    "weakness": "Air",
+    "levels": {
+      "attack": 7,
+      "defence": 7,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 171,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 68,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Wizard (lvl 18)": {
+    "name": "Wizard",
+    "id": 13,
+    "combatStyle": "magic",
+    "combatLevel": 18,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 13,
+      "magic": 13,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 234,
+      "armour": 234
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 92,
+      "magic": 92,
+      "ranged": 44
+    }
+  },
+  "Wizard (lvl 2)": {
+    "name": "Wizard",
+    "id": 12299,
+    "combatStyle": "magic",
+    "combatLevel": 2,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 2,
+      "magic": 2,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 15,
+      "magic": 120,
+      "ranged": 0,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 48,
+      "magic": 48,
+      "ranged": 0
+    }
+  },
+  "Paladin (lvl 49)": {
+    "name": "Paladin",
+    "id": 20,
+    "combatStyle": "melee",
+    "combatLevel": 49,
+    "weakness": "Water",
+    "levels": {
+      "attack": 35,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 536,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 181,
+      "armour": 181,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Paladin (lvl 70)": {
+    "name": "Paladin",
+    "id": 365,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Chicken (lvl 1)": {
+    "name": "Chicken",
+    "id": 41,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 10,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Chicken (lvl 111)": {
+    "name": "Chicken",
+    "id": 23237,
+    "combatStyle": "melee",
+    "combatLevel": 111,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Frost dragon (lvl 112)": {
+    "name": "Frost dragon",
+    "id": 51,
+    "combatStyle": "ranged",
+    "combatLevel": 112,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1783,
+      "magic": 1783,
+      "ranged": 1783,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Frost dragon (lvl 43)": {
+    "name": "Frost dragon",
+    "id": 10770,
+    "combatStyle": "ranged",
+    "combatLevel": 43,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 31,
+      "defence": 31,
+      "magic": 1,
+      "ranged": 31
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 470,
+      "ranged": 470,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 165,
+      "armour": 165,
+      "magic": 44,
+      "ranged": 165
+    }
+  },
+  "Frost dragon (lvl 61)": {
+    "name": "Frost dragon",
+    "id": 10771,
+    "combatStyle": "ranged",
+    "combatLevel": 61,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 44,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 44
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 710,
+      "ranged": 710,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 218,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 218
+    }
+  },
+  "Frost dragon (lvl 81)": {
+    "name": "Frost dragon",
+    "id": 10772,
+    "combatStyle": "ranged",
+    "combatLevel": 81,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 58,
+      "defence": 58,
+      "magic": 1,
+      "ranged": 58
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1070,
+      "ranged": 1070,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 275,
+      "armour": 275,
+      "magic": 44,
+      "ranged": 275
+    }
+  },
+  "Frost dragon (lvl 119)": {
+    "name": "Frost dragon",
+    "id": 10774,
+    "combatStyle": "ranged",
+    "combatLevel": 119,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2178,
+      "ranged": 2178,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 386
+    }
+  },
+  "Frost dragon (lvl 138)": {
+    "name": "Frost dragon",
+    "id": 10775,
+    "combatStyle": "ranged",
+    "combatLevel": 138,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 3031,
+      "ranged": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 444
+    }
+  },
+  "Red dragon (lvl 106)": {
+    "name": "Red dragon",
+    "id": 10815,
+    "combatStyle": "ranged",
+    "combatLevel": 106,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 76,
+      "defence": 76,
+      "magic": 1,
+      "ranged": 76
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1738,
+      "ranged": 1738,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 349,
+      "armour": 349,
+      "magic": 44,
+      "ranged": 349
+    }
+  },
+  "Red dragon (lvl 113)": {
+    "name": "Red dragon",
+    "id": 10816,
+    "combatStyle": "ranged",
+    "combatLevel": 113,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 81,
+      "defence": 81,
+      "magic": 1,
+      "ranged": 81
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1973,
+      "ranged": 1973,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 369,
+      "armour": 369,
+      "magic": 44,
+      "ranged": 369
+    }
+  },
+  "Red dragon (lvl 119)": {
+    "name": "Red dragon",
+    "id": 10817,
+    "combatStyle": "ranged",
+    "combatLevel": 119,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2178,
+      "ranged": 2178,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 386
+    }
+  },
+  "Red dragon (lvl 126)": {
+    "name": "Red dragon",
+    "id": 10818,
+    "combatStyle": "ranged",
+    "combatLevel": 126,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2458,
+      "ranged": 2458,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 406
+    }
+  },
+  "Red dragon (lvl 133)": {
+    "name": "Red dragon",
+    "id": 10819,
+    "combatStyle": "ranged",
+    "combatLevel": 133,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 95,
+      "defence": 95,
+      "magic": 1,
+      "ranged": 95
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2765,
+      "ranged": 2765,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 427,
+      "armour": 427,
+      "magic": 44,
+      "ranged": 427
+    }
+  },
+  "Red dragon (lvl 138)": {
+    "name": "Red dragon",
+    "id": 10820,
+    "combatStyle": "ranged",
+    "combatLevel": 138,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 3031,
+      "ranged": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 444
+    }
+  },
+  "Black dragon (lvl 100)": {
+    "name": "Black dragon",
+    "id": 54,
+    "combatStyle": "magic",
+    "combatLevel": 100,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 72,
+      "magic": 72,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1566,
+      "magic": 1566,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 332,
+      "magic": 332,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 49)": {
+    "name": "Black dragon",
+    "id": 10219,
+    "combatStyle": "magic",
+    "combatLevel": 49,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 35,
+      "defence": 35,
+      "magic": 35,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 536,
+      "ranged": 536,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 181,
+      "armour": 181,
+      "magic": 181,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 65)": {
+    "name": "Black dragon",
+    "id": 10220,
+    "combatStyle": "magic",
+    "combatLevel": 65,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 47,
+      "defence": 47,
+      "magic": 47,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 778,
+      "ranged": 778,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 230,
+      "armour": 230,
+      "magic": 230,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 84)": {
+    "name": "Black dragon",
+    "id": 10221,
+    "combatStyle": "magic",
+    "combatLevel": 84,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1132,
+      "ranged": 1132,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 102)": {
+    "name": "Black dragon",
+    "id": 10222,
+    "combatStyle": "magic",
+    "combatLevel": 102,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 73,
+      "defence": 73,
+      "magic": 73,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1608,
+      "ranged": 1608,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 336,
+      "armour": 336,
+      "magic": 336,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 120)": {
+    "name": "Black dragon",
+    "id": 10223,
+    "combatStyle": "magic",
+    "combatLevel": 120,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 86,
+      "defence": 86,
+      "magic": 86,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2232,
+      "ranged": 2232,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 390,
+      "armour": 390,
+      "magic": 390,
+      "ranged": 44
+    }
+  },
+  "Black dragon (lvl 138)": {
+    "name": "Black dragon",
+    "id": 10224,
+    "combatStyle": "magic",
+    "combatLevel": 138,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "ranged": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 44
+    }
+  },
+  "Giant spider (lvl 2)": {
+    "name": "Giant spider",
+    "id": 59,
+    "combatStyle": "ranged",
+    "combatLevel": 2,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 2
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 20,
+      "ranged": 20,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 48
+    }
+  },
+  "Giant spider (lvl 29)": {
+    "name": "Giant spider",
+    "id": 4400,
+    "combatStyle": "ranged",
+    "combatLevel": 29,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 19,
+      "magic": 1,
+      "ranged": 24
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 268,
+      "armour": 304
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 116,
+      "magic": 44,
+      "ranged": 136
+    }
+  },
+  "Jungle spider (lvl 86)": {
+    "name": "Jungle spider",
+    "id": 62,
+    "combatStyle": "ranged",
+    "combatLevel": 86,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 62
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1097,
+      "ranged": 1097,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 291
+    }
+  },
+  "Jungle spider (lvl 88)": {
+    "name": "Jungle spider",
+    "id": 1478,
+    "combatStyle": "ranged",
+    "combatLevel": 88,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 47,
+      "defence": 63,
+      "magic": 0,
+      "ranged": 63
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 472,
+      "magic": 0,
+      "ranged": 1230,
+      "armour": 1230
+    },
+    "bonusStats": {
+      "attack": 230,
+      "armour": 295,
+      "magic": 0,
+      "ranged": 295
+    }
+  },
+  "Gnome (lvl 42)": {
+    "name": "Gnome",
+    "id": 67,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 161
+    }
+  },
+  "Gnome (lvl 43)": {
+    "name": "Gnome",
+    "id": 2249,
+    "combatStyle": "ranged",
+    "combatLevel": 43,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 31,
+      "magic": 1,
+      "ranged": 31
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 470,
+      "armour": 470
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 165,
+      "magic": 44,
+      "ranged": 165
+    }
+  },
+  "Troll (lvl 70)": {
+    "name": "Troll",
+    "id": 72,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll (lvl 98)": {
+    "name": "Troll",
+    "id": 3584,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 22)": {
+    "name": "Zombie",
+    "id": 74,
+    "combatStyle": "melee",
+    "combatLevel": 22,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 16,
+      "defence": 16,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 268,
+      "armour": 268
+    },
+    "bonusStats": {
+      "attack": 104,
+      "armour": 104,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 29)": {
+    "name": "Zombie",
+    "id": 75,
+    "combatStyle": "melee",
+    "combatLevel": 29,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 21,
+      "defence": 21,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 329,
+      "armour": 329
+    },
+    "bonusStats": {
+      "attack": 124,
+      "armour": 124,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 36)": {
+    "name": "Zombie",
+    "id": 1826,
+    "combatStyle": "melee",
+    "combatLevel": 36,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 26,
+      "defence": 26,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 395,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 395
+    },
+    "bonusStats": {
+      "attack": 145,
+      "armour": 145,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Zombie (lvl 21)": {
+    "name": "Zombie",
+    "id": 4393,
+    "combatStyle": "melee",
+    "combatLevel": 21,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 15,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 157,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 72)": {
+    "name": "Zombie",
+    "id": 5393,
+    "combatStyle": "melee",
+    "combatLevel": 72,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 52,
+      "defence": 52,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 901,
+      "armour": 901
+    },
+    "bonusStats": {
+      "attack": 250,
+      "armour": 250,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 74)": {
+    "name": "Zombie",
+    "id": 5395,
+    "combatStyle": "melee",
+    "combatLevel": 74,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 53,
+      "defence": 53,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 928,
+      "armour": 928
+    },
+    "bonusStats": {
+      "attack": 254,
+      "armour": 254,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 75)": {
+    "name": "Zombie",
+    "id": 5396,
+    "combatStyle": "melee",
+    "combatLevel": 75,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 54,
+      "defence": 54,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 955,
+      "armour": 955
+    },
+    "bonusStats": {
+      "attack": 258,
+      "armour": 258,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 77)": {
+    "name": "Zombie",
+    "id": 5398,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 78)": {
+    "name": "Zombie",
+    "id": 5401,
+    "combatStyle": "melee",
+    "combatLevel": 78,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 56,
+      "defence": 56,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1011,
+      "armour": 1011
+    },
+    "bonusStats": {
+      "attack": 267,
+      "armour": 267,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 79)": {
+    "name": "Zombie",
+    "id": 5402,
+    "combatStyle": "melee",
+    "combatLevel": 79,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 57,
+      "defence": 57,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1040,
+      "armour": 1040
+    },
+    "bonusStats": {
+      "attack": 271,
+      "armour": 271,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 84)": {
+    "name": "Zombie",
+    "id": 5407,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 85)": {
+    "name": "Zombie",
+    "id": 5408,
+    "combatStyle": "melee",
+    "combatLevel": 85,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 61,
+      "defence": 61,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1164,
+      "armour": 1164
+    },
+    "bonusStats": {
+      "attack": 287,
+      "armour": 287,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 42)": {
+    "name": "Zombie",
+    "id": 10367,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 56)": {
+    "name": "Zombie",
+    "id": 10368,
+    "combatStyle": "melee",
+    "combatLevel": 56,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 40,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 96)": {
+    "name": "Zombie",
+    "id": 10371,
+    "combatStyle": "melee",
+    "combatLevel": 96,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 69,
+      "defence": 69,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1447,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 320,
+      "armour": 320,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 110)": {
+    "name": "Zombie",
+    "id": 10372,
+    "combatStyle": "melee",
+    "combatLevel": 110,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 79,
+      "defence": 79,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1876,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 361,
+      "armour": 361,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (lvl 138)": {
+    "name": "Zombie",
+    "id": 10374,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Summoned Zombie (lvl 12)": {
+    "name": "Summoned Zombie",
+    "id": 77,
+    "combatStyle": "melee",
+    "combatLevel": 12,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 9,
+      "defence": 9,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 191,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 76,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Summoned Zombie (lvl 108)": {
+    "name": "Summoned Zombie",
+    "id": 26177,
+    "combatStyle": "melee",
+    "combatLevel": 108,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 90,
+      "defence": 67,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 312,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant bat (lvl 14)": {
+    "name": "Giant bat",
+    "id": 78,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 102,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant bat (lvl 23)": {
+    "name": "Giant bat",
+    "id": 3711,
+    "combatStyle": "melee",
+    "combatLevel": 23,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 17,
+      "defence": 17,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 180,
+      "armour": 280
+    },
+    "bonusStats": {
+      "attack": 108,
+      "armour": 108,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lesser demon (lvl 56)": {
+    "name": "Lesser demon",
+    "id": 6101,
+    "combatStyle": "magic",
+    "combatLevel": 56,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 30,
+      "defence": 40,
+      "magic": 40,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 628,
+      "ranged": 0,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 201,
+      "magic": 201,
+      "ranged": 0
+    }
+  },
+  "Black demon (lvl 98)": {
+    "name": "Black demon",
+    "id": 677,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Water",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Black demon (lvl 138)": {
+    "name": "Black demon",
+    "id": 10725,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant rat (lvl 7)": {
+    "name": "Giant rat",
+    "id": 86,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 50,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant rat (lvl 9)": {
+    "name": "Giant rat",
+    "id": 4395,
+    "combatStyle": "melee",
+    "combatLevel": 9,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 7,
+      "defence": 7,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 71,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 68,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant rat (lvl 4)": {
+    "name": "Giant rat",
+    "id": 12914,
+    "combatStyle": "melee",
+    "combatLevel": 4,
+    "weakness": "Air",
+    "levels": {
+      "attack": 3,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 130,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 52,
+      "armour": 52,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dungeon rat (lvl 18)": {
+    "name": "Dungeon rat",
+    "id": 88,
+    "combatStyle": "melee",
+    "combatLevel": 18,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 13,
+      "defence": 13,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 234,
+      "armour": 234
+    },
+    "bonusStats": {
+      "attack": 92,
+      "armour": 92,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dungeon rat (lvl 11)": {
+    "name": "Dungeon rat",
+    "id": 224,
+    "combatStyle": "melee",
+    "combatLevel": 11,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 8,
+      "defence": 8,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 181,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 72,
+      "armour": 72,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Skeleton (lvl 16)": {
+    "name": "Skeleton",
+    "id": 91,
+    "combatStyle": "melee",
+    "combatLevel": 16,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 12,
+      "defence": 12,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 223,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 88,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 32)": {
+    "name": "Skeleton",
+    "id": 92,
+    "combatStyle": "melee",
+    "combatLevel": 32,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 23,
+      "defence": 23,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 354
+    },
+    "bonusStats": {
+      "attack": 132,
+      "armour": 132,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 58)": {
+    "name": "Skeleton",
+    "id": 93,
+    "combatStyle": "melee",
+    "combatLevel": 58,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 42,
+      "defence": 42,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 668,
+      "armour": 668
+    },
+    "bonusStats": {
+      "attack": 209,
+      "armour": 209,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 86)": {
+    "name": "Skeleton",
+    "id": 2036,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 88)": {
+    "name": "Skeleton",
+    "id": 2037,
+    "combatStyle": "melee",
+    "combatLevel": 88,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 63,
+      "defence": 63,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 295,
+      "armour": 295,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 11)": {
+    "name": "Skeleton",
+    "id": 3291,
+    "combatStyle": "melee",
+    "combatLevel": 11,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 8,
+      "defence": 8,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 181,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 72,
+      "armour": 72,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Skeleton (lvl 46)": {
+    "name": "Skeleton",
+    "id": 4384,
+    "combatStyle": "melee",
+    "combatLevel": 46,
+    "weakness": "Water",
+    "levels": {
+      "attack": 33,
+      "defence": 33,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 402,
+      "armour": 502
+    },
+    "bonusStats": {
+      "attack": 173,
+      "armour": 173,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 51)": {
+    "name": "Skeleton",
+    "id": 4386,
+    "combatStyle": "melee",
+    "combatLevel": 51,
+    "weakness": "Water",
+    "levels": {
+      "attack": 37,
+      "defence": 37,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 471,
+      "armour": 571
+    },
+    "bonusStats": {
+      "attack": 189,
+      "armour": 189,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 77)": {
+    "name": "Skeleton",
+    "id": 5386,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 71)": {
+    "name": "Skeleton",
+    "id": 5389,
+    "combatStyle": "melee",
+    "combatLevel": 71,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 51,
+      "defence": 51,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 875,
+      "armour": 875
+    },
+    "bonusStats": {
+      "attack": 246,
+      "armour": 246,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 72)": {
+    "name": "Skeleton",
+    "id": 5392,
+    "combatStyle": "melee",
+    "combatLevel": 72,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 52,
+      "defence": 52,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 901,
+      "armour": 901
+    },
+    "bonusStats": {
+      "attack": 250,
+      "armour": 250,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 79)": {
+    "name": "Skeleton",
+    "id": 5412,
+    "combatStyle": "melee",
+    "combatLevel": 79,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 57,
+      "defence": 57,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1040,
+      "armour": 1040
+    },
+    "bonusStats": {
+      "attack": 271,
+      "armour": 271,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 138)": {
+    "name": "Skeleton",
+    "id": 10669,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Air",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton (lvl 56)": {
+    "name": "Skeleton",
+    "id": 15308,
+    "combatStyle": "melee",
+    "combatLevel": 56,
+    "weakness": "None",
+    "levels": {
+      "attack": 40,
+      "defence": 40,
+      "magic": 40,
+      "ranged": 40
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 300,
+      "magic": 300,
+      "ranged": 300,
+      "armour": 300
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 201,
+      "magic": 201,
+      "ranged": 201
+    }
+  },
+  "Skeleton (lvl 1)": {
+    "name": "Skeleton",
+    "id": 16721,
+    "combatStyle": "ranged",
+    "combatLevel": 1,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Wolf (lvl 11)": {
+    "name": "Wolf",
+    "id": 95,
+    "combatStyle": "melee",
+    "combatLevel": 11,
+    "weakness": "Water",
+    "levels": {
+      "attack": 10,
+      "defence": 6,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 102,
+      "armour": 160
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 64,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Wolf (lvl 8)": {
+    "name": "Wolf",
+    "id": 4413,
+    "combatStyle": "melee",
+    "combatLevel": 8,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 8,
+      "defence": 4,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 81,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 72,
+      "armour": 56,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guard dog (lvl 33)": {
+    "name": "Guard dog",
+    "id": 99,
+    "combatStyle": "melee",
+    "combatLevel": 33,
+    "weakness": "Water",
+    "levels": {
+      "attack": 24,
+      "defence": 24,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 368,
+      "armour": 368
+    },
+    "bonusStats": {
+      "attack": 136,
+      "armour": 136,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guard dog (lvl 4)": {
+    "name": "Guard dog",
+    "id": 12922,
+    "combatStyle": "melee",
+    "combatLevel": 4,
+    "weakness": "Air",
+    "levels": {
+      "attack": 3,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 130,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 52,
+      "armour": 52,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ghost (lvl 25)": {
+    "name": "Ghost",
+    "id": 103,
+    "combatStyle": "magic",
+    "combatLevel": 25,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 18,
+      "magic": 18,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 292,
+      "armour": 292
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 112,
+      "magic": 112,
+      "ranged": 44
+    }
+  },
+  "Ghost (lvl 28)": {
+    "name": "Ghost",
+    "id": 491,
+    "combatStyle": "magic",
+    "combatLevel": 28,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 15,
+      "defence": 20,
+      "magic": 20,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 257,
+      "magic": 316,
+      "ranged": 0,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 120,
+      "magic": 120,
+      "ranged": 0
+    }
+  },
+  "Ghost (lvl 46)": {
+    "name": "Ghost",
+    "id": 4388,
+    "combatStyle": "magic",
+    "combatLevel": 46,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 33,
+      "magic": 33,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 402,
+      "armour": 502
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 173,
+      "magic": 173,
+      "ranged": 44
+    }
+  },
+  "Fire giant (lvl 85)": {
+    "name": "Fire giant",
+    "id": 110,
+    "combatStyle": "melee",
+    "combatLevel": 85,
+    "weakness": "Water",
+    "levels": {
+      "attack": 60,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Fire giant (lvl 37)": {
+    "name": "Fire giant",
+    "id": 10755,
+    "combatStyle": "melee",
+    "combatLevel": 37,
+    "weakness": "Water",
+    "levels": {
+      "attack": 27,
+      "defence": 27,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 409,
+      "armour": 409
+    },
+    "bonusStats": {
+      "attack": 149,
+      "armour": 149,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Moss giant (lvl 40)": {
+    "name": "Moss giant",
+    "id": 112,
+    "combatStyle": "melee",
+    "combatLevel": 40,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 25,
+      "defence": 32,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 281,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 169,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Moss giant (lvl 24)": {
+    "name": "Moss giant",
+    "id": 1681,
+    "combatStyle": "melee",
+    "combatLevel": 24,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 15,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 257,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 120,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Jogre (lvl 57)": {
+    "name": "Jogre",
+    "id": 113,
+    "combatStyle": "melee",
+    "combatLevel": 57,
+    "weakness": "Water",
+    "levels": {
+      "attack": 41,
+      "defence": 41,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 648,
+      "armour": 648
+    },
+    "bonusStats": {
+      "attack": 205,
+      "armour": 205,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Jogre (lvl 86)": {
+    "name": "Jogre",
+    "id": 6268,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ogre (lvl 67)": {
+    "name": "Ogre",
+    "id": 115,
+    "combatStyle": "melee",
+    "combatLevel": 67,
+    "weakness": "Air",
+    "levels": {
+      "attack": 48,
+      "defence": 48,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 801,
+      "armour": 801
+    },
+    "bonusStats": {
+      "attack": 234,
+      "armour": 234,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ogre (lvl 86)": {
+    "name": "Ogre",
+    "id": 374,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ogre (lvl 56)": {
+    "name": "Ogre",
+    "id": 2801,
+    "combatStyle": "melee",
+    "combatLevel": 56,
+    "weakness": "Water",
+    "levels": {
+      "attack": 40,
+      "defence": 40,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 628,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 201,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Cyclops (lvl 63)": {
+    "name": "Cyclops",
+    "id": 116,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Cyclops (lvl 91)": {
+    "name": "Cyclops",
+    "id": 6269,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dwarf (lvl 9)": {
+    "name": "Dwarf",
+    "id": 118,
+    "combatStyle": "melee",
+    "combatLevel": 9,
+    "weakness": "Air",
+    "levels": {
+      "attack": 7,
+      "defence": 7,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 171,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 68,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Dwarf (lvl 39)": {
+    "name": "Dwarf",
+    "id": 120,
+    "combatStyle": "melee",
+    "combatLevel": 39,
+    "weakness": "Air",
+    "levels": {
+      "attack": 28,
+      "defence": 28,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 424,
+      "armour": 424
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 153,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dwarf (lvl 44)": {
+    "name": "Dwarf",
+    "id": 3220,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "Air",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 486,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dwarf (lvl 14)": {
+    "name": "Dwarf",
+    "id": 3268,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Air",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Chaos dwarf (lvl 47)": {
+    "name": "Chaos dwarf",
+    "id": 119,
+    "combatStyle": "melee",
+    "combatLevel": 47,
+    "weakness": "Air",
+    "levels": {
+      "attack": 34,
+      "defence": 34,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 519,
+      "armour": 519
+    },
+    "bonusStats": {
+      "attack": 177,
+      "armour": 177,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Chaos dwarf (lvl 28)": {
+    "name": "Chaos dwarf",
+    "id": 8779,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Water",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Earth warrior (lvl 61)": {
+    "name": "Earth warrior",
+    "id": 124,
+    "combatStyle": "melee",
+    "combatLevel": 61,
+    "weakness": "Water",
+    "levels": {
+      "attack": 30,
+      "defence": 56,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 1011
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 267,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Earth warrior (lvl 93)": {
+    "name": "Earth warrior",
+    "id": 10184,
+    "combatStyle": "melee",
+    "combatLevel": 93,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Poison spider (lvl 53)": {
+    "name": "Poison spider",
+    "id": 134,
+    "combatStyle": "ranged",
+    "combatLevel": 53,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 354,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 161
+    }
+  },
+  "Poison spider (lvl 15)": {
+    "name": "Poison spider",
+    "id": 1009,
+    "combatStyle": "ranged",
+    "combatLevel": 15,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 8,
+      "defence": 11,
+      "magic": 0,
+      "ranged": 11
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 82,
+      "magic": 0,
+      "ranged": 213,
+      "armour": 213
+    },
+    "bonusStats": {
+      "attack": 72,
+      "armour": 84,
+      "magic": 0,
+      "ranged": 84
+    }
+  },
+  "Dark wizard (lvl 35)": {
+    "name": "Dark wizard",
+    "id": 172,
+    "combatStyle": "magic",
+    "combatLevel": 35,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 25,
+      "magic": 25,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 281,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 141,
+      "magic": 141,
+      "ranged": 44
+    }
+  },
+  "Dark wizard (lvl 21)": {
+    "name": "Dark wizard",
+    "id": 174,
+    "combatStyle": "magic",
+    "combatLevel": 21,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 15,
+      "magic": 15,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 157,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 100,
+      "magic": 100,
+      "ranged": 44
+    }
+  },
+  "Dark wizard (lvl 9)": {
+    "name": "Dark wizard",
+    "id": 8871,
+    "combatStyle": "magic",
+    "combatLevel": 9,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 7,
+      "magic": 7,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 71,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 68,
+      "magic": 68,
+      "ranged": 44
+    }
+  },
+  "Dark wizard (lvl 11)": {
+    "name": "Dark wizard",
+    "id": 8872,
+    "combatStyle": "magic",
+    "combatLevel": 11,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 8,
+      "magic": 8,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 81,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 72,
+      "magic": 72,
+      "ranged": 44
+    }
+  },
+  "Dark wizard (lvl 12)": {
+    "name": "Dark wizard",
+    "id": 8873,
+    "combatStyle": "magic",
+    "combatLevel": 12,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 9,
+      "magic": 9,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 91,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 76,
+      "magic": 76,
+      "ranged": 44
+    }
+  },
+  "Dark wizard (lvl 114)": {
+    "name": "Dark wizard",
+    "id": 29292,
+    "combatStyle": "magic",
+    "combatLevel": 114,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 60,
+      "defence": 75,
+      "magic": 90,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 2458,
+      "ranged": 1132,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 345,
+      "magic": 406,
+      "ranged": 283
+    }
+  },
+  "Black Knight (lvl 30)": {
+    "name": "Black Knight",
+    "id": 178,
+    "combatStyle": "melee",
+    "combatLevel": 30,
+    "weakness": "Water",
+    "levels": {
+      "attack": 22,
+      "defence": 22,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 341,
+      "armour": 341
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 128,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Black Knight (lvl 0)": {
+    "name": "Black Knight",
+    "id": 21880,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "Pirate (lvl 32)": {
+    "name": "Pirate",
+    "id": 184,
+    "combatStyle": "melee",
+    "combatLevel": 32,
+    "weakness": "Air",
+    "levels": {
+      "attack": 23,
+      "defence": 23,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 354
+    },
+    "bonusStats": {
+      "attack": 132,
+      "armour": 132,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Pirate (lvl 29)": {
+    "name": "Pirate",
+    "id": 6346,
+    "combatStyle": "melee",
+    "combatLevel": 29,
+    "weakness": "Air",
+    "levels": {
+      "attack": 21,
+      "defence": 21,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 329,
+      "armour": 329
+    },
+    "bonusStats": {
+      "attack": 124,
+      "armour": 124,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Monk of Zamorak (lvl 43)": {
+    "name": "Monk of Zamorak",
+    "id": 188,
+    "combatStyle": "magic",
+    "combatLevel": 43,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 31,
+      "magic": 31,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 470,
+      "armour": 470
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 165,
+      "magic": 165,
+      "ranged": 44
+    }
+  },
+  "Monk of Zamorak (lvl 46)": {
+    "name": "Monk of Zamorak",
+    "id": 189,
+    "combatStyle": "magic",
+    "combatLevel": 46,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 33,
+      "magic": 33,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 502,
+      "armour": 502
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 173,
+      "magic": 173,
+      "ranged": 44
+    }
+  },
+  "Monk of Zamorak (lvl 54)": {
+    "name": "Monk of Zamorak",
+    "id": 190,
+    "combatStyle": "magic",
+    "combatLevel": 54,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 39,
+      "magic": 39,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 609,
+      "armour": 609
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 197,
+      "magic": 197,
+      "ranged": 44
+    }
+  },
+  "Wandering warrior (lvl 60)": {
+    "name": "Wandering warrior",
+    "id": 191,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 43,
+      "defence": 43,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 689,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 213,
+      "armour": 213,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Wandering warrior (lvl 63)": {
+    "name": "Wandering warrior",
+    "id": 2497,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Necromancer (lvl 39)": {
+    "name": "Necromancer",
+    "id": 194,
+    "combatStyle": "magic",
+    "combatLevel": 39,
+    "weakness": "Thrown",
+    "levels": {
+      "attack": 1,
+      "defence": 28,
+      "magic": 28,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 424,
+      "armour": 424
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 153,
+      "magic": 153,
+      "ranged": 44
+    }
+  },
+  "Necromancer (lvl 29)": {
+    "name": "Necromancer",
+    "id": 10196,
+    "combatStyle": "magic",
+    "combatLevel": 29,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 21,
+      "magic": 21,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 329,
+      "armour": 329
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 124,
+      "magic": 124,
+      "ranged": 44
+    }
+  },
+  "Necromancer (lvl 108)": {
+    "name": "Necromancer",
+    "id": 22478,
+    "combatStyle": "magic",
+    "combatLevel": 108,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 80,
+      "defence": 75,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1924,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 345,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Black Knight Titan (lvl 28)": {
+    "name": "Black Knight Titan",
+    "id": 221,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "None",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 20,
+      "ranged": 20
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "magic": 316,
+      "ranged": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 120,
+      "ranged": 120
+    }
+  },
+  "Black Knight Titan (lvl 0)": {
+    "name": "Black Knight Titan",
+    "id": 22882,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Monk (lvl 5)": {
+    "name": "Monk",
+    "id": 281,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 4,
+      "defence": 4,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 140,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 56,
+      "armour": 56,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monk (lvl 16)": {
+    "name": "Monk",
+    "id": 803,
+    "combatStyle": "melee",
+    "combatLevel": 16,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 12,
+      "defence": 12,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 223,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 88,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Bouncer (lvl 77)": {
+    "name": "Bouncer",
+    "id": 269,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "None",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 55,
+      "ranged": 55
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "magic": 983,
+      "ranged": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 262,
+      "ranged": 262
+    }
+  },
+  "Bouncer (lvl 91)": {
+    "name": "Bouncer",
+    "id": 5564,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "Air",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Lucien (lvl 14)": {
+    "name": "Lucien",
+    "id": 272,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "None",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 10,
+      "ranged": 10
+    },
+    "affinity": {
+      "strong": 10,
+      "same": 20,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 20,
+      "ranged": 10
+    },
+    "baseStats": {
+      "attack": 202,
+      "magic": 202,
+      "ranged": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 80,
+      "ranged": 80
+    }
+  },
+  "Lucien (lvl 50000)": {
+    "name": "Lucien",
+    "id": 25897,
+    "combatStyle": "melee",
+    "combatLevel": 50000,
+    "weakness": "None",
+    "levels": {
+      "attack": 60,
+      "defence": 1,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2765,
+      "ranged": 2765,
+      "armour": 0
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 44,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Guardian of Armadyl (lvl 42)": {
+    "name": "Guardian of Armadyl",
+    "id": 274,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Guardian of Armadyl (lvl 70)": {
+    "name": "Guardian of Armadyl",
+    "id": 8344,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Undead one (lvl 44)": {
+    "name": "Undead one",
+    "id": 502,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 486,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Undead one (lvl 46)": {
+    "name": "Undead one",
+    "id": 503,
+    "combatStyle": "melee",
+    "combatLevel": 46,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 33,
+      "defence": 33,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 502,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 502
+    },
+    "bonusStats": {
+      "attack": 173,
+      "armour": 173,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Tower Archer (lvl 14)": {
+    "name": "Tower Archer",
+    "id": 688,
+    "combatStyle": "ranged",
+    "combatLevel": 14,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 7,
+      "defence": 10,
+      "magic": 0,
+      "ranged": 10
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 75,
+      "magic": 0,
+      "ranged": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 80,
+      "magic": 0,
+      "ranged": 80
+    }
+  },
+  "Tower Archer (lvl 28)": {
+    "name": "Tower Archer",
+    "id": 689,
+    "combatStyle": "ranged",
+    "combatLevel": 28,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 15,
+      "defence": 20,
+      "magic": 0,
+      "ranged": 20
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 257,
+      "magic": 0,
+      "ranged": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 120,
+      "magic": 0,
+      "ranged": 120
+    }
+  },
+  "Tower Archer (lvl 42)": {
+    "name": "Tower Archer",
+    "id": 690,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 22,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 225,
+      "magic": 0,
+      "ranged": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 161
+    }
+  },
+  "Tower Archer (lvl 56)": {
+    "name": "Tower Archer",
+    "id": 691,
+    "combatStyle": "ranged",
+    "combatLevel": 56,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 30,
+      "defence": 40,
+      "magic": 0,
+      "ranged": 40
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 201,
+      "magic": 0,
+      "ranged": 201
+    }
+  },
+  "Kolodion (lvl 84)": {
+    "name": "Kolodion",
+    "id": 911,
+    "combatStyle": "magic",
+    "combatLevel": 84,
+    "weakness": "None",
+    "levels": {
+      "attack": 45,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 1132,
+      "ranged": 0,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 0
+    }
+  },
+  "Green dragon (lvl 63)": {
+    "name": "Green dragon",
+    "id": 941,
+    "combatStyle": "magic",
+    "combatLevel": 63,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 45,
+      "magic": 45,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 222,
+      "magic": 222,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 39)": {
+    "name": "Green dragon",
+    "id": 10604,
+    "combatStyle": "magic",
+    "combatLevel": 39,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 28,
+      "defence": 28,
+      "magic": 28,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 424,
+      "magic": 424,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 153,
+      "magic": 153,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 58)": {
+    "name": "Green dragon",
+    "id": 10605,
+    "combatStyle": "magic",
+    "combatLevel": 58,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 42,
+      "defence": 42,
+      "magic": 42,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 668,
+      "magic": 668,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 209,
+      "armour": 209,
+      "magic": 209,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 78)": {
+    "name": "Green dragon",
+    "id": 10606,
+    "combatStyle": "magic",
+    "combatLevel": 78,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 56,
+      "defence": 56,
+      "magic": 56,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1011,
+      "magic": 1011,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 267,
+      "armour": 267,
+      "magic": 267,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 98)": {
+    "name": "Green dragon",
+    "id": 10607,
+    "combatStyle": "magic",
+    "combatLevel": 98,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 1486,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 117)": {
+    "name": "Green dragon",
+    "id": 10608,
+    "combatStyle": "magic",
+    "combatLevel": 117,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 84,
+      "defence": 84,
+      "magic": 84,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2125,
+      "magic": 2125,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 382,
+      "armour": 382,
+      "magic": 382,
+      "ranged": 44
+    }
+  },
+  "Green dragon (lvl 138)": {
+    "name": "Green dragon",
+    "id": 10609,
+    "combatStyle": "magic",
+    "combatLevel": 138,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 44
+    }
+  },
+  "White Knight (lvl 37)": {
+    "name": "White Knight",
+    "id": 1092,
+    "combatStyle": "melee",
+    "combatLevel": 37,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 27,
+      "defence": 27,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 409,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 409
+    },
+    "bonusStats": {
+      "attack": 149,
+      "armour": 149,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "White Knight (lvl 0)": {
+    "name": "White Knight",
+    "id": 21887,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "White Knight (lvl 35)": {
+    "name": "White Knight",
+    "id": 21982,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Water",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mountain troll (lvl 75)": {
+    "name": "Mountain troll",
+    "id": 1106,
+    "combatStyle": "melee",
+    "combatLevel": 75,
+    "weakness": "Water",
+    "levels": {
+      "attack": 54,
+      "defence": 54,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 855,
+      "armour": 955
+    },
+    "bonusStats": {
+      "attack": 258,
+      "armour": 258,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mountain troll (lvl 1)": {
+    "name": "Mountain troll",
+    "id": 11255,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Water",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mountain troll (lvl 77)": {
+    "name": "Mountain troll",
+    "id": 15129,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Air",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll general (lvl 91)": {
+    "name": "Troll general",
+    "id": 1115,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "Water",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1199,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll general (lvl 2)": {
+    "name": "Troll general",
+    "id": 11533,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Water",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 120,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Thrower troll (lvl 67)": {
+    "name": "Thrower troll",
+    "id": 1130,
+    "combatStyle": "ranged",
+    "combatLevel": 67,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 41,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 35
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 548,
+      "ranged": 436,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 205,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 181
+    }
+  },
+  "Thrower troll (lvl 30)": {
+    "name": "Thrower troll",
+    "id": 10791,
+    "combatStyle": "ranged",
+    "combatLevel": 30,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 22,
+      "magic": 1,
+      "ranged": 22
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 341,
+      "armour": 341
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 128,
+      "magic": 44,
+      "ranged": 128
+    }
+  },
+  "Feral vampyre (lvl 61)": {
+    "name": "Feral vampyre",
+    "id": 1220,
+    "combatStyle": "melee",
+    "combatLevel": 61,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 44,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 710,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 218,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Feral vampyre (lvl 89)": {
+    "name": "Feral vampyre",
+    "id": 22586,
+    "combatStyle": "melee",
+    "combatLevel": 89,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 640,
+      "armour": 640
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Afflicted (lvl 60)": {
+    "name": "Afflicted",
+    "id": 1257,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Air",
+    "levels": {
+      "attack": 43,
+      "defence": 43,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 689,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 213,
+      "armour": 213,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Afflicted (lvl 61)": {
+    "name": "Afflicted",
+    "id": 1258,
+    "combatStyle": "melee",
+    "combatLevel": 61,
+    "weakness": "Air",
+    "levels": {
+      "attack": 44,
+      "defence": 44,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 710,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 218,
+      "armour": 218,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Afflicted (lvl 63)": {
+    "name": "Afflicted",
+    "id": 1261,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Air",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Afflicted (lvl 64)": {
+    "name": "Afflicted",
+    "id": 1262,
+    "combatStyle": "melee",
+    "combatLevel": 64,
+    "weakness": "Air",
+    "levels": {
+      "attack": 46,
+      "defence": 46,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 755,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 755
+    },
+    "bonusStats": {
+      "attack": 226,
+      "armour": 226,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "TokHaar-Mej (lvl 119)": {
+    "name": "TokHaar-Mej",
+    "id": 1263,
+    "combatStyle": "magic",
+    "combatLevel": 119,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 70,
+      "defence": 85,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 386,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
+  "TokHaar-Mej (lvl 160)": {
+    "name": "TokHaar-Mej",
+    "id": 15203,
+    "combatStyle": "magic",
+    "combatLevel": 160,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 54,
+      "defence": 73,
+      "magic": 73,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 1608,
+      "ranged": 0,
+      "armour": 1608
+    },
+    "bonusStats": {
+      "attack": 258,
+      "armour": 336,
+      "magic": 336,
+      "ranged": 0
+    }
+  },
+  "Market Guard (lvl 39)": {
+    "name": "Market Guard",
+    "id": 1317,
+    "combatStyle": "melee",
+    "combatLevel": 39,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 28,
+      "defence": 28,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 424,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 424
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 153,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Market Guard (lvl 42)": {
+    "name": "Market Guard",
+    "id": 2236,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Air",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Warrior (lvl 39)": {
+    "name": "Warrior",
+    "id": 1318,
+    "combatStyle": "melee",
+    "combatLevel": 39,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 28,
+      "defence": 28,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 424,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 424
+    },
+    "bonusStats": {
+      "attack": 153,
+      "armour": 153,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Warrior (lvl 20)": {
+    "name": "Warrior",
+    "id": 13850,
+    "combatStyle": "melee",
+    "combatLevel": 20,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 20,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Foal (lvl 8)": {
+    "name": "Foal",
+    "id": 1328,
+    "combatStyle": "melee",
+    "combatLevel": 8,
+    "weakness": "Water",
+    "levels": {
+      "attack": 6,
+      "defence": 6,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 60,
+      "armour": 160
+    },
+    "bonusStats": {
+      "attack": 64,
+      "armour": 64,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Foal (lvl 16)": {
+    "name": "Foal",
+    "id": 1329,
+    "combatStyle": "melee",
+    "combatLevel": 16,
+    "weakness": "Water",
+    "levels": {
+      "attack": 12,
+      "defence": 12,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 123,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 88,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dagannoth (lvl 112)": {
+    "name": "Dagannoth",
+    "id": 3591,
+    "combatStyle": "melee",
+    "combatLevel": 112,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "ranged": 1694,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 365
+    }
+  },
+  "Dagannoth (lvl 78)": {
+    "name": "Dagannoth",
+    "id": 9103,
+    "combatStyle": "melee",
+    "combatLevel": 78,
+    "weakness": "Air",
+    "levels": {
+      "attack": 56,
+      "defence": 56,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1011,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1011
+    },
+    "bonusStats": {
+      "attack": 267,
+      "armour": 267,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monkey Guard (lvl 92)": {
+    "name": "Monkey Guard",
+    "id": 1455,
+    "combatStyle": "melee",
+    "combatLevel": 92,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 66,
+      "defence": 66,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1335,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1335
+    },
+    "bonusStats": {
+      "attack": 307,
+      "armour": 307,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monkey Guard (lvl 89)": {
+    "name": "Monkey Guard",
+    "id": 1459,
+    "combatStyle": "melee",
+    "combatLevel": 89,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1264,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Monkey Guard (lvl 88)": {
+    "name": "Monkey Guard",
+    "id": 1460,
+    "combatStyle": "melee",
+    "combatLevel": 88,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 63,
+      "defence": 63,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1230,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1230
+    },
+    "bonusStats": {
+      "attack": 295,
+      "armour": 295,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Gargoyle (lvl 93)": {
+    "name": "Gargoyle",
+    "id": 1610,
+    "combatStyle": "melee",
+    "combatLevel": 93,
+    "weakness": "Water",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Gargoyle (lvl 123)": {
+    "name": "Gargoyle",
+    "id": 24721,
+    "combatStyle": "melee",
+    "combatLevel": 123,
+    "weakness": "Water",
+    "levels": {
+      "attack": 88,
+      "defence": 88,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2343,
+      "armour": 2343
+    },
+    "bonusStats": {
+      "attack": 398,
+      "armour": 398,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Abyssal demon (lvl 98)": {
+    "name": "Abyssal demon",
+    "id": 1615,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1608
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Abyssal demon (lvl 107)": {
+    "name": "Abyssal demon",
+    "id": 21502,
+    "combatStyle": "melee",
+    "combatLevel": 107,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 85,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "armour": 2639
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Abyssal demon (lvl 105)": {
+    "name": "Abyssal demon",
+    "id": 26870,
+    "combatStyle": "melee",
+    "combatLevel": 105,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Turoth (lvl 68)": {
+    "name": "Turoth",
+    "id": 1623,
+    "combatStyle": "melee",
+    "combatLevel": 68,
+    "weakness": "Air",
+    "levels": {
+      "attack": 48,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 701,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 234,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Turoth (lvl 60)": {
+    "name": "Turoth",
+    "id": 1627,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Air",
+    "levels": {
+      "attack": 42,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 568,
+      "armour": 668
+    },
+    "bonusStats": {
+      "attack": 209,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Jelly (lvl 61)": {
+    "name": "Jelly",
+    "id": 1637,
+    "combatStyle": "ranged",
+    "combatLevel": 61,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 49,
+      "magic": 1,
+      "ranged": 38
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 490,
+      "armour": 825
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 238,
+      "magic": 44,
+      "ranged": 193
+    }
+  },
+  "Jelly (lvl 63)": {
+    "name": "Jelly",
+    "id": 8599,
+    "combatStyle": "ranged",
+    "combatLevel": 63,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 45
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 222
+    }
+  },
+  "Crawling hand (lvl 6)": {
+    "name": "Crawling hand",
+    "id": 1648,
+    "combatStyle": "melee",
+    "combatLevel": 6,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 4,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 40,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 56,
+      "armour": 60,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Crawling hand (lvl 10)": {
+    "name": "Crawling hand",
+    "id": 1653,
+    "combatStyle": "melee",
+    "combatLevel": 10,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 7,
+      "defence": 8,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 71,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 72,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Giant lobster (lvl 42)": {
+    "name": "Giant lobster",
+    "id": 1693,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Air",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Giant lobster (lvl 70)": {
+    "name": "Giant lobster",
+    "id": 7828,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mounted terrorbird gnome (lvl 46)": {
+    "name": "Mounted terrorbird gnome",
+    "id": 1752,
+    "combatStyle": "melee",
+    "combatLevel": 46,
+    "weakness": "Air",
+    "levels": {
+      "attack": 33,
+      "defence": 33,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 402,
+      "armour": 502
+    },
+    "bonusStats": {
+      "attack": 173,
+      "armour": 173,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mounted terrorbird gnome (lvl 53)": {
+    "name": "Mounted terrorbird gnome",
+    "id": 6109,
+    "combatStyle": "melee",
+    "combatLevel": 53,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 38,
+      "defence": 38,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 490,
+      "armour": 590
+    },
+    "bonusStats": {
+      "attack": 193,
+      "armour": 193,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Cave bug (lvl 6)": {
+    "name": "Cave bug",
+    "id": 1832,
+    "combatStyle": "ranged",
+    "combatLevel": 6,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 4,
+      "magic": 1,
+      "ranged": 6
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 60,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 56,
+      "magic": 44,
+      "ranged": 64
+    }
+  },
+  "Cave bug (lvl 11)": {
+    "name": "Cave bug",
+    "id": 5750,
+    "combatStyle": "ranged",
+    "combatLevel": 11,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 7,
+      "magic": 1,
+      "ranged": 9
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 91,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 68,
+      "magic": 44,
+      "ranged": 76
+    }
+  },
+  "Bandit (lvl 53)": {
+    "name": "Bandit",
+    "id": 1880,
+    "combatStyle": "melee",
+    "combatLevel": 53,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 38,
+      "defence": 38,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 590,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 590
+    },
+    "bonusStats": {
+      "attack": 193,
+      "armour": 193,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Bandit (lvl 54)": {
+    "name": "Bandit",
+    "id": 1926,
+    "combatStyle": "melee",
+    "combatLevel": 54,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 39,
+      "defence": 39,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 609,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 609
+    },
+    "bonusStats": {
+      "attack": 197,
+      "armour": 197,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Bandit (lvl 35)": {
+    "name": "Bandit",
+    "id": 7399,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Air",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 25,
+      "ranged": 25
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 381,
+      "magic": 381,
+      "ranged": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 141,
+      "ranged": 141
+    }
+  },
+  "Ice troll (lvl 84)": {
+    "name": "Ice troll",
+    "id": 1936,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1032,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ice troll (lvl 35)": {
+    "name": "Ice troll",
+    "id": 10782,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Air",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ice troll (lvl 47)": {
+    "name": "Ice troll",
+    "id": 10783,
+    "combatStyle": "melee",
+    "combatLevel": 47,
+    "weakness": "Water",
+    "levels": {
+      "attack": 34,
+      "defence": 34,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 519,
+      "armour": 519
+    },
+    "bonusStats": {
+      "attack": 177,
+      "armour": 177,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ice troll (lvl 60)": {
+    "name": "Ice troll",
+    "id": 10784,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 43,
+      "defence": 43,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 689,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 213,
+      "armour": 213,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ice troll (lvl 72)": {
+    "name": "Ice troll",
+    "id": 10785,
+    "combatStyle": "melee",
+    "combatLevel": 72,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 52,
+      "defence": 52,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 901,
+      "armour": 901
+    },
+    "bonusStats": {
+      "attack": 250,
+      "armour": 250,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mummy (lvl 77)": {
+    "name": "Mummy",
+    "id": 1958,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mummy (lvl 70)": {
+    "name": "Mummy",
+    "id": 2015,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Ahrim the Blighted (lvl 150)": {
+    "name": "Ahrim the Blighted",
+    "id": 2025,
+    "combatStyle": "magic",
+    "combatLevel": 150,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 44
+    }
+  },
+  "Ahrim the Blighted (lvl 650)": {
+    "name": "Ahrim the Blighted",
+    "id": 18538,
+    "combatStyle": "magic",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 90,
+      "magic": 90,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "magic": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 406,
+      "magic": 406,
+      "ranged": 44
+    }
+  },
+  "Dharok the Wretched (lvl 150)": {
+    "name": "Dharok the Wretched",
+    "id": 2026,
+    "combatStyle": "melee",
+    "combatLevel": 150,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Dharok the Wretched (lvl 650)": {
+    "name": "Dharok the Wretched",
+    "id": 18540,
+    "combatStyle": "melee",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guthan the Infested (lvl 150)": {
+    "name": "Guthan the Infested",
+    "id": 2027,
+    "combatStyle": "melee",
+    "combatLevel": 150,
+    "weakness": "Air",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guthan the Infested (lvl 650)": {
+    "name": "Guthan the Infested",
+    "id": 18541,
+    "combatStyle": "melee",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Karil the Tainted (lvl 150)": {
+    "name": "Karil the Tainted",
+    "id": 2028,
+    "combatStyle": "ranged",
+    "combatLevel": 150,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 324
+    }
+  },
+  "Karil the Tainted (lvl 650)": {
+    "name": "Karil the Tainted",
+    "id": 18543,
+    "combatStyle": "ranged",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "ranged": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 406
+    }
+  },
+  "Torag the Corrupted (lvl 150)": {
+    "name": "Torag the Corrupted",
+    "id": 2029,
+    "combatStyle": "melee",
+    "combatLevel": 150,
+    "weakness": "Water",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Torag the Corrupted (lvl 650)": {
+    "name": "Torag the Corrupted",
+    "id": 18544,
+    "combatStyle": "melee",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Verac the Defiled (lvl 150)": {
+    "name": "Verac the Defiled",
+    "id": 2030,
+    "combatStyle": "melee",
+    "combatLevel": 150,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1566,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Verac the Defiled (lvl 650)": {
+    "name": "Verac the Defiled",
+    "id": 18545,
+    "combatStyle": "melee",
+    "combatLevel": 650,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Black Guard (lvl 47)": {
+    "name": "Black Guard",
+    "id": 2130,
+    "combatStyle": "melee",
+    "combatLevel": 47,
+    "weakness": "Air",
+    "levels": {
+      "attack": 34,
+      "defence": 34,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 519,
+      "armour": 519
+    },
+    "bonusStats": {
+      "attack": 177,
+      "armour": 177,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Black Guard (lvl 42)": {
+    "name": "Black Guard",
+    "id": 3276,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Air",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mosquito swarm (lvl 92)": {
+    "name": "Mosquito swarm",
+    "id": 2494,
+    "combatStyle": "ranged",
+    "combatLevel": 92,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 66,
+      "magic": 1,
+      "ranged": 66
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1335,
+      "armour": 1335
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 307,
+      "magic": 44,
+      "ranged": 307
+    }
+  },
+  "Mosquito swarm (lvl 95)": {
+    "name": "Mosquito swarm",
+    "id": 2495,
+    "combatStyle": "ranged",
+    "combatLevel": 95,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 68,
+      "magic": 1,
+      "ranged": 68
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1409,
+      "armour": 1409
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 316,
+      "magic": 44,
+      "ranged": 316
+    }
+  },
+  "Broodoo victim (lvl 63)": {
+    "name": "Broodoo victim",
+    "id": 2499,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 46,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 689,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 226,
+      "ranged": 44
+    }
+  },
+  "Broodoo victim (lvl 60)": {
+    "name": "Broodoo victim",
+    "id": 2501,
+    "combatStyle": "melee",
+    "combatLevel": 60,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 43,
+      "defence": 43,
+      "magic": 43,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 689,
+      "magic": 689,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 213,
+      "armour": 213,
+      "magic": 213,
+      "ranged": 44
+    }
+  },
+  "Tz-Kek (lvl 98)": {
+    "name": "Tz-Kek",
+    "id": 2629,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "None",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 55,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 1924,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Tz-Kek (lvl 22)": {
+    "name": "Tz-Kek",
+    "id": 2738,
+    "combatStyle": "melee",
+    "combatLevel": 22,
+    "weakness": "Water",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hobgoblin (lvl 15)": {
+    "name": "Hobgoblin",
+    "id": 2685,
+    "combatStyle": "melee",
+    "combatLevel": 15,
+    "weakness": "Air",
+    "levels": {
+      "attack": 12,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 123,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hobgoblin (lvl 18)": {
+    "name": "Hobgoblin",
+    "id": 2688,
+    "combatStyle": "melee",
+    "combatLevel": 18,
+    "weakness": "Air",
+    "levels": {
+      "attack": 14,
+      "defence": 12,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 145,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 96,
+      "armour": 88,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hobgoblin (lvl 91)": {
+    "name": "Hobgoblin",
+    "id": 6275,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hobgoblin (lvl 35)": {
+    "name": "Hobgoblin",
+    "id": 21494,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Air",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 23
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 281,
+      "ranged": 254,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 132
+    }
+  },
+  "Shadow (lvl 95)": {
+    "name": "Shadow",
+    "id": 2782,
+    "combatStyle": "melee",
+    "combatLevel": 95,
+    "weakness": "Air",
+    "levels": {
+      "attack": 68,
+      "defence": 68,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1409,
+      "armour": 1409
+    },
+    "bonusStats": {
+      "attack": 316,
+      "armour": 316,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Shadow (lvl 98)": {
+    "name": "Shadow",
+    "id": 19549,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Barbarian (lvl 23)": {
+    "name": "Barbarian",
+    "id": 3246,
+    "combatStyle": "melee",
+    "combatLevel": 23,
+    "weakness": "Water",
+    "levels": {
+      "attack": 17,
+      "defence": 17,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 180,
+      "armour": 280
+    },
+    "bonusStats": {
+      "attack": 108,
+      "armour": 108,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Barbarian (lvl 14)": {
+    "name": "Barbarian",
+    "id": 3247,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 102,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Barbarian (lvl 12)": {
+    "name": "Barbarian",
+    "id": 3263,
+    "combatStyle": "melee",
+    "combatLevel": 12,
+    "weakness": "Air",
+    "levels": {
+      "attack": 9,
+      "defence": 9,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 91,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 76,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Barbarian (lvl 28)": {
+    "name": "Barbarian",
+    "id": 5909,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Water",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Goblin (lvl 11)": {
+    "name": "Goblin",
+    "id": 3264,
+    "combatStyle": "melee",
+    "combatLevel": 11,
+    "weakness": "Water",
+    "levels": {
+      "attack": 8,
+      "defence": 8,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 81,
+      "armour": 181
+    },
+    "bonusStats": {
+      "attack": 72,
+      "armour": 72,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Goblin (lvl 2)": {
+    "name": "Goblin",
+    "id": 4261,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Air",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 20,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Goblin (lvl 5)": {
+    "name": "Goblin",
+    "id": 4272,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 4,
+      "defence": 4,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 40,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 56,
+      "armour": 56,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Goblin (lvl 84)": {
+    "name": "Goblin",
+    "id": 6279,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Vampyre Juvinate (lvl 63)": {
+    "name": "Vampyre Juvinate",
+    "id": 3521,
+    "combatStyle": "ranged",
+    "combatLevel": 63,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 45
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 222
+    }
+  },
+  "Vampyre Juvinate (lvl 64)": {
+    "name": "Vampyre Juvinate",
+    "id": 3526,
+    "combatStyle": "ranged",
+    "combatLevel": 64,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 46,
+      "magic": 1,
+      "ranged": 46
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 755,
+      "armour": 755
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 226,
+      "magic": 44,
+      "ranged": 226
+    }
+  },
+  "Tentacle (lvl 97)": {
+    "name": "Tentacle",
+    "id": 3618,
+    "combatStyle": "melee",
+    "combatLevel": 97,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 80,
+      "defence": 60,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "magic": 1924,
+      "ranged": 1924,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 283,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Tentacle (lvl 0)": {
+    "name": "Tentacle",
+    "id": 19326,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton fremennik (lvl 23)": {
+    "name": "Skeleton fremennik",
+    "id": 3697,
+    "combatStyle": "melee",
+    "combatLevel": 23,
+    "weakness": "Air",
+    "levels": {
+      "attack": 17,
+      "defence": 17,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 280,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 280
+    },
+    "bonusStats": {
+      "attack": 108,
+      "armour": 108,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Skeleton fremennik (lvl 28)": {
+    "name": "Skeleton fremennik",
+    "id": 3700,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Air",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Skeleton fremennik (lvl 30)": {
+    "name": "Skeleton fremennik",
+    "id": 3703,
+    "combatStyle": "melee",
+    "combatLevel": 30,
+    "weakness": "Air",
+    "levels": {
+      "attack": 22,
+      "defence": 22,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 341,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 341
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 128,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Spinner (lvl 42)": {
+    "name": "Spinner",
+    "id": 3747,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Air",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Spinner (lvl 70)": {
+    "name": "Spinner",
+    "id": 12327,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "None",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 850,
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 242
+    }
+  },
+  "Sea troll (lvl 63)": {
+    "name": "Sea troll",
+    "id": 3840,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Air",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Sea troll (lvl 84)": {
+    "name": "Sea troll",
+    "id": 3843,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Air",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Gorak (lvl 74)": {
+    "name": "Gorak",
+    "id": 4418,
+    "combatStyle": "melee",
+    "combatLevel": 74,
+    "weakness": "Water",
+    "levels": {
+      "attack": 53,
+      "defence": 53,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 928,
+      "armour": 928
+    },
+    "bonusStats": {
+      "attack": 254,
+      "armour": 254,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Gorak (lvl 95)": {
+    "name": "Gorak",
+    "id": 6218,
+    "combatStyle": "melee",
+    "combatLevel": 95,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 68,
+      "defence": 68,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1409,
+      "armour": 1409
+    },
+    "bonusStats": {
+      "attack": 316,
+      "armour": 316,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Suqah (lvl 74)": {
+    "name": "Suqah",
+    "id": 4527,
+    "combatStyle": "melee",
+    "combatLevel": 74,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 53,
+      "defence": 53,
+      "magic": 53,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3498,
+      "magic": 928,
+      "armour": 928
+    },
+    "bonusStats": {
+      "attack": 254,
+      "armour": 254,
+      "magic": 254,
+      "ranged": 44
+    }
+  },
+  "Suqah (lvl 73)": {
+    "name": "Suqah",
+    "id": 4530,
+    "combatStyle": "melee",
+    "combatLevel": 73,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 55,
+      "defence": 50,
+      "magic": 55,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1040,
+      "magic": 1040,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 242,
+      "magic": 262,
+      "ranged": 44
+    }
+  },
+  "Suqah (lvl 79)": {
+    "name": "Suqah",
+    "id": 4532,
+    "combatStyle": "melee",
+    "combatLevel": 79,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 53,
+      "defence": 60,
+      "magic": 53,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3498,
+      "magic": 928,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 254,
+      "armour": 283,
+      "magic": 254,
+      "ranged": 44
+    }
+  },
+  "Vyrewatch (lvl 75)": {
+    "name": "Vyrewatch",
+    "id": 4839,
+    "combatStyle": "magic",
+    "combatLevel": 75,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 54,
+      "magic": 54,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 955,
+      "armour": 955
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 258,
+      "magic": 258,
+      "ranged": 44
+    }
+  },
+  "Vyrewatch (lvl 78)": {
+    "name": "Vyrewatch",
+    "id": 4840,
+    "combatStyle": "magic",
+    "combatLevel": 78,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 56,
+      "magic": 56,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1011,
+      "armour": 1011
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 267,
+      "magic": 267,
+      "ranged": 44
+    }
+  },
+  "Giant scarab (lvl 86)": {
+    "name": "Giant scarab",
+    "id": 5253,
+    "combatStyle": "ranged",
+    "combatLevel": 86,
+    "weakness": "None",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 62,
+      "ranged": 62
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1197,
+      "magic": 1197,
+      "ranged": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 291,
+      "ranged": 291
+    }
+  },
+  "Giant scarab (lvl 92)": {
+    "name": "Giant scarab",
+    "id": 6770,
+    "combatStyle": "ranged",
+    "combatLevel": 92,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 49,
+      "defence": 66,
+      "magic": 0,
+      "ranged": 66
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 495,
+      "magic": 0,
+      "ranged": 1335,
+      "armour": 1335
+    },
+    "bonusStats": {
+      "attack": 238,
+      "armour": 307,
+      "magic": 0,
+      "ranged": 307
+    }
+  },
+  "Zombie pirate (lvl 49)": {
+    "name": "Zombie pirate",
+    "id": 5629,
+    "combatStyle": "melee",
+    "combatLevel": 49,
+    "weakness": "Air",
+    "levels": {
+      "attack": 35,
+      "defence": 35,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 536,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 181,
+      "armour": 181,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Zombie pirate (lvl 35)": {
+    "name": "Zombie pirate",
+    "id": 25321,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Air",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 536,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Werewolf (lvl 63)": {
+    "name": "Werewolf",
+    "id": 6006,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "Water",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Werewolf (lvl 89)": {
+    "name": "Werewolf",
+    "id": 6212,
+    "combatStyle": "melee",
+    "combatLevel": 89,
+    "weakness": "Water",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1264,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Aviansie (lvl 89)": {
+    "name": "Aviansie",
+    "id": 6232,
+    "combatStyle": "ranged",
+    "combatLevel": 89,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 64
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1264,
+      "ranged": 1264,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 299
+    }
+  },
+  "Aviansie (lvl 92)": {
+    "name": "Aviansie",
+    "id": 6235,
+    "combatStyle": "ranged",
+    "combatLevel": 92,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 66,
+      "defence": 66,
+      "magic": 1,
+      "ranged": 66
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 1335,
+      "ranged": 1335,
+      "armour": 1335
+    },
+    "bonusStats": {
+      "attack": 307,
+      "armour": 307,
+      "magic": 44,
+      "ranged": 307
+    }
+  },
+  "General Graardor (lvl 624)": {
+    "name": "General Graardor",
+    "id": 6260,
+    "combatStyle": "melee",
+    "combatLevel": 624,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 10,
+      "same": 50,
+      "weak": 50,
+      "weakness": 75,
+      "magic": 50,
+      "melee": 50,
+      "ranged": 10
+    },
+    "baseStats": {
+      "attack": 2178,
+      "ranged": 1566,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 345
+    }
+  },
+  "General Graardor (lvl 210)": {
+    "name": "General Graardor",
+    "id": 19355,
+    "combatStyle": "melee",
+    "combatLevel": 210,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 72,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 332,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zamorak warrior (lvl 61)": {
+    "name": "Zamorak warrior",
+    "id": 6363,
+    "combatStyle": "melee",
+    "combatLevel": 61,
+    "weakness": "Water",
+    "levels": {
+      "attack": 44,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 710,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 218,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zamorak warrior (lvl 65)": {
+    "name": "Zamorak warrior",
+    "id": 6364,
+    "combatStyle": "melee",
+    "combatLevel": 65,
+    "weakness": "Water",
+    "levels": {
+      "attack": 47,
+      "defence": 47,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 778,
+      "armour": 778
+    },
+    "bonusStats": {
+      "attack": 230,
+      "armour": 230,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skoblin (lvl 14)": {
+    "name": "Skoblin",
+    "id": 6468,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Skoblin (lvl 19)": {
+    "name": "Skoblin",
+    "id": 9611,
+    "combatStyle": "melee",
+    "combatLevel": 19,
+    "weakness": "Water",
+    "levels": {
+      "attack": 14,
+      "defence": 14,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 145,
+      "armour": 245
+    },
+    "bonusStats": {
+      "attack": 96,
+      "armour": 96,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 109)": {
+    "name": "Mercenary leader",
+    "id": 6707,
+    "combatStyle": "magic",
+    "combatLevel": 109,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 78,
+      "magic": 78,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1829,
+      "armour": 1829
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 357,
+      "magic": 357,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 5)": {
+    "name": "Mercenary leader",
+    "id": 12973,
+    "combatStyle": "magic",
+    "combatLevel": 5,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 4,
+      "magic": 4,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 140,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 56,
+      "magic": 56,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 14)": {
+    "name": "Mercenary leader",
+    "id": 12974,
+    "combatStyle": "magic",
+    "combatLevel": 14,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 10,
+      "magic": 10,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 80,
+      "magic": 80,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 23)": {
+    "name": "Mercenary leader",
+    "id": 12975,
+    "combatStyle": "magic",
+    "combatLevel": 23,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 17,
+      "magic": 17,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 280,
+      "armour": 280
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 108,
+      "magic": 108,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 33)": {
+    "name": "Mercenary leader",
+    "id": 12976,
+    "combatStyle": "magic",
+    "combatLevel": 33,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 24,
+      "magic": 24,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 368,
+      "armour": 368
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 136,
+      "magic": 136,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 43)": {
+    "name": "Mercenary leader",
+    "id": 12977,
+    "combatStyle": "magic",
+    "combatLevel": 43,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 31,
+      "magic": 31,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 470,
+      "armour": 470
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 165,
+      "magic": 165,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 51)": {
+    "name": "Mercenary leader",
+    "id": 12978,
+    "combatStyle": "magic",
+    "combatLevel": 51,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 37,
+      "magic": 37,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 571,
+      "armour": 571
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 189,
+      "magic": 189,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 61)": {
+    "name": "Mercenary leader",
+    "id": 12979,
+    "combatStyle": "magic",
+    "combatLevel": 61,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 44,
+      "magic": 44,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 710,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 218,
+      "magic": 218,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 71)": {
+    "name": "Mercenary leader",
+    "id": 12980,
+    "combatStyle": "magic",
+    "combatLevel": 71,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 51,
+      "magic": 51,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 875,
+      "armour": 875
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 246,
+      "magic": 246,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 81)": {
+    "name": "Mercenary leader",
+    "id": 12981,
+    "combatStyle": "magic",
+    "combatLevel": 81,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 58,
+      "magic": 58,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1070,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 275,
+      "magic": 275,
+      "ranged": 44
+    }
+  },
+  "Mercenary leader (lvl 91)": {
+    "name": "Mercenary leader",
+    "id": 12982,
+    "combatStyle": "magic",
+    "combatLevel": 91,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 44
+    }
+  },
+  "Forgotten ranger (lvl 35)": {
+    "name": "Forgotten ranger",
+    "id": 7141,
+    "combatStyle": "ranged",
+    "combatLevel": 35,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 25,
+      "ranged": 25
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 381,
+      "magic": 381,
+      "ranged": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 141,
+      "ranged": 141
+    }
+  },
+  "Forgotten ranger (lvl 1)": {
+    "name": "Forgotten ranger",
+    "id": 10320,
+    "combatStyle": "ranged",
+    "combatLevel": 1,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten ranger (lvl 14)": {
+    "name": "Forgotten ranger",
+    "id": 10324,
+    "combatStyle": "ranged",
+    "combatLevel": 14,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 10
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 80
+    }
+  },
+  "Forgotten ranger (lvl 56)": {
+    "name": "Forgotten ranger",
+    "id": 10336,
+    "combatStyle": "ranged",
+    "combatLevel": 56,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 40
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 201
+    }
+  },
+  "Forgotten ranger (lvl 70)": {
+    "name": "Forgotten ranger",
+    "id": 10340,
+    "combatStyle": "ranged",
+    "combatLevel": 70,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 242
+    }
+  },
+  "Forgotten ranger (lvl 84)": {
+    "name": "Forgotten ranger",
+    "id": 10344,
+    "combatStyle": "ranged",
+    "combatLevel": 84,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1132,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 283
+    }
+  },
+  "Forgotten ranger (lvl 98)": {
+    "name": "Forgotten ranger",
+    "id": 10348,
+    "combatStyle": "ranged",
+    "combatLevel": 98,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1486,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 324
+    }
+  },
+  "Forgotten ranger (lvl 112)": {
+    "name": "Forgotten ranger",
+    "id": 10352,
+    "combatStyle": "ranged",
+    "combatLevel": 112,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1924,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 365
+    }
+  },
+  "Forgotten ranger (lvl 126)": {
+    "name": "Forgotten ranger",
+    "id": 10356,
+    "combatStyle": "ranged",
+    "combatLevel": 126,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 2458,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 406
+    }
+  },
+  "Forgotten ranger (lvl 138)": {
+    "name": "Forgotten ranger",
+    "id": 10360,
+    "combatStyle": "ranged",
+    "combatLevel": 138,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 2458,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 444
+    }
+  },
+  "Forgotten ranger (lvl 60)": {
+    "name": "Forgotten ranger",
+    "id": 13741,
+    "combatStyle": "ranged",
+    "combatLevel": 60,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 32,
+      "defence": 43,
+      "magic": 0,
+      "ranged": 43
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 322,
+      "magic": 0,
+      "ranged": 689,
+      "armour": 689
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 213,
+      "magic": 0,
+      "ranged": 213
+    }
+  },
+  "General Khazard (lvl 84)": {
+    "name": "General Khazard",
+    "id": 7553,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "None",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "General Khazard (lvl 120)": {
+    "name": "General Khazard",
+    "id": 14567,
+    "combatStyle": "melee",
+    "combatLevel": 120,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 60,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 283,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Forgotten warrior (lvl 105)": {
+    "name": "Forgotten warrior",
+    "id": 8763,
+    "combatStyle": "melee",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 1486,
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Forgotten warrior (lvl 40)": {
+    "name": "Forgotten warrior",
+    "id": 10265,
+    "combatStyle": "melee",
+    "combatLevel": 40,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 34,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 519,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 177,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten warrior (lvl 3)": {
+    "name": "Forgotten warrior",
+    "id": 10410,
+    "combatStyle": "melee",
+    "combatLevel": 3,
+    "weakness": "Water",
+    "levels": {
+      "attack": 4,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 5
+    },
+    "bonusStats": {
+      "attack": 56,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten warrior (lvl 5)": {
+    "name": "Forgotten warrior",
+    "id": 10416,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Water",
+    "levels": {
+      "attack": 1,
+      "defence": 7,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 68,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten warrior (lvl 55)": {
+    "name": "Forgotten warrior",
+    "id": 10280,
+    "combatStyle": "unknown",
+    "combatLevel": 55,
+    "weakness": "Water",
+    "levels": {
+      "attack": 45,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 536,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 181,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten warrior (lvl 24)": {
+    "name": "Forgotten warrior",
+    "id": 10459,
+    "combatStyle": "unknown",
+    "combatLevel": 24,
+    "weakness": "Air",
+    "levels": {
+      "attack": 20,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 381,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "TokTz-Ket-Dill (lvl 64)": {
+    "name": "TokTz-Ket-Dill",
+    "id": 7770,
+    "combatStyle": "melee",
+    "combatLevel": 64,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 46,
+      "defence": 46,
+      "magic": 46,
+      "ranged": 46
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 755,
+      "magic": 755,
+      "ranged": 755,
+      "armour": 755
+    },
+    "bonusStats": {
+      "attack": 226,
+      "armour": 226,
+      "magic": 226,
+      "ranged": 226
+    }
+  },
+  "TokTz-Ket-Dill (lvl 100)": {
+    "name": "TokTz-Ket-Dill",
+    "id": 7771,
+    "combatStyle": "melee",
+    "combatLevel": 100,
+    "weakness": "Water",
+    "levels": {
+      "attack": 46,
+      "defence": 46,
+      "magic": 46,
+      "ranged": 46
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 755,
+      "magic": 755,
+      "ranged": 755,
+      "armour": 755
+    },
+    "bonusStats": {
+      "attack": 226,
+      "armour": 226,
+      "magic": 226,
+      "ranged": 226
+    }
+  },
+  "Undead troll (lvl 95)": {
+    "name": "Undead troll",
+    "id": 8377,
+    "combatStyle": "melee",
+    "combatLevel": 95,
+    "weakness": "Air",
+    "levels": {
+      "attack": 68,
+      "defence": 68,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1409,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1409
+    },
+    "bonusStats": {
+      "attack": 316,
+      "armour": 316,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Undead troll (lvl 77)": {
+    "name": "Undead troll",
+    "id": 8378,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Air",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Undead troll (lvl 86)": {
+    "name": "Undead troll",
+    "id": 8379,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "Air",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1197,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Undead troll (lvl 81)": {
+    "name": "Undead troll",
+    "id": 8380,
+    "combatStyle": "melee",
+    "combatLevel": 81,
+    "weakness": "Air",
+    "levels": {
+      "attack": 58,
+      "defence": 58,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1070,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 275,
+      "armour": 275,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Elite Khazard guard (lvl 77)": {
+    "name": "Elite Khazard guard",
+    "id": 8437,
+    "combatStyle": "melee",
+    "combatLevel": 77,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 55,
+      "defence": 55,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 983,
+      "armour": 983
+    },
+    "bonusStats": {
+      "attack": 262,
+      "armour": 262,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Elite Khazard guard (lvl 84)": {
+    "name": "Elite Khazard guard",
+    "id": 14248,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "None",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Nomad (lvl 699)": {
+    "name": "Nomad",
+    "id": 8528,
+    "combatStyle": "melee",
+    "combatLevel": 699,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 1694,
+      "ranged": 1694,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Nomad (lvl 799)": {
+    "name": "Nomad",
+    "id": 23829,
+    "combatStyle": "melee",
+    "combatLevel": 799,
+    "weakness": "None",
+    "levels": {
+      "attack": 95,
+      "defence": 80,
+      "magic": 83,
+      "ranged": 83
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2765,
+      "ranged": 2765,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 427,
+      "armour": 365,
+      "magic": 378,
+      "ranged": 378
+    }
+  },
+  "Phoenix (lvl 84)": {
+    "name": "Phoenix",
+    "id": 8549,
+    "combatStyle": "magic",
+    "combatLevel": 84,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1299,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Phoenix (lvl 85)": {
+    "name": "Phoenix",
+    "id": 8576,
+    "combatStyle": "magic",
+    "combatLevel": 85,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 58,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 275,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Shade (lvl 52)": {
+    "name": "Shade",
+    "id": 8645,
+    "combatStyle": "melee",
+    "combatLevel": 52,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 30,
+      "defence": 44,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 710
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 218,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Shade (lvl 84)": {
+    "name": "Shade",
+    "id": 14054,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Crassian warrior (lvl 75)": {
+    "name": "Crassian warrior",
+    "id": 9070,
+    "combatStyle": "melee",
+    "combatLevel": 75,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 901,
+      "magic": 901,
+      "ranged": 901,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 324
+    }
+  },
+  "Crassian warrior (lvl 7)": {
+    "name": "Crassian warrior",
+    "id": 19322,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 150,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeletal horror (lvl 86)": {
+    "name": "Skeletal horror",
+    "id": 9178,
+    "combatStyle": "melee",
+    "combatLevel": 86,
+    "weakness": "None",
+    "levels": {
+      "attack": 62,
+      "defence": 62,
+      "magic": 62,
+      "ranged": 62
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1197,
+      "magic": 1197,
+      "ranged": 1197,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 291,
+      "armour": 291,
+      "magic": 291,
+      "ranged": 291
+    }
+  },
+  "Skeletal horror (lvl 84)": {
+    "name": "Skeletal horror",
+    "id": 9179,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "None",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Skeletal horror (lvl 81)": {
+    "name": "Skeletal horror",
+    "id": 9180,
+    "combatStyle": "melee",
+    "combatLevel": 81,
+    "weakness": "None",
+    "levels": {
+      "attack": 58,
+      "defence": 58,
+      "magic": 58,
+      "ranged": 58
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1070,
+      "magic": 1070,
+      "ranged": 1070,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 275,
+      "armour": 275,
+      "magic": 275,
+      "ranged": 275
+    }
+  },
+  "Rogue's soul (lvl 40)": {
+    "name": "Rogue's soul",
+    "id": 9678,
+    "combatStyle": "melee",
+    "combatLevel": 40,
+    "weakness": "Water",
+    "levels": {
+      "attack": 50,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Rogue's soul (lvl 54)": {
+    "name": "Rogue's soul",
+    "id": 9679,
+    "combatStyle": "melee",
+    "combatLevel": 54,
+    "weakness": "Water",
+    "levels": {
+      "attack": 60,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 120,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Rogue's soul (lvl 68)": {
+    "name": "Rogue's soul",
+    "id": 9680,
+    "combatStyle": "melee",
+    "combatLevel": 68,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 70,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Rogue's soul (lvl 82)": {
+    "name": "Rogue's soul",
+    "id": 15570,
+    "combatStyle": "melee",
+    "combatLevel": 82,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 80,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Har'Lakk the Riftsplitter (lvl 7)": {
+    "name": "Har'Lakk the Riftsplitter",
+    "id": 9898,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 5,
+      "ranged": 5
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 150,
+      "magic": 150,
+      "ranged": 150,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 60,
+      "ranged": 60
+    }
+  },
+  "Har'Lakk the Riftsplitter (lvl 78)": {
+    "name": "Har'Lakk the Riftsplitter",
+    "id": 9905,
+    "combatStyle": "melee",
+    "combatLevel": 78,
+    "weakness": "None",
+    "levels": {
+      "attack": 56,
+      "defence": 56,
+      "magic": 56,
+      "ranged": 56
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1011,
+      "magic": 1011,
+      "ranged": 1011,
+      "armour": 1011
+    },
+    "bonusStats": {
+      "attack": 267,
+      "armour": 267,
+      "magic": 267,
+      "ranged": 267
+    }
+  },
+  "Forgotten mage (lvl 138)": {
+    "name": "Forgotten mage",
+    "id": 10600,
+    "combatStyle": "magic",
+    "combatLevel": 138,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 44
+    }
+  },
+  "Edimmu (lvl 122)": {
+    "name": "Edimmu",
+    "id": 10704,
+    "combatStyle": "magic",
+    "combatLevel": 122,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 90,
+      "defence": 85,
+      "magic": 90,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 386,
+      "magic": 406,
+      "ranged": 44
+    }
+  },
+  "Edimmu (lvl 125)": {
+    "name": "Edimmu",
+    "id": 20291,
+    "combatStyle": "magic",
+    "combatLevel": 125,
+    "weakness": "None",
+    "levels": {
+      "attack": 95,
+      "defence": 85,
+      "magic": 95,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2765,
+      "armour": 2458
+    },
+    "bonusStats": {
+      "attack": 427,
+      "armour": 386,
+      "magic": 427,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 14)": {
+    "name": "Hill giant",
+    "id": 10706,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Air",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 21)": {
+    "name": "Hill giant",
+    "id": 10707,
+    "combatStyle": "melee",
+    "combatLevel": 21,
+    "weakness": "Water",
+    "levels": {
+      "attack": 15,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 257,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 28)": {
+    "name": "Hill giant",
+    "id": 10708,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 42)": {
+    "name": "Hill giant",
+    "id": 10709,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 49)": {
+    "name": "Hill giant",
+    "id": 10710,
+    "combatStyle": "melee",
+    "combatLevel": 49,
+    "weakness": "Air",
+    "levels": {
+      "attack": 35,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 536,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 181,
+      "armour": 181,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 70)": {
+    "name": "Hill giant",
+    "id": 10712,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 84)": {
+    "name": "Hill giant",
+    "id": 10713,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 98)": {
+    "name": "Hill giant",
+    "id": 10714,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Air",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 138)": {
+    "name": "Hill giant",
+    "id": 10717,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Brute (lvl 21)": {
+    "name": "Brute",
+    "id": 10797,
+    "combatStyle": "melee",
+    "combatLevel": 21,
+    "weakness": "Air",
+    "levels": {
+      "attack": 15,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 245,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Brute (lvl 36)": {
+    "name": "Brute",
+    "id": 10799,
+    "combatStyle": "melee",
+    "combatLevel": 36,
+    "weakness": "Water",
+    "levels": {
+      "attack": 26,
+      "defence": 26,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 395,
+      "armour": 395
+    },
+    "bonusStats": {
+      "attack": 145,
+      "armour": 145,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Brute (lvl 51)": {
+    "name": "Brute",
+    "id": 10801,
+    "combatStyle": "melee",
+    "combatLevel": 51,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 37,
+      "defence": 37,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 571,
+      "armour": 571
+    },
+    "bonusStats": {
+      "attack": 189,
+      "armour": 189,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Brute (lvl 67)": {
+    "name": "Brute",
+    "id": 10803,
+    "combatStyle": "melee",
+    "combatLevel": 67,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 48,
+      "defence": 48,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 801,
+      "armour": 801
+    },
+    "bonusStats": {
+      "attack": 234,
+      "armour": 234,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Pit black demon (lvl 124)": {
+    "name": "Pit black demon",
+    "id": 11566,
+    "combatStyle": "melee",
+    "combatLevel": 124,
+    "weakness": "Water",
+    "levels": {
+      "attack": 89,
+      "defence": 89,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2074,
+      "armour": 2074
+    },
+    "bonusStats": {
+      "attack": 402,
+      "armour": 402,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Pit black demon (lvl 84)": {
+    "name": "Pit black demon",
+    "id": 11593,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Pit iron dragon (lvl 112)": {
+    "name": "Pit iron dragon",
+    "id": 11567,
+    "combatStyle": "magic",
+    "combatLevel": 112,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 80,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 365,
+      "ranged": 44
+    }
+  },
+  "Pit iron dragon (lvl 204)": {
+    "name": "Pit iron dragon",
+    "id": 11595,
+    "combatStyle": "magic",
+    "combatLevel": 204,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 46,
+      "defence": 62,
+      "magic": 62,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 465,
+      "magic": 1197,
+      "ranged": 0,
+      "armour": 1197
+    },
+    "bonusStats": {
+      "attack": 226,
+      "armour": 291,
+      "magic": 291,
+      "ranged": 0
+    }
+  },
+  "Guthix wizard (lvl 105)": {
+    "name": "Guthix wizard",
+    "id": 11638,
+    "combatStyle": "magic",
+    "combatLevel": 105,
+    "weakness": "None",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 75,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 345,
+      "ranged": 345
+    }
+  },
+  "Guthix wizard (lvl 119)": {
+    "name": "Guthix wizard",
+    "id": 11639,
+    "combatStyle": "magic",
+    "combatLevel": 119,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 70,
+      "same": 70,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 70,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Skeletal minion (lvl 7)": {
+    "name": "Skeletal minion",
+    "id": 11722,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 5,
+      "ranged": 5
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 150,
+      "magic": 150,
+      "ranged": 150,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 60,
+      "ranged": 60
+    }
+  },
+  "Skeletal minion (lvl 44)": {
+    "name": "Skeletal minion",
+    "id": 11726,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "None",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 32,
+      "ranged": 32
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 486,
+      "magic": 486,
+      "ranged": 486,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 169,
+      "ranged": 169
+    }
+  },
+  "Skeletal minion (lvl 54)": {
+    "name": "Skeletal minion",
+    "id": 11727,
+    "combatStyle": "melee",
+    "combatLevel": 54,
+    "weakness": "None",
+    "levels": {
+      "attack": 39,
+      "defence": 39,
+      "magic": 39,
+      "ranged": 39
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 609,
+      "magic": 609,
+      "ranged": 609,
+      "armour": 609
+    },
+    "bonusStats": {
+      "attack": 197,
+      "armour": 197,
+      "magic": 197,
+      "ranged": 197
+    }
+  },
+  "Skeletal minion (lvl 63)": {
+    "name": "Skeletal minion",
+    "id": 11728,
+    "combatStyle": "melee",
+    "combatLevel": 63,
+    "weakness": "None",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 45,
+      "ranged": 45
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 732,
+      "magic": 732,
+      "ranged": 732,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 222,
+      "ranged": 222
+    }
+  },
+  "Skeletal minion (lvl 72)": {
+    "name": "Skeletal minion",
+    "id": 11729,
+    "combatStyle": "melee",
+    "combatLevel": 72,
+    "weakness": "None",
+    "levels": {
+      "attack": 52,
+      "defence": 52,
+      "magic": 52,
+      "ranged": 52
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 901,
+      "magic": 901,
+      "ranged": 901,
+      "armour": 901
+    },
+    "bonusStats": {
+      "attack": 250,
+      "armour": 250,
+      "magic": 250,
+      "ranged": 250
+    }
+  },
+  "Skeletal minion (lvl 82)": {
+    "name": "Skeletal minion",
+    "id": 11730,
+    "combatStyle": "melee",
+    "combatLevel": 82,
+    "weakness": "None",
+    "levels": {
+      "attack": 59,
+      "defence": 59,
+      "magic": 59,
+      "ranged": 59
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1101,
+      "magic": 1101,
+      "ranged": 1101,
+      "armour": 1101
+    },
+    "bonusStats": {
+      "attack": 279,
+      "armour": 279,
+      "magic": 279,
+      "ranged": 279
+    }
+  },
+  "Skeletal minion (lvl 91)": {
+    "name": "Skeletal minion",
+    "id": 11731,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Skeletal minion (lvl 100)": {
+    "name": "Skeletal minion",
+    "id": 11732,
+    "combatStyle": "melee",
+    "combatLevel": 100,
+    "weakness": "None",
+    "levels": {
+      "attack": 72,
+      "defence": 72,
+      "magic": 72,
+      "ranged": 72
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1566,
+      "magic": 1566,
+      "ranged": 1566,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 332,
+      "armour": 332,
+      "magic": 332,
+      "ranged": 332
+    }
+  },
+  "Skeletal minion (lvl 110)": {
+    "name": "Skeletal minion",
+    "id": 11733,
+    "combatStyle": "melee",
+    "combatLevel": 110,
+    "weakness": "None",
+    "levels": {
+      "attack": 79,
+      "defence": 79,
+      "magic": 79,
+      "ranged": 79
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1876,
+      "magic": 1876,
+      "ranged": 1876,
+      "armour": 1876
+    },
+    "bonusStats": {
+      "attack": 361,
+      "armour": 361,
+      "magic": 361,
+      "ranged": 361
+    }
+  },
+  "Skeletal minion (lvl 120)": {
+    "name": "Skeletal minion",
+    "id": 11734,
+    "combatStyle": "melee",
+    "combatLevel": 120,
+    "weakness": "None",
+    "levels": {
+      "attack": 86,
+      "defence": 86,
+      "magic": 86,
+      "ranged": 86
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2232,
+      "magic": 2232,
+      "ranged": 2232,
+      "armour": 2232
+    },
+    "bonusStats": {
+      "attack": 390,
+      "armour": 390,
+      "magic": 390,
+      "ranged": 390
+    }
+  },
+  "Skeletal minion (lvl 128)": {
+    "name": "Skeletal minion",
+    "id": 11735,
+    "combatStyle": "melee",
+    "combatLevel": 128,
+    "weakness": "None",
+    "levels": {
+      "attack": 92,
+      "defence": 92,
+      "magic": 92,
+      "ranged": 92
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 2577,
+      "magic": 2577,
+      "ranged": 2577,
+      "armour": 2577
+    },
+    "bonusStats": {
+      "attack": 415,
+      "armour": 415,
+      "magic": 415,
+      "ranged": 415
+    }
+  },
+  "Skeletal minion (lvl 138)": {
+    "name": "Skeletal minion",
+    "id": 11736,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "ranged": 3031,
+      "armour": 3031
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Flesh-Spoiler Haasghenahk (lvl 7)": {
+    "name": "Flesh-Spoiler Haasghenahk",
+    "id": 11895,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 5,
+      "ranged": 5
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 150,
+      "magic": 150,
+      "ranged": 150,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 60,
+      "ranged": 60
+    }
+  },
+  "Flesh-Spoiler Haasghenahk (lvl 84)": {
+    "name": "Flesh-Spoiler Haasghenahk",
+    "id": 11925,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "None",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Skeletal warrior (lvl 91)": {
+    "name": "Skeletal warrior",
+    "id": 11940,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Skeletal warrior (lvl 1)": {
+    "name": "Skeletal warrior",
+    "id": 16031,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Air",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 0
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeletal archer (lvl 91)": {
+    "name": "Skeletal archer",
+    "id": 12044,
+    "combatStyle": "ranged",
+    "combatLevel": 91,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Skeletal archer (lvl 1)": {
+    "name": "Skeletal archer",
+    "id": 16032,
+    "combatStyle": "ranged",
+    "combatLevel": 1,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 0
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "World-gorger Shukarhazh (lvl 180)": {
+    "name": "World-gorger Shukarhazh",
+    "id": 12491,
+    "combatStyle": "magic",
+    "combatLevel": 180,
+    "weakness": "None",
+    "levels": {
+      "attack": 129,
+      "defence": 129,
+      "magic": 129,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 0,
+      "same": 0,
+      "weak": 90,
+      "weakness": 0,
+      "magic": 0,
+      "melee": 90,
+      "ranged": 0
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "armour": 2639
+    },
+    "bonusStats": {
+      "attack": 569,
+      "armour": 569,
+      "magic": 569,
+      "ranged": 44
+    }
+  },
+  "Troll runt (lvl 1)": {
+    "name": "Troll runt",
+    "id": 12880,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Water",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Troll runt (lvl 2)": {
+    "name": "Troll runt",
+    "id": 15996,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 90,
+      "same": 90,
+      "weak": 90,
+      "weakness": 90,
+      "magic": 90,
+      "melee": 90,
+      "ranged": 90
+    },
+    "baseStats": {
+      "attack": 1,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Cliff (lvl 7)": {
+    "name": "Cliff",
+    "id": 12921,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 5,
+      "ranged": 5
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 150,
+      "magic": 150,
+      "ranged": 150,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 60,
+      "ranged": 60
+    }
+  },
+  "Cliff (lvl 91)": {
+    "name": "Cliff",
+    "id": 15113,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "Air",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Fumus (lvl 111)": {
+    "name": "Fumus",
+    "id": 13451,
+    "combatStyle": "magic",
+    "combatLevel": 111,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
+  "Fumus (lvl 1000)": {
+    "name": "Fumus",
+    "id": 24012,
+    "combatStyle": "magic",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "ranged": 3031,
+      "armour": 2458
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Umbra (lvl 111)": {
+    "name": "Umbra",
+    "id": 13452,
+    "combatStyle": "magic",
+    "combatLevel": 111,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
+  "Umbra (lvl 1000)": {
+    "name": "Umbra",
+    "id": 24013,
+    "combatStyle": "magic",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "ranged": 3031,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Cruor (lvl 111)": {
+    "name": "Cruor",
+    "id": 13453,
+    "combatStyle": "magic",
+    "combatLevel": 111,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
+  "Cruor (lvl 1000)": {
+    "name": "Cruor",
+    "id": 24011,
+    "combatStyle": "magic",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "ranged": 3031,
+      "armour": 2458
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Glacies (lvl 111)": {
+    "name": "Glacies",
+    "id": 13454,
+    "combatStyle": "magic",
+    "combatLevel": 111,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 75,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 345,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
+  "Glacies (lvl 1000)": {
+    "name": "Glacies",
+    "id": 24010,
+    "combatStyle": "magic",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 80,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 3031,
+      "magic": 3031,
+      "ranged": 3031,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Ancient warrior (lvl 103)": {
+    "name": "Ancient warrior",
+    "id": 13456,
+    "combatStyle": "melee",
+    "combatLevel": 103,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 74,
+      "defence": 74,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1650,
+      "armour": 1650
+    },
+    "bonusStats": {
+      "attack": 340,
+      "armour": 340,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ancient warrior (lvl 108)": {
+    "name": "Ancient warrior",
+    "id": 22498,
+    "combatStyle": "melee",
+    "combatLevel": 108,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 80,
+      "defence": 75,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 345,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Ancient ranger (lvl 103)": {
+    "name": "Ancient ranger",
+    "id": 13457,
+    "combatStyle": "ranged",
+    "combatLevel": 103,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 74,
+      "magic": 1,
+      "ranged": 74
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1650,
+      "armour": 1650
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 340,
+      "magic": 44,
+      "ranged": 340
+    }
+  },
+  "Ancient ranger (lvl 108)": {
+    "name": "Ancient ranger",
+    "id": 22499,
+    "combatStyle": "ranged",
+    "combatLevel": 108,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 80,
+      "defence": 75,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1924,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 345,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Ancient mage (lvl 103)": {
+    "name": "Ancient mage",
+    "id": 13459,
+    "combatStyle": "magic",
+    "combatLevel": 103,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 74,
+      "magic": 74,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1650,
+      "armour": 1650
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 340,
+      "magic": 340,
+      "ranged": 44
+    }
+  },
+  "Ancient mage (lvl 108)": {
+    "name": "Ancient mage",
+    "id": 22500,
+    "combatStyle": "magic",
+    "combatLevel": 108,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 80,
+      "defence": 75,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 1924,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 345,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Revenant goblin (lvl 16)": {
+    "name": "Revenant goblin",
+    "id": 13466,
+    "combatStyle": "melee",
+    "combatLevel": 16,
+    "weakness": "None",
+    "levels": {
+      "attack": 12,
+      "defence": 12,
+      "magic": 12,
+      "ranged": 12
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 223,
+      "magic": 223,
+      "ranged": 223,
+      "armour": 223
+    },
+    "bonusStats": {
+      "attack": 88,
+      "armour": 88,
+      "magic": 88,
+      "ranged": 88
+    }
+  },
+  "Revenant goblin (lvl 19)": {
+    "name": "Revenant goblin",
+    "id": 13467,
+    "combatStyle": "melee",
+    "combatLevel": 19,
+    "weakness": "None",
+    "levels": {
+      "attack": 14,
+      "defence": 14,
+      "magic": 14,
+      "ranged": 14
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 245,
+      "magic": 245,
+      "ranged": 245,
+      "armour": 245
+    },
+    "bonusStats": {
+      "attack": 96,
+      "armour": 96,
+      "magic": 96,
+      "ranged": 96
+    }
+  },
+  "Revenant goblin (lvl 22)": {
+    "name": "Revenant goblin",
+    "id": 13468,
+    "combatStyle": "melee",
+    "combatLevel": 22,
+    "weakness": "None",
+    "levels": {
+      "attack": 16,
+      "defence": 16,
+      "magic": 16,
+      "ranged": 16
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 268,
+      "magic": 268,
+      "ranged": 268,
+      "armour": 268
+    },
+    "bonusStats": {
+      "attack": 104,
+      "armour": 104,
+      "magic": 104,
+      "ranged": 104
+    }
+  },
+  "Revenant goblin (lvl 28)": {
+    "name": "Revenant goblin",
+    "id": 13469,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "None",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 20,
+      "ranged": 20
+    },
+    "affinity": {
+      "strong": 40,
+      "same": 40,
+      "weak": 40,
+      "weakness": 40,
+      "magic": 40,
+      "melee": 40,
+      "ranged": 40
+    },
+    "baseStats": {
+      "attack": 316,
+      "magic": 316,
+      "ranged": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 120,
+      "ranged": 120
+    }
+  },
+  "Troll brute (lvl 7)": {
+    "name": "Troll brute",
+    "id": 14980,
+    "combatStyle": "melee",
+    "combatLevel": 7,
+    "weakness": "Air",
+    "levels": {
+      "attack": 5,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 50,
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 60,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Troll brute (lvl 1)": {
+    "name": "Troll brute",
+    "id": 27834,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Grotworm (lvl 63)": {
+    "name": "Grotworm",
+    "id": 15462,
+    "combatStyle": "magic",
+    "combatLevel": 63,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 45,
+      "defence": 45,
+      "magic": 45,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 632,
+      "magic": 632,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 222,
+      "armour": 222,
+      "magic": 222,
+      "ranged": 44
+    }
+  },
+  "Grotworm (lvl 1)": {
+    "name": "Grotworm",
+    "id": 15495,
+    "combatStyle": "magic",
+    "combatLevel": 1,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 0,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 7,
+      "magic": 110,
+      "ranged": 0,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 0,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 0
+    }
+  },
+  "Skulls mercenary (lvl 2)": {
+    "name": "Skulls mercenary",
+    "id": 15898,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skulls mercenary (lvl 93)": {
+    "name": "Skulls mercenary",
+    "id": 23038,
+    "combatStyle": "melee",
+    "combatLevel": 93,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "Zamorakian warlock (lvl 93)": {
+    "name": "Zamorakian warlock",
+    "id": 16695,
+    "combatStyle": "magic",
+    "combatLevel": 93,
+    "weakness": "Water",
+    "levels": {
+      "attack": 1,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "magic": 670,
+      "armour": 670
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 44
+    }
+  },
+  "Zamorakian warlock (lvl 0)": {
+    "name": "Zamorakian warlock",
+    "id": 17594,
+    "combatStyle": "magic",
+    "combatLevel": 0,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "Mourner (lvl 85)": {
+    "name": "Mourner",
+    "id": 16723,
+    "combatStyle": "melee",
+    "combatLevel": 85,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 61,
+      "defence": 61,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1164,
+      "armour": 1164
+    },
+    "bonusStats": {
+      "attack": 287,
+      "armour": 287,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Mourner (lvl 79)": {
+    "name": "Mourner",
+    "id": 19620,
+    "combatStyle": "melee",
+    "combatLevel": 79,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 57,
+      "defence": 57,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1040,
+      "armour": 1040
+    },
+    "bonusStats": {
+      "attack": 271,
+      "armour": 271,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton warrior (lvl 56)": {
+    "name": "Skeleton warrior",
+    "id": 17246,
+    "combatStyle": "melee",
+    "combatLevel": 56,
+    "weakness": "None",
+    "levels": {
+      "attack": 40,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton warrior (lvl 0)": {
+    "name": "Skeleton warrior",
+    "id": 18092,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton warrior (lvl 98)": {
+    "name": "Skeleton warrior",
+    "id": 30166,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton warrior (lvl 76)": {
+    "name": "Skeleton warrior",
+    "id": 30530,
+    "combatStyle": "melee",
+    "combatLevel": 76,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 60,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1032,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Skeleton archer (lvl 56)": {
+    "name": "Skeleton archer",
+    "id": 17247,
+    "combatStyle": "ranged",
+    "combatLevel": 56,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 40
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 201
+    }
+  },
+  "Skeleton archer (lvl 76)": {
+    "name": "Skeleton archer",
+    "id": 30535,
+    "combatStyle": "ranged",
+    "combatLevel": 76,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1032,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 283
+    }
+  },
+  "Red Axe director (lvl 84)": {
+    "name": "Red Axe director",
+    "id": 18273,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Water",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Red Axe director (lvl 90)": {
+    "name": "Red Axe director",
+    "id": 18274,
+    "combatStyle": "melee",
+    "combatLevel": 90,
+    "weakness": "Water",
+    "levels": {
+      "attack": 70,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 1486,
+      "ranged": 1486,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Chaos dwarf lava flow miner (lvl 84)": {
+    "name": "Chaos dwarf lava flow miner",
+    "id": 18424,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Water",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "magic": 1132,
+      "ranged": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Chaos dwarf lava flow miner (lvl 90)": {
+    "name": "Chaos dwarf lava flow miner",
+    "id": 18425,
+    "combatStyle": "melee",
+    "combatLevel": 90,
+    "weakness": "Water",
+    "levels": {
+      "attack": 70,
+      "defence": 60,
+      "magic": 60,
+      "ranged": 60
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "magic": 1486,
+      "ranged": 1486,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 283,
+      "magic": 283,
+      "ranged": 283
+    }
+  },
+  "Amascut, the Devourer (lvl 9999)": {
+    "name": "Amascut, the Devourer",
+    "id": 18879,
+    "combatStyle": "magic",
+    "combatLevel": 9999,
+    "weakness": "None",
+    "levels": {
+      "attack": 120,
+      "defence": 95,
+      "magic": 120,
+      "ranged": 120
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 4656,
+      "magic": 4656,
+      "ranged": 4656,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 532,
+      "armour": 427,
+      "magic": 532,
+      "ranged": 532
+    }
+  },
+  "Amascut, the Devourer (lvl 5000)": {
+    "name": "Amascut, the Devourer",
+    "id": 32060,
+    "combatStyle": "magic",
+    "combatLevel": 5000,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 90,
+      "magic": 99,
+      "ranged": 99
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2931,
+      "magic": 2931,
+      "ranged": 2931,
+      "armour": 2458
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 406,
+      "magic": 444,
+      "ranged": 444
+    }
+  },
+  "Iorwerth scout (lvl 122)": {
+    "name": "Iorwerth scout",
+    "id": 19875,
+    "combatStyle": "melee",
+    "combatLevel": 122,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 85,
+      "defence": 90,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 406,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Iorwerth scout (lvl 0)": {
+    "name": "Iorwerth scout",
+    "id": 21474,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 67,
+      "defence": 67,
+      "magic": 67,
+      "ranged": 67
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1372,
+      "magic": 1372,
+      "ranged": 1372,
+      "armour": 1372
+    },
+    "bonusStats": {
+      "attack": 312,
+      "armour": 312,
+      "magic": 312,
+      "ranged": 312
+    }
+  },
+  "Lowerniel Drakan (lvl 0)": {
+    "name": "Lowerniel Drakan",
+    "id": 21728,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "magic": 3031,
+      "armour": 3031
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lowerniel Drakan (lvl 666)": {
+    "name": "Lowerniel Drakan",
+    "id": 21745,
+    "combatStyle": "melee",
+    "combatLevel": 666,
+    "weakness": "None",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 3031
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Gorilla akh (lvl 111)": {
+    "name": "Gorilla akh",
+    "id": 24603,
+    "combatStyle": "melee",
+    "combatLevel": 111,
+    "weakness": "Water",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Gorilla akh (lvl 175)": {
+    "name": "Gorilla akh",
+    "id": 32263,
+    "combatStyle": "melee",
+    "combatLevel": 175,
+    "weakness": "Water",
+    "levels": {
+      "attack": 110,
+      "defence": 70,
+      "magic": 110,
+      "ranged": 110
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 3862,
+      "magic": 3862,
+      "ranged": 3862,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 490,
+      "armour": 324,
+      "magic": 490,
+      "ranged": 490
+    }
+  },
+  "Skeleton ranger (lvl 7)": {
+    "name": "Skeleton ranger",
+    "id": 25900,
+    "combatStyle": "ranged",
+    "combatLevel": 7,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 10
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 80
+    }
+  },
+  "Skeleton ranger (lvl 97)": {
+    "name": "Skeleton ranger",
+    "id": 30537,
+    "combatStyle": "ranged",
+    "combatLevel": 97,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 65,
+      "magic": 1,
+      "ranged": 75
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "ranged": 1594,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 303,
+      "magic": 44,
+      "ranged": 345
+    }
+  },
+  "Summoned skeleton (lvl 111)": {
+    "name": "Summoned skeleton",
+    "id": 26060,
+    "combatStyle": "melee",
+    "combatLevel": 111,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2765,
+      "ranged": 2765,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Summoned skeleton (lvl 114)": {
+    "name": "Summoned skeleton",
+    "id": 26079,
+    "combatStyle": "melee",
+    "combatLevel": 114,
+    "weakness": "None",
+    "levels": {
+      "attack": 95,
+      "defence": 70,
+      "magic": 95,
+      "ranged": 95
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2765,
+      "ranged": 2765,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 427,
+      "armour": 324,
+      "magic": 427,
+      "ranged": 427
+    }
+  },
+  "Zamorakian ritual keeper (lvl 107)": {
+    "name": "Zamorakian ritual keeper",
+    "id": 29283,
+    "combatStyle": "melee",
+    "combatLevel": 107,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 85,
+      "defence": 70,
+      "magic": 85,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 850,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 324,
+      "magic": 386,
+      "ranged": 242
+    }
+  },
+  "Zamorakian ritual keeper (lvl 115)": {
+    "name": "Zamorakian ritual keeper",
+    "id": 29284,
+    "combatStyle": "melee",
+    "combatLevel": 115,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 95,
+      "defence": 72,
+      "magic": 85,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2765,
+      "magic": 2178,
+      "ranged": 850,
+      "armour": 1566
+    },
+    "bonusStats": {
+      "attack": 427,
+      "armour": 332,
+      "magic": 386,
+      "ranged": 242
+    }
+  },
+  "Helwyr": {
+    "name": "Helwyr",
+    "id": 22438,
+    "combatStyle": "melee",
+    "combatLevel": 1000,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 70,
+      "magic": 85,
+      "ranged": 85
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2178,
+      "magic": 2178,
+      "ranged": 2178,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 324,
+      "magic": 386,
+      "ranged": 386
+    }
+  },
+  "Nakatra, Devourer Eternal": {
+    "name": "Nakatra, Devourer Eternal",
+    "id": 31103,
+    "combatStyle": "magic",
+    "combatLevel": 2160,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 95,
+      "magic": 120,
+      "ranged": 120
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 65,
+      "ranged": 55
+    },
+    "baseStats": {
+      "magic": 4656,
+      "ranged": 4656,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 427,
+      "magic": 532,
+      "ranged": 532
+    }
+  },
+  "Queen Black Dragon": {
+    "name": "Queen Black Dragon",
+    "id": 15454,
+    "combatStyle": "melee",
+    "combatLevel": 900,
+    "weakness": "None",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 80,
+      "ranged": 80
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 50,
+      "weak": 50,
+      "weakness": 50,
+      "magic": 50,
+      "melee": 50,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "magic": 1924,
+      "ranged": 1924,
+      "armour": 2074
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 365,
+      "ranged": 365
+    }
+  },
+  "Skeletal horror": {
+    "name": "Skeletal horror",
+    "id": 9177,
+    "combatStyle": "melee",
+    "combatLevel": 91,
+    "weakness": "None",
+    "levels": {
+      "attack": 65,
+      "defence": 65,
+      "magic": 65,
+      "ranged": 65
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 60,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 1299,
+      "magic": 1299,
+      "ranged": 1299,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 303,
+      "armour": 303,
+      "magic": 303,
+      "ranged": 303
+    }
+  },
+  "Tormented demon (weak to Fire)": {
+    "name": "Tormented demon",
+    "id": 8349,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Tormented demon (weak to Bolt)": {
+    "name": "Tormented demon",
+    "id": 8358,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "TzKal-Zuk": {
+    "name": "TzKal-Zuk",
+    "id": 28526,
+    "combatStyle": "melee",
+    "combatLevel": 14000,
+    "weakness": "None",
+    "levels": {
+      "attack": 100,
+      "defence": 80,
+      "magic": 100,
+      "ranged": 100
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 65,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 3862,
+      "magic": 3862,
+      "ranged": 3862,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 448,
+      "armour": 365,
+      "magic": 448,
+      "ranged": 448
     }
   }
 }

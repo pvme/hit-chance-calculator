@@ -114,14 +114,35 @@ const unique = mapped.filter(({ name, affinity: { melee, magic, ranged, weakness
     return true;
 });
 
-const grouped = Object.groupBy(unique, x => `${x.name} (${x.combatStyle})`);
-const firstLevel = Object.entries(grouped).filter(([_, entries]) => entries.length === 1).map(([_, entries]) => entries[0])
-const dupes = Object.entries(Object.groupBy(firstLevel, x => x.name)).filter(([_, entries]) => entries.length > 1).map(([key]) => key)
+const resolveAmbiguous = (entries, keyFn) => {
+  const resolved = {};
+  const remaining = [];
+  Object.entries(Object.groupBy(entries, keyFn)).forEach(([key, entries]) => {
+    if (entries.length === 1) resolved[key] = entries[0];
+    else remaining.push(...entries);
+  });
+  return [resolved, remaining];
+};
 
-const results = Object.fromEntries(firstLevel.filter(x => !dupes.includes(x.name)).map(x => [x.name, x]));
+const results = {};
 
-Object.values(results).forEach(x => { delete grouped[`${x.name} (${x.combatStyle})`] });
+const [byName, ambiguousByName] = resolveAmbiguous(unique, x => x.name);
+Object.assign(results, byName);
 
-// TODO: add non-unique named targets with their combat style e.g. "Araxxor (melee)"
+const [byCombatStyle, ambiguousByCombatStyle] = resolveAmbiguous(ambiguousByName, x => `${x.name} (${x.combatStyle})`);
+Object.assign(results, byCombatStyle);
+
+const [byCombatLevel, fuckTheRest] = resolveAmbiguous(ambiguousByCombatStyle, x => `${x.name} (lvl ${x.combatLevel})`);
+Object.assign(results, byCombatLevel);
+
+[
+  ["Helwyr", 22438],
+  ["Nakatra, Devourer Eternal", 31103],
+  ["Queen Black Dragon", 15454],
+  ["Skeletal horror", 9177],
+  ["Tormented demon (weak to Fire)", 8349],
+  ["Tormented demon (weak to Bolt)", 8358],
+  ["TzKal-Zuk", 28526]
+].forEach(([key, id]) => results[key] = mapped.find(x => x.id === id))
 
 fs.writeFileSync("target_dataset.js", "targetData = " + JSON.stringify(results, null, 2));
