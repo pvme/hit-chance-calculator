@@ -12,10 +12,11 @@ function calcAccuracyStat(state) {
   const levelBonus = Math.floor(accF(trueStatLevel));
 
   const prayerBonus = getPrayerBonus(state, trueStatLevel);
+  const energisingBonus = state.energising ? 50 + state.energising * 25 : 0;
 
   const equipmentPenalty = Math.abs(state.equipmentPenalty);
 
-  return weaponBonus + levelBonus + prayerBonus - equipmentPenalty;
+  return weaponBonus + levelBonus + prayerBonus + energisingBonus - equipmentPenalty;
 }
 
 function getTrueStatLevel({ potion, level: skillLevel, bloodEssence }) {

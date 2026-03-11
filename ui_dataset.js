@@ -11,6 +11,12 @@ playerBuffs = {
     "icon": "./static/images/equipment_slots/weapon_slot.png",
     "default": 95
   },
+  "energising": {
+    "icon": "./static/images/perks/energising.png",
+    "text": "Energising perk rank",
+    "kind": "number",
+    "default": 0
+  },
   "combatStyle": {
     "kind": "select",
     "text": "Combat style",
@@ -102,6 +108,11 @@ playerBuffs = {
     "text": "Nihil",
     "kind": "bool",
   },
+    "attack120Cape": {
+    "icon": "./static/images/items/attack_master_cape.png",
+    "text": "Attack master cape perk",
+    "kind": "bool",
+  },
   "scrimshaw": {
     "icon": "./static/images/items/scrimshaw_of_attack.png",
     "text": "Accuracy scrimshaw",
@@ -125,7 +136,12 @@ playerBuffs = {
   },
   "defender": {
     "icon": "./static/images/items/kalphite_defender.png",
-    "text": "Defender",
+    "text": "Defender passive (+3%)",
+    "kind": "bool",
+  },
+    "defenderProc": {
+    "icon": "./static/images/items/kalphite_defender.png",
+    "text": "Defender proc (+20%)",
     "kind": "bool",
   },
   "domMedallion": {

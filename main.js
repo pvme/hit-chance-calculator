@@ -42,8 +42,9 @@ const calc = (state) => {
   // Base additive bonuses  
   const keris = kerisMap[state.keris];
   const nightmare = state.nightmare ? 250 : 0;
+  const attack120Cape = state.attack120Cape ? 20 : 0;
 
-  result.hitchance += keris + nightmare;
+  result.hitchance += keris + nightmare + attack120Cape;
 
   // Additively stacking multiplier
   const salve = salveMap[state.salve];
@@ -52,9 +53,10 @@ const calc = (state) => {
   const defender = state.defender ? 30 : 0;
   const voidArmor = state.voidArmor ? 30 : 0;
   const medallion = state.domMedallion ? 10 : 0;
+  const defenderProc = state.defenderProc ? 200 : 0;
   const dragonScimitar = state.dragonScimitar ? 250 : 0;
   const dragonSlayerGloves = state.dragonSlayerGloves ? 100 : 0;
-  const additiveMultiplier = 1000 + salve + scrimshaw + nihil + defender + voidArmor + medallion + dragonScimitar + dragonSlayerGloves;
+  const additiveMultiplier = 1000 + salve + scrimshaw + nihil + defender + voidArmor + medallion + defenderProc + dragonScimitar + dragonSlayerGloves;
 
   result.hitchance = Math.floor(result.hitchance * additiveMultiplier / 1000);
 
