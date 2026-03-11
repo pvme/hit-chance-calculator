@@ -11,7 +11,16 @@ body {
 }
 
 .th-centered {
+  position: relative;
   text-align: center;
+}
+
+.wiki-link {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  font-size: xx-small;
+  cursor: pointer;
 }
 
 .target-container {

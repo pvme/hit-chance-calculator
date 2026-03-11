@@ -2,229 +2,234 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=1024,initial-scale=1">
+
 <head>
   <title>RS Hit Chance Calculator</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="grid-wrapper">
-  <div class="main-grid">
-    <div class="buff-grid">
-      <table>
-        <tbody id="player-buff-table">
-        <tr>
-          <th colspan="3">Your Buffs</th>
-        </tr>
-      </table>
-    </div>
 
-    <div class="target-grid">
-      <table>
-        <tr>
-          <th colspan="3"><label for="target">Base Target Info</label></th>
-        </tr>
-        <tr>
-          <th colspan="3" class="th-centered"><label for="target" id="target"></label></th>
-        </tr>
-        <tr>
-          <td colspan="3" class="input-col">
-            <input type="text" placeholder="Search..." id="target-filter">
-            <div id="target-wrapper" class="target">
-              <div style="background-color: inherit; position: relative;">
-                <div class="target-container">
-                  <ul id="target-list"></ul>
+<body>
+  <div class="grid-wrapper">
+    <div class="main-grid">
+      <div class="buff-grid">
+        <table>
+          <tbody id="player-buff-table">
+            <tr>
+              <th colspan="3">Your Buffs</th>
+            </tr>
+        </table>
+      </div>
+
+      <div class="target-grid">
+        <table>
+          <tr>
+            <th colspan="3"><label>Base Target Info</label></th>
+          </tr>
+          <tr>
+            <th colspan="3" class="th-centered">
+              <label id="target"></label>
+              <div class="wiki-link" title="Search on RS Wiki" onclick="window.open('https://runescape.wiki/?search=' + state.targetLabel, '_blank')">↗</div>
+            </th>
+          </tr>
+          <tr>
+            <td colspan="3" class="input-col">
+              <input type="text" placeholder="Search..." id="target-filter">
+              <div id="target-wrapper" class="target">
+                <div style="background-color: inherit; position: relative;">
+                  <div class="target-container">
+                    <ul id="target-list"></ul>
+                  </div>
                 </div>
               </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td class="icon-col"><img src="./static/images/skill_icons/defence.png" alt="defence"></td>
-          <td>Defence level</td>
-          <td class="target-info" id="target-defence"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"><img src="./static/images/equipment_slots/body_slot.png" alt="armour"></td>
-          <td>Armour</td>
-          <td class="target-info" id="target-armour"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"><img src="" id="target-weakness-icon" alt="weakness"></td>
-          <td>Weakness</td>
-          <td class="target-info" id="target-weakness"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"><img src="" id="target-style-icon" alt="combat style"></td>
-          <td>Combat Style</td>
-          <td class="target-info" id="target-style"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Weakness affinity</td>
-          <td class="target-info" id="target-affinity-weakness"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Melee affinity</td>
-          <td class="target-info" id="target-affinity-melee"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Ranged affinity</td>
-          <td class="target-info" id="target-affinity-ranged"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Magic affinity</td>
-          <td class="target-info" id="target-affinity-magic"></td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Necromancy affinity</td>
-          <td class="target-info" id="target-affinity-necromancy"></td>
-        </tr>
-      </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="icon-col"><img src="./static/images/skill_icons/defence.png" alt="defence"></td>
+            <td>Defence level</td>
+            <td class="target-info" id="target-defence"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"><img src="./static/images/equipment_slots/body_slot.png" alt="armour"></td>
+            <td>Armour</td>
+            <td class="target-info" id="target-armour"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"><img src="" id="target-weakness-icon" alt="weakness"></td>
+            <td>Weakness</td>
+            <td class="target-info" id="target-weakness"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"><img src="" id="target-style-icon" alt="combat style"></td>
+            <td>Combat Style</td>
+            <td class="target-info" id="target-style"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"></td>
+            <td>Weakness affinity</td>
+            <td class="target-info" id="target-affinity-weakness"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"></td>
+            <td>Melee affinity</td>
+            <td class="target-info" id="target-affinity-melee"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"></td>
+            <td>Ranged affinity</td>
+            <td class="target-info" id="target-affinity-ranged"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"></td>
+            <td>Magic affinity</td>
+            <td class="target-info" id="target-affinity-magic"></td>
+          </tr>
+          <tr>
+            <td class="icon-col"></td>
+            <td>Necromancy affinity</td>
+            <td class="target-info" id="target-affinity-necromancy"></td>
+          </tr>
+        </table>
 
-      <table>
-        <tbody id="target-debuff-table">
-        <tr>
-          <th colspan="3">Target Debuffs</th>
-        </tr>
-        </tbody>
-      </table>
-      <table>
-        <tbody id="player-debuff-table">
-        <tr>
-          <th colspan="3">Your Debuffs</th>
-        </tr>
-        </tbody>
-      </table>
-      <div class="info-box">
-        <h4>Note on Equipment penalty</h4>
-        <p>
-          Your accuracy stat will be reduced if your weapon and armour styles do not match.<br/>
-          To calculate this penalty, add 150% of the total armour you have equipped in the style your weapon is
-          strong against to 80% of the total armour you have equipped in the style your weapon is weak against.
-        </p>
-        <p>
-          E.g. if using a bow, magic helm, and melee body, enter 1.5 times the
-          magic helm's armour value plus 0.8 times the melee body's armour value.
-        </p>
-        <p>
-          You can also check this value in game - equip the gear you intend to use and open
-          the Equipment interface, hover over your accuracy stat to see "hybrid nerf".
-        </p>
+        <table>
+          <tbody id="target-debuff-table">
+            <tr>
+              <th colspan="3">Target Debuffs</th>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody id="player-debuff-table">
+            <tr>
+              <th colspan="3">Your Debuffs</th>
+            </tr>
+          </tbody>
+        </table>
+        <div class="info-box">
+          <h4>Note on Equipment penalty</h4>
+          <p>
+            Your accuracy stat will be reduced if your weapon and armour styles do not match.<br />
+            To calculate this penalty, add 150% of the total armour you have equipped in the style your weapon is
+            strong against to 80% of the total armour you have equipped in the style your weapon is weak against.
+          </p>
+          <p>
+            E.g. if using a bow, magic helm, and melee body, enter 1.5 times the
+            magic helm's armour value plus 0.8 times the melee body's armour value.
+          </p>
+          <p>
+            You can also check this value in game - equip the gear you intend to use and open
+            the Equipment interface, hover over your accuracy stat to see "hybrid nerf".
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="info-grid">
-      <div class="final-hit-chance">
-        <h3>Your hit chance</h3>
-        <h2 id="final-hit-chance"></h2>
+      <div class="info-grid">
+        <div class="final-hit-chance">
+          <h3>Your hit chance</h3>
+          <h2 id="final-hit-chance"></h2>
+        </div>
+        <table>
+          <tbody id="familiar-table">
+            <tr>
+              <th colspan="3"><label>Familiar Setup</label></th>
+            </tr>
+            <tr>
+              <td colspan="3" class="input-col">
+                <select id="familiar">
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td class="icon-col"></td>
+              <td>Melee hit chance</td>
+              <td id="familiar-melee">0.00%</td>
+            </tr>
+            <tr>
+              <td class="icon-col"></td>
+              <td>Ranged hit chance</td>
+              <td id="familiar-ranged">0.00%</td>
+            </tr>
+            <tr>
+              <td class="icon-col"></td>
+              <td>Magic hit chance</td>
+              <td id="familiar-magic">0.00%</td>
+            </tr>
+            <tr>
+              <td class="icon-col"></td>
+              <td>Necromancy hit chance</td>
+              <td id="familiar-same">0.00%</td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <th colspan="3">Acknowledgements</th>
+            </tr>
+            <tr>
+              <td colspan="2">This website was created in partnership with the PvM Encyclopedia Discord.</td>
+              <td><img src="./static/images/misc/pvme_logo.png" class="pvme-logo" alt="PvME logo"></td>
+            </tr>
+            <tr>
+              <td colspan="2">PvME Discord invite</td>
+              <td><a href="https://discord.gg/6djqFVN">Link↗</a></td>
+            </tr>
+            <tr>
+              <td colspan="2">RS Math Discord invite</td>
+              <td><a href="https://discord.gg/BGjvs8Y28n">Link↗</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <table>
+          <tbody>
+            <tr>
+              <th>RSN</th>
+              <th>Credit</th>
+              <th>Social Media</th>
+            </tr>
+            <tr>
+              <td>Chi pa pa</td>
+              <td>Original</td>
+              <td><a href="https://twitter.com/RSchi_pa_pa">Twitter↗</a></td>
+            </tr>
+            <tr>
+              <td>Gamedolf</td>
+              <td>Development</td>
+              <td><a href="https://discord.gg/BGjvs8Y28n">Discord↗</a></td>
+            </tr>
+            <tr>
+              <td>Hoobs</td>
+              <td>Design</td>
+              <td><a href="https://discord.gg/6djqFVN">Discord↗</a></td>
+            </tr>
+            <tr>
+              <td>Stelaro</td>
+              <td colspan="2">Website Development</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="info-box">
+          <h4>More Information</h4>
+          <p>
+            If you need help using this calculator, don't hesitate to ask in the PvME Discord server!
+          </p>
+          <p>
+            You can also join the RS Math server where you can be notified of updates,
+            post suggestions, report errors, or receive additional help.
+          </p>
+          <p>
+            This calculator does not automatically account for defence level drains from things like the
+            <b>Guthix Staff spec</b> or <b>Statius' Warhammer spec</b>. Manually enter these using the
+            <b>Additional defence drain</b> field.
+          </p>
+          <p>
+            Bear in mind some monsters are immune to defence level drains, e.g. Araxxor.
+          </p>
+        </div>
+        <button class="reset-button" id="reset-button">Reset to default</button>
+        <button class="export-button" id="export-button">Copy Shareable URL</button>
       </div>
-      <table>
-        <tbody id="familiar-table">
-        <tr>
-          <th colspan="3"><label for="familiar">Familiar Setup</label></th>
-        </tr>
-        <tr>
-          <td colspan="3" class="input-col">
-            <select id="familiar">
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Melee hit chance</td>
-          <td id="familiar-melee">0.00%</td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Ranged hit chance</td>
-          <td id="familiar-ranged">0.00%</td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Magic hit chance</td>
-          <td id="familiar-magic">0.00%</td>
-        </tr>
-        <tr>
-          <td class="icon-col"></td>
-          <td>Necromancy hit chance</td>
-          <td id="familiar-same">0.00%</td>
-        </tr>
-        </tbody>
-      </table>
-      <table>
-        <tbody>
-        <tr>
-          <th colspan="3">Acknowledgements</th>
-        </tr>
-        <tr>
-          <td colspan="2">This website was created in partnership with the PvM Encyclopedia Discord.</td>
-          <td><img src="./static/images/misc/pvme_logo.png" class="pvme-logo" alt="PvME logo"></td>
-        </tr>
-        <tr>
-          <td colspan="2">PvME Discord invite</td>
-          <td><a href="https://discord.gg/6djqFVN">Link↗</a></td>
-        </tr>
-        <tr>
-          <td colspan="2">RS Math Discord invite</td>
-          <td><a href="https://discord.gg/BGjvs8Y28n">Link↗</a></td>
-        </tr>
-        </tbody>
-      </table>
-      <table>
-        <tbody>
-        <tr>
-          <th>RSN</th>
-          <th>Credit</th>
-          <th>Social Media</th>
-        </tr>
-        <tr>
-          <td>Chi pa pa</td>
-          <td>Original</td>
-          <td><a href="https://twitter.com/RSchi_pa_pa">Twitter↗</a></td>
-        </tr>
-        <tr>
-          <td>Gamedolf</td>
-          <td>Development</td>
-          <td><a href="https://discord.gg/BGjvs8Y28n">Discord↗</a></td>
-        </tr>
-        <tr>
-          <td>Hoobs</td>
-          <td>Design</td>
-          <td><a href="https://discord.gg/6djqFVN">Discord↗</a></td>
-        </tr>
-        <tr>
-          <td>Stelaro</td>
-          <td colspan="2">Website Development</td>
-        </tr>
-        </tbody>
-      </table>
-      <div class="info-box">
-        <h4>More Information</h4>
-        <p>
-          If you need help using this calculator, don't hesitate to ask in the PvME Discord server!
-        </p>
-        <p>
-          You can also join the RS Math server where you can be notified of updates,
-          post suggestions, report errors, or receive additional help.
-        </p>
-        <p>
-          This calculator does not automatically account for defence level drains from things like the
-          <b>Guthix Staff spec</b> or <b>Statius' Warhammer spec</b>. Manually enter these using the
-          <b>Additional defence drain</b> field.
-        </p>
-        <p>
-          Bear in mind some monsters are immune to defence level drains, e.g. Araxxor.
-        </p>
-      </div>
-      <button class="reset-button" id="reset-button">Reset to default</button>
-      <button class="export-button" id="export-button">Copy Shareable URL</button>
     </div>
   </div>
-</div>
 </body>
 <script src="ui_dataset.js"></script>
 <script src="familiar_dataset.js"></script>
@@ -233,4 +238,5 @@
 <script src="main.utils.js"></script>
 <script src="main.js"></script>
 <script src="setup_ui.js"></script>
+
 </html>
