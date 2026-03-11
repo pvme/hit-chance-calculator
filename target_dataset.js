@@ -176,9 +176,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 536,
@@ -434,9 +434,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 486,
@@ -467,9 +467,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 928,
@@ -500,9 +500,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 502,
@@ -533,9 +533,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1309,
@@ -565,9 +565,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 983,
@@ -662,9 +662,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 245,
@@ -822,9 +822,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 102,
@@ -855,9 +855,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 436,
@@ -888,9 +888,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 528,
@@ -1049,9 +1049,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 632,
@@ -1497,9 +1497,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 454,
@@ -1561,9 +1561,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 341,
@@ -1625,9 +1625,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 354,
@@ -1849,9 +1849,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 3031,
@@ -1913,9 +1913,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 3031,
@@ -2115,9 +2115,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 409,
@@ -2349,9 +2349,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 37,
@@ -2383,9 +2383,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 150,
@@ -2483,9 +2483,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 368,
@@ -2549,9 +2549,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 102,
@@ -2718,9 +2718,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -2820,9 +2820,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 732,
@@ -3048,9 +3048,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -3116,9 +3116,9 @@ targetData = {
       "same": 20,
       "weak": 40,
       "weakness": 40,
-      "magic": 10,
-      "melee": 40,
-      "ranged": 20
+      "magic": 20,
+      "melee": 10,
+      "ranged": 40
     },
     "baseStats": {
       "attack": 983,
@@ -3556,9 +3556,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 257,
@@ -3726,9 +3726,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 412,
@@ -3896,9 +3896,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 241,
@@ -4201,9 +4201,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 368,
@@ -4301,9 +4301,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 368,
@@ -4369,9 +4369,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 368,
@@ -4403,9 +4403,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 368,
@@ -4599,9 +4599,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 548,
@@ -4856,9 +4856,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -6678,9 +6678,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 435,
@@ -7109,9 +7109,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 216,
@@ -7141,9 +7141,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 901,
@@ -7237,9 +7237,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 192,
@@ -7270,9 +7270,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1447,
@@ -7302,9 +7302,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -7399,9 +7399,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 192,
@@ -7432,9 +7432,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1164,
@@ -7464,9 +7464,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1164,
@@ -7528,9 +7528,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 354,
@@ -7560,9 +7560,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 801,
@@ -7924,9 +7924,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 157,
@@ -7956,9 +7956,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 60,
@@ -7988,9 +7988,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 123,
@@ -8054,9 +8054,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 454,
@@ -8088,9 +8088,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -8122,9 +8122,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 45,
@@ -8564,9 +8564,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 454,
@@ -8800,9 +8800,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -9264,9 +9264,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 901,
@@ -9296,9 +9296,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1040,
@@ -9490,9 +9490,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1299,
@@ -9556,9 +9556,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1164,
@@ -9588,9 +9588,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1230,
@@ -9620,9 +9620,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1197,
@@ -9940,9 +9940,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 292,
@@ -9972,9 +9972,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 245,
@@ -10004,9 +10004,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 268,
@@ -10036,9 +10036,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 223,
@@ -10100,9 +10100,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -10395,9 +10395,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 471,
@@ -10493,8 +10493,8 @@ targetData = {
       "weak": 60,
       "weakness": 75,
       "magic": 10,
-      "melee": 10,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 10
     },
     "baseStats": {
       "ranged": 1924,
@@ -10525,8 +10525,8 @@ targetData = {
       "weak": 60,
       "weakness": 75,
       "magic": 10,
-      "melee": 60,
-      "ranged": 10
+      "melee": 10,
+      "ranged": 60
     },
     "baseStats": {
       "magic": 1924,
@@ -10620,9 +10620,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1694,
@@ -10987,9 +10987,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 202,
@@ -11020,9 +11020,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 257,
@@ -11119,9 +11119,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1924,
@@ -11152,9 +11152,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 202,
@@ -11315,9 +11315,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 732,
@@ -11347,9 +11347,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1447,
@@ -11381,9 +11381,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 354,
@@ -11574,9 +11574,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 825,
@@ -11606,9 +11606,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 648,
@@ -11638,9 +11638,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 509,
@@ -11739,9 +11739,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 375,
@@ -11907,9 +11907,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 160,
@@ -12007,9 +12007,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 801,
@@ -12075,9 +12075,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 801,
@@ -12109,9 +12109,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 495,
@@ -12143,9 +12143,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 487,
@@ -12209,9 +12209,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 732,
@@ -12305,9 +12305,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1566,
@@ -12938,9 +12938,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 571,
@@ -12970,9 +12970,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 536,
@@ -13098,9 +13098,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 454,
@@ -13162,9 +13162,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 519,
@@ -13262,9 +13262,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 337,
@@ -13296,9 +13296,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 337,
@@ -13330,9 +13330,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 337,
@@ -13748,9 +13748,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 168,
@@ -13780,9 +13780,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 268,
@@ -14677,9 +14677,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1070,
@@ -14777,9 +14777,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -14811,9 +14811,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1924,
@@ -14845,9 +14845,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -14879,9 +14879,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1829,
@@ -14978,9 +14978,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1924,
@@ -15012,9 +15012,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1924,
@@ -15144,9 +15144,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 778,
@@ -15176,9 +15176,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1040,
@@ -15338,9 +15338,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 453,
@@ -15437,9 +15437,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -15505,9 +15505,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 453,
@@ -15538,9 +15538,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 337,
@@ -15674,9 +15674,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -15776,9 +15776,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 281,
@@ -15876,9 +15876,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 257,
@@ -15910,9 +15910,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 257,
@@ -16012,9 +16012,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -16046,9 +16046,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1299,
@@ -16958,9 +16958,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -17449,9 +17449,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1608,
@@ -17481,9 +17481,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1608,
@@ -17546,8 +17546,8 @@ targetData = {
       "weak": 10,
       "weakness": 10,
       "magic": 70,
-      "melee": 70,
-      "ranged": 10
+      "melee": 10,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -17579,9 +17579,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -17611,9 +17611,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1486,
@@ -17740,9 +17740,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1608,
@@ -17772,9 +17772,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1608,
@@ -17804,9 +17804,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1372,
@@ -17900,9 +17900,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1608,
@@ -17932,9 +17932,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1608,
@@ -17996,9 +17996,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 609,
@@ -18030,9 +18030,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 487,
@@ -18064,9 +18064,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -18098,9 +18098,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 755,
@@ -18130,9 +18130,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 825,
@@ -18162,9 +18162,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 778,
@@ -18426,9 +18426,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 135,
@@ -18460,9 +18460,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 165,
@@ -18494,9 +18494,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 195,
@@ -18528,9 +18528,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 195,
@@ -18664,9 +18664,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 412,
@@ -18732,9 +18732,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 412,
@@ -18800,9 +18800,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 412,
@@ -18834,9 +18834,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 412,
@@ -20466,9 +20466,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 142,
@@ -20500,9 +20500,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 142,
@@ -21779,9 +21779,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 375,
@@ -21813,9 +21813,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 381,
@@ -22079,9 +22079,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 983,
@@ -22145,9 +22145,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 285,
@@ -22179,9 +22179,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 589,
@@ -22212,9 +22212,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 850,
@@ -22246,9 +22246,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 435,
@@ -22312,9 +22312,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1199,
@@ -22344,9 +22344,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 528,
@@ -22607,9 +22607,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 10,
@@ -22639,9 +22639,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 30,
@@ -22671,9 +22671,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 50,
@@ -22703,9 +22703,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 71,
@@ -22767,9 +22767,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 123,
@@ -22799,9 +22799,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 134,
@@ -22831,9 +22831,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 454,
@@ -22899,9 +22899,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -23271,9 +23271,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 525,
@@ -23305,9 +23305,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 525,
@@ -23405,9 +23405,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -23469,9 +23469,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 191,
@@ -23603,9 +23603,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 367,
@@ -23637,9 +23637,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 442,
@@ -23671,9 +23671,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 367,
@@ -23705,9 +23705,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 442,
@@ -23803,9 +23803,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 110,
@@ -23869,9 +23869,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 375,
@@ -23903,9 +23903,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 375,
@@ -24037,9 +24037,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1335,
@@ -24137,9 +24137,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 316,
@@ -24170,9 +24170,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -24302,9 +24302,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -24336,9 +24336,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -24370,9 +24370,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1566,
@@ -24472,9 +24472,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1409,
@@ -24878,9 +24878,9 @@ targetData = {
       "same": 30,
       "weak": 40,
       "weakness": 90,
-      "magic": 30,
-      "melee": 10,
-      "ranged": 40
+      "magic": 10,
+      "melee": 40,
+      "ranged": 30
     },
     "baseStats": {
       "attack": 2125,
@@ -24912,9 +24912,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2023,
@@ -24946,9 +24946,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -24980,9 +24980,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 157,
@@ -25012,9 +25012,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 145,
@@ -25078,9 +25078,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 110,
@@ -25110,9 +25110,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 110,
@@ -25786,9 +25786,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 191,
@@ -25882,9 +25882,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1486,
@@ -25914,9 +25914,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -25947,9 +25947,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 120,
@@ -26319,9 +26319,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 257,
@@ -26353,9 +26353,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -26387,9 +26387,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 732,
@@ -26421,9 +26421,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 850,
@@ -26455,9 +26455,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -26489,9 +26489,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -26523,9 +26523,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1924,
@@ -26557,9 +26557,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -26591,9 +26591,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -26625,9 +26625,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -27679,9 +27679,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 257,
@@ -27713,9 +27713,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 454,
@@ -27747,9 +27747,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 732,
@@ -27781,9 +27781,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 850,
@@ -27815,9 +27815,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -27849,9 +27849,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -27883,9 +27883,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1924,
@@ -27917,9 +27917,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -27951,9 +27951,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -27985,9 +27985,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 3031,
@@ -28019,9 +28019,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1299,
@@ -28083,9 +28083,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 536,
@@ -28115,9 +28115,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -28149,9 +28149,9 @@ targetData = {
       "same": 20,
       "weak": 40,
       "weakness": 40,
-      "magic": 20,
-      "melee": 10,
-      "ranged": 40
+      "magic": 10,
+      "melee": 40,
+      "ranged": 20
     },
     "baseStats": {
       "attack": 1164,
@@ -28217,9 +28217,9 @@ targetData = {
       "same": 20,
       "weak": 40,
       "weakness": 40,
-      "magic": 20,
-      "melee": 10,
-      "ranged": 40
+      "magic": 10,
+      "melee": 40,
+      "ranged": 20
     },
     "baseStats": {
       "attack": 1164,
@@ -28283,9 +28283,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1101,
@@ -28315,9 +28315,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -28475,9 +28475,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1924,
@@ -28843,9 +28843,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 150,
@@ -29011,9 +29011,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 609,
@@ -29211,9 +29211,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -29752,9 +29752,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 732,
@@ -29820,9 +29820,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 7,
@@ -29888,9 +29888,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 7,
@@ -29922,9 +29922,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 15,
@@ -29990,9 +29990,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -30023,9 +30023,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1447,
@@ -30057,9 +30057,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1447,
@@ -30091,9 +30091,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 316,
@@ -30123,9 +30123,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 316,
@@ -30155,9 +30155,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 316,
@@ -30251,9 +30251,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 316,
@@ -30283,9 +30283,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 316,
@@ -30315,9 +30315,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 316,
@@ -30347,9 +30347,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 225,
@@ -30381,9 +30381,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 225,
@@ -30778,9 +30778,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -31008,9 +31008,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1650,
@@ -31041,9 +31041,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1070,
@@ -31073,9 +31073,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 304,
@@ -31105,9 +31105,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1783,
@@ -31205,9 +31205,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 30,
@@ -31269,9 +31269,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 140,
@@ -31301,9 +31301,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 140,
@@ -31365,9 +31365,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -31397,9 +31397,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1924,
@@ -31429,9 +31429,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -31494,9 +31494,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 50,
@@ -31526,9 +31526,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 50,
@@ -31828,9 +31828,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1694,
@@ -31862,9 +31862,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 547,
@@ -31964,9 +31964,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1040,
@@ -32032,9 +32032,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 983,
@@ -32100,9 +32100,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1040,
@@ -32134,9 +32134,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1040,
@@ -32270,9 +32270,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -32304,9 +32304,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -32440,9 +32440,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 216,
@@ -32472,9 +32472,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1386,
@@ -32505,9 +32505,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -32737,9 +32737,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 50,
@@ -32769,9 +32769,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 50,
@@ -32931,9 +32931,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -32995,9 +32995,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 110,
@@ -33027,9 +33027,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -33157,9 +33157,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -33191,9 +33191,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -33225,9 +33225,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 234,
@@ -33257,9 +33257,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 555,
@@ -33675,9 +33675,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 670,
@@ -33707,9 +33707,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 670,
@@ -33739,9 +33739,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 670,
@@ -33869,9 +33869,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1132,
@@ -33933,9 +33933,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -33965,9 +33965,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1694,
@@ -33999,9 +33999,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -34064,9 +34064,9 @@ targetData = {
       "same": 40,
       "weak": 50,
       "weakness": 50,
-      "magic": 30,
-      "melee": 50,
-      "ranged": 40
+      "magic": 40,
+      "melee": 30,
+      "ranged": 50
     },
     "baseStats": {
       "magic": 1132,
@@ -34096,9 +34096,9 @@ targetData = {
       "same": 40,
       "weak": 50,
       "weakness": 50,
-      "magic": 40,
-      "melee": 30,
-      "ranged": 50
+      "magic": 30,
+      "melee": 50,
+      "ranged": 40
     },
     "baseStats": {
       "ranged": 1132,
@@ -34160,9 +34160,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 502,
@@ -34192,9 +34192,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 502,
@@ -34286,9 +34286,9 @@ targetData = {
       "same": 30,
       "weak": 40,
       "weakness": 50,
-      "magic": 20,
-      "melee": 40,
-      "ranged": 30
+      "magic": 30,
+      "melee": 20,
+      "ranged": 40
     },
     "baseStats": {
       "attack": 1486,
@@ -34318,9 +34318,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -34386,9 +34386,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -34453,9 +34453,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -34521,9 +34521,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -34588,9 +34588,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -34656,9 +34656,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -34723,9 +34723,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -34791,9 +34791,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1132,
@@ -34858,9 +34858,9 @@ targetData = {
       "same": 15,
       "weak": 50,
       "weakness": 50,
-      "magic": 7,
-      "melee": 50,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 50
     },
     "baseStats": {
       "magic": 1132,
@@ -34890,9 +34890,9 @@ targetData = {
       "same": 15,
       "weak": 50,
       "weakness": 50,
-      "magic": 7,
-      "melee": 50,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 50
     },
     "baseStats": {
       "magic": 1299,
@@ -34922,9 +34922,9 @@ targetData = {
       "same": 30,
       "weak": 70,
       "weakness": 70,
-      "magic": 14,
-      "melee": 70,
-      "ranged": 30
+      "magic": 30,
+      "melee": 14,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1694,
@@ -34954,9 +34954,9 @@ targetData = {
       "same": 15,
       "weak": 50,
       "weakness": 50,
-      "magic": 7,
-      "melee": 50,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 50
     },
     "baseStats": {
       "magic": 1486,
@@ -34986,9 +34986,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35018,9 +35018,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35050,9 +35050,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35082,9 +35082,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35114,9 +35114,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35146,9 +35146,9 @@ targetData = {
       "same": 15,
       "weak": 70,
       "weakness": 70,
-      "magic": 7,
-      "melee": 70,
-      "ranged": 15
+      "magic": 15,
+      "melee": 7,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -35347,9 +35347,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -35380,9 +35380,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1132,
@@ -35412,9 +35412,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 628,
@@ -35476,9 +35476,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1299,
@@ -35508,9 +35508,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1299,
@@ -35540,9 +35540,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2765,
@@ -35572,9 +35572,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 150,
@@ -35604,9 +35604,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1738,
@@ -35940,9 +35940,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36008,9 +36008,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -36042,9 +36042,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -36076,9 +36076,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36212,9 +36212,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36246,9 +36246,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36484,9 +36484,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -36518,9 +36518,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -36618,9 +36618,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36652,9 +36652,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -36720,9 +36720,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -36985,9 +36985,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -37049,9 +37049,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -37081,9 +37081,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -37210,9 +37210,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 150,
@@ -37502,9 +37502,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -37534,9 +37534,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -37662,9 +37662,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2517,
@@ -37695,9 +37695,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 150,
@@ -38350,9 +38350,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -38383,9 +38383,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -38544,9 +38544,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1694,
@@ -38577,9 +38577,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -38738,9 +38738,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 670,
@@ -38994,9 +38994,9 @@ targetData = {
       "same": 30,
       "weak": 40,
       "weakness": 50,
-      "magic": 20,
-      "melee": 40,
-      "ranged": 30
+      "magic": 30,
+      "melee": 20,
+      "ranged": 40
     },
     "baseStats": {
       "attack": 1132,
@@ -39823,9 +39823,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -39889,9 +39889,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2458,
@@ -39953,9 +39953,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2458,
@@ -40385,9 +40385,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -40826,9 +40826,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -40860,9 +40860,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -40894,9 +40894,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -40996,9 +40996,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -41096,9 +41096,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -41130,9 +41130,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -41266,9 +41266,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -41300,9 +41300,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -41664,9 +41664,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -41698,9 +41698,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -41730,9 +41730,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -41762,9 +41762,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -42123,9 +42123,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -42156,9 +42156,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -42515,9 +42515,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1924,
@@ -42580,9 +42580,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1924,
@@ -42613,9 +42613,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -42780,9 +42780,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -42812,9 +42812,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1486,
@@ -43042,8 +43042,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 2765,
@@ -43143,9 +43143,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -43177,9 +43177,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -43649,9 +43649,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -43751,9 +43751,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -43785,9 +43785,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -43819,9 +43819,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2178,
@@ -43919,9 +43919,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2458,
@@ -43951,9 +43951,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2765,
@@ -43983,9 +43983,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2829,
@@ -44706,9 +44706,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 25,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 25,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -44739,9 +44739,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 25,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 25,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -44772,9 +44772,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 25,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 25,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -49779,9 +49779,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1738,
@@ -49813,9 +49813,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1829,
@@ -49881,9 +49881,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1924,
@@ -50119,9 +50119,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -50153,9 +50153,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -50221,9 +50221,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -50389,9 +50389,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 110,
@@ -50421,9 +50421,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2287,
@@ -50453,9 +50453,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2287,
@@ -50583,9 +50583,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3390,
@@ -51075,9 +51075,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -51143,9 +51143,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -51445,9 +51445,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -51479,9 +51479,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2343,
@@ -51511,9 +51511,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2343,
@@ -51838,9 +51838,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3542,
@@ -51872,9 +51872,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3315,
@@ -51906,9 +51906,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -52137,9 +52137,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -52171,9 +52171,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -52239,9 +52239,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2178,
@@ -52341,9 +52341,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -52375,9 +52375,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2765,
@@ -52407,9 +52407,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -52441,9 +52441,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2343,
@@ -52475,9 +52475,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -52509,9 +52509,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -52543,9 +52543,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -52577,9 +52577,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -52611,9 +52611,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -52882,9 +52882,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -52950,9 +52950,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -53149,9 +53149,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -53247,9 +53247,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 12569,
@@ -53315,9 +53315,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -53349,9 +53349,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2701,
@@ -53481,9 +53481,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -53515,9 +53515,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -53581,9 +53581,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2577,
@@ -53615,9 +53615,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -53749,9 +53749,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -53783,9 +53783,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -53817,9 +53817,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2577,
@@ -55128,8 +55128,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 3862,
@@ -55321,8 +55321,8 @@ targetData = {
       "weak": 64,
       "weakness": 82,
       "magic": 10,
-      "melee": 64,
-      "ranged": 10
+      "melee": 10,
+      "ranged": 64
     },
     "baseStats": {
       "magic": 6988,
@@ -55388,8 +55388,8 @@ targetData = {
       "weak": 64,
       "weakness": 82,
       "magic": 10,
-      "melee": 10,
-      "ranged": 64
+      "melee": 64,
+      "ranged": 10
     },
     "baseStats": {
       "attack": 6988,
@@ -55880,8 +55880,8 @@ targetData = {
       "weak": 60,
       "weakness": 90,
       "magic": 50,
-      "melee": 50,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "ranged": 2287,
@@ -55912,8 +55912,8 @@ targetData = {
       "weak": 60,
       "weakness": 90,
       "magic": 50,
-      "melee": 60,
-      "ranged": 50
+      "melee": 50,
+      "ranged": 60
     },
     "baseStats": {
       "magic": 2287,
@@ -56011,9 +56011,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2458,
@@ -56169,9 +56169,9 @@ targetData = {
       "same": 70,
       "weak": 80,
       "weakness": 80,
-      "magic": 60,
-      "melee": 80,
-      "ranged": 70
+      "magic": 70,
+      "melee": 60,
+      "ranged": 80
     },
     "baseStats": {
       "magic": 1486,
@@ -56268,8 +56268,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 1299,
@@ -56302,8 +56302,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 1299,
@@ -56336,8 +56336,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 1299,
@@ -56370,8 +56370,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 1299,
@@ -56404,8 +56404,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 3100,
@@ -56540,8 +56540,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 0,
@@ -56574,8 +56574,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 0,
@@ -56608,8 +56608,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 0,
@@ -56642,8 +56642,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 0,
@@ -56676,8 +56676,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 0,
@@ -56710,8 +56710,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 2178,
@@ -56744,8 +56744,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 0,
@@ -56979,9 +56979,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -57011,9 +57011,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 3465,
@@ -57043,9 +57043,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2765,
@@ -57075,9 +57075,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57107,9 +57107,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57139,9 +57139,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57172,8 +57172,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 0,
@@ -57205,9 +57205,9 @@ targetData = {
       "same": 70,
       "weak": 80,
       "weakness": 80,
-      "magic": 60,
-      "melee": 80,
-      "ranged": 70
+      "magic": 70,
+      "melee": 60,
+      "ranged": 80
     },
     "baseStats": {
       "magic": 1924,
@@ -57237,9 +57237,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -57561,9 +57561,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57593,9 +57593,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57625,9 +57625,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57657,9 +57657,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -57689,9 +57689,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -57721,9 +57721,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -57753,9 +57753,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -57785,9 +57785,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -57817,9 +57817,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -57849,9 +57849,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -57883,9 +57883,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -58258,8 +58258,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -58292,8 +58292,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -58326,8 +58326,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -58360,8 +58360,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -58394,8 +58394,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -58428,8 +58428,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
@@ -58461,9 +58461,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -58666,8 +58666,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 60,
-      "ranged": 70
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 850,
@@ -58700,8 +58700,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 60,
-      "ranged": 70
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 850,
@@ -58734,8 +58734,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -58768,8 +58768,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -58802,8 +58802,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -58836,8 +58836,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -58870,8 +58870,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -58904,8 +58904,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -58938,8 +58938,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -58971,9 +58971,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -59006,8 +59006,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -59142,8 +59142,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -59176,8 +59176,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1783,
@@ -59210,8 +59210,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -59278,8 +59278,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 60,
-      "ranged": 70
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 850,
@@ -59312,8 +59312,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -59345,8 +59345,8 @@ targetData = {
       "same": 60,
       "weak": 60,
       "weakness": 90,
-      "magic": 70,
-      "melee": 60,
+      "magic": 60,
+      "melee": 70,
       "ranged": 60
     },
     "baseStats": {
@@ -59445,9 +59445,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -59478,9 +59478,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -59511,9 +59511,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -59608,9 +59608,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1694,
@@ -60095,9 +60095,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 50,
@@ -60319,9 +60319,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1032,
@@ -60351,9 +60351,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1594,
@@ -60482,9 +60482,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1594,
@@ -60514,9 +60514,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1032,
@@ -60546,9 +60546,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1032,
@@ -60679,8 +60679,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "attack": 750,
@@ -60712,9 +60712,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2078,
@@ -60744,9 +60744,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1594,
@@ -60874,8 +60874,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 3000,
@@ -60908,8 +60908,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 55,
-      "ranged": 65
+      "melee": 65,
+      "ranged": 55
     },
     "baseStats": {
       "attack": 3365,
@@ -61470,9 +61470,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 750,
@@ -61504,9 +61504,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 750,
@@ -61538,9 +61538,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 234,
@@ -61570,9 +61570,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -61603,9 +61603,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 241,
@@ -61700,9 +61700,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 110,
@@ -61732,9 +61732,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1101,
@@ -61797,9 +61797,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1486,
@@ -61829,9 +61829,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1040,
@@ -62027,9 +62027,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 3031,
@@ -62059,9 +62059,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 3031,
@@ -62091,9 +62091,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 75,
@@ -62157,9 +62157,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1264,
@@ -62221,9 +62221,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 412,
@@ -62255,9 +62255,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 519,
@@ -62353,9 +62353,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 502,
@@ -62419,9 +62419,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1924,
@@ -62452,9 +62452,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 285,
@@ -62550,9 +62550,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1197,
@@ -62616,9 +62616,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 157,
@@ -62648,9 +62648,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 268,
@@ -62680,9 +62680,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 710,
@@ -62846,9 +62846,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 955,
@@ -62880,9 +62880,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 225,
@@ -62980,9 +62980,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 0,
@@ -63046,9 +63046,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 409,
@@ -63080,9 +63080,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 983,
@@ -63144,9 +63144,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 285,
@@ -63178,9 +63178,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 555,
@@ -63212,9 +63212,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 454,
@@ -63276,9 +63276,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 732,
@@ -63310,9 +63310,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 732,
@@ -63344,9 +63344,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1372,
@@ -63543,9 +63543,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1299,
@@ -63575,9 +63575,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1299,
@@ -63607,9 +63607,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -63708,9 +63708,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 322,
@@ -63742,9 +63742,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 322,
@@ -63877,9 +63877,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2178,
@@ -63911,9 +63911,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -63977,9 +63977,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -64009,9 +64009,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -64073,9 +64073,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -64105,9 +64105,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -64171,9 +64171,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -64237,9 +64237,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -64303,9 +64303,9 @@ targetData = {
       "same": 45,
       "weak": 60,
       "weakness": 60,
-      "magic": 40,
-      "melee": 60,
-      "ranged": 45
+      "magic": 45,
+      "melee": 40,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -64337,9 +64337,9 @@ targetData = {
       "same": 45,
       "weak": 60,
       "weakness": 60,
-      "magic": 45,
-      "melee": 40,
-      "ranged": 60
+      "magic": 40,
+      "melee": 60,
+      "ranged": 45
     },
     "baseStats": {
       "attack": 2458,
@@ -64405,9 +64405,9 @@ targetData = {
       "same": 50,
       "weak": 60,
       "weakness": 60,
-      "magic": 45,
-      "melee": 60,
-      "ranged": 50
+      "magic": 50,
+      "melee": 45,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -64439,9 +64439,9 @@ targetData = {
       "same": 50,
       "weak": 60,
       "weakness": 60,
-      "magic": 50,
-      "melee": 45,
-      "ranged": 60
+      "magic": 45,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 2458,
@@ -64505,9 +64505,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -64537,9 +64537,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 850,
@@ -64601,9 +64601,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1924,
@@ -64633,9 +64633,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -64985,9 +64985,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2178,
@@ -65017,9 +65017,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -65147,9 +65147,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -65181,9 +65181,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1694,
@@ -65249,9 +65249,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1694,
@@ -65283,9 +65283,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1694,
@@ -65349,9 +65349,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1594,
@@ -65381,9 +65381,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1594,
@@ -65743,9 +65743,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 234,
@@ -65775,9 +65775,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 15,
@@ -65939,9 +65939,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1783,
@@ -65973,9 +65973,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 470,
@@ -66006,9 +66006,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 710,
@@ -66039,9 +66039,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1070,
@@ -66072,9 +66072,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2178,
@@ -66105,9 +66105,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 3031,
@@ -66138,9 +66138,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1738,
@@ -66171,9 +66171,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1973,
@@ -66204,9 +66204,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2178,
@@ -66237,9 +66237,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2458,
@@ -66270,9 +66270,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 2765,
@@ -66303,9 +66303,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 3031,
@@ -66336,9 +66336,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1566,
@@ -66369,9 +66369,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 536,
@@ -66402,9 +66402,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 778,
@@ -66435,9 +66435,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -66468,9 +66468,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1608,
@@ -66501,9 +66501,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2232,
@@ -66534,9 +66534,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -66567,9 +66567,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 20,
@@ -66600,9 +66600,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 268,
@@ -66632,9 +66632,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1097,
@@ -66665,9 +66665,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 472,
@@ -66699,9 +66699,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 454,
@@ -66731,9 +66731,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 470,
@@ -67501,9 +67501,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 454,
@@ -68375,9 +68375,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 292,
@@ -68407,9 +68407,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 257,
@@ -68441,9 +68441,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 402,
@@ -69089,9 +69089,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 354,
@@ -69121,9 +69121,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 82,
@@ -69155,9 +69155,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 281,
@@ -69187,9 +69187,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 157,
@@ -69219,9 +69219,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 71,
@@ -69251,9 +69251,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 81,
@@ -69283,9 +69283,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 91,
@@ -69316,8 +69316,8 @@ targetData = {
       "weak": 70,
       "weakness": 90,
       "magic": 60,
-      "melee": 70,
-      "ranged": 60
+      "melee": 60,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -69479,9 +69479,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 470,
@@ -69511,9 +69511,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 502,
@@ -69543,9 +69543,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 609,
@@ -69639,9 +69639,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 424,
@@ -69671,9 +69671,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 329,
@@ -69703,9 +69703,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -70139,9 +70139,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 75,
@@ -70173,9 +70173,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 257,
@@ -70207,9 +70207,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 225,
@@ -70241,9 +70241,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 454,
@@ -70275,9 +70275,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 732,
@@ -70309,9 +70309,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 732,
@@ -70342,9 +70342,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 424,
@@ -70375,9 +70375,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 668,
@@ -70408,9 +70408,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1011,
@@ -70441,9 +70441,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -70474,9 +70474,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2125,
@@ -70507,9 +70507,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -70804,9 +70804,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 548,
@@ -70837,9 +70837,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 341,
@@ -71069,9 +71069,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1486,
@@ -71102,9 +71102,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 850,
@@ -71725,9 +71725,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 490,
@@ -71757,9 +71757,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 732,
@@ -71985,9 +71985,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 60,
@@ -72017,9 +72017,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 91,
@@ -72379,9 +72379,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1566,
@@ -72571,9 +72571,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1566,
@@ -72829,9 +72829,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1335,
@@ -72861,9 +72861,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1409,
@@ -73472,9 +73472,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 732,
@@ -73504,9 +73504,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 755,
@@ -74001,9 +74001,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 955,
@@ -74033,9 +74033,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1011,
@@ -74099,9 +74099,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 495,
@@ -74265,9 +74265,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1264,
@@ -74298,9 +74298,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1335,
@@ -74526,9 +74526,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1829,
@@ -74558,9 +74558,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 140,
@@ -74590,9 +74590,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 202,
@@ -74622,9 +74622,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 280,
@@ -74654,9 +74654,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 368,
@@ -74686,9 +74686,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 470,
@@ -74718,9 +74718,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 571,
@@ -74750,9 +74750,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 710,
@@ -74782,9 +74782,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 875,
@@ -74814,9 +74814,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1070,
@@ -74846,9 +74846,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1299,
@@ -74878,9 +74878,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 381,
@@ -74912,9 +74912,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 110,
@@ -74944,9 +74944,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 202,
@@ -74976,9 +74976,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 628,
@@ -75008,9 +75008,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 850,
@@ -75040,9 +75040,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1132,
@@ -75072,9 +75072,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1486,
@@ -75104,9 +75104,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1924,
@@ -75136,9 +75136,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2458,
@@ -75168,9 +75168,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 2458,
@@ -75200,9 +75200,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 322,
@@ -75834,9 +75834,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1132,
@@ -76332,9 +76332,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 3031,
@@ -76364,9 +76364,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2458,
@@ -76397,9 +76397,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2765,
@@ -76912,9 +76912,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 2178,
@@ -76945,9 +76945,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 465,
@@ -77623,9 +77623,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 110,
@@ -77656,8 +77656,8 @@ targetData = {
       "weak": 90,
       "weakness": 0,
       "magic": 0,
-      "melee": 90,
-      "ranged": 0
+      "melee": 0,
+      "ranged": 90
     },
     "baseStats": {
       "attack": 3031,
@@ -77820,9 +77820,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -77852,9 +77852,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -77886,9 +77886,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -77918,9 +77918,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -77952,9 +77952,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -77984,9 +77984,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -78018,9 +78018,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 2178,
@@ -78050,9 +78050,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 80,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -78148,9 +78148,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1650,
@@ -78180,9 +78180,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1924,
@@ -78212,9 +78212,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1650,
@@ -78244,9 +78244,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 1924,
@@ -78476,9 +78476,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 632,
@@ -78509,9 +78509,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 7,
@@ -78609,9 +78609,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "magic": 670,
@@ -78641,9 +78641,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1372,
@@ -78867,9 +78867,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 628,
@@ -78899,9 +78899,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1032,
@@ -79365,9 +79365,9 @@ targetData = {
       "same": 60,
       "weak": 70,
       "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "ranged": 1594,
@@ -79568,8 +79568,8 @@ targetData = {
       "weak": 65,
       "weakness": 90,
       "magic": 55,
-      "melee": 65,
-      "ranged": 55
+      "melee": 55,
+      "ranged": 65
     },
     "baseStats": {
       "magic": 4656,

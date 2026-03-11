@@ -11,6 +11,12 @@ playerBuffs = {
     "icon": "./static/images/equipment_slots/weapon_slot.png",
     "default": 95
   },
+  "energising": {
+    "icon": "./static/images/perks/energising.png",
+    "text": "Energising perk rank",
+    "kind": "number",
+    "default": 0
+  },
   "combatStyle": {
     "kind": "select",
     "text": "Combat style",
@@ -102,6 +108,11 @@ playerBuffs = {
     "text": "Nihil",
     "kind": "bool",
   },
+    "attack120Cape": {
+    "icon": "./static/images/items/attack_master_cape.png",
+    "text": "Attack master cape perk",
+    "kind": "bool",
+  },
   "scrimshaw": {
     "icon": "./static/images/items/scrimshaw_of_attack.png",
     "text": "Accuracy scrimshaw",
@@ -117,11 +128,6 @@ playerBuffs = {
     "text": "Void",
     "kind": "bool",
   },
-  "premierArtefact": {
-    "icon": "./static/images/items/premier_artefact.png",
-    "text": "Premier artefact",
-    "kind": "bool",
-  },
   "reaperStacks": {
     "icon": "./static/images/items/reaper_necklace.png",
     "text": "Reaper neck stacks",
@@ -130,7 +136,12 @@ playerBuffs = {
   },
   "defender": {
     "icon": "./static/images/items/kalphite_defender.png",
-    "text": "Defender",
+    "text": "Defender passive (+3%)",
+    "kind": "bool",
+  },
+    "defenderProc": {
+    "icon": "./static/images/items/kalphite_defender.png",
+    "text": "Defender proc (+20%)",
     "kind": "bool",
   },
   "domMedallion": {
@@ -257,11 +268,6 @@ playerBuffs = {
     "icon": "./static/images/items/nightmare_gauntlets.png",
     "text": "Nightmare gauntlets",
     "kind": "bool",
-  },
-  "fleeting": {
-    "icon": "./static/images/items/fleeting_boots.png",
-    "text": "Fleeting boots",
-    "kind": "bool",
   }
 };
 
@@ -276,16 +282,6 @@ targetDebuffs = {
       "leech": "Leech",
       "turmoil": "Turmoil variant",
       "praesul": "Praesul variant"
-    }
-  },
-  "quake": {
-    "icon": "./static/images/abilities/quake.png",
-    "text": "Quake",
-    "kind": "select",
-    "labels": {
-      "none": "None",
-      "normal": "Normal",
-      "ezk": "Ek-ZekKil"
     }
   },
   "statius": {

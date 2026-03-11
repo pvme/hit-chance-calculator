@@ -2,10 +2,6 @@ function accF(x) {
   return x * x * x / 1250 + x * 4 + 40;
 }
 
-function roundDown(p, x) {
-  return Number((Math.round(x * Math.pow(10, p)) / Math.pow(10, p)).toFixed(p))
-}
-
 function calcAccuracyStat(state) {
   const weaponBonus = Math.round(state.weaponTier < 150
     ? 2.5 * accF(state.weaponTier)
@@ -16,10 +12,11 @@ function calcAccuracyStat(state) {
   const levelBonus = Math.floor(accF(trueStatLevel));
 
   const prayerBonus = getPrayerBonus(state, trueStatLevel);
+  const energisingBonus = state.energising ? 50 + state.energising * 25 : 0;
 
   const equipmentPenalty = Math.abs(state.equipmentPenalty);
 
-  return weaponBonus + levelBonus + prayerBonus - equipmentPenalty;
+  return weaponBonus + levelBonus + prayerBonus + energisingBonus - equipmentPenalty;
 }
 
 function getTrueStatLevel({ potion, level: skillLevel, bloodEssence }) {
@@ -48,7 +45,6 @@ function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
 }
 
 function calcAffinity(state, hexhunter, darklight) {
-  const quake = quakeMap[state.quake];
   const statius = state.statius ? 5 : 0;
   const bandos = state.bandos ? 3 : 0;
   const guthixStaff = state.guthixStaff ? 2 : 0;
@@ -68,8 +64,8 @@ function calcAffinity(state, hexhunter, darklight) {
     baseAffinity = state.target.affinity[combatStyleMap[state.combatStyle]];
   }
 
-  const affinityModifier = Math.min(10, quake + statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
-  const finalAffinity = (baseAffinity / 100 + affinityModifier);
+  const affinityModifier = Math.min(10, statius + bandos + guthixStaff + barrelchest + dragonHatchet + boneDagger + hexhunterAffinity) / 100;
+  const finalAffinity = baseAffinity / 100 + affinityModifier;
 
   return { finalAffinity, affinityModifier };
 }

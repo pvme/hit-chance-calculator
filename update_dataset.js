@@ -30,14 +30,14 @@ function getAffinity(extra) {
       affinities.magic = extra.weakness_modifier_weak ?? 70;
       break;
     case 2:
-      affinities.melee = extra.weakness_modifier_strong ?? 50;
-      affinities.magic = extra.weakness_modifier_same ?? 60;
-      affinities.ranged = extra.weakness_modifier_weak ?? 70;
-      break;
-    case 3:
       affinities.magic = extra.weakness_modifier_strong ?? 50;
       affinities.ranged = extra.weakness_modifier_same ?? 60;
       affinities.melee = extra.weakness_modifier_weak ?? 70;
+      break;
+    case 3:
+      affinities.melee = extra.weakness_modifier_strong ?? 50;
+      affinities.magic = extra.weakness_modifier_same ?? 60;
+      affinities.ranged = extra.weakness_modifier_weak ?? 70;
       break;
     default:
       affinities.magic = extra.weakness_modifier_same ?? 60;
