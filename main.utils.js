@@ -44,18 +44,20 @@ function getPrayerBonus({ prayer, zealots }, trueStatLevel) {
   return Math.floor(prayerBonus);
 }
 
-function calcAffinity(state, hexhunter, darklight) {
+function calcAffinity(state) {
   const statius = state.statius ? 5 : 0;
   const bandos = state.bandos ? 3 : 0;
   const guthixStaff = state.guthixStaff ? 2 : 0;
   const dragonHatchet = state.dragonHatchet ? 3 : 0;
   const barrelchest = state.barrelchest ? 4 : 0;
   const boneDagger = state.boneDagger ? 2 : 0;
-  const hexhunterAffinity = (hexhunter && state.target.weakness === state.combatStyle) ? 5 : 0;
+  const hexhunterAffinity = (state.hexClassWeapon && state.target.weakness === state.combatStyle) ? 5 : 0;
+
+  console.log(state)
 
   // base affinity
   let baseAffinity;
-  if (darklight > 0 && state.target.weakness !== "None") {
+  if (state.darklight !== "none" && state.target.weakness !== "None") {
     // handle darklight overriding which affinity is used
     baseAffinity = state.target.affinity.weakness;
   } else if (state.combatStyle === state.target.weakness) {
