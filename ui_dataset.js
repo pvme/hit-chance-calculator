@@ -48,7 +48,8 @@ playerBuffs = {
       "melee": "./static/images/combat_styles/melee.png",
       "ranged": "./static/images/combat_styles/ranged.png",
       "magic": "./static/images/combat_styles/magic.png",
-      "necromancy": "./static/images/combat_styles/necromancy.png"
+      "necromancy": "./static/images/combat_styles/necromancy.png",
+      "Necromancy": "./static/images/combat_styles/necromancy.png"
     }
   },
   "prayer": {
