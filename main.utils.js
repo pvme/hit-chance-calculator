@@ -53,8 +53,6 @@ function calcAffinity(state) {
   const boneDagger = state.boneDagger ? 2 : 0;
   const hexhunterAffinity = (state.hexClassWeapon && state.target.weakness === state.combatStyle) ? 5 : 0;
 
-  console.log(state)
-
   // base affinity
   let baseAffinity;
   if (state.darklight !== "none" && state.target.weakness !== "None") {
