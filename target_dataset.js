@@ -968,38 +968,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Hill Giant": {
-    "name": "Hill Giant",
-    "id": 117,
-    "combatStyle": "melee",
-    "combatLevel": 26,
-    "weakness": "Air",
-    "levels": {
-      "attack": 15,
-      "defence": 22,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 157,
-      "armour": 341
-    },
-    "bonusStats": {
-      "attack": 100,
-      "armour": 128,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Ice warrior": {
     "name": "Ice warrior",
     "id": 125,
@@ -1068,11 +1036,11 @@ targetData = {
     "name": "Magic axe",
     "id": 127,
     "combatStyle": "melee",
-    "combatLevel": 74,
+    "combatLevel": 38,
     "weakness": "Air",
     "levels": {
-      "attack": 53,
-      "defence": 53,
+      "attack": 30,
+      "defence": 25,
       "magic": 1,
       "ranged": 1
     },
@@ -1086,12 +1054,12 @@ targetData = {
       "ranged": 50
     },
     "baseStats": {
-      "attack": 928,
-      "armour": 928
+      "attack": 354,
+      "armour": 381
     },
     "bonusStats": {
-      "attack": 254,
-      "armour": 254,
+      "attack": 161,
+      "armour": 141,
       "magic": 44,
       "ranged": 44
     }
@@ -4256,11 +4224,11 @@ targetData = {
     "name": "Rooster",
     "id": 1018,
     "combatStyle": "melee",
-    "combatLevel": 1,
+    "combatLevel": 3,
     "weakness": "Fire",
     "levels": {
-      "attack": 1,
-      "defence": 1,
+      "attack": 3,
+      "defence": 2,
       "magic": 1,
       "ranged": 1
     },
@@ -4274,12 +4242,12 @@ targetData = {
       "ranged": 50
     },
     "baseStats": {
-      "attack": 10,
-      "armour": 110
+      "attack": 30,
+      "armour": 120
     },
     "bonusStats": {
-      "attack": 44,
-      "armour": 44,
+      "attack": 52,
+      "armour": 48,
       "magic": 44,
       "ranged": 44
     }
@@ -5647,8 +5615,8 @@ targetData = {
       "ranged": 324
     }
   },
-  "Rock Crab": {
-    "name": "Rock Crab",
+  "Rock crab": {
+    "name": "Rock crab",
     "id": 1265,
     "combatStyle": "melee",
     "combatLevel": 47,
@@ -9377,8 +9345,8 @@ targetData = {
       "ranged": 0
     }
   },
-  "Cow calf": {
-    "name": "Cow calf",
+  "Calf": {
+    "name": "Calf",
     "id": 2310,
     "combatStyle": "melee",
     "combatLevel": 1,
@@ -11822,40 +11790,6 @@ targetData = {
       "ranged": 303
     }
   },
-  "Crab": {
-    "name": "Crab",
-    "id": 3421,
-    "combatStyle": "melee",
-    "combatLevel": 30,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 22,
-      "defence": 22,
-      "magic": 0,
-      "ranged": 0
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 341,
-      "magic": 0,
-      "ranged": 0,
-      "armour": 341
-    },
-    "bonusStats": {
-      "attack": 128,
-      "armour": 128,
-      "magic": 0,
-      "ranged": 0
-    }
-  },
   "Mudskipper": {
     "name": "Mudskipper",
     "id": 3422,
@@ -12689,40 +12623,6 @@ targetData = {
       "armour": 153,
       "magic": 153,
       "ranged": 153
-    }
-  },
-  "Ram": {
-    "name": "Ram",
-    "id": 3673,
-    "combatStyle": "melee",
-    "combatLevel": 2,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 2,
-      "defence": 2,
-      "magic": 0,
-      "ranged": 0
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 120,
-      "magic": 0,
-      "ranged": 0,
-      "armour": 120
-    },
-    "bonusStats": {
-      "attack": 48,
-      "armour": 48,
-      "magic": 0,
-      "ranged": 0
     }
   },
   "Vulture": {
@@ -13824,38 +13724,6 @@ targetData = {
     "bonusStats": {
       "attack": 80,
       "armour": 72,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Stag": {
-    "name": "Stag",
-    "id": 4440,
-    "combatStyle": "melee",
-    "combatLevel": 25,
-    "weakness": "Water",
-    "levels": {
-      "attack": 18,
-      "defence": 18,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 292,
-      "armour": 292
-    },
-    "bonusStats": {
-      "attack": 112,
-      "armour": 112,
       "magic": 44,
       "ranged": 44
     }
@@ -17207,6 +17075,38 @@ targetData = {
     "combatStyle": "melee",
     "combatLevel": 1,
     "weakness": "Water",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 10,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Drake": {
+    "name": "Drake",
+    "id": 6114,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Earth",
     "levels": {
       "attack": 1,
       "defence": 1,
@@ -30234,38 +30134,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Ranger": {
-    "name": "Ranger",
-    "id": 13865,
-    "combatStyle": "ranged",
-    "combatLevel": 30,
-    "weakness": "Slashing",
-    "levels": {
-      "attack": 1,
-      "defence": 10,
-      "magic": 1,
-      "ranged": 20
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 50,
-      "melee": 70,
-      "ranged": 60
-    },
-    "baseStats": {
-      "attack": 316,
-      "armour": 202
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 80,
-      "magic": 44,
-      "ranged": 120
-    }
-  },
   "Red ranger": {
     "name": "Red ranger",
     "id": 13866,
@@ -39804,6 +39672,38 @@ targetData = {
       "armour": 365,
       "magic": 0,
       "ranged": 365
+    }
+  },
+  "Cow calf": {
+    "name": "Cow calf",
+    "id": 20978,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 10,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
     }
   },
   "Fragmented Spirit": {
@@ -60695,6 +60595,102 @@ targetData = {
       "ranged": 324
     }
   },
+  "Chick": {
+    "name": "Chick",
+    "id": 30870,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 10,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Bull": {
+    "name": "Bull",
+    "id": 30873,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 4,
+      "defence": 4,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 40,
+      "armour": 140
+    },
+    "bonusStats": {
+      "attack": 56,
+      "armour": 56,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ram": {
+    "name": "Ram",
+    "id": 30877,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 2,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 20,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
   "Zamorakian scout": {
     "name": "Zamorakian scout",
     "id": 30901,
@@ -61189,6 +61185,38 @@ targetData = {
       "ranged": 44
     }
   },
+  "Reindeer": {
+    "name": "Reindeer",
+    "id": 31518,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Air",
+    "levels": {
+      "attack": 5,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 50,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 52,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
   "Grief": {
     "name": "Grief",
     "id": 31598,
@@ -61283,6 +61311,40 @@ targetData = {
       "armour": 44,
       "magic": 44,
       "ranged": 44
+    }
+  },
+  "Hedgehog": {
+    "name": "Hedgehog",
+    "id": 31856,
+    "combatStyle": "melee",
+    "combatLevel": 0,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 14,
+      "defence": 10,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 245,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 96,
+      "armour": 80,
+      "magic": 0,
+      "ranged": 0
     }
   },
   "Lingering shadow": {
@@ -61519,6 +61581,235 @@ targetData = {
       "armour": 181,
       "magic": 242,
       "ranged": 242
+    }
+  },
+  "Ivar, King of Bones": {
+    "name": "Ivar, King of Bones",
+    "id": 32622,
+    "combatStyle": "melee",
+    "combatLevel": 206,
+    "weakness": "Air",
+    "levels": {
+      "attack": 50,
+      "defence": 40,
+      "magic": 50,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 750,
+      "magic": 750,
+      "ranged": 750,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 201,
+      "magic": 242,
+      "ranged": 242
+    }
+  },
+  "Silverquill, the Dreadhog": {
+    "name": "Silverquill, the Dreadhog",
+    "id": 32624,
+    "combatStyle": "melee",
+    "combatLevel": 222,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 50
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 750,
+      "magic": 750,
+      "ranged": 750,
+      "armour": 732
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 242
+    }
+  },
+  "Sanguine tumour": {
+    "name": "Sanguine tumour",
+    "id": 32627,
+    "combatStyle": "unknown",
+    "combatLevel": 22,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 5,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "armour": 150
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 60,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Badger": {
+    "name": "Badger",
+    "id": 32634,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 486,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Juvenile boulder crab": {
+    "name": "Juvenile boulder crab",
+    "id": 32646,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 20,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Boulder crab": {
+    "name": "Boulder crab",
+    "id": 32650,
+    "combatStyle": "melee",
+    "combatLevel": 75,
+    "weakness": "Water",
+    "levels": {
+      "attack": 30,
+      "defence": 75,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 345,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine crawler": {
+    "name": "Sanguine crawler",
+    "id": 32798,
+    "combatStyle": "magic",
+    "combatLevel": 35,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 27,
+      "magic": 35,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 528,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 149,
+      "magic": 181,
+      "ranged": 44
     }
   },
   "Guard (ranged)": {
@@ -63757,6 +64048,70 @@ targetData = {
       "armour": 213,
       "magic": 213,
       "ranged": 0
+    }
+  },
+  "Ranger (ranged)": {
+    "name": "Ranger",
+    "id": 13865,
+    "combatStyle": "ranged",
+    "combatLevel": 30,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 20
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 316,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 120
+    }
+  },
+  "Ranger (melee)": {
+    "name": "Ranger",
+    "id": 32574,
+    "combatStyle": "melee",
+    "combatLevel": 9,
+    "weakness": "Air",
+    "levels": {
+      "attack": 7,
+      "defence": 7,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 171,
+      "armour": 171
+    },
+    "bonusStats": {
+      "attack": 68,
+      "armour": 68,
+      "magic": 44,
+      "ranged": 44
     }
   },
   "Zemouregal (melee)": {
@@ -68810,6 +69165,326 @@ targetData = {
       "ranged": 44
     }
   },
+  "Hill giant (lvl 26)": {
+    "name": "Hill giant",
+    "id": 117,
+    "combatStyle": "melee",
+    "combatLevel": 26,
+    "weakness": "Air",
+    "levels": {
+      "attack": 15,
+      "defence": 22,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 157,
+      "armour": 341
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 128,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 14)": {
+    "name": "Hill giant",
+    "id": 10706,
+    "combatStyle": "melee",
+    "combatLevel": 14,
+    "weakness": "Air",
+    "levels": {
+      "attack": 10,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 80,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 21)": {
+    "name": "Hill giant",
+    "id": 10707,
+    "combatStyle": "melee",
+    "combatLevel": 21,
+    "weakness": "Water",
+    "levels": {
+      "attack": 15,
+      "defence": 15,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 257,
+      "armour": 257
+    },
+    "bonusStats": {
+      "attack": 100,
+      "armour": 100,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 28)": {
+    "name": "Hill giant",
+    "id": 10708,
+    "combatStyle": "melee",
+    "combatLevel": 28,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 20,
+      "defence": 20,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 316,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 120,
+      "armour": 120,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 42)": {
+    "name": "Hill giant",
+    "id": 10709,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 49)": {
+    "name": "Hill giant",
+    "id": 10710,
+    "combatStyle": "melee",
+    "combatLevel": 49,
+    "weakness": "Air",
+    "levels": {
+      "attack": 35,
+      "defence": 35,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 536,
+      "armour": 536
+    },
+    "bonusStats": {
+      "attack": 181,
+      "armour": 181,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 70)": {
+    "name": "Hill giant",
+    "id": 10712,
+    "combatStyle": "melee",
+    "combatLevel": 70,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 84)": {
+    "name": "Hill giant",
+    "id": 10713,
+    "combatStyle": "melee",
+    "combatLevel": 84,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 60,
+      "defence": 60,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1132,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 283,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 98)": {
+    "name": "Hill giant",
+    "id": 10714,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Air",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1299
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 138)": {
+    "name": "Hill giant",
+    "id": 10717,
+    "combatStyle": "melee",
+    "combatLevel": 138,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 99,
+      "defence": 99,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3031,
+      "armour": 1924
+    },
+    "bonusStats": {
+      "attack": 444,
+      "armour": 444,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
   "Dwarf (lvl 9)": {
     "name": "Dwarf",
     "id": 118,
@@ -73455,6 +74130,74 @@ targetData = {
       "ranged": 44
     }
   },
+  "Crab (lvl 30)": {
+    "name": "Crab",
+    "id": 3421,
+    "combatStyle": "melee",
+    "combatLevel": 30,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 22,
+      "defence": 22,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 341,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 341
+    },
+    "bonusStats": {
+      "attack": 128,
+      "armour": 128,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Crab (lvl 29)": {
+    "name": "Crab",
+    "id": 32608,
+    "combatStyle": "melee",
+    "combatLevel": 29,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 21,
+      "defence": 21,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 329,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 329
+    },
+    "bonusStats": {
+      "attack": 124,
+      "armour": 124,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
   "Vampyre Juvinate (lvl 63)": {
     "name": "Vampyre Juvinate",
     "id": 3521,
@@ -73881,6 +74624,70 @@ targetData = {
     "bonusStats": {
       "attack": 316,
       "armour": 316,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Stag (lvl 25)": {
+    "name": "Stag",
+    "id": 4440,
+    "combatStyle": "melee",
+    "combatLevel": 25,
+    "weakness": "Water",
+    "levels": {
+      "attack": 18,
+      "defence": 18,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 292,
+      "armour": 292
+    },
+    "bonusStats": {
+      "attack": 112,
+      "armour": 112,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Stag (lvl 5)": {
+    "name": "Stag",
+    "id": 27365,
+    "combatStyle": "melee",
+    "combatLevel": 5,
+    "weakness": "Air",
+    "levels": {
+      "attack": 5,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 50,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 60,
+      "armour": 52,
       "magic": 44,
       "ranged": 44
     }
@@ -76410,294 +77217,6 @@ targetData = {
       "attack": 427,
       "armour": 386,
       "magic": 427,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 14)": {
-    "name": "Hill giant",
-    "id": 10706,
-    "combatStyle": "melee",
-    "combatLevel": 14,
-    "weakness": "Air",
-    "levels": {
-      "attack": 10,
-      "defence": 10,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 202,
-      "armour": 202
-    },
-    "bonusStats": {
-      "attack": 80,
-      "armour": 80,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 21)": {
-    "name": "Hill giant",
-    "id": 10707,
-    "combatStyle": "melee",
-    "combatLevel": 21,
-    "weakness": "Water",
-    "levels": {
-      "attack": 15,
-      "defence": 15,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 257,
-      "armour": 257
-    },
-    "bonusStats": {
-      "attack": 100,
-      "armour": 100,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 28)": {
-    "name": "Hill giant",
-    "id": 10708,
-    "combatStyle": "melee",
-    "combatLevel": 28,
-    "weakness": "Earth",
-    "levels": {
-      "attack": 20,
-      "defence": 20,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 316,
-      "armour": 316
-    },
-    "bonusStats": {
-      "attack": 120,
-      "armour": 120,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 42)": {
-    "name": "Hill giant",
-    "id": 10709,
-    "combatStyle": "melee",
-    "combatLevel": 42,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 30,
-      "defence": 30,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 454,
-      "armour": 454
-    },
-    "bonusStats": {
-      "attack": 161,
-      "armour": 161,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 49)": {
-    "name": "Hill giant",
-    "id": 10710,
-    "combatStyle": "melee",
-    "combatLevel": 49,
-    "weakness": "Air",
-    "levels": {
-      "attack": 35,
-      "defence": 35,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 536,
-      "armour": 536
-    },
-    "bonusStats": {
-      "attack": 181,
-      "armour": 181,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 70)": {
-    "name": "Hill giant",
-    "id": 10712,
-    "combatStyle": "melee",
-    "combatLevel": 70,
-    "weakness": "Earth",
-    "levels": {
-      "attack": 50,
-      "defence": 50,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 850,
-      "armour": 850
-    },
-    "bonusStats": {
-      "attack": 242,
-      "armour": 242,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 84)": {
-    "name": "Hill giant",
-    "id": 10713,
-    "combatStyle": "melee",
-    "combatLevel": 84,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 60,
-      "defence": 60,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 1132,
-      "armour": 1132
-    },
-    "bonusStats": {
-      "attack": 283,
-      "armour": 283,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 98)": {
-    "name": "Hill giant",
-    "id": 10714,
-    "combatStyle": "melee",
-    "combatLevel": 98,
-    "weakness": "Air",
-    "levels": {
-      "attack": 70,
-      "defence": 70,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 1486,
-      "armour": 1299
-    },
-    "bonusStats": {
-      "attack": 324,
-      "armour": 324,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
-  "Hill giant (lvl 138)": {
-    "name": "Hill giant",
-    "id": 10717,
-    "combatStyle": "melee",
-    "combatLevel": 138,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 99,
-      "defence": 99,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 3031,
-      "armour": 1924
-    },
-    "bonusStats": {
-      "attack": 444,
-      "armour": 444,
-      "magic": 44,
       "ranged": 44
     }
   },
