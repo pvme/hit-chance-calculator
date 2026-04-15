@@ -61784,7 +61784,7 @@ targetData = {
     "name": "Sanguine crawler",
     "id": 32798,
     "combatStyle": "magic",
-    "combatLevel": 35,
+    "combatLevel": 43,
     "weakness": "Arrow",
     "levels": {
       "attack": 1,
