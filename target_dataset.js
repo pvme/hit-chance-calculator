@@ -2580,13 +2580,13 @@ targetData = {
       "ranged": 60
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1132,
@@ -25038,13 +25038,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25072,13 +25072,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25106,13 +25106,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25140,13 +25140,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25174,13 +25174,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25208,13 +25208,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 150,
@@ -25242,13 +25242,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 150,
@@ -25276,13 +25276,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 110,
@@ -25310,13 +25310,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -25344,13 +25344,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 110,
@@ -25378,13 +25378,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 110,
@@ -25412,13 +25412,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 110,
@@ -25446,13 +25446,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 110,
@@ -25480,13 +25480,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25514,13 +25514,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -25548,13 +25548,13 @@ targetData = {
       "ranged": 34
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 519,
@@ -25582,13 +25582,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1299,
@@ -25616,13 +25616,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1299,
@@ -28461,9 +28461,9 @@ targetData = {
   "Necrolord": {
     "name": "Necrolord",
     "id": 11737,
-    "combatStyle": "melee",
+    "combatStyle": "necromancy",
     "combatLevel": 98,
-    "weakness": "None",
+    "weakness": "Necromancy",
     "levels": {
       "attack": 70,
       "defence": 70,
@@ -28471,18 +28471,19 @@ targetData = {
       "ranged": 70
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
       "magic": 1486,
       "ranged": 1486,
+      "necromancy": 1486,
       "armour": 1486
     },
     "bonusStats": {
@@ -28505,13 +28506,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1299,
@@ -28539,13 +28540,13 @@ targetData = {
       "ranged": 70
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -28573,13 +28574,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 150,
@@ -28607,13 +28608,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -28641,13 +28642,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1299,
@@ -28771,13 +28772,13 @@ targetData = {
       "ranged": 70
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1486,
@@ -28805,13 +28806,13 @@ targetData = {
       "ranged": 68
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1409,
@@ -28839,13 +28840,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 1299,
@@ -28873,13 +28874,13 @@ targetData = {
       "ranged": 60
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -60985,6 +60986,39 @@ targetData = {
       "ranged": 44
     }
   },
+  "Nakatra, Devourer Eternal": {
+    "name": "Nakatra, Devourer Eternal",
+    "id": 31103,
+    "combatStyle": "magic",
+    "combatLevel": 2160,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 95,
+      "magic": 120,
+      "ranged": 120
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 65
+    },
+    "baseStats": {
+      "magic": 4656,
+      "ranged": 4656,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 427,
+      "magic": 532,
+      "ranged": 532
+    }
+  },
   "Nefthys, the Split Soul": {
     "name": "Nefthys, the Split Soul",
     "id": 31104,
@@ -63698,13 +63732,13 @@ targetData = {
       "ranged": 90
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 2458,
@@ -63732,16 +63766,50 @@ targetData = {
       "ranged": 90
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 628,
+      "magic": 2458,
+      "ranged": 2458,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Kal'Ger the Warmonger (ranged)": {
+    "name": "Kal'Ger the Warmonger",
+    "id": 12812,
+    "combatStyle": "ranged",
+    "combatLevel": 126,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 2458,
       "magic": 2458,
       "ranged": 2458,
       "armour": 628
@@ -69261,38 +69329,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Hill giant (lvl 28)": {
-    "name": "Hill giant",
-    "id": 10708,
-    "combatStyle": "melee",
-    "combatLevel": 28,
-    "weakness": "Earth",
-    "levels": {
-      "attack": 20,
-      "defence": 20,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 316,
-      "armour": 316
-    },
-    "bonusStats": {
-      "attack": 120,
-      "armour": 120,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Hill giant (lvl 42)": {
     "name": "Hill giant",
     "id": 10709,
@@ -69353,6 +69389,38 @@ targetData = {
     "bonusStats": {
       "attack": 181,
       "armour": 181,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 56)": {
+    "name": "Hill giant",
+    "id": 10711,
+    "combatStyle": "melee",
+    "combatLevel": 56,
+    "weakness": "Water",
+    "levels": {
+      "attack": 40,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 201,
+      "armour": 201,
       "magic": 44,
       "ranged": 44
     }
@@ -69449,6 +69517,70 @@ targetData = {
     "bonusStats": {
       "attack": 324,
       "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 112)": {
+    "name": "Hill giant",
+    "id": 10715,
+    "combatStyle": "melee",
+    "combatLevel": 112,
+    "weakness": "Water",
+    "levels": {
+      "attack": 80,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1924,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 365,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Hill giant (lvl 126)": {
+    "name": "Hill giant",
+    "id": 10716,
+    "combatStyle": "melee",
+    "combatLevel": 126,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2458,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
       "magic": 44,
       "ranged": 44
     }
@@ -70326,38 +70458,6 @@ targetData = {
       "attack": 44,
       "armour": 153,
       "magic": 153,
-      "ranged": 44
-    }
-  },
-  "Necromancer (lvl 29)": {
-    "name": "Necromancer",
-    "id": 10196,
-    "combatStyle": "magic",
-    "combatLevel": 29,
-    "weakness": "Arrow",
-    "levels": {
-      "attack": 1,
-      "defence": 21,
-      "magic": 21,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "magic": 329,
-      "armour": 329
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 124,
-      "magic": 124,
       "ranged": 44
     }
   },
@@ -75348,6 +75448,38 @@ targetData = {
       "ranged": 44
     }
   },
+  "Mercenary leader (lvl 119)": {
+    "name": "Mercenary leader",
+    "id": 6708,
+    "combatStyle": "magic",
+    "combatLevel": 119,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 85,
+      "magic": 85,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 2178,
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 386,
+      "magic": 386,
+      "ranged": 44
+    }
+  },
   "Mercenary leader (lvl 5)": {
     "name": "Mercenary leader",
     "id": 12973,
@@ -77067,13 +77199,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -77101,13 +77233,13 @@ targetData = {
       "ranged": 56
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1011,
@@ -77120,38 +77252,6 @@ targetData = {
       "armour": 267,
       "magic": 267,
       "ranged": 267
-    }
-  },
-  "Forgotten mage (lvl 138)": {
-    "name": "Forgotten mage",
-    "id": 10600,
-    "combatStyle": "magic",
-    "combatLevel": 138,
-    "weakness": "Arrow",
-    "levels": {
-      "attack": 1,
-      "defence": 99,
-      "magic": 99,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "magic": 3031,
-      "armour": 1924
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 444,
-      "magic": 444,
-      "ranged": 44
     }
   },
   "Edimmu (lvl 122)": {
@@ -77562,13 +77662,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -77596,13 +77696,13 @@ targetData = {
       "ranged": 32
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 486,
@@ -77630,13 +77730,13 @@ targetData = {
       "ranged": 39
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 609,
@@ -77664,13 +77764,13 @@ targetData = {
       "ranged": 45
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 732,
@@ -77698,13 +77798,13 @@ targetData = {
       "ranged": 52
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 901,
@@ -77732,13 +77832,13 @@ targetData = {
       "ranged": 59
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1101,
@@ -77766,13 +77866,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1299,
@@ -77800,13 +77900,13 @@ targetData = {
       "ranged": 72
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1566,
@@ -77834,13 +77934,13 @@ targetData = {
       "ranged": 79
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1876,
@@ -77868,13 +77968,13 @@ targetData = {
       "ranged": 86
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 2232,
@@ -77902,13 +78002,13 @@ targetData = {
       "ranged": 92
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 2577,
@@ -77936,13 +78036,13 @@ targetData = {
       "ranged": 99
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 3031,
@@ -77970,13 +78070,13 @@ targetData = {
       "ranged": 5
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 150,
@@ -78004,13 +78104,13 @@ targetData = {
       "ranged": 60
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1132,
@@ -78038,13 +78138,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
     },
     "baseStats": {
       "attack": 1299,
@@ -78104,13 +78204,13 @@ targetData = {
       "ranged": 65
     },
     "affinity": {
-      "strong": 40,
-      "same": 40,
-      "weak": 40,
-      "weakness": 40,
-      "magic": 40,
-      "melee": 40,
-      "ranged": 40
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
     },
     "baseStats": {
       "attack": 1299,
@@ -78157,6 +78257,39 @@ targetData = {
       "ranged": 44
     }
   },
+  "World-gorger Shukarhazh (lvl 126)": {
+    "name": "World-gorger Shukarhazh",
+    "id": 12478,
+    "combatStyle": "magic",
+    "combatLevel": 126,
+    "weakness": "None",
+    "levels": {
+      "attack": 90,
+      "defence": 90,
+      "magic": 90,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2458,
+      "magic": 2458,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 406,
+      "magic": 406,
+      "ranged": 44
+    }
+  },
   "World-gorger Shukarhazh (lvl 180)": {
     "name": "World-gorger Shukarhazh",
     "id": 12491,
@@ -78170,13 +78303,13 @@ targetData = {
       "ranged": 1
     },
     "affinity": {
-      "strong": 0,
-      "same": 0,
-      "weak": 90,
-      "weakness": 0,
-      "magic": 0,
-      "melee": 0,
-      "ranged": 90
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
     },
     "baseStats": {
       "attack": 3031,
@@ -78912,6 +79045,198 @@ targetData = {
       "armour": 120,
       "magic": 120,
       "ranged": 120
+    }
+  },
+  "Forgotten necromancer (lvl 1)": {
+    "name": "Forgotten necromancer",
+    "id": 13727,
+    "combatStyle": "necromancy",
+    "combatLevel": 1,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten necromancer (lvl 14)": {
+    "name": "Forgotten necromancer",
+    "id": 19920,
+    "combatStyle": "necromancy",
+    "combatLevel": 14,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 10,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 202,
+      "armour": 202
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 80,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten necromancer (lvl 56)": {
+    "name": "Forgotten necromancer",
+    "id": 20514,
+    "combatStyle": "necromancy",
+    "combatLevel": 56,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 40,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 628,
+      "armour": 628
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 201,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten necromancer (lvl 70)": {
+    "name": "Forgotten necromancer",
+    "id": 20515,
+    "combatStyle": "necromancy",
+    "combatLevel": 70,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten necromancer (lvl 112)": {
+    "name": "Forgotten necromancer",
+    "id": 20520,
+    "combatStyle": "necromancy",
+    "combatLevel": 112,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 80,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 1924,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 365,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Forgotten necromancer (lvl 126)": {
+    "name": "Forgotten necromancer",
+    "id": 20521,
+    "combatStyle": "necromancy",
+    "combatLevel": 126,
+    "weakness": "Necromancy",
+    "levels": {
+      "attack": 1,
+      "defence": 90,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "necromancy": 2458,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 406,
+      "magic": 44,
+      "ranged": 44
     }
   },
   "Troll brute (lvl 7)": {
@@ -80067,39 +80392,6 @@ targetData = {
       "armour": 324,
       "magic": 386,
       "ranged": 386
-    }
-  },
-  "Nakatra, Devourer Eternal": {
-    "name": "Nakatra, Devourer Eternal",
-    "id": 31103,
-    "combatStyle": "magic",
-    "combatLevel": 2160,
-    "weakness": "None",
-    "levels": {
-      "attack": 1,
-      "defence": 95,
-      "magic": 120,
-      "ranged": 120
-    },
-    "affinity": {
-      "strong": 55,
-      "same": 55,
-      "weak": 65,
-      "weakness": 90,
-      "magic": 55,
-      "melee": 55,
-      "ranged": 65
-    },
-    "baseStats": {
-      "magic": 4656,
-      "ranged": 4656,
-      "armour": 2765
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 427,
-      "magic": 532,
-      "ranged": 532
     }
   },
   "Queen Black Dragon": {
