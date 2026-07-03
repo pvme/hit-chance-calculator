@@ -17396,38 +17396,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Vampyre": {
-    "name": "Vampyre",
-    "id": 6214,
-    "combatStyle": "melee",
-    "combatLevel": 89,
-    "weakness": "Fire",
-    "levels": {
-      "attack": 64,
-      "defence": 64,
-      "magic": 1,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 70,
-      "melee": 60,
-      "ranged": 50
-    },
-    "baseStats": {
-      "attack": 1264,
-      "armour": 1264
-    },
-    "bonusStats": {
-      "attack": 299,
-      "armour": 299,
-      "magic": 44,
-      "ranged": 44
-    }
-  },
   "Kree'arra": {
     "name": "Kree'arra",
     "id": 6222,
@@ -41875,6 +41843,38 @@ targetData = {
       "ranged": 44
     }
   },
+  "Sanguine crawler": {
+    "name": "Sanguine crawler",
+    "id": 22148,
+    "combatStyle": "magic",
+    "combatLevel": 35,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 20,
+      "magic": 30,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 354,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 120,
+      "magic": 161,
+      "ranged": 44
+    }
+  },
   "Giant Mimic": {
     "name": "Giant Mimic",
     "id": 22165,
@@ -61814,38 +61814,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Sanguine crawler": {
-    "name": "Sanguine crawler",
-    "id": 32798,
-    "combatStyle": "magic",
-    "combatLevel": 43,
-    "weakness": "Arrow",
-    "levels": {
-      "attack": 1,
-      "defence": 27,
-      "magic": 35,
-      "ranged": 1
-    },
-    "affinity": {
-      "strong": 50,
-      "same": 60,
-      "weak": 70,
-      "weakness": 90,
-      "magic": 60,
-      "melee": 50,
-      "ranged": 70
-    },
-    "baseStats": {
-      "magic": 528,
-      "armour": 454
-    },
-    "bonusStats": {
-      "attack": 44,
-      "armour": 149,
-      "magic": 181,
-      "ranged": 44
-    }
-  },
   "Guard (ranged)": {
     "name": "Guard",
     "id": 3229,
@@ -75151,6 +75119,70 @@ targetData = {
     "bonusStats": {
       "attack": 299,
       "armour": 299,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Vampyre (lvl 89)": {
+    "name": "Vampyre",
+    "id": 6214,
+    "combatStyle": "melee",
+    "combatLevel": 89,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1264,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Vampyre (lvl 42)": {
+    "name": "Vampyre",
+    "id": 22147,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "None",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 436,
+      "armour": 316
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
       "magic": 44,
       "ranged": 44
     }
