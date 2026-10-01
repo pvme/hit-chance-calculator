@@ -61814,6 +61814,331 @@ targetData = {
       "ranged": 44
     }
   },
+  "Sanguine creeper": {
+    "name": "Sanguine creeper",
+    "id": 32816,
+    "combatStyle": "magic",
+    "combatLevel": 77,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 49,
+      "magic": 63,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 1466,
+      "armour": 1132
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 238,
+      "magic": 295,
+      "ranged": 44
+    }
+  },
+  "Sanguine bear": {
+    "name": "Sanguine bear",
+    "id": 32817,
+    "combatStyle": "melee",
+    "combatLevel": 64,
+    "weakness": "Water",
+    "levels": {
+      "attack": 46,
+      "defence": 46,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 655,
+      "armour": 755
+    },
+    "bonusStats": {
+      "attack": 226,
+      "armour": 226,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine bear cub": {
+    "name": "Sanguine bear cub",
+    "id": 32818,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "Water",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 354,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine Sigma": {
+    "name": "Sanguine Sigma",
+    "id": 32853,
+    "combatStyle": "melee",
+    "combatLevel": 78,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 60,
+      "defence": 52,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1032,
+      "armour": 2023
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 250,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine Omega": {
+    "name": "Sanguine Omega",
+    "id": 32854,
+    "combatStyle": "melee",
+    "combatLevel": 78,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 60,
+      "defence": 52,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1032,
+      "armour": 2023
+    },
+    "bonusStats": {
+      "attack": 283,
+      "armour": 250,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lady Karmina Ghrazi": {
+    "name": "Lady Karmina Ghrazi",
+    "id": 32892,
+    "combatStyle": "melee",
+    "combatLevel": 4914,
+    "weakness": "Water",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 65,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 1386,
+      "magic": 1386,
+      "ranged": 1386,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Lord Vasily Ghrazi": {
+    "name": "Lord Vasily Ghrazi",
+    "id": 32893,
+    "combatStyle": "magic",
+    "combatLevel": 4914,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 65
+    },
+    "baseStats": {
+      "attack": 1824,
+      "magic": 1824,
+      "ranged": 1824,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Sanguine werewolf": {
+    "name": "Sanguine werewolf",
+    "id": 32902,
+    "combatStyle": "melee",
+    "combatLevel": 120,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 90,
+      "defence": 82,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2358,
+      "armour": 2023
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 373,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine Alpha": {
+    "name": "Sanguine Alpha",
+    "id": 32903,
+    "combatStyle": "melee",
+    "combatLevel": 141,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 105,
+      "defence": 97,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 3365,
+      "armour": 2895
+    },
+    "bonusStats": {
+      "attack": 469,
+      "armour": 436,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Ravenous strigoi": {
+    "name": "Ravenous strigoi",
+    "id": 32904,
+    "combatStyle": "magic",
+    "combatLevel": 144,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 88,
+      "defence": 102,
+      "magic": 104,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 2243,
+      "magic": 3290,
+      "armour": 3242
+    },
+    "bonusStats": {
+      "attack": 398,
+      "armour": 456,
+      "magic": 465,
+      "ranged": 44
+    }
+  },
   "Guard (ranged)": {
     "name": "Guard",
     "id": 3229,
@@ -80190,6 +80515,102 @@ targetData = {
       "armour": 324,
       "magic": 490,
       "ranged": 490
+    }
+  },
+  "Sanguine bogolin (lvl 89)": {
+    "name": "Sanguine bogolin",
+    "id": 25188,
+    "combatStyle": "melee",
+    "combatLevel": 89,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 64,
+      "defence": 64,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1164,
+      "armour": 1264
+    },
+    "bonusStats": {
+      "attack": 299,
+      "armour": 299,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine bogolin (lvl 81)": {
+    "name": "Sanguine bogolin",
+    "id": 25189,
+    "combatStyle": "melee",
+    "combatLevel": 81,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 58,
+      "defence": 58,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 970,
+      "armour": 1070
+    },
+    "bonusStats": {
+      "attack": 275,
+      "armour": 275,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Sanguine bogolin (lvl 85)": {
+    "name": "Sanguine bogolin",
+    "id": 25536,
+    "combatStyle": "melee",
+    "combatLevel": 85,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 61,
+      "defence": 61,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1064,
+      "armour": 1164
+    },
+    "bonusStats": {
+      "attack": 287,
+      "armour": 287,
+      "magic": 44,
+      "ranged": 44
     }
   },
   "Skeleton ranger (lvl 7)": {
