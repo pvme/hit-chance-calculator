@@ -14,35 +14,35 @@ function accF(x) {
 
 function getAffinity(extra) {
   const affinities = {
-    strong: extra.weakness_modifier_strong ?? 50,
-    same: extra.weakness_modifier_same ?? 60,
-    weak: extra.weakness_modifier_weak ?? 70,
-    weakness: extra.weakness_modifier_weakness ?? 90,
+    strong: extra.combatv2_defence_strongclass ?? 50,
+    same: extra.combatv2_defence_sameclass ?? 60,
+    weak: extra.combatv2_defence_weakclass ?? 70,
+    weakness: extra.combatv2_defence_weakest ?? 90,
     magic: 0,
     melee: 0,
     ranged: 0
   }
 
-  switch (extra.combat_style) {
+  switch (extra.damagetype) {
     case 1:
-      affinities.ranged = extra.weakness_modifier_strong ?? 50;
-      affinities.melee = extra.weakness_modifier_same ?? 60;
-      affinities.magic = extra.weakness_modifier_weak ?? 70;
+      affinities.ranged = extra.combatv2_defence_strongclass ?? 50;
+      affinities.melee = extra.combatv2_defence_sameclass ?? 60;
+      affinities.magic = extra.combatv2_defence_weakclass ?? 70;
       break;
     case 2:
-      affinities.magic = extra.weakness_modifier_strong ?? 50;
-      affinities.ranged = extra.weakness_modifier_same ?? 60;
-      affinities.melee = extra.weakness_modifier_weak ?? 70;
+      affinities.magic = extra.combatv2_defence_strongclass ?? 50;
+      affinities.ranged = extra.combatv2_defence_sameclass ?? 60;
+      affinities.melee = extra.combatv2_defence_weakclass ?? 70;
       break;
     case 3:
-      affinities.melee = extra.weakness_modifier_strong ?? 50;
-      affinities.magic = extra.weakness_modifier_same ?? 60;
-      affinities.ranged = extra.weakness_modifier_weak ?? 70;
+      affinities.melee = extra.combatv2_defence_strongclass ?? 50;
+      affinities.magic = extra.combatv2_defence_sameclass ?? 60;
+      affinities.ranged = extra.combatv2_defence_weakclass ?? 70;
       break;
     default:
-      affinities.magic = extra.weakness_modifier_same ?? 60;
-      affinities.melee = extra.weakness_modifier_same ?? 60;
-      affinities.ranged = extra.weakness_modifier_same ?? 60;
+      affinities.magic = extra.combatv2_defence_sameclass ?? 60;
+      affinities.melee = extra.combatv2_defence_sameclass ?? 60;
+      affinities.ranged = extra.combatv2_defence_sameclass ?? 60;
       break;
   }
 
@@ -50,7 +50,7 @@ function getAffinity(extra) {
 }
 
 function getCombatStyle(extra) {
-  switch (extra?.combat_style) {
+  switch (extra?.damagetype) {
     case 0: return "none";
     case 1: return "melee";
     case 2: return "ranged";
@@ -73,7 +73,7 @@ allIds.forEach(id => {
     const beast = beastMap[id];
     if (!beast) console.warn("Missing id in bestiary.json", id);
 
-    if (npc?.extra?.armor !== undefined && beast?.defence !== undefined) {
+    if (npc?.extra?.combatv2_npc_armour !== undefined && beast?.defence !== undefined) {
         monsters.push({ ...npc, ...beast })
     }
 })
@@ -92,11 +92,11 @@ const mapped = monsters.map(x => ({
     },
     affinity: getAffinity(x.extra),
     baseStats: {
-        attack: x.extra?.["accuracy_melee_(npc)"],
-        magic: x.extra?.accuracy_magic,
-        ranged: x.extra?.accuracy_ranged,
-        necromancy: x.extra?.accuracy_necromancy,
-        armour: x.extra?.armor
+        attack: x.extra?.attackbonus,
+        magic: x.extra?.magicattack,
+        ranged: x.extra?.rangeattack,
+        necromancy: x.extra?.necromancyattack,
+        armour: x.extra?.combatv2_npc_armour
     },
     bonusStats: {
         attack: accF(x.attack),
