@@ -260,6 +260,11 @@ playerBuffs = {
       "upgraded": "with DoD upgrade"
     }
   },
+  "havensilver": {
+    "icon": "./static/images/items/havensilver_greatsword.png",
+    "text": "Havensilver weapon",
+    "kind": "bool"
+  },
   "hexClassWeapon": {
     "icon": "./static/images/items/hexhunter_bow.png",
     "text": "Hexhunter/Terrasaur/Inquisitor",

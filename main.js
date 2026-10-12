@@ -76,9 +76,10 @@ const calc = (state) => {
   const fulArrows = state.fulArrows ? -100 : 0;
   const wenArrows = state.wenArrows * 20;
   const reaper = state.reaperStacks;
+  const havensilver = state.havensilver ? 750 : 0;
   const hexhunter = state.hexClassWeapon && weaknessMap[state.target.combatStyle] === combatStyleMap[state.combatStyle] ? 100 : 0;
 
-  result.hitchance += fulArrows + wenArrows + reaper + balmung + baneAmmo + darklight + hexhunter;
+  result.hitchance += fulArrows + wenArrows + reaper + balmung + baneAmmo + darklight + havensilver + hexhunter;
 
   // Turn into percentage
   result.hitchance /= 1000;
