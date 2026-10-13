@@ -132,8 +132,11 @@ Object.assign(results, byName);
 const [byCombatStyle, ambiguousByCombatStyle] = resolveAmbiguous(ambiguousByName, x => `${x.name} (${x.combatStyle})`);
 Object.assign(results, byCombatStyle);
 
-const [byCombatLevel, fuckTheRest] = resolveAmbiguous(ambiguousByCombatStyle, x => `${x.name} (lvl ${x.combatLevel})`);
+const [byCombatLevel, ambiguousByCombatLevel] = resolveAmbiguous(ambiguousByCombatStyle, x => `${x.name} (lvl ${x.combatLevel})`);
 Object.assign(results, byCombatLevel);
+
+const [byWeakness, fuckTheRest] = resolveAmbiguous(ambiguousByCombatLevel, x => `${x.name} (weakness: ${x.weakness})`);
+Object.assign(results, byWeakness);
 
 [
   ["Helwyr", 22438],
