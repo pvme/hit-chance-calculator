@@ -61974,74 +61974,6 @@ targetData = {
       "ranged": 44
     }
   },
-  "Lady Karmina Ghrazi": {
-    "name": "Lady Karmina Ghrazi",
-    "id": 32892,
-    "combatStyle": "melee",
-    "combatLevel": 4914,
-    "weakness": "Water",
-    "levels": {
-      "attack": 90,
-      "defence": 70,
-      "magic": 90,
-      "ranged": 90
-    },
-    "affinity": {
-      "strong": 55,
-      "same": 55,
-      "weak": 65,
-      "weakness": 90,
-      "magic": 65,
-      "melee": 55,
-      "ranged": 55
-    },
-    "baseStats": {
-      "attack": 1386,
-      "magic": 1386,
-      "ranged": 1386,
-      "armour": 1486
-    },
-    "bonusStats": {
-      "attack": 406,
-      "armour": 324,
-      "magic": 406,
-      "ranged": 406
-    }
-  },
-  "Lord Vasily Ghrazi": {
-    "name": "Lord Vasily Ghrazi",
-    "id": 32893,
-    "combatStyle": "magic",
-    "combatLevel": 4914,
-    "weakness": "Bolt",
-    "levels": {
-      "attack": 90,
-      "defence": 70,
-      "magic": 90,
-      "ranged": 90
-    },
-    "affinity": {
-      "strong": 55,
-      "same": 55,
-      "weak": 65,
-      "weakness": 90,
-      "magic": 55,
-      "melee": 55,
-      "ranged": 65
-    },
-    "baseStats": {
-      "attack": 1824,
-      "magic": 1824,
-      "ranged": 1824,
-      "armour": 1486
-    },
-    "bonusStats": {
-      "attack": 406,
-      "armour": 324,
-      "magic": 406,
-      "ranged": 406
-    }
-  },
   "Sanguine werewolf": {
     "name": "Sanguine werewolf",
     "id": 32902,
@@ -62136,6 +62068,68 @@ targetData = {
       "attack": 398,
       "armour": 456,
       "magic": 465,
+      "ranged": 44
+    }
+  },
+  "Sanguine heart": {
+    "name": "Sanguine heart",
+    "id": 32915,
+    "combatStyle": "unknown",
+    "combatLevel": 2134,
+    "weakness": "None",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "armour": 2458
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Strigoi": {
+    "name": "Strigoi",
+    "id": 32918,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "None",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 60,
+      "same": 60,
+      "weak": 60,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 60,
+      "ranged": 60
+    },
+    "baseStats": {
+      "armour": 2178
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
       "ranged": 44
     }
   },
@@ -80811,6 +80805,1153 @@ targetData = {
       "armour": 332,
       "magic": 386,
       "ranged": 242
+    }
+  },
+  "Man (weakness: Water)": {
+    "name": "Man",
+    "id": 16,
+    "combatStyle": "melee",
+    "combatLevel": 4,
+    "weakness": "Water",
+    "levels": {
+      "attack": 3,
+      "defence": 3,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 130,
+      "armour": 130
+    },
+    "bonusStats": {
+      "attack": 52,
+      "armour": 52,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Man (weakness: Earth)": {
+    "name": "Man",
+    "id": 7873,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 120,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Woman (weakness: Fire)": {
+    "name": "Woman",
+    "id": 352,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 120,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Woman (weakness: Earth)": {
+    "name": "Woman",
+    "id": 7880,
+    "combatStyle": "melee",
+    "combatLevel": 2,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 2,
+      "defence": 2,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 120,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 48,
+      "armour": 48,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Guard (weakness: Air)": {
+    "name": "Guard",
+    "id": 15127,
+    "combatStyle": "melee",
+    "combatLevel": 35,
+    "weakness": "Air",
+    "levels": {
+      "attack": 25,
+      "defence": 25,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 381,
+      "armour": 381
+    },
+    "bonusStats": {
+      "attack": 141,
+      "armour": 141,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Rat (weakness: Earth)": {
+    "name": "Rat",
+    "id": 47,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 110,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Rat (weakness: Slashing)": {
+    "name": "Rat",
+    "id": 18602,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 130,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie (weakness: Earth)": {
+    "name": "Zombie",
+    "id": 4392,
+    "combatStyle": "melee",
+    "combatLevel": 12,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 9,
+      "defence": 9,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 91,
+      "armour": 191
+    },
+    "bonusStats": {
+      "attack": 76,
+      "armour": 76,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lesser demon (weakness: Bolt)": {
+    "name": "Lesser demon",
+    "id": 82,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Lesser demon (weakness: Arrow)": {
+    "name": "Lesser demon",
+    "id": 10492,
+    "combatStyle": "magic",
+    "combatLevel": 70,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 50,
+      "defence": 50,
+      "magic": 50,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "attack": 850,
+      "magic": 850,
+      "armour": 850
+    },
+    "bonusStats": {
+      "attack": 242,
+      "armour": 242,
+      "magic": 242,
+      "ranged": 44
+    }
+  },
+  "Pirate (weakness: Air)": {
+    "name": "Pirate",
+    "id": 182,
+    "combatStyle": "melee",
+    "combatLevel": 26,
+    "weakness": "Air",
+    "levels": {
+      "attack": 19,
+      "defence": 19,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 304,
+      "armour": 304
+    },
+    "bonusStats": {
+      "attack": 116,
+      "armour": 116,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Pirate (weakness: Fire)": {
+    "name": "Pirate",
+    "id": 3196,
+    "combatStyle": "melee",
+    "combatLevel": 26,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 19,
+      "defence": 19,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 304,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 304
+    },
+    "bonusStats": {
+      "attack": 116,
+      "armour": 116,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Khazard trooper (weakness: Air)": {
+    "name": "Khazard trooper",
+    "id": 475,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "Air",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 486,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Khazard trooper (weakness: Earth)": {
+    "name": "Khazard trooper",
+    "id": 2246,
+    "combatStyle": "melee",
+    "combatLevel": 44,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 32,
+      "defence": 32,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 486,
+      "armour": 486
+    },
+    "bonusStats": {
+      "attack": 169,
+      "armour": 169,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Spiritual warrior (weakness: Earth)": {
+    "name": "Spiritual warrior",
+    "id": 6255,
+    "combatStyle": "melee",
+    "combatLevel": 98,
+    "weakness": "Earth",
+    "levels": {
+      "attack": 70,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 324,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Spiritual ranger (weakness: Slashing)": {
+    "name": "Spiritual ranger",
+    "id": 6220,
+    "combatStyle": "ranged",
+    "combatLevel": 98,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 324
+    }
+  },
+  "Spiritual ranger (weakness: Bolt)": {
+    "name": "Spiritual ranger",
+    "id": 6230,
+    "combatStyle": "ranged",
+    "combatLevel": 98,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 324
+    }
+  },
+  "Spiritual ranger (weakness: Stabbing)": {
+    "name": "Spiritual ranger",
+    "id": 6256,
+    "combatStyle": "ranged",
+    "combatLevel": 98,
+    "weakness": "Stabbing",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 1,
+      "ranged": 70
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 44,
+      "ranged": 324
+    }
+  },
+  "Spiritual mage (weakness: Arrow)": {
+    "name": "Spiritual mage",
+    "id": 6221,
+    "combatStyle": "magic",
+    "combatLevel": 98,
+    "weakness": "Arrow",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 44
+    }
+  },
+  "Spiritual mage (weakness: Bolt)": {
+    "name": "Spiritual mage",
+    "id": 6231,
+    "combatStyle": "magic",
+    "combatLevel": 98,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 1,
+      "defence": 70,
+      "magic": 70,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 60,
+      "melee": 50,
+      "ranged": 70
+    },
+    "baseStats": {
+      "magic": 1486,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 324,
+      "magic": 324,
+      "ranged": 44
+    }
+  },
+  "Forgotten ranger (weakness: Slashing)": {
+    "name": "Forgotten ranger",
+    "id": 10332,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 30,
+      "magic": 1,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "ranged": 454,
+      "armour": 454
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 161,
+      "magic": 44,
+      "ranged": 161
+    }
+  },
+  "Forgotten ranger (weakness: None)": {
+    "name": "Forgotten ranger",
+    "id": 15302,
+    "combatStyle": "ranged",
+    "combatLevel": 42,
+    "weakness": "None",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 30,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 50,
+      "melee": 70,
+      "ranged": 60
+    },
+    "baseStats": {
+      "attack": 200,
+      "magic": 200,
+      "ranged": 200,
+      "armour": 200
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 161,
+      "ranged": 161
+    }
+  },
+  "Forgotten warrior (weakness: None)": {
+    "name": "Forgotten warrior",
+    "id": 15301,
+    "combatStyle": "melee",
+    "combatLevel": 42,
+    "weakness": "None",
+    "levels": {
+      "attack": 30,
+      "defence": 30,
+      "magic": 30,
+      "ranged": 30
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 200,
+      "magic": 200,
+      "ranged": 200,
+      "armour": 200
+    },
+    "bonusStats": {
+      "attack": 161,
+      "armour": 161,
+      "magic": 161,
+      "ranged": 161
+    }
+  },
+  "Tormented demon (weakness: Fire)": {
+    "name": "Tormented demon",
+    "id": 8349,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Tormented demon (weakness: Bolt)": {
+    "name": "Tormented demon",
+    "id": 8358,
+    "combatStyle": "melee",
+    "combatLevel": 119,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 85,
+      "defence": 85,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 2178,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 386,
+      "armour": 386,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "TokHaar-Ket-Dill (weakness: Crushing)": {
+    "name": "TokHaar-Ket-Dill",
+    "id": 15213,
+    "combatStyle": "melee",
+    "combatLevel": 120,
+    "weakness": "Crushing",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "TokHaar-Ket-Dill (weakness: Water)": {
+    "name": "TokHaar-Ket-Dill",
+    "id": 15214,
+    "combatStyle": "melee",
+    "combatLevel": 120,
+    "weakness": "Water",
+    "levels": {
+      "attack": 75,
+      "defence": 75,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 1694,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 1694
+    },
+    "bonusStats": {
+      "attack": 345,
+      "armour": 345,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mourner (weakness: Fire)": {
+    "name": "Mourner",
+    "id": 16714,
+    "combatStyle": "melee",
+    "combatLevel": 33,
+    "weakness": "Fire",
+    "levels": {
+      "attack": 24,
+      "defence": 24,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 368,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 368
+    },
+    "bonusStats": {
+      "attack": 136,
+      "armour": 136,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Mourner (weakness: Water)": {
+    "name": "Mourner",
+    "id": 19628,
+    "combatStyle": "melee",
+    "combatLevel": 33,
+    "weakness": "Water",
+    "levels": {
+      "attack": 24,
+      "defence": 24,
+      "magic": 0,
+      "ranged": 0
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 368,
+      "magic": 0,
+      "ranged": 0,
+      "armour": 368
+    },
+    "bonusStats": {
+      "attack": 136,
+      "armour": 136,
+      "magic": 0,
+      "ranged": 0
+    }
+  },
+  "Zombie cow (weakness: Slashing)": {
+    "name": "Zombie cow",
+    "id": 18597,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Slashing",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 1000,
+      "same": 1000,
+      "weak": 1000,
+      "weakness": 1000,
+      "magic": 1000,
+      "melee": 1000,
+      "ranged": 1000
+    },
+    "baseStats": {
+      "attack": 120,
+      "armour": 110
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Zombie cow (weakness: Air)": {
+    "name": "Zombie cow",
+    "id": 20928,
+    "combatStyle": "melee",
+    "combatLevel": 1,
+    "weakness": "Air",
+    "levels": {
+      "attack": 1,
+      "defence": 1,
+      "magic": 1,
+      "ranged": 1
+    },
+    "affinity": {
+      "strong": 50,
+      "same": 60,
+      "weak": 70,
+      "weakness": 90,
+      "magic": 70,
+      "melee": 60,
+      "ranged": 50
+    },
+    "baseStats": {
+      "attack": 120,
+      "armour": 120
+    },
+    "bonusStats": {
+      "attack": 44,
+      "armour": 44,
+      "magic": 44,
+      "ranged": 44
+    }
+  },
+  "Lady Karmina Ghrazi (weakness: Water)": {
+    "name": "Lady Karmina Ghrazi",
+    "id": 32892,
+    "combatStyle": "melee",
+    "combatLevel": 4914,
+    "weakness": "Water",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 65,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 1386,
+      "magic": 1386,
+      "ranged": 1386,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Lady Karmina Ghrazi (weakness: None)": {
+    "name": "Lady Karmina Ghrazi",
+    "id": 32907,
+    "combatStyle": "melee",
+    "combatLevel": 4914,
+    "weakness": "None",
+    "levels": {
+      "attack": 120,
+      "defence": 95,
+      "magic": 120,
+      "ranged": 120
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 4656,
+      "magic": 4656,
+      "ranged": 4656,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 532,
+      "armour": 427,
+      "magic": 532,
+      "ranged": 532
+    }
+  },
+  "Lord Vasily Ghrazi (weakness: Bolt)": {
+    "name": "Lord Vasily Ghrazi",
+    "id": 32893,
+    "combatStyle": "magic",
+    "combatLevel": 4914,
+    "weakness": "Bolt",
+    "levels": {
+      "attack": 90,
+      "defence": 70,
+      "magic": 90,
+      "ranged": 90
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 65,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 65
+    },
+    "baseStats": {
+      "attack": 1824,
+      "magic": 1824,
+      "ranged": 1824,
+      "armour": 1486
+    },
+    "bonusStats": {
+      "attack": 406,
+      "armour": 324,
+      "magic": 406,
+      "ranged": 406
+    }
+  },
+  "Lord Vasily Ghrazi (weakness: None)": {
+    "name": "Lord Vasily Ghrazi",
+    "id": 32908,
+    "combatStyle": "magic",
+    "combatLevel": 4914,
+    "weakness": "None",
+    "levels": {
+      "attack": 120,
+      "defence": 95,
+      "magic": 120,
+      "ranged": 120
+    },
+    "affinity": {
+      "strong": 55,
+      "same": 55,
+      "weak": 55,
+      "weakness": 90,
+      "magic": 55,
+      "melee": 55,
+      "ranged": 55
+    },
+    "baseStats": {
+      "attack": 4656,
+      "magic": 4656,
+      "ranged": 4656,
+      "armour": 2765
+    },
+    "bonusStats": {
+      "attack": 532,
+      "armour": 427,
+      "magic": 532,
+      "ranged": 532
     }
   },
   "Helwyr": {

@@ -262,7 +262,7 @@ playerBuffs = {
   },
   "havensilver": {
     "icon": "./static/images/items/havensilver_greatsword.png",
-    "text": "Havensilver weapon",
+    "text": "Havensilver effect",
     "kind": "bool"
   },
   "hexClassWeapon": {
